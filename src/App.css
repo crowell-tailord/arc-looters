@@ -2,6 +2,10 @@
   background: url('/i/bg.jpeg') no-repeat;
   background-size: 100%;
   background-position: 0px -40vh;
+  /* background: linear-gradient(0deg, #050608 10%, #ffffff00),
+    url('/i/bg.jpeg') no-repeat;
+  background-size: 100vw, 100%;
+  background-position: 0 0, 0px -40vh; */
   position: relative;
 }
 #root::after {
@@ -16,6 +20,11 @@
   width: 100vw;
   height: 70vh;
 }
+@media screen and (max-width: 1200px) {
+  #root {
+    background-position: 0 0;
+  }
+}
 a {
   color: inherit;
 }
@@ -23,6 +32,11 @@ a {
   padding-bottom: 2rem;
   position: relative;
   z-index: 1;
+}
+@media screen and (max-width: 800px) {
+  .page {
+    font-size: 10px;
+  }
 }
 
 .hero {
@@ -35,6 +49,7 @@ a {
   padding: 1.5rem clamp(1rem, 3vw, 3rem);
   text-align: center;
   color: #050608;
+  /* text-shadow: 1px 1px 6px #7985e891; */
 }
 
 .hero h1 {
@@ -45,6 +60,31 @@ a {
 .hero p {
   margin: 0.25rem 0 0;
   /* color: rgba(245, 245, 245, 0.7); */
+}
+.specialtext {
+  /* display: block;
+  margin: 1.5rem auto 0;
+  max-width: min(600px, 82vw); */
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+}
+#text {
+  font-size: 40px;
+}
+
+#fill {
+  animation: shift 5s linear infinite;
+}
+
+@keyframes shift {
+  0% {
+    x: 0;
+  }
+  100% {
+    x: -2000;
+  }
 }
 .search-bar {
   position: sticky;
@@ -63,6 +103,10 @@ a {
   outline: none;
   transition: border-color 0.2s ease, background 0.2s ease;
   backdrop-filter: blur(12px);
+  color: white;
+}
+
+.search-field::placeholder {
   color: white;
 }
 
@@ -107,6 +151,12 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(130px, 250px));
   padding: 2rem clamp(1rem, 2vw, 3rem);
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
 }
 
 .tile {
@@ -178,6 +228,12 @@ a {
   height: 200px;
   object-fit: contain;
   padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .tile .progressive-image {
+    min-height: 100px;
+  }
 }
 
 .modal .progressive-image {
