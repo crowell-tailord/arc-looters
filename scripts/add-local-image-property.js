@@ -11,7 +11,9 @@ const updatedLoot = loot.map((entry) => {
     updatedEntry[key] = entry[key];
 
     if (key === "image" && entry.image) {
-      updatedEntry.localImage = basename(new URL(entry.image).pathname);
+      updatedEntry.localImage = decodeURIComponent(
+        basename(new URL(entry.image).pathname)
+      );
     }
   }
 

@@ -1,5 +1,6 @@
 import { memo, useMemo, useState, useCallback } from 'react';
 import lootData from './data/loot.json';
+import config from '../Config.json';
 import './App.css';
 
 const rarityPalette = {
@@ -225,7 +226,7 @@ function DetailModal({ item, onClose }) {
             );
           })}
         </div>
-        {item.keepForQuestsWorkshop.length && (
+        {item.keepForQuestsWorkshop[0] && (
           <p className='flex flex-col keepfor'>
             Should Keep For:
             {item.keepForQuestsWorkshop.map((keep, i) => (
@@ -341,7 +342,7 @@ export default function App() {
       </main>
       <footer className='flex flex-col'>
         <span>Enjoy!</span>
-        <span>&copy; 2025 crøwexx</span>
+        <span>&copy; 2025 crøwexx. v{config.version}</span>
         <a href='https://www.paypal.com/donate/?hosted_button_id=75NRXSYSWHT9N'>
           Donate
         </a>
