@@ -176,7 +176,7 @@ const LootTile = memo(function LootTile({ item, onClick }) {
 		>
 			<ProgressiveImage
 				src={`/assets/loot/${item.localImage}`}
-				alt={item.name}
+				alt={`${item.name} - ${item.rarity || 'Unknown'} ${item.category || 'item'}`}
 				loading='lazy'
 			/>
 			<div className='tile-content flex flex-col'>
@@ -222,7 +222,7 @@ function DetailModal({ item, onClose }) {
 			<div className='modal flex flex-col' role='document'>
 				<ProgressiveImage
 					src={`/assets/loot/${item.localImage}`}
-					alt={item.name}
+					alt={`${item.name} detail image - ${item.rarity || 'Unknown'} ${item.category || 'item'}`}
 					loading='lazy'
 				/>
 				<hr />
