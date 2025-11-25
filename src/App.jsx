@@ -1,6 +1,6 @@
 import { memo, useMemo, useState, useCallback, useEffect, useRef } from 'react';
 import lootData from './data/loot.json';
-import config from '../Config.json';
+import packageInfo from '../package.json';
 import './App.css';
 
 const rarityPalette = {
@@ -455,7 +455,7 @@ export default function App() {
 				<span>Enjoy!</span>
 				<span>
 					&copy; 2025 <a href='https://www.x.com/iam_cro'>crøwexx</a>. v
-					{config.version}
+					{packageInfo.version}
 				</span>
 				<a href='https://www.paypal.com/donate/?hosted_button_id=75NRXSYSWHT9N'>
 					Donate to help cover server costs ♥
