@@ -471,6 +471,9 @@ a {
 .location-Mechanical::before {
 	background-image: url('/i/Mechanical-48px.webp');
 }
+.location-Medical::before {
+	background-image: url('/i/Medical-48px.webp');
+}
 .location-Nature::before {
 	background-image: url('/i/Nature-48px.webp');
 }
