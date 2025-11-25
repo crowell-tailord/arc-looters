@@ -202,7 +202,7 @@ const LootTile = memo(function LootTile({ item, onClick }) {
 	);
 });
 
-function DetailModal({ item, onClose }) {
+function DetailModal({ item, onClose, onReport }) {
 	const handleBackdropClick = useCallback(
 		(event) => {
 			if (event.target === event.currentTarget) {
@@ -230,7 +230,7 @@ function DetailModal({ item, onClose }) {
 				<h3>{item.name}</h3>
 				<div className='flex flex-col info-row'>
 					Can Be Found:
-					{item.canBeFoundIn.map((l, i) => {
+					{item.canBeFoundIn?.map((l, i) => {
 						return (
 							<span
 								key={`${item.name}-foundin-${l}-${i}`}
@@ -268,6 +268,15 @@ function DetailModal({ item, onClose }) {
 					<span className='weight'>{}</span>
 					<p className='coin-price'>{formatCurrency(item.value)}</p>
 				</div>
+				<div className='modal-actions'>
+					<button
+						type='button'
+						className='ghost-button'
+						onClick={() => onReport?.(item)}
+					>
+						Info incorrect?
+					</button>
+				</div>
 				<button className='close' onClick={onClose} aria-label='Close'>
 					×
 				</button>
@@ -276,13 +285,133 @@ function DetailModal({ item, onClose }) {
 	);
 }
 
+function FeedbackModal({ item, onClose, apiBaseUrl }) {
+	const [message, setMessage] = useState('');
+	const [status, setStatus] = useState('idle'); // idle | sending | sent | error
+	const [error, setError] = useState('');
+	const endpoint = `${apiBaseUrl ? `${apiBaseUrl}` : ''}/api/report-issue`;
+
+	const handleSubmit = useCallback(
+		async (event) => {
+			event.preventDefault();
+			const trimmed = message.trim();
+			if (!trimmed) {
+				setError('Please describe what needs to be fixed.');
+				return;
+			}
+
+			setStatus('sending');
+			setError('');
+
+			try {
+				const response = await fetch(endpoint, {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+						'X-Requested-With': 'arc-loot-feedback',
+					},
+					body: JSON.stringify({
+						itemName: item.name,
+						message: trimmed,
+					}),
+				});
+
+				if (!response.ok) {
+					const data = await response.json().catch(() => ({}));
+					throw new Error(data.error || 'Failed to send feedback.');
+				}
+
+				setStatus('sent');
+				setMessage('');
+			} catch (submitError) {
+				setStatus('error');
+				setError(submitError.message || 'Could not send feedback.');
+			}
+		},
+		[endpoint, item.name, message]
+	);
+
+	const handleBackdropClick = useCallback(
+		(event) => {
+			if (event.target === event.currentTarget) {
+				onClose();
+			}
+		},
+		[onClose]
+	);
+
+	return (
+		<div
+			className='modal-backdrop'
+			role='dialog'
+			aria-modal='true'
+			onClick={handleBackdropClick}
+		>
+			<form
+				className='modal feedback-modal flex flex-col'
+				onSubmit={handleSubmit}
+			>
+				<h3>Flag an issue</h3>
+				<p className='helper-text'>
+					Tell me what looks off about <strong>{item.name}</strong> and
+					I&apos;ll correct it.
+				</p>
+
+				<label className='flex flex-col feedback-label'>
+					<textarea
+						value={message}
+						onChange={(event) => setMessage(event.target.value)}
+						className='text-input'
+						rows='4'
+						placeholder='Example: value is wrong, recycled parts should be..., missing keep-for quest...'
+						required
+						disabled={status !== 'idle'}
+					/>
+				</label>
+
+				{error && <p className='feedback-error'>{error}</p>}
+				{status === 'sent' && (
+					<p className='feedback-success'>Thanks! I got the report.</p>
+				)}
+
+				<div className='modal-actions'>
+					<button
+						type='button'
+						className='ghost-button'
+						onClick={onClose}
+						disabled={status === 'sending'}
+					>
+						{status === 'sent' ? 'Close' : 'Cancel'}
+					</button>
+					<button
+						type='submit'
+						className='primary-button'
+						disabled={status !== 'idle'}
+					>
+						{status === 'sending'
+							? 'Sending…'
+							: status === 'sent'
+							? 'Sent!'
+							: 'Send Report'}
+					</button>
+				</div>
+			</form>
+		</div>
+	);
+}
+
 export default function App() {
 	const [selected, setSelected] = useState(null);
+	const [feedbackItem, setFeedbackItem] = useState(null);
 	const [query, setQuery] = useState('');
 	const [activeRarity, setActiveRarity] = useState('');
 	const [sortBy, setSortBy] = useState('nameAZ');
 	const [isSortMenuOpen, setIsSortMenuOpen] = useState(false);
 	const sortMenuRef = useRef(null);
+	const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '').replace(
+		/\/$/,
+		''
+	);
 	const currentSortLabel =
 		sortOptions.find((option) => option.value === sortBy)?.label ?? 'Name';
 	const handleSortSelection = useCallback((option) => {
@@ -359,6 +488,11 @@ export default function App() {
 	const handleSelect = useCallback((item) => setSelected(item), []);
 	const handleRarityClick = useCallback((rarity) => {
 		setActiveRarity((current) => (current === rarity ? '' : rarity));
+	}, []);
+
+	const handleReportClick = useCallback((item) => {
+		setSelected(null);
+		setFeedbackItem(item);
 	}, []);
 
 	return (
@@ -462,7 +596,18 @@ export default function App() {
 				</a>
 			</footer>
 			{selected && (
-				<DetailModal item={selected} onClose={() => setSelected(null)} />
+				<DetailModal
+					item={selected}
+					onClose={() => setSelected(null)}
+					onReport={handleReportClick}
+				/>
+			)}
+			{feedbackItem && (
+				<FeedbackModal
+					item={feedbackItem}
+					onClose={() => setFeedbackItem(null)}
+					apiBaseUrl={apiBaseUrl}
+				/>
 			)}
 		</div>
 	);
