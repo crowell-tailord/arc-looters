@@ -141,42 +141,75 @@ function ProgressiveImage({
 }
 
 function RarityLabel({ rarity, category }) {
-	const key = (rarity || 'common').toLowerCase();
-	const palette = rarityPalette[key] || rarityPalette.common;
-
 	return (
-		<div className='flex rarity-labels' style={{ gap: '0.1rem' }}>
-			<span
-				className='rarity-label'
-				style={{
-					backgroundColor: palette.background,
-				}}
-			>
-				{rarity || 'Unknown'}
-			</span>
-			<span
-				className='rarity-label'
-				style={{
-					backgroundColor: palette.background,
-				}}
-			>
-				{category || 'Unknown'}
-			</span>
+		<div className='flex rarity-labels'>
+			<span className='rarity-label'>{rarity || 'Unknown'}</span>
+			<span className='rarity-label'>{category || 'Unknown'}</span>
 		</div>
 	);
 }
 
-const LootTile = memo(function LootTile({ item, onClick }) {
+const LootTile = memo(function LootTile({
+	item,
+	onClick,
+	onPinToggle,
+	isPinned,
+}) {
+	const handleTileClick = useCallback(
+		(event) => {
+			if (event.defaultPrevented) return;
+			const target = event.target;
+			const pinElement =
+				target instanceof Element
+					? target.closest('.pinthis')
+					: event.currentTarget.querySelector('.pinthis');
+			if (pinElement && pinElement.contains(target)) return;
+			onClick?.();
+		},
+		[onClick]
+	);
+
+	const handlePinClick = useCallback(
+		(event) => {
+			event.preventDefault();
+			event.stopPropagation();
+			onPinToggle?.(item);
+		},
+		[onPinToggle, item]
+	);
+
+	const key = (item.rarity || 'common').toLowerCase();
+	const palette = rarityPalette[key] || rarityPalette.common;
+
 	return (
 		<div
-			type='button'
-			className='tile'
-			onClick={onClick}
+			className={`tile ${isPinned ? 'is-pinned' : ''}`}
+			onClick={handleTileClick}
 			aria-label={`${item.name} details`}
+			style={{ '--bg': palette.background }}
 		>
+			<button
+				type='button'
+				className={`pinthis ${isPinned ? 'active' : ''}`}
+				aria-pressed={isPinned}
+				aria-label={isPinned ? 'Unpin item' : 'Pin item'}
+				onClick={handlePinClick}
+			>
+				<svg
+					className='pin-icon'
+					viewBox='0 0 24 24'
+					role='img'
+					aria-hidden='true'
+					focusable='false'
+				>
+					<path d='M12 2a3 3 0 0 1 3 3v1.5h1.25c.64 0 .96.77.5 1.22l-2.84 2.78 2.37 2.37c.48.48.14 1.29-.54 1.29H13v6.35a1 1 0 0 1-2 0V14.1H8.26c-.68 0-1.02-.81-.54-1.29l2.37-2.37-2.84-2.78c-.46-.45-.14-1.22.5-1.22H9V5a3 3 0 0 1 3-3Z' />
+				</svg>
+			</button>
 			<ProgressiveImage
 				src={`/assets/loot/${item.localImage}`}
-				alt={`${item.name} - ${item.rarity || 'Unknown'} ${item.category || 'item'}`}
+				alt={`${item.name} - ${item.rarity || 'Unknown'} ${
+					item.category || 'item'
+				}`}
 				loading='lazy'
 			/>
 			<div className='tile-content flex flex-col'>
@@ -222,7 +255,9 @@ function DetailModal({ item, onClose, onReport }) {
 			<div className='modal flex flex-col' role='document'>
 				<ProgressiveImage
 					src={`/assets/loot/${item.localImage}`}
-					alt={`${item.name} detail image - ${item.rarity || 'Unknown'} ${item.category || 'item'}`}
+					alt={`${item.name} detail image - ${item.rarity || 'Unknown'} ${
+						item.category || 'item'
+					}`}
 					loading='lazy'
 				/>
 				<hr />
@@ -406,6 +441,18 @@ export default function App() {
 	const [query, setQuery] = useState('');
 	const [activeRarity, setActiveRarity] = useState('');
 	const [sortBy, setSortBy] = useState('nameAZ');
+	const [pinnedNames, setPinnedNames] = useState(() => {
+		if (typeof window === 'undefined') return [];
+		try {
+			const stored = JSON.parse(
+				localStorage.getItem('arc-loot-pinned') || '[]'
+			);
+			return Array.isArray(stored) ? stored : [];
+		} catch (error) {
+			console.error('Failed to read pinned items', error);
+			return [];
+		}
+	});
 	const [isSortMenuOpen, setIsSortMenuOpen] = useState(false);
 	const sortMenuRef = useRef(null);
 	const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '').replace(
@@ -418,6 +465,15 @@ export default function App() {
 		setSortBy(option);
 		setIsSortMenuOpen(false);
 	}, []);
+
+	useEffect(() => {
+		if (typeof window === 'undefined') return;
+		try {
+			localStorage.setItem('arc-loot-pinned', JSON.stringify(pinnedNames));
+		} catch (error) {
+			console.error('Failed to persist pinned items', error);
+		}
+	}, [pinnedNames]);
 
 	useEffect(() => {
 		if (!isSortMenuOpen) return undefined;
@@ -433,6 +489,7 @@ export default function App() {
 			document.removeEventListener('mousedown', handleDocumentClick);
 		};
 	}, [isSortMenuOpen]);
+
 	const sortedLoot = useMemo(() => {
 		const items = [...lootData];
 		items.sort((a, b) => {
@@ -485,7 +542,27 @@ export default function App() {
 
 		return items;
 	}, [query, sortedLoot, activeRarity]);
+
+	const pinnedSet = useMemo(
+		() => new Set(pinnedNames.filter(Boolean)),
+		[pinnedNames]
+	);
+
+	const pinnedLoot = useMemo(
+		() => sortedLoot.filter((item) => pinnedSet.has(item.name)),
+		[sortedLoot, pinnedSet]
+	);
+
+	const visibleLoot = useMemo(() => {
+		if (!pinnedLoot.length) return filteredLoot;
+		const filteredWithoutPinned = filteredLoot.filter(
+			(item) => !pinnedSet.has(item.name)
+		);
+		return [...pinnedLoot, ...filteredWithoutPinned];
+	}, [filteredLoot, pinnedLoot, pinnedSet]);
+
 	const handleSelect = useCallback((item) => setSelected(item), []);
+
 	const handleRarityClick = useCallback((rarity) => {
 		setActiveRarity((current) => (current === rarity ? '' : rarity));
 	}, []);
@@ -493,6 +570,15 @@ export default function App() {
 	const handleReportClick = useCallback((item) => {
 		setSelected(null);
 		setFeedbackItem(item);
+	}, []);
+
+	const handlePinToggle = useCallback((item) => {
+		setPinnedNames((current) => {
+			if (current.includes(item.name)) {
+				return current.filter((name) => name !== item.name);
+			}
+			return [...current, item.name];
+		});
 	}, []);
 
 	return (
@@ -514,6 +600,7 @@ export default function App() {
 						type='search'
 						placeholder='Search by name, rarity, or parts…'
 						aria-label='Filter loot items'
+						name='search-field'
 					/>
 					<div className='sort-menu-wrapper' ref={sortMenuRef}>
 						<button
@@ -576,11 +663,13 @@ export default function App() {
 			</section>
 			<main>
 				<div className='grid' aria-live='polite'>
-					{filteredLoot.map((item) => (
+					{visibleLoot.map((item) => (
 						<LootTile
 							key={item.name}
 							item={item}
 							onClick={() => handleSelect(item)}
+							onPinToggle={handlePinToggle}
+							isPinned={pinnedSet.has(item.name)}
 						/>
 					))}
 				</div>
