@@ -104,16 +104,6 @@ export default async function handler(req, res) {
 	const payload = {
 		text: `New loot correction submitted`,
 		blocks: [
-			// {
-			// 	type: 'image',
-			// 	title: {
-			// 		type: 'plain_text',
-			// 		text: 'image1',
-			// 		emoji: true,
-			// 	},
-			// 	image_url: 'https://arclooter.xyz/i/og.jpg',
-			// 	alt_text: 'image1',
-			// },
 			{
 				type: 'header',
 				text: {
@@ -125,16 +115,19 @@ export default async function handler(req, res) {
 				type: 'section',
 				text: {
 					type: 'mrkdwn',
-					text: `*Item*: ${itemName}`,
+					text: `*Item*: ${trimmedName}`,
+				},
+			},
+			{
+				type: 'section',
+				text: {
+					type: 'mrkdwn',
+					text: `*Feedback:*\n${trimmedMessage}`,
 				},
 				accessory: {
 					type: 'image',
 					image_url: 'https://arclooter.xyz/fav.jpeg',
 					alt_text: 'arc icon',
-				},
-				text: {
-					type: 'mrkdwn',
-					text: `*Feedback:*\n${message}`,
 				},
 			},
 			{
