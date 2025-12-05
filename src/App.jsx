@@ -88,6 +88,27 @@ function LogoWordmark() {
 	);
 }
 
+export function CoffeeIcon({ className = '', ...rest }) {
+	return (
+		<svg
+			className={className}
+			viewBox='0 0 24 24'
+			role='img'
+			aria-hidden='true'
+			focusable='false'
+			xmlns='http://www.w3.org/2000/svg'
+			{...rest}
+		>
+			<path d='M5.5 8h9v5a3 3 0 0 1-3 3h-3a3 3 0 0 1-3-3V8Z' />
+			<path d='M14.5 10.5H17a1.75 1.75 0 0 1 0 3.5h-2.5' />
+			<path d='M4 19h12' />
+			<path d='M9 3.5c-.5.8-.5 1.7 0 2.5' />
+			<path d='M12 3.5c-.5.8-.5 1.7 0 2.5' />
+			<path d='M15 3.5c-.5.8-.5 1.7 0 2.5' />
+		</svg>
+	);
+}
+
 function formatTitleCase(value) {
 	return value.charAt(0).toUpperCase() + value.slice(1);
 }
@@ -583,6 +604,15 @@ export default function App() {
 
 	return (
 		<div className='page'>
+			<a
+				className='coffee-button'
+				href='https://buymeacoffee.com/crowexx'
+				target='_blank'
+				rel='noreferrer'
+				aria-label='Buy me a coffee'
+			>
+				<CoffeeIcon className='coffee-icon' /> buy me coffee
+			</a>
 			<header className='hero'>
 				<h1>ARC LOOTER</h1>
 				{/* <LogoWordmark /> */}
