@@ -79,6 +79,12 @@ a {
 	stroke-linecap: round;
 	stroke-linejoin: round;
 }
+@media screen and (max-width: 768px) {
+	.coffee-button {
+		top: inherit;
+		bottom: 2rem;
+	}
+}
 
 .specialtext {
 	/* display: block;
