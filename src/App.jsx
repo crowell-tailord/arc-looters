@@ -237,7 +237,7 @@ const LootTile = memo(function LootTile({
 				<RarityLabel rarity={item.rarity} category={item.category} />
 				<h2>{item.name}</h2>
 				<div className='tile-recycles flex flex-col'>
-					{item.parts.map((p, i) => {
+					{item.parts?.map((p, i) => {
 						const pre_mark =
 							p.name === 'Cannot be recycled' ? '☒' : `${p.quantity}x`;
 						return (
@@ -265,6 +265,8 @@ function DetailModal({ item, onClose, onReport }) {
 		},
 		[onClose]
 	);
+	const key = (item.rarity || 'common').toLowerCase();
+	const palette = rarityPalette[key] || rarityPalette.common;
 
 	return (
 		<div
@@ -272,6 +274,7 @@ function DetailModal({ item, onClose, onReport }) {
 			role='dialog'
 			aria-modal='true'
 			onClick={handleBackdropClick}
+			style={{ '--bg': palette.background }}
 		>
 			<div className='modal flex flex-col' role='document'>
 				<ProgressiveImage
@@ -284,6 +287,7 @@ function DetailModal({ item, onClose, onReport }) {
 				<hr />
 				<RarityLabel rarity={item.rarity} category={item.category} />
 				<h3>{item.name}</h3>
+				<p>{item.description}</p>
 				<div className='flex flex-col info-row'>
 					Can Be Found:
 					{item.canBeFoundIn?.map((l, i) => {
@@ -312,7 +316,7 @@ function DetailModal({ item, onClose, onReport }) {
 						);
 					})}
 				</div>
-				{item.keepForQuestsWorkshop[0] && (
+				{item.keepForQuestsWorkshop?.[0] && (
 					<p className='flex flex-col keepfor info-row'>
 						Should Keep For:
 						{item.keepForQuestsWorkshop.map((keep, i) => (
@@ -548,7 +552,7 @@ export default function App() {
 			items = items.filter((item) => {
 				const nameMatch = item.name.toLowerCase().includes(lowered);
 				const rarityMatch = item.rarity?.toLowerCase().includes(lowered);
-				const partMatch = item.parts.some((piece) =>
+				const partMatch = item.parts?.some((piece) =>
 					piece.name.toLowerCase().includes(lowered)
 				);
 				return nameMatch || rarityMatch || partMatch;

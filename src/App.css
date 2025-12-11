@@ -12,6 +12,13 @@
 a {
 	color: inherit;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+}
 .page {
 	padding-bottom: 2rem;
 	position: relative;
@@ -357,6 +364,7 @@ a {
 	width: 60%;
 	align-self: center;
 	min-height: 250px;
+	background: none;
 }
 
 .modal .progressive-image__content {
@@ -430,6 +438,7 @@ a {
 	padding: 1.5rem;
 	align-items: start;
 	position: relative;
+	gap: 0.9rem;
 }
 .modal .info-row {
 	margin-bottom: 1rem;
