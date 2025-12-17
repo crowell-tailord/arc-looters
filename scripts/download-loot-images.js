@@ -17,22 +17,42 @@ async function download(url) {
 
   if (existsSync(destination)) {
     console.log(`Skipping already downloaded ${filename}`);
-    return;
+    return { status: "skipped", filename };
   }
 
-  const response = await fetch(url);
+  let response;
+  try {
+    response = await fetch(url);
+  } catch (error) {
+    throw new Error(`Request failed for ${url}: ${error.message}`);
+  }
+
   if (!response.ok) {
-    throw new Error(`Failed to fetch ${url}: ${response.status}`);
+    throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
   }
 
   const buffer = Buffer.from(await response.arrayBuffer());
   writeFileSync(destination, buffer);
   console.log(`Downloaded ${filename}`);
+  return { status: "downloaded", filename };
 }
 
 async function main() {
+  const failures = [];
+
   for (const url of imageUrls) {
-    await download(url);
+    try {
+      await download(url);
+    } catch (error) {
+      failures.push({ url, error: error.message });
+      console.error(error.message);
+    }
+  }
+
+  if (failures.length) {
+    console.error(`Failed to download ${failures.length} images:`);
+    failures.forEach(({ url, error }) => console.error(` - ${url} (${error})`));
+    process.exitCode = 1;
   }
 }
 

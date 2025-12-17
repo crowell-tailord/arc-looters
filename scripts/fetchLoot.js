@@ -6,6 +6,7 @@ const BASE_URL = 'https://arcraiders.wiki';
 const TARGET_URL = `${BASE_URL}/wiki/Loot`;
 const API_URL = `${BASE_URL}/w/api.php`;
 const OUTPUT_PATH = path.resolve('./src/data/loot.json');
+const ADJUSTMENTS_PATH = path.resolve('./src/data/loot-adjustments.json');
 
 const sanitize = (value) =>
   value
@@ -538,6 +539,44 @@ const buildFilePathUrl = (href) => {
   return `https://arcraiders.wiki/wiki/Special:FilePath/${encodeURIComponent(fileName).replace(/%2F/g, '/')}`;
 };
 
+const loadLootAdjustments = () => {
+  try {
+    const data = fs.readFileSync(ADJUSTMENTS_PATH, 'utf-8');
+    const parsed = JSON.parse(data);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+};
+
+const applyLootAdjustments = (loot, adjustments) => {
+  if (!Array.isArray(adjustments) || !adjustments.length) return;
+
+  const lootByKey = new Map(loot.map((item) => [createLootKey(item.name), item]));
+  let applied = 0;
+
+  adjustments.forEach((adjustment) => {
+    if (!adjustment?.name) return;
+    const { name, editType = 'replace', ...edits } = adjustment;
+    if (editType !== 'replace') return;
+
+    const key = createLootKey(name);
+    const target = lootByKey.get(key);
+    if (!target) return;
+
+    Object.entries(edits).forEach(([field, value]) => {
+      target[field] = value;
+    });
+    applied += 1;
+  });
+
+  if (applied) {
+    console.log(
+      `Applied ${applied} adjustment${applied === 1 ? '' : 's'} from ${path.relative(process.cwd(), ADJUSTMENTS_PATH)}`
+    );
+  }
+};
+
 const fetchInfoboxItemPages = async () => {
   const pages = [];
   let eicontinue;
@@ -687,6 +726,7 @@ const run = async () => {
   }
 
   await enrichImages(loot);
+  applyLootAdjustments(loot, loadLootAdjustments());
   addLocalImageProperty(loot);
   loot.forEach((entry) => {
     delete entry.pageUrl;

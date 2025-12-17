@@ -1,0 +1,11 @@
+[
+	{
+		"name": "Magnet",
+		"editType": "replace",
+		"keepForQuestsWorkshop": [
+			"1x Snap Blast Grenade",
+			"5x Venator",
+			"3x Looting Mk. 2"
+		]
+	}
+]

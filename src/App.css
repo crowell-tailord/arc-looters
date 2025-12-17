@@ -1,5 +1,5 @@
 #root {
-	background: url('/i/bg-grad.jpg') no-repeat;
+	background: url('/i/bg-winter.jpg') no-repeat;
 	background-size: 100%;
 	background-position: 0px -20vh;
 	position: relative;
@@ -39,8 +39,8 @@ p {
 	/* border-bottom: 1px solid rgba(255, 255, 255, 0.08); */
 	padding: 1.5rem clamp(1rem, 3vw, 3rem);
 	text-align: center;
-	color: #050608;
-	/* text-shadow: 1px 1px 6px #7985e891; */
+	color: #fff;
+	text-shadow: 1px 1px 26px #000000;
 }
 
 .hero h1 {

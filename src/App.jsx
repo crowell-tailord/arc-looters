@@ -3,6 +3,7 @@ import lootData from './data/loot.json';
 import packageInfo from '../package.json';
 import './App.css';
 
+const DEFAULT_LOOT_IMAGE = '/assets/loot/loot-placeholder.svg';
 const rarityPalette = {
 	legendary: { background: '#fbc700' },
 	epic: { background: '#d8299b' },
@@ -120,11 +121,19 @@ function ProgressiveImage({
 	alt,
 	loading = 'lazy',
 	onLoad,
+	fallbackSrc = DEFAULT_LOOT_IMAGE,
 	className = '',
 	wrapperClassName = '',
 	...rest
 }) {
 	const [isLoaded, setIsLoaded] = useState(false);
+	const [currentSrc, setCurrentSrc] = useState(src || fallbackSrc);
+
+	useEffect(() => {
+		setCurrentSrc(src || fallbackSrc);
+		setIsLoaded(false);
+	}, [src, fallbackSrc]);
+
 	const handleLoad = useCallback(
 		(event) => {
 			setIsLoaded(true);
@@ -151,10 +160,16 @@ function ProgressiveImage({
 			<div className='progressive-image__placeholder' aria-hidden='true' />
 			<img
 				{...rest}
-				src={src}
+				src={currentSrc}
 				alt={alt}
 				loading={loading}
 				onLoad={handleLoad}
+				onError={() => {
+					if (currentSrc !== fallbackSrc) {
+						setCurrentSrc(fallbackSrc);
+						setIsLoaded(false);
+					}
+				}}
 				className={imageClasses}
 			/>
 		</div>
@@ -303,7 +318,7 @@ function DetailModal({ item, onClose, onReport }) {
 				</div>
 				<div className='tile-recycles flex flex-col info-row'>
 					Recycles Into:
-					{item.parts.map((p, i) => {
+					{item.parts?.map((p, i) => {
 						const pre_mark =
 							p.name === 'Cannot be recycled' ? '☒' : `${p.quantity}x`;
 						return (

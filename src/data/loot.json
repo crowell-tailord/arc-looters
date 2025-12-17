@@ -13,12 +13,12 @@
     "category": "Misc",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/31/Advanced_ARC_Powercell.png",
+    "localImage": "Advanced_ARC_Powercell.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Advanced_ARC_Powercell.png"
+    "stackSize": "5"
   },
   {
     "name": "Advanced Electrical Components",
@@ -41,12 +41,12 @@
       "5x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/9/9b/Advanced_Electrical_Components.png",
+    "localImage": "Advanced_Electrical_Components.png",
     "canBeFoundIn": [
       "Electrical"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Advanced_Electrical_Components.png"
+    "stackSize": "5"
   },
   {
     "name": "Advanced Mechanical Components",
@@ -68,12 +68,12 @@
       "5x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/2/25/Advanced_Mechanical_Components.png",
+    "localImage": "Advanced_Mechanical_Components.png",
     "canBeFoundIn": [
       "Mechanical"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Advanced_Mechanical_Components.png"
+    "stackSize": "5"
   },
   {
     "name": "Agave",
@@ -89,12 +89,12 @@
     "category": "Nature",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/47/Agave.png",
+    "localImage": "Agave.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Agave.png"
+    "stackSize": "10"
   },
   {
     "name": "Air Freshener",
@@ -110,12 +110,12 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/03/Air_Freshener.png",
+    "localImage": "Air_Freshener.png",
     "canBeFoundIn": [
       "Mechanical"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Air_Freshener.png"
+    "stackSize": "5"
   },
   {
     "name": "Alarm Clock",
@@ -135,12 +135,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/95/Alarm_Clock.png",
+    "localImage": "Alarm_Clock.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Alarm_Clock.png"
+    "stackSize": "3"
   },
   {
     "name": "Antiseptic",
@@ -155,15 +155,16 @@
     ],
     "category": "Refined Material",
     "keepForQuestsWorkshop": [
-      "8x Workshop 2x Quest"
+      "8x Workshop",
+      "2x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/f/f5/Antiseptic.png",
+    "localImage": "Antiseptic.png",
     "canBeFoundIn": [
       "Medical"
     ],
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Antiseptic.png"
+    "stackSize": "5"
   },
   {
     "name": "Apricot",
@@ -181,12 +182,12 @@
       "15x Scrappy"
     ],
     "image": "https://arcraiders.wiki/w/images/f/fc/Apricot.png",
+    "localImage": "Apricot.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Apricot.png"
+    "stackSize": "10"
   },
   {
     "name": "ARC Alloy",
@@ -205,12 +206,12 @@
       "80x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/a/a6/ARC_Alloy.png",
+    "localImage": "ARC_Alloy.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "ARC_Alloy.png"
+    "stackSize": "15"
   },
   {
     "name": "ARC Circuitry",
@@ -228,12 +229,12 @@
       "10x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/d/dc/ARC_Circuitry.png",
+    "localImage": "ARC_Circuitry.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "ARC_Circuitry.png"
+    "stackSize": "5"
   },
   {
     "name": "ARC Coolant",
@@ -249,12 +250,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/e9/ARC_Coolant.png",
+    "localImage": "ARC_Coolant.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "ARC_Coolant.png"
+    "stackSize": "3"
   },
   {
     "name": "ARC Flex Rubber",
@@ -270,12 +271,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/29/ARC_Flex_Rubber.png",
+    "localImage": "ARC_Flex_Rubber.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "ARC_Flex_Rubber.png"
+    "stackSize": "3"
   },
   {
     "name": "ARC Motion Core",
@@ -293,12 +294,12 @@
       "5x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/a/ad/ARC_Motion_Core.png",
+    "localImage": "ARC_Motion_Core.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "ARC_Motion_Core.png"
+    "stackSize": "5"
   },
   {
     "name": "ARC Performance Steel",
@@ -314,12 +315,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/02/ARC_Performance_Steel.png",
+    "localImage": "ARC_Performance_Steel.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "ARC_Performance_Steel.png"
+    "stackSize": "3"
   },
   {
     "name": "ARC Powercell",
@@ -337,12 +338,12 @@
       "5x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/d/df/ARC_Powercell.png",
+    "localImage": "ARC_Powercell.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "ARC_Powercell.png"
+    "stackSize": "5"
   },
   {
     "name": "ARC Synthetic Resin",
@@ -358,12 +359,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/72/ARC_Synthetic_Resin.png",
+    "localImage": "ARC_Synthetic_Resin.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "ARC_Synthetic_Resin.png"
+    "stackSize": "3"
   },
   {
     "name": "ARC Thermo Lining",
@@ -379,12 +380,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0f/ARC_Thermo_Lining.png",
+    "localImage": "ARC_Thermo_Lining.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "ARC_Thermo_Lining.png"
+    "stackSize": "3"
   },
   {
     "name": "Assorted Seeds",
@@ -402,12 +403,12 @@
       "Currency for Celeste"
     ],
     "image": "https://arcraiders.wiki/w/images/5/51/Assorted_Seeds.png",
+    "localImage": "Assorted_Seeds.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.05.mw-parser-output .template-weight{display:flex",
-    "stackSize": "100",
-    "localImage": "Assorted_Seeds.png"
+    "stackSize": "100"
   },
   {
     "name": "Bastion Cell",
@@ -429,12 +430,12 @@
       "6x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/0/06/Bastion_Cell.png",
+    "localImage": "Bastion_Cell.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Bastion_Cell.png"
+    "stackSize": "3"
   },
   {
     "name": "Battery",
@@ -452,13 +453,13 @@
       "30x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/6/6d/Battery.png",
+    "localImage": "Battery.png",
     "canBeFoundIn": [
       "Technological",
       "Electrical"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Battery.png"
+    "stackSize": "15"
   },
   {
     "name": "Bicycle Pump",
@@ -478,12 +479,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/fa/Bicycle_Pump.png",
+    "localImage": "Bicycle_Pump.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Bicycle_Pump.png"
+    "stackSize": "3"
   },
   {
     "name": "Bloated Tuna Can",
@@ -499,13 +500,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/01/Bloated_Tuna_Can.png",
+    "localImage": "Bloated_Tuna_Can.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Bloated_Tuna_Can.png"
+    "stackSize": "15"
   },
   {
     "name": "Blue Gate Communication Tower Key",
@@ -521,9 +522,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5f/Blue_Gate_Village_Key.png",
+    "localImage": "Blue_Gate_Village_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Blue_Gate_Village_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Blue Gate Confiscation Room Key",
@@ -539,15 +540,15 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/51/Blue_Gate_Confiscation_Room_Key.png",
+    "localImage": "Blue_Gate_Confiscation_Room_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Blue_Gate_Confiscation_Room_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Blue Gate Cellar Key",
-    "rarity": "Uncommon",
+    "rarity": "Rare",
     "value": 100,
-    "description": "?",
+    "description": "Unlocks certain cellar doors near the Blue Gate",
     "parts": [
       {
         "quantity": 1,
@@ -557,9 +558,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5f/Blue_Gate_Village_Key.png",
+    "localImage": "Blue_Gate_Village_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Blue_Gate_Village_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Blue Gate Village Key",
@@ -575,9 +576,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5f/Blue_Gate_Village_Key.png",
+    "localImage": "Blue_Gate_Village_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Blue_Gate_Village_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Bombardier Cell",
@@ -599,12 +600,12 @@
       "6x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/4/46/Bombardier_Cell.png",
+    "localImage": "Bombardier_Cell.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Bombardier_Cell.png"
+    "stackSize": "3"
   },
   {
     "name": "Breathtaking Snow Globe",
@@ -620,14 +621,14 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/63/Breathtaking_Snow_Globe.png",
+    "localImage": "Breathtaking_Snow_Globe.png",
     "canBeFoundIn": [
       "Residential",
       "Old World",
       "Commercial"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Breathtaking_Snow_Globe.png"
+    "stackSize": "1"
   },
   {
     "name": "Broken Flashlight",
@@ -647,12 +648,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/17/Broken_Flashlight.png",
+    "localImage": "Broken_Flashlight.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Broken_Flashlight.png"
+    "stackSize": "3"
   },
   {
     "name": "Broken Guidance System",
@@ -668,12 +669,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/93/Broken_Guidance_System.png",
+    "localImage": "Broken_Guidance_System.png",
     "canBeFoundIn": [
       "Industrial"
     ],
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Broken_Guidance_System.png"
+    "stackSize": "3"
   },
   {
     "name": "Broken Handheld Radio",
@@ -693,12 +694,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/3b/Broken_Handheld_Radio.png",
+    "localImage": "Broken_Handheld_Radio.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Broken_Handheld_Radio.png"
+    "stackSize": "3"
   },
   {
     "name": "Broken Taser",
@@ -718,12 +719,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/18/Broken_Taser.png",
+    "localImage": "Broken_Taser.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Broken_Taser.png"
+    "stackSize": "3"
   },
   {
     "name": "Buried City Hospital Key",
@@ -739,9 +740,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/11/Buried_City_Key.png",
+    "localImage": "Buried_City_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Buried_City_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Buried City JKV Employee Access Card",
@@ -757,9 +758,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/11/Buried_City_Key.png",
+    "localImage": "Buried_City_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Buried_City_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Buried City Residential Mastery Key",
@@ -775,9 +776,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/11/Buried_City_Key.png",
+    "localImage": "Buried_City_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Buried_City_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Buried City Town Hall Key",
@@ -793,9 +794,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/11/Buried_City_Key.png",
+    "localImage": "Buried_City_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Buried_City_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Burned ARC Circuitry",
@@ -811,12 +812,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/35/Burned_ARC_Circuitry.png",
+    "localImage": "Burned_ARC_Circuitry.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Burned_ARC_Circuitry.png"
+    "stackSize": "5"
   },
   {
     "name": "Camera Lens",
@@ -832,12 +833,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a6/Camera_Lens.png",
+    "localImage": "Camera_Lens.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Camera_Lens.png"
+    "stackSize": "5"
   },
   {
     "name": "Candle Holder",
@@ -853,12 +854,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/58/Candle_Holder.png",
+    "localImage": "Candle_Holder.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Candle_Holder.png"
+    "stackSize": "3"
   },
   {
     "name": "Canister",
@@ -874,12 +875,12 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5f/Canister.png",
+    "localImage": "Canister.png",
     "canBeFoundIn": [
       "Commercial"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Canister.png"
+    "stackSize": "15"
   },
   {
     "name": "Cat Bed",
@@ -897,13 +898,13 @@
       "1x Scrappy"
     ],
     "image": "https://arcraiders.wiki/w/images/8/82/Cat_Bed.png",
+    "localImage": "Cat_Bed.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Cat_Bed.png"
+    "stackSize": "3"
   },
   {
     "name": "Chemicals",
@@ -921,14 +922,14 @@
       "50x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/9/92/Chemicals.png",
+    "localImage": "Chemicals.png",
     "canBeFoundIn": [
       "Mechanical",
       "Residential",
       "Medical"
     ],
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "50",
-    "localImage": "Chemicals.png"
+    "stackSize": "50"
   },
   {
     "name": "Coffee Pot",
@@ -944,12 +945,12 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/33/Coffee_Pot.png",
+    "localImage": "Coffee_Pot.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Coffee_Pot.png"
+    "stackSize": "3"
   },
   {
     "name": "Complex Gun Parts",
@@ -965,12 +966,12 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/3d/Complex_Gun_Parts.png",
+    "localImage": "Complex_Gun_Parts.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Complex_Gun_Parts.png"
+    "stackSize": "3"
   },
   {
     "name": "Coolant",
@@ -990,12 +991,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/40/Coolant.png",
+    "localImage": "Coolant.png",
     "canBeFoundIn": [
       "Mechanical"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Coolant.png"
+    "stackSize": "3"
   },
   {
     "name": "Cooling Coil",
@@ -1015,12 +1016,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/7f/Cooling_Coil.png",
+    "localImage": "Cooling_Coil.png",
     "canBeFoundIn": [
       "Industrial"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Cooling_Coil.png"
+    "stackSize": "3"
   },
   {
     "name": "Cooling Fan",
@@ -1042,12 +1043,12 @@
       "5x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/1/13/Cooling_Fan.png",
+    "localImage": "Cooling_Fan.png",
     "canBeFoundIn": [
       "Technological"
     ],
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Cooling_Fan.png"
+    "stackSize": "3"
   },
   {
     "name": "Cracked Bioscanner",
@@ -1069,12 +1070,12 @@
       "2x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/9/9a/Cracked_Bioscanner.png",
+    "localImage": "Cracked_Bioscanner.png",
     "canBeFoundIn": [
       "Medical"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Cracked_Bioscanner.png"
+    "stackSize": "3"
   },
   {
     "name": "Crude Explosives",
@@ -1092,13 +1093,13 @@
       "5x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/f/fc/Crude_Explosives.png",
+    "localImage": "Crude_Explosives.png",
     "canBeFoundIn": [
       "Industrial",
       "Security"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Crude_Explosives.png"
+    "stackSize": "10"
   },
   {
     "name": "Crumpled Plastic Bottle",
@@ -1114,12 +1115,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/8e/Crumpled_Plastic_Bottle.png",
+    "localImage": "Crumpled_Plastic_Bottle.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Crumpled_Plastic_Bottle.png"
+    "stackSize": "3"
   },
   {
     "name": "Dam Control Tower Key",
@@ -1135,9 +1136,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
+    "localImage": "Dam_Battlegrounds_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Dam_Battlegrounds_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Dam Staff Room Key",
@@ -1153,9 +1154,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
+    "localImage": "Dam_Battlegrounds_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Dam_Battlegrounds_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Dam Surveillance Key",
@@ -1171,9 +1172,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
+    "localImage": "Dam_Battlegrounds_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Dam_Battlegrounds_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Dam Testing Annex Key",
@@ -1189,9 +1190,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
+    "localImage": "Dam_Battlegrounds_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Dam_Battlegrounds_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Dam Utility Key",
@@ -1207,9 +1208,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
+    "localImage": "Dam_Battlegrounds_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Dam_Battlegrounds_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Damaged ARC Motion Core",
@@ -1225,12 +1226,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/9e/Damaged_ARC_Motion_Core.png",
+    "localImage": "Damaged_ARC_Motion_Core.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Damaged_ARC_Motion_Core.png"
+    "stackSize": "5"
   },
   {
     "name": "Damaged ARC Powercell",
@@ -1246,12 +1247,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/58/Damaged_ARC_Powercell.png",
+    "localImage": "Damaged_ARC_Powercell.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Damaged_ARC_Powercell.png"
+    "stackSize": "3"
   },
   {
     "name": "Damaged Fireball Burner",
@@ -1267,12 +1268,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/d8/Damaged_Fireball_Burner.png",
+    "localImage": "Damaged_Fireball_Burner.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Damaged_Fireball_Burner.png"
+    "stackSize": "3"
   },
   {
     "name": "Damaged Heat Sink",
@@ -1294,12 +1295,12 @@
       "2x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/1/1f/Damaged_Heat_Sink.png",
+    "localImage": "Damaged_Heat_Sink.png",
     "canBeFoundIn": [
       "Technological"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Damaged_Heat_Sink.png"
+    "stackSize": "3"
   },
   {
     "name": "Damaged Hornet Driver",
@@ -1315,12 +1316,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/96/Damaged_Hornet_Driver.png",
+    "localImage": "Damaged_Hornet_Driver.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Damaged_Hornet_Driver.png"
+    "stackSize": "3"
   },
   {
     "name": "Damaged Rocketeer Driver",
@@ -1336,12 +1337,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/3a/Damaged_Rocketeer_Driver.png",
+    "localImage": "Damaged_Rocketeer_Driver.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Damaged_Rocketeer_Driver.png"
+    "stackSize": "3"
   },
   {
     "name": "Damaged Snitch Scanner",
@@ -1357,12 +1358,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/83/Damaged_Snitch_Scanner.png",
+    "localImage": "Damaged_Snitch_Scanner.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Damaged_Snitch_Scanner.png"
+    "stackSize": "3"
   },
   {
     "name": "Damaged Tick Pod",
@@ -1378,12 +1379,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/d6/Damaged_Tick_Pod.png",
+    "localImage": "Damaged_Tick_Pod.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Damaged_Tick_Pod.png"
+    "stackSize": "3"
   },
   {
     "name": "Damaged Wasp Driver",
@@ -1399,11 +1400,11 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/e6/Damaged_Wasp_Driver.png",
+    "localImage": "Damaged_Wasp_Driver.png",
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "localImage": "Damaged_Wasp_Driver.png"
+    "weight": "0.25.mw-parser-output .template-weight{display:flex"
   },
   {
     "name": "Dart Board",
@@ -1419,13 +1420,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4d/Dart_Board.png",
+    "localImage": "Dart_Board.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Dart_Board.png"
+    "stackSize": "3"
   },
   {
     "name": "Deflated Football",
@@ -1441,12 +1442,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/7c/Deflated_Football.png",
+    "localImage": "Deflated_Football.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Deflated_Football.png"
+    "stackSize": "3"
   },
   {
     "name": "Degraded ARC Rubber",
@@ -1462,12 +1463,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/37/Degraded_ARC_Rubber.png",
+    "localImage": "Degraded_ARC_Rubber.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Degraded_ARC_Rubber.png"
+    "stackSize": "3"
   },
   {
     "name": "Diving Goggles",
@@ -1483,12 +1484,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1a/Diving_Goggles.png",
+    "localImage": "Diving_Goggles.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Diving_Goggles.png"
+    "stackSize": "3"
   },
   {
     "name": "Dog Collar",
@@ -1510,12 +1511,12 @@
       "1x Scrappy"
     ],
     "image": "https://arcraiders.wiki/w/images/c/c5/Dog_Collar.png",
+    "localImage": "Dog_Collar.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Dog_Collar.png"
+    "stackSize": "3"
   },
   {
     "name": "Dried-Out ARC Resin",
@@ -1531,12 +1532,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0b/Dried-Out_ARC_Resin.png",
+    "localImage": "Dried-Out_ARC_Resin.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Dried-Out_ARC_Resin.png"
+    "stackSize": "3"
   },
   {
     "name": "Duct Tape",
@@ -1552,13 +1553,13 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4e/Duct_Tape.png",
+    "localImage": "Duct_Tape.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Duct_Tape.png"
+    "stackSize": "15"
   },
   {
     "name": "Durable Cloth",
@@ -1578,13 +1579,13 @@
       "1x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/2/25/Durable_Cloth.png",
+    "localImage": "Durable_Cloth.png",
     "canBeFoundIn": [
       "Medical",
       "Commercial"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Durable_Cloth.png"
+    "stackSize": "10"
   },
   {
     "name": "Electrical Components",
@@ -1607,12 +1608,12 @@
       "30x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/0/06/Electrical_Components.png",
+    "localImage": "Electrical_Components.png",
     "canBeFoundIn": [
       "Electrical"
     ],
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Electrical_Components.png"
+    "stackSize": "10"
   },
   {
     "name": "Empty Wine Bottle",
@@ -1628,13 +1629,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/e1/Empty_Wine_Bottle.png",
+    "localImage": "Empty_Wine_Bottle.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Empty_Wine_Bottle.png"
+    "stackSize": "5"
   },
   {
     "name": "Exodus Modules",
@@ -1656,12 +1657,12 @@
       "1x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/1/1b/Exodus_Modules.png",
+    "localImage": "Exodus_Modules.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Exodus_Modules.png"
+    "stackSize": "3"
   },
   {
     "name": "Expired Pasta",
@@ -1677,13 +1678,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/91/Expired_Pasta.png",
+    "localImage": "Expired_Pasta.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Expired_Pasta.png"
+    "stackSize": "15"
   },
   {
     "name": "Expired Respirator",
@@ -1703,12 +1704,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/ba/Expired_Respirator.png",
+    "localImage": "Expired_Respirator.png",
     "canBeFoundIn": [
       "Medical"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Expired_Respirator.png"
+    "stackSize": "3"
   },
   {
     "name": "Explosive Compound",
@@ -1726,13 +1727,13 @@
       "5x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/1/11/Explosive_Compound.png",
+    "localImage": "Explosive_Compound.png",
     "canBeFoundIn": [
       "Industrial",
       "Security"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Explosive_Compound.png"
+    "stackSize": "5"
   },
   {
     "name": "Fabric",
@@ -1750,14 +1751,14 @@
       "80x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/2/2b/Fabric.png",
+    "localImage": "Fabric.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential",
       "Medical"
     ],
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "50",
-    "localImage": "Fabric.png"
+    "stackSize": "50"
   },
   {
     "name": "Faded Photograph",
@@ -1771,16 +1772,14 @@
       }
     ],
     "category": "Trinket",
-    "keepForQuestsWorkshop": [
-      "2x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0c/Faded_Photograph.png",
+    "localImage": "Faded_Photograph.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Faded_Photograph.png"
+    "stackSize": "15"
   },
   {
     "name": "Fertilizer",
@@ -1798,12 +1797,12 @@
       "1x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/2/25/Fertilizer.png",
+    "localImage": "Fertilizer.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Fertilizer.png"
+    "stackSize": "5"
   },
   {
     "name": "Film Reel",
@@ -1817,17 +1816,15 @@
       }
     ],
     "category": "Trinket",
-    "keepForQuestsWorkshop": [
-      "1x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/44/Film_Reel.png",
+    "localImage": "Film_Reel.png",
     "canBeFoundIn": [
       "Residential",
       "Old World"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Film_Reel.png"
+    "stackSize": "3"
   },
   {
     "name": "Fine Wristwatch",
@@ -1843,13 +1840,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/94/Fine_Wristwatch.png",
+    "localImage": "Fine_Wristwatch.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Fine_Wristwatch.png"
+    "stackSize": "3"
   },
   {
     "name": "Fireball Burner",
@@ -1871,12 +1868,32 @@
       "8x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/8/8b/Fireball_Burner.png",
+    "localImage": "Fireball_Burner.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Fireball_Burner.png"
+    "stackSize": "3"
+  },
+  {
+    "name": "Fossilized Lightning",
+    "rarity": "Epic",
+    "value": 4000,
+    "description": "Can be recycled into crafing materials.",
+    "parts": [
+      {
+        "quantity": 3,
+        "name": "Explosive Compound"
+      }
+    ],
+    "category": "Nature",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/81/Fossilized_Lightning.png",
+    "localImage": "Fossilized_Lightning.png",
+    "canBeFoundIn": [
+      "Nature"
+    ],
+    "weight": "0.25.mw-parser-output .template-weight{display:flex"
   },
   {
     "name": "Frequency Modulation Box",
@@ -1886,18 +1903,22 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Advanced Electrical Components 1x Speaker Component"
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Speaker Component"
       }
     ],
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/36/Frequency_Modulation_Box.png",
+    "localImage": "Frequency_Modulation_Box.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Frequency_Modulation_Box.png"
+    "stackSize": "3"
   },
   {
     "name": "Fried Motherboard",
@@ -1919,12 +1940,12 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/2/29/Fried_Motherboard.png",
+    "localImage": "Fried_Motherboard.png",
     "canBeFoundIn": [
       "Technological"
     ],
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Fried_Motherboard.png"
+    "stackSize": "3"
   },
   {
     "name": "Frying Pan",
@@ -1940,12 +1961,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/74/Frying_Pan.png",
+    "localImage": "Frying_Pan.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Frying_Pan.png"
+    "stackSize": "3"
   },
   {
     "name": "Garlic Press",
@@ -1961,13 +1982,13 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/88/Garlic_Press.png",
+    "localImage": "Garlic_Press.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Garlic_Press.png"
+    "stackSize": "3"
   },
   {
     "name": "Geiger Counter",
@@ -1987,12 +2008,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/37/Geiger_Counter.png",
+    "localImage": "Geiger_Counter.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Geiger_Counter.png"
+    "stackSize": "3"
   },
   {
     "name": "Great Mullein",
@@ -2010,12 +2031,12 @@
       "1x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/0/0d/Great_Mullein.png",
+    "localImage": "Great_Mullein.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Great_Mullein.png"
+    "stackSize": "15"
   },
   {
     "name": "Headphones",
@@ -2035,13 +2056,13 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0f/Headphones.png",
+    "localImage": "Headphones.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Headphones.png"
+    "stackSize": "3"
   },
   {
     "name": "Heavy Gun Parts",
@@ -2057,13 +2078,13 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/33/Heavy_Gun_Parts.png",
+    "localImage": "Heavy_Gun_Parts.png",
     "canBeFoundIn": [
       "Raider",
       "Security"
     ],
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Heavy_Gun_Parts.png"
+    "stackSize": "5"
   },
   {
     "name": "Hornet Driver",
@@ -2085,12 +2106,12 @@
       "5x Workshop 2x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/b/bb/Hornet_Driver.png",
+    "localImage": "Hornet_Driver.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.75.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Hornet_Driver.png"
+    "stackSize": "3"
   },
   {
     "name": "Household Cleaner",
@@ -2106,12 +2127,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/36/Household_Cleaner.png",
+    "localImage": "Household_Cleaner.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Household_Cleaner.png"
+    "stackSize": "5"
   },
   {
     "name": "Humidifier",
@@ -2133,12 +2154,12 @@
       "5x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/4/4b/Humidifier.png",
+    "localImage": "Humidifier.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Humidifier.png"
+    "stackSize": "3"
   },
   {
     "name": "Ice Cream Scooper",
@@ -2154,12 +2175,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c9/Ice_Cream_Scooper.png",
+    "localImage": "Ice_Cream_Scooper.png",
     "canBeFoundIn": [
       "Commercial"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Ice_Cream_Scooper.png"
+    "stackSize": "3"
   },
   {
     "name": "Impure ARC Coolant",
@@ -2175,12 +2196,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a0/Impure_ARC_Coolant.png",
+    "localImage": "Impure_ARC_Coolant.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Impure_ARC_Coolant.png"
+    "stackSize": "3"
   },
   {
     "name": "Industrial Battery",
@@ -2202,12 +2223,12 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/c/c9/Industrial_Battery.png",
+    "localImage": "Industrial_Battery.png",
     "canBeFoundIn": [
       "Industrial"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Industrial_Battery.png"
+    "stackSize": "3"
   },
   {
     "name": "Industrial Charger",
@@ -2227,12 +2248,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/66/Industrial_Charger.png",
+    "localImage": "Industrial_Charger.png",
     "canBeFoundIn": [
       "Industrial"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Industrial_Charger.png"
+    "stackSize": "3"
   },
   {
     "name": "Industrial Magnet",
@@ -2252,12 +2273,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/38/Industrial_Magnet.png",
+    "localImage": "Industrial_Magnet.png",
     "canBeFoundIn": [
       "Industrial"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Industrial_Magnet.png"
+    "stackSize": "3"
   },
   {
     "name": "Ion Sputter",
@@ -2277,12 +2298,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/e7/Ion_Sputter.png",
+    "localImage": "Ion_Sputter.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Ion_Sputter.png"
+    "stackSize": "3"
   },
   {
     "name": "Laboratory Reagents",
@@ -2304,12 +2325,12 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/e/e5/Laboratory_Reagents.png",
+    "localImage": "Laboratory_Reagents.png",
     "canBeFoundIn": [
       "Medical"
     ],
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Laboratory_Reagents.png"
+    "stackSize": "3"
   },
   {
     "name": "Lance's Mixtape (5th Edition)",
@@ -2325,13 +2346,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/15/Lance%27s_Mixtape_%285th_Edition%29.png",
+    "localImage": "Lance's_Mixtape_(5th_Edition).png",
     "canBeFoundIn": [
       "Residential",
       "Commercial"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Lance's_Mixtape_(5th_Edition).png"
+    "stackSize": "3"
   },
   {
     "name": "Lemon",
@@ -2349,12 +2370,12 @@
       "3x Scrappy"
     ],
     "image": "https://arcraiders.wiki/w/images/3/35/Lemon.png",
+    "localImage": "Lemon.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Lemon.png"
+    "stackSize": "10"
   },
   {
     "name": "Leaper Pulse Unit",
@@ -2377,12 +2398,12 @@
       "4x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/a/a0/Leaper_Pulse_Unit.png",
+    "localImage": "Leaper_Pulse_Unit.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Leaper_Pulse_Unit.png"
+    "stackSize": "3"
   },
   {
     "name": "Light Bulb",
@@ -2400,18 +2421,18 @@
       "5x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/2/2c/Light_Bulb.png",
+    "localImage": "Light_Bulb.png",
     "canBeFoundIn": [
       "Electrical"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Light_Bulb.png"
+    "stackSize": "3"
   },
   {
     "name": "Light Gun Parts",
     "rarity": "Rare",
     "value": 700,
-    "description": "",
+    "description": "Assorted spare parts used for pistols and SMGs.",
     "parts": [
       {
         "quantity": 2,
@@ -2421,13 +2442,13 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c9/Light_Gun_Parts.png",
+    "localImage": "Light_Gun_Parts.png",
     "canBeFoundIn": [
       "Security",
       "Raider"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Light_Gun_Parts.png"
+    "stackSize": "5"
   },
   {
     "name": "Magnet",
@@ -2441,14 +2462,18 @@
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [],
+    "keepForQuestsWorkshop": [
+      "1x Snap Blast Grenade",
+      "5x Venator",
+      "3x Looting Mk. 2"
+    ],
     "image": "https://arcraiders.wiki/w/images/8/8c/Magnet.png",
+    "localImage": "Magnet.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Magnet.png"
+    "stackSize": "15"
   },
   {
     "name": "Magnetic Accelerator",
@@ -2470,12 +2495,12 @@
       "3x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/5/5e/Magnetic_Accelerator.png",
+    "localImage": "Magnetic_Accelerator.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Magnetic_Accelerator.png"
+    "stackSize": "3"
   },
   {
     "name": "Magnetron",
@@ -2493,12 +2518,12 @@
       "1x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/a/a2/Magnetron.png",
+    "localImage": "Magnetron.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Magnetron.png"
+    "stackSize": "3"
   },
   {
     "name": "Matriarch Reactor",
@@ -2518,12 +2543,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/24/Matriarch_Reactor.png",
+    "localImage": "Matriarch_Reactor.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "10.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Matriarch_Reactor.png"
+    "stackSize": "1"
   },
   {
     "name": "Mechanical Components",
@@ -2545,12 +2570,12 @@
       "5x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/9/94/Mechanical_Components.png",
+    "localImage": "Mechanical_Components.png",
     "canBeFoundIn": [
       "Mechanical"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Mechanical_Components.png"
+    "stackSize": "10"
   },
   {
     "name": "Medium Gun Parts",
@@ -2566,13 +2591,13 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/9a/Medium_Gun_Parts.png",
+    "localImage": "Medium_Gun_Parts.png",
     "canBeFoundIn": [
       "Raider",
       "Security"
     ],
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Medium_Gun_Parts.png"
+    "stackSize": "5"
   },
   {
     "name": "Metal Brackets",
@@ -2588,13 +2613,13 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/62/Metal_Brackets.png",
+    "localImage": "Metal_Brackets.png",
     "canBeFoundIn": [
       "Mechanical",
       "Electrical"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Metal_Brackets.png"
+    "stackSize": "5"
   },
   {
     "name": "Metal Parts",
@@ -2613,6 +2638,7 @@
       "150x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/8/89/Metal_Parts.png",
+    "localImage": "Metal_Parts.png",
     "canBeFoundIn": [
       "Mechanical",
       "Industrial",
@@ -2620,8 +2646,7 @@
       "Technological"
     ],
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "50",
-    "localImage": "Metal_Parts.png"
+    "stackSize": "50"
   },
   {
     "name": "Microscope",
@@ -2641,12 +2666,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/2c/Microscope.png",
+    "localImage": "Microscope.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Microscope.png"
+    "stackSize": "3"
   },
   {
     "name": "Mini Centrifuge",
@@ -2666,12 +2691,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/9f/Mini_Centrifuge.png",
+    "localImage": "Mini_Centrifuge.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "3.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Mini_Centrifuge.png"
+    "stackSize": "3"
   },
   {
     "name": "Mod Components",
@@ -2691,12 +2716,12 @@
     "category": "Advanced Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0f/Mod_Components.png",
+    "localImage": "Mod_Components.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Mod_Components.png"
+    "stackSize": "5"
   },
   {
     "name": "Moss",
@@ -2712,12 +2737,12 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/64/Moss.png",
+    "localImage": "Moss.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Moss.png"
+    "stackSize": "10"
   },
   {
     "name": "Motor",
@@ -2739,12 +2764,12 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/0/0f/Motor.png",
+    "localImage": "Motor.png",
     "canBeFoundIn": [
       "Mechanical"
     ],
     "weight": "3.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Motor.png"
+    "stackSize": "3"
   },
   {
     "name": "Mushroom",
@@ -2762,12 +2787,12 @@
       "12x Scrappy"
     ],
     "image": "https://arcraiders.wiki/w/images/8/8c/Mushroom.png",
+    "localImage": "Mushroom.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Mushroom.png"
+    "stackSize": "10"
   },
   {
     "name": "Music Album",
@@ -2783,13 +2808,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/90/Music_Album.png",
+    "localImage": "Music_Album.png",
     "canBeFoundIn": [
       "Residential",
       "Commercial"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Music_Album.png"
+    "stackSize": "3"
   },
   {
     "name": "Music Box",
@@ -2805,14 +2830,14 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/74/Music_Box.png",
+    "localImage": "Music_Box.png",
     "canBeFoundIn": [
       "Old World",
       "Commercial",
       "Residential"
     ],
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Music_Box.png"
+    "stackSize": "3"
   },
   {
     "name": "Number Plate",
@@ -2828,12 +2853,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/51/Number_Plate.png",
+    "localImage": "Number_Plate.png",
     "canBeFoundIn": [
       "Mechanical"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Number_Plate.png"
+    "stackSize": "3"
   },
   {
     "name": "Oil",
@@ -2849,12 +2874,12 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/06/Oil.png",
+    "localImage": "Oil.png",
     "canBeFoundIn": [
       "Mechanical"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Oil.png"
+    "stackSize": "15"
   },
   {
     "name": "Olives",
@@ -2872,12 +2897,12 @@
       "6x Scrappy"
     ],
     "image": "https://arcraiders.wiki/w/images/f/f3/Olives.png",
+    "localImage": "Olives.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Olives.png"
+    "stackSize": "10"
   },
   {
     "name": "Painted Box",
@@ -2893,12 +2918,12 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/53/Painted_Box.png",
+    "localImage": "Painted_Box.png",
     "canBeFoundIn": [
       "Old World"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Painted_Box.png"
+    "stackSize": "3"
   },
   {
     "name": "Patrol Car Key",
@@ -2914,9 +2939,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/b0/Patrol_Car_Key.png",
+    "localImage": "Patrol_Car_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Patrol_Car_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Plastic Parts",
@@ -2934,14 +2959,14 @@
       "75x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/c/c9/Plastic_Parts.png",
+    "localImage": "Plastic_Parts.png",
     "canBeFoundIn": [
       "Technological",
       "Commercial",
       "Residential"
     ],
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "50",
-    "localImage": "Plastic_Parts.png"
+    "stackSize": "50"
   },
   {
     "name": "Playing Cards",
@@ -2957,13 +2982,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/e2/Playing_Cards.png",
+    "localImage": "Playing_Cards.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Playing_Cards.png"
+    "stackSize": "3"
   },
   {
     "name": "Polluted Air Filter",
@@ -2983,16 +3008,16 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/6e/Polluted_Air_Filter.png",
+    "localImage": "Polluted_Air_Filter.png",
     "canBeFoundIn": [
       "Industrial"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Polluted_Air_Filter.png"
+    "stackSize": "3"
   },
   {
     "name": "Pop Trigger",
-    "rarity": "Common",
+    "rarity": "Uncommon",
     "value": 640,
     "description": "Can be recycled into crafting materials.",
     "parts": [
@@ -3010,12 +3035,12 @@
       "5x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/c/c6/Pop_Trigger.png",
+    "localImage": "Pop_Trigger.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Pop_Trigger.png"
+    "stackSize": "3"
   },
   {
     "name": "Portable TV",
@@ -3031,12 +3056,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5f/Portable_TV.png",
+    "localImage": "Portable_TV.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Portable_TV.png"
+    "stackSize": "1"
   },
   {
     "name": "Poster of Natural Wonders",
@@ -3052,13 +3077,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/f2/Poster_of_Natural_Wonders.png",
+    "localImage": "Poster_of_Natural_Wonders.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Poster_of_Natural_Wonders.png"
+    "stackSize": "3"
   },
   {
     "name": "Pottery",
@@ -3074,13 +3099,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c0/Pottery.png",
+    "localImage": "Pottery.png",
     "canBeFoundIn": [
       "Old World",
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Pottery.png"
+    "stackSize": "3"
   },
   {
     "name": "Power Bank",
@@ -3100,14 +3125,14 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/77/Power_Bank.png",
+    "localImage": "Power_Bank.png",
     "canBeFoundIn": [
       "Electrical",
       "Commercial",
       "Residential"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Power_Bank.png"
+    "stackSize": "3"
   },
   {
     "name": "Power Cable",
@@ -3125,14 +3150,14 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/f/f8/Power_Cable.png",
+    "localImage": "Power_Cable.png",
     "canBeFoundIn": [
       "Electrical",
       "Commercial",
       "Residential"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Power_Cable.png"
+    "stackSize": "3"
   },
   {
     "name": "Power Rod",
@@ -3152,12 +3177,12 @@
     "category": "Advanced Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/31/Power_Rod.png",
+    "localImage": "Power_Rod.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Power_Rod.png"
+    "stackSize": "3"
   },
   {
     "name": "Prickly Pear",
@@ -3175,12 +3200,12 @@
       "6x Scrappy"
     ],
     "image": "https://arcraiders.wiki/w/images/8/80/Prickly_Pear.png",
+    "localImage": "Prickly_Pear.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Prickly_Pear.png"
+    "stackSize": "10"
   },
   {
     "name": "Processor",
@@ -3190,18 +3215,22 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Wires 1x Plastic Parts"
+        "name": "Wires"
+      },
+      {
+        "quantity": 1,
+        "name": "Plastic Parts"
       }
     ],
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4e/Processor.png",
+    "localImage": "Processor.png",
     "canBeFoundIn": [
       "Technological"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Processor.png"
+    "stackSize": "5"
   },
   {
     "name": "Projector",
@@ -3211,18 +3240,22 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Processor 2x Wires"
+        "name": "Processor"
+      },
+      {
+        "quantity": 2,
+        "name": "Wires"
       }
     ],
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/04/Projector.png",
+    "localImage": "Projector.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Projector.png"
+    "stackSize": "3"
   },
   {
     "name": "Queen Reactor",
@@ -3242,12 +3275,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/6b/Queen_Reactor.png",
+    "localImage": "Queen_Reactor.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "10.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Queen_Reactor.png"
+    "stackSize": "1"
   },
   {
     "name": "Radio",
@@ -3267,13 +3300,13 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/31/Radio.png",
+    "localImage": "Radio.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Radio.png"
+    "stackSize": "3"
   },
   {
     "name": "Radio Relay",
@@ -3289,12 +3322,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/b6/Radio_Relay.png",
+    "localImage": "Radio_Relay.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Radio_Relay.png"
+    "stackSize": "3"
   },
   {
     "name": "Raider Hatch Key",
@@ -3310,9 +3343,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/68/Raider_Hatch_Key.png",
+    "localImage": "Raider_Hatch_Key.png",
     "weight": "0.01.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Raider_Hatch_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Red Coral Jewelry",
@@ -3328,14 +3361,14 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1a/Red_Coral_Jewelry.png",
+    "localImage": "Red_Coral_Jewelry.png",
     "canBeFoundIn": [
       "Old World",
       "Commercial",
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Red_Coral_Jewelry.png"
+    "stackSize": "3"
   },
   {
     "name": "Remote Control",
@@ -3355,12 +3388,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/f4/Remote_Control.png",
+    "localImage": "Remote_Control.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Remote_Control.png"
+    "stackSize": "3"
   },
   {
     "name": "Resin",
@@ -3376,12 +3409,12 @@
     "category": "Nature",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/2c/Resin.png",
+    "localImage": "Resin.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Resin.png"
+    "stackSize": "10"
   },
   {
     "name": "Ripped Safety Vest",
@@ -3401,12 +3434,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a8/Ripped_Safety_Vest.png",
+    "localImage": "Ripped_Safety_Vest.png",
     "canBeFoundIn": [
       "Industrial"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Ripped_Safety_Vest.png"
+    "stackSize": "3"
   },
   {
     "name": "Rocket Thruster",
@@ -3426,12 +3459,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/8a/Rocket_Thruster.png",
+    "localImage": "Rocket_Thruster.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "3.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Rocket_Thruster.png"
+    "stackSize": "3"
   },
   {
     "name": "Rocketeer Driver",
@@ -3453,12 +3486,12 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/e/ef/Rocketeer_Driver.png",
+    "localImage": "Rocketeer_Driver.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Rocketeer_Driver.png"
+    "stackSize": "3"
   },
   {
     "name": "Roots",
@@ -3474,12 +3507,12 @@
     "category": "Nature",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/57/Roots.png",
+    "localImage": "Roots.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Roots.png"
+    "stackSize": "10"
   },
   {
     "name": "Rope",
@@ -3495,13 +3528,13 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/b4/Rope.png",
+    "localImage": "Rope.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Rope.png"
+    "stackSize": "5"
   },
   {
     "name": "Rosary",
@@ -3517,13 +3550,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/77/Rosary.png",
+    "localImage": "Rosary.png",
     "canBeFoundIn": [
       "Old World",
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Rosary.png"
+    "stackSize": "3"
   },
   {
     "name": "Rotary Encoder",
@@ -3543,12 +3576,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/e4/Rotary_Encoder.png",
+    "localImage": "Rotary_Encoder.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Rotary_Encoder.png"
+    "stackSize": "3"
   },
   {
     "name": "Rubber Duck",
@@ -3564,9 +3597,9 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/df/Rubber_Duck.png",
+    "localImage": "Rubber_Duck.png",
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Rubber_Duck.png"
+    "stackSize": "15"
   },
   {
     "name": "Rubber Pad",
@@ -3582,12 +3615,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1a/Rubber_Pad.png",
+    "localImage": "Rubber_Pad.png",
     "canBeFoundIn": [
       "Electrical"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Rubber_Pad.png"
+    "stackSize": "3"
   },
   {
     "name": "Rubber Parts",
@@ -3606,14 +3639,14 @@
       "200x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/9/93/Rubber_Parts.png",
+    "localImage": "Rubber_Parts.png",
     "canBeFoundIn": [
       "Mechanical",
       "Industrial",
       "Electrical"
     ],
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "50",
-    "localImage": "Rubber_Parts.png"
+    "stackSize": "50"
   },
   {
     "name": "Ruined Accordion",
@@ -3633,12 +3666,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a6/Ruined_Accordion.png",
+    "localImage": "Ruined_Accordion.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Ruined_Accordion.png"
+    "stackSize": "3"
   },
   {
     "name": "Ruined Augment",
@@ -3658,9 +3691,9 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/aa/Ruined_Augment.png",
+    "localImage": "Ruined_Augment.png",
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Ruined_Augment.png"
+    "stackSize": "1"
   },
   {
     "name": "Ruined Baton",
@@ -3680,12 +3713,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/ee/Ruined_Baton.png",
+    "localImage": "Ruined_Baton.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Ruined_Baton.png"
+    "stackSize": "3"
   },
   {
     "name": "Ruined Handcuffs",
@@ -3701,12 +3734,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/7c/Ruined_Handcuffs.png",
+    "localImage": "Ruined_Handcuffs.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Ruined_Handcuffs.png"
+    "stackSize": "3"
   },
   {
     "name": "Ruined Parachute",
@@ -3722,12 +3755,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5c/Ruined_Parachute.png",
+    "localImage": "Ruined_Parachute.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Ruined_Parachute.png"
+    "stackSize": "3"
   },
   {
     "name": "Ruined Tactical Vest",
@@ -3747,12 +3780,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c2/Ruined_Tactical_Vest.png",
+    "localImage": "Ruined_Tactical_Vest.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Ruined_Tactical_Vest.png"
+    "stackSize": "3"
   },
   {
     "name": "Ruined Riot Shield",
@@ -3772,12 +3805,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cb/Ruined_Riot_Shield.png",
+    "localImage": "Ruined_Riot_Shield.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Ruined_Riot_Shield.png"
+    "stackSize": "3"
   },
   {
     "name": "Rusted Bolts",
@@ -3793,13 +3826,13 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/bf/Rusted_Bolts.png",
+    "localImage": "Rusted_Bolts.png",
     "canBeFoundIn": [
       "Mechanical",
       "Industrial"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Rusted_Bolts.png"
+    "stackSize": "3"
   },
   {
     "name": "Rusted Gear",
@@ -3821,12 +3854,12 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/c/cf/Rusted_Gear.png",
+    "localImage": "Rusted_Gear.png",
     "canBeFoundIn": [
       "Industrial"
     ],
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Rusted_Gear.png"
+    "stackSize": "3"
   },
   {
     "name": "Rusted Shut Medical Kit",
@@ -3848,12 +3881,12 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/1/1a/Rusted_Shut_Medical_Kit.png",
+    "localImage": "Rusted_Shut_Medical_Kit.png",
     "canBeFoundIn": [
       "Medical"
     ],
     "weight": "3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Rusted_Shut_Medical_Kit.png"
+    "stackSize": "3"
   },
   {
     "name": "Rusted Tools",
@@ -3875,13 +3908,13 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/3/30/Rusted_Tools.png",
+    "localImage": "Rusted_Tools.png",
     "canBeFoundIn": [
       "Mechanical",
       "Industrial"
     ],
     "weight": "2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Rusted_Tools.png"
+    "stackSize": "3"
   },
   {
     "name": "Rusty ARC Steel",
@@ -3897,12 +3930,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/33/Rusty_ARC_Steel.png",
+    "localImage": "Rusty_ARC_Steel.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Rusty_ARC_Steel.png"
+    "stackSize": "3"
   },
   {
     "name": "Sample Cleaner",
@@ -3918,12 +3951,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/d8/Sample_Cleaner.png",
+    "localImage": "Sample_Cleaner.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Sample_Cleaner.png"
+    "stackSize": "3"
   },
   {
     "name": "Sensors",
@@ -3945,13 +3978,13 @@
       "20x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/9/9c/Sensors.png",
+    "localImage": "Sensors.png",
     "canBeFoundIn": [
       "Technological",
       "Security"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Sensors.png"
+    "stackSize": "5"
   },
   {
     "name": "Sentinel Firing Core",
@@ -3973,12 +4006,12 @@
       "4x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/9/91/Sentinel_Firing_Core.png",
+    "localImage": "Sentinel_Firing_Core.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Sentinel_Firing_Core.png"
+    "stackSize": "3"
   },
   {
     "name": "Shredder Gyro",
@@ -3998,12 +4031,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/96/Shredder_Gyro.png",
+    "localImage": "Shredder_Gyro.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Shredder_Gyro.png"
+    "stackSize": "3"
   },
   {
     "name": "Signal Amplifier",
@@ -4023,12 +4056,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/de/Signal_Amplifier.png",
+    "localImage": "Signal_Amplifier.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Signal_Amplifier.png"
+    "stackSize": "3"
   },
   {
     "name": "Silver Teaspoon Set",
@@ -4044,14 +4077,14 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/90/Silver_Teaspoon_Set.png",
+    "localImage": "Silver_Teaspoon_Set.png",
     "canBeFoundIn": [
       "Old World",
       "Commercial",
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Silver_Teaspoon_Set.png"
+    "stackSize": "3"
   },
   {
     "name": "Simple Gun Parts",
@@ -4067,13 +4100,13 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/77/Simple-gun-parts.png",
+    "localImage": "Simple-gun-parts.png",
     "canBeFoundIn": [
       "Raider",
       "Security"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Simple-gun-parts.png"
+    "stackSize": "10"
   },
   {
     "name": "Snitch Scanner",
@@ -4095,12 +4128,12 @@
       "6x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/e/e5/Snitch_Scanner.png",
+    "localImage": "Snitch_Scanner.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.75.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Snitch_Scanner.png"
+    "stackSize": "3"
   },
   {
     "name": "Spaceport Container Storage Key",
@@ -4116,9 +4149,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/98/Spaceport_Key.png",
+    "localImage": "Spaceport_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Spaceport_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Spaceport Control Tower Key",
@@ -4136,9 +4169,9 @@
       "1x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/9/98/Spaceport_Key.png",
+    "localImage": "Spaceport_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Spaceport_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Spaceport Trench Tower Key",
@@ -4156,9 +4189,9 @@
       "1x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/9/98/Spaceport_Key.png",
+    "localImage": "Spaceport_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Spaceport_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Spaceport Warehouse Key",
@@ -4174,9 +4207,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/98/Spaceport_Key.png",
+    "localImage": "Spaceport_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Spaceport_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Speaker Component",
@@ -4196,12 +4229,12 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/ee/Speaker_Component.png",
+    "localImage": "Speaker_Component.png",
     "canBeFoundIn": [
       "Commercial"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Speaker_Component.png"
+    "stackSize": "5"
   },
   {
     "name": "Spectrometer",
@@ -4217,12 +4250,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0e/Spectrometer.png",
+    "localImage": "Spectrometer.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Spectrometer.png"
+    "stackSize": "3"
   },
   {
     "name": "Spectrum Analyzer",
@@ -4242,12 +4275,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0a/Spectrum_Analyzer.png",
+    "localImage": "Spectrum_Analyzer.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Spectrum_Analyzer.png"
+    "stackSize": "3"
   },
   {
     "name": "Spring Cushion",
@@ -4267,13 +4300,13 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/26/Spring_Cushion.png",
+    "localImage": "Spring_Cushion.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "2.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Spring_Cushion.png"
+    "stackSize": "3"
   },
   {
     "name": "Spotter Relay",
@@ -4293,12 +4326,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/58/Spotter_Relay.png",
+    "localImage": "Spotter_Relay.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Spotter_Relay.png"
+    "stackSize": "3"
   },
   {
     "name": "Statuette",
@@ -4314,13 +4347,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/8a/Statuette.png",
+    "localImage": "Statuette.png",
     "canBeFoundIn": [
       "Old World",
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Statuette.png"
+    "stackSize": "3"
   },
   {
     "name": "Steel Spring",
@@ -4338,12 +4371,12 @@
       "15x Expedition"
     ],
     "image": "https://arcraiders.wiki/w/images/d/db/Steel_Spring.png",
+    "localImage": "Steel_Spring.png",
     "canBeFoundIn": [
       "Industrial"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Steel_Spring.png"
+    "stackSize": "15"
   },
   {
     "name": "Stella Montis Archives Key",
@@ -4359,9 +4392,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
+    "localImage": "Stella_Montis_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Stella_Montis_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Stella Montis Assembly Admin Key",
@@ -4377,9 +4410,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
+    "localImage": "Stella_Montis_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Stella_Montis_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Stella Montis Medical Storage Key",
@@ -4395,9 +4428,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
+    "localImage": "Stella_Montis_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Stella_Montis_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Stella Montis Security Checkpoint Key",
@@ -4413,9 +4446,9 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
+    "localImage": "Stella_Montis_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Stella_Montis_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Surveyor Vault",
@@ -4438,12 +4471,12 @@
       "1x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/a/a9/Surveyor_Vault.png",
+    "localImage": "Surveyor_Vault.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Surveyor_Vault.png"
+    "stackSize": "3"
   },
   {
     "name": "Synthesized Fuel",
@@ -4465,12 +4498,12 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/8/8e/Synthesized_Fuel.png",
+    "localImage": "Synthesized_Fuel.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Synthesized_Fuel.png"
+    "stackSize": "5"
   },
   {
     "name": "Syringe",
@@ -4492,12 +4525,12 @@
       "1x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/1/17/Syringe.png",
+    "localImage": "Syringe.png",
     "canBeFoundIn": [
       "Medical"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Syringe.png"
+    "stackSize": "5"
   },
   {
     "name": "Tattered ARC Lining",
@@ -4513,12 +4546,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/35/Tattered_ARC_Lining.png",
+    "localImage": "Tattered_ARC_Lining.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Tattered_ARC_Lining.png"
+    "stackSize": "3"
   },
   {
     "name": "Tattered Clothes",
@@ -4534,12 +4567,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c4/Tattered_Clothes.png",
+    "localImage": "Tattered_Clothes.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Tattered_Clothes.png"
+    "stackSize": "3"
   },
   {
     "name": "Telemetry Transceiver",
@@ -4555,12 +4588,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a8/Telemetry_Transceiver.png",
+    "localImage": "Telemetry_Transceiver.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Telemetry_Transceiver.png"
+    "stackSize": "3"
   },
   {
     "name": "Thermostat",
@@ -4580,12 +4613,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/9a/Thermostat.png",
+    "localImage": "Thermostat.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "2.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Thermostat.png"
+    "stackSize": "3"
   },
   {
     "name": "Tick Pod",
@@ -4607,12 +4640,12 @@
       "8x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/9/95/Tick_Pod.png",
+    "localImage": "Tick_Pod.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Tick_Pod.png"
+    "stackSize": "5"
   },
   {
     "name": "Toaster",
@@ -4634,18 +4667,18 @@
       "3x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/5/50/Toaster.png",
+    "localImage": "Toaster.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "2.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Toaster.png"
+    "stackSize": "3"
   },
   {
     "name": "Torn Book",
     "rarity": "Common",
     "value": 1000,
-    "description": "What pages remain speak of chsoen heores, vampires, and lots of longing glances.",
+    "description": "What pages remain speak of chosen heroes, vampires, and lots of longing glances.",
     "parts": [
       {
         "quantity": 1,
@@ -4655,13 +4688,13 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cc/Torn_Book.png",
+    "localImage": "Torn_Book.png",
     "canBeFoundIn": [
       "Residential",
       "Old World"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Torn_Book.png"
+    "stackSize": "5"
   },
   {
     "name": "Torn Blanket",
@@ -4677,13 +4710,13 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/af/Torn_Blanket.png",
+    "localImage": "Torn_Blanket.png",
     "canBeFoundIn": [
       "Residential",
       "Medical"
     ],
     "weight": "2.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Torn_Blanket.png"
+    "stackSize": "3"
   },
   {
     "name": "Turbo Pump",
@@ -4703,12 +4736,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/f1/Turbo_Pump.png",
+    "localImage": "Turbo_Pump.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "3.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Turbo_Pump.png"
+    "stackSize": "3"
   },
   {
     "name": "Unusable Weapon",
@@ -4728,12 +4761,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/37/Unusable_Weapon.png",
+    "localImage": "Unusable_Weapon.png",
     "canBeFoundIn": [
       "Security"
     ],
     "weight": "3.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Unusable_Weapon.png"
+    "stackSize": "3"
   },
   {
     "name": "Vase",
@@ -4749,14 +4782,14 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/6e/Vase.png",
+    "localImage": "Vase.png",
     "canBeFoundIn": [
       "Old World",
       "Commercial",
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Vase.png"
+    "stackSize": "3"
   },
   {
     "name": "Very Comfortable Pillow",
@@ -4774,13 +4807,13 @@
       "3x Scrappy"
     ],
     "image": "https://arcraiders.wiki/w/images/a/a4/Very_Comfortable_Pillow.png",
+    "localImage": "Very_Comfortable_Pillow.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Very_Comfortable_Pillow.png"
+    "stackSize": "3"
   },
   {
     "name": "Volcanic Rock",
@@ -4796,12 +4829,12 @@
     "category": "Misc",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/26/Volcanic_Rock.png",
+    "localImage": "Volcanic_Rock.png",
     "canBeFoundIn": [
       "Nature"
     ],
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Volcanic_Rock.png"
+    "stackSize": "5"
   },
   {
     "name": "Voltage Converter",
@@ -4821,12 +4854,12 @@
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/9a/Voltage-converter.png",
+    "localImage": "Voltage-converter.png",
     "canBeFoundIn": [
       "Technological"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Voltage-converter.png"
+    "stackSize": "5"
   },
   {
     "name": "Wasp Driver",
@@ -4848,12 +4881,12 @@
       "8x Workshop"
     ],
     "image": "https://arcraiders.wiki/w/images/3/30/Wasp_Driver.png",
+    "localImage": "Wasp_Driver.png",
     "canBeFoundIn": [
       "ARC"
     ],
     "weight": "0.6.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Wasp_Driver.png"
+    "stackSize": "3"
   },
   {
     "name": "Water Filter",
@@ -4873,12 +4906,12 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/48/Water_Filter.png",
+    "localImage": "Water_Filter.png",
     "canBeFoundIn": [
       "Industrial"
     ],
     "weight": "2.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Water_Filter.png"
+    "stackSize": "3"
   },
   {
     "name": "Water Pump",
@@ -4900,13 +4933,13 @@
       "1x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/2/28/Water_Pump.png",
+    "localImage": "Water_Pump.png",
     "canBeFoundIn": [
       "Mechanical",
       "Industrial"
     ],
     "weight": "2.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Water_Pump.png"
+    "stackSize": "3"
   },
   {
     "name": "Wires",
@@ -4924,13 +4957,13 @@
       "30x Expedition 3x Quest"
     ],
     "image": "https://arcraiders.wiki/w/images/3/39/Wires.png",
+    "localImage": "Wires.png",
     "canBeFoundIn": [
       "Electrical",
       "Technological"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Wires.png"
+    "stackSize": "15"
   },
   {
     "name": "Smoke Grenade",
@@ -4949,9 +4982,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/d/d5/Smoke_Grenade.png",
+    "localImage": "Smoke_Grenade.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Smoke_Grenade.png"
+    "stackSize": "5"
   },
   {
     "name": "Remote Raider Flare",
@@ -4970,9 +5003,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/f/ff/Remote_Raider_Flare.png",
+    "localImage": "Remote_Raider_Flare.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Remote_Raider_Flare.png"
+    "stackSize": "3"
   },
   {
     "name": "Binoculars",
@@ -4991,9 +5024,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/7/74/Binoculars.png",
+    "localImage": "Binoculars.png",
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Binoculars.png"
+    "stackSize": "1"
   },
   {
     "name": "Zipline",
@@ -5012,9 +5045,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/f/f9/Zipline.png",
+    "localImage": "Zipline.png",
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Zipline.png"
+    "stackSize": "3"
   },
   {
     "name": "Sterilized Bandage",
@@ -5033,9 +5066,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/9/99/Sterilized_Bandage.png",
+    "localImage": "Sterilized_Bandage.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Sterilized_Bandage.png"
+    "stackSize": "3"
   },
   {
     "name": "Shield Recharger",
@@ -5050,9 +5083,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/4/44/Shield_Recharger.png",
+    "localImage": "Shield_Recharger.png",
     "weight": "0.15.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Shield_Recharger.png"
+    "stackSize": "5"
   },
   {
     "name": "Vita Spray",
@@ -5071,9 +5104,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/1/1d/Vita_Spray.png",
+    "localImage": "Vita_Spray.png",
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Vita_Spray.png"
+    "stackSize": "1"
   },
   {
     "name": "Showstopper",
@@ -5092,9 +5125,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/1/18/Showstopper.png",
+    "localImage": "Showstopper.png",
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Showstopper.png"
+    "stackSize": "5"
   },
   {
     "name": "Wolfpack",
@@ -5113,9 +5146,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/2/24/Wolfpack.png",
+    "localImage": "Wolfpack.png",
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Wolfpack.png"
+    "stackSize": "1"
   },
   {
     "name": "Buried City Residential Master Key",
@@ -5124,9 +5157,9 @@
     "category": "Key",
     "value": 100,
     "image": "https://arcraiders.wiki/w/images/1/11/Buried_City_Key.png",
+    "localImage": "Buried_City_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Buried_City_Key.png"
+    "stackSize": "1"
   },
   {
     "name": "Lure Grenade",
@@ -5141,9 +5174,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/7/77/Lure_Grenade.png",
+    "localImage": "Lure_Grenade.png",
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Lure_Grenade.png"
+    "stackSize": "3"
   },
   {
     "name": "Adrenaline Shot",
@@ -5162,9 +5195,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/1/1b/Adrenaline_Shot.png",
+    "localImage": "Adrenaline_Shot.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Adrenaline_Shot.png"
+    "stackSize": "5"
   },
   {
     "name": "Vita Shot",
@@ -5183,9 +5216,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/7/7d/Vita_Shot.png",
+    "localImage": "Vita_Shot.png",
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Vita_Shot.png"
+    "stackSize": "3"
   },
   {
     "name": "Herbal Bandage",
@@ -5204,13 +5237,13 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/c/c5/Herbal_Bandage.png",
+    "localImage": "Herbal_Bandage.png",
     "weight": "0.15.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Herbal_Bandage.png"
+    "stackSize": "5"
   },
   {
     "name": "Defibrillator",
-    "description": "An injection that quickly revived downed raiders and restores some health.",
+    "description": "An injection that quickly revives downed raiders and restores some health.",
     "rarity": "Rare",
     "category": "Quick Use",
     "value": 1000,
@@ -5225,9 +5258,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/5/5f/Defibrillator.png",
+    "localImage": "Defibrillator.png",
     "weight": "0.75.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Defibrillator.png"
+    "stackSize": "3"
   },
   {
     "name": "Photoelectric Cloak",
@@ -5246,9 +5279,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/0/06/Photoelectric_Cloak.png",
+    "localImage": "Photoelectric_Cloak.png",
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Photoelectric_Cloak.png"
+    "stackSize": "1"
   },
   {
     "name": "Barricade Kit",
@@ -5263,9 +5296,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/c/cb/Barricade_Kit.png",
+    "localImage": "Barricade_Kit.png",
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Barricade_Kit.png"
+    "stackSize": "3"
   },
   {
     "name": "Blaze Grenade",
@@ -5284,9 +5317,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/2/24/Blaze_Grenade.png",
+    "localImage": "Blaze_Grenade.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Blaze_Grenade.png"
+    "stackSize": "5"
   },
   {
     "name": "Gas Grenade",
@@ -5305,9 +5338,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/f/fe/Gas_Grenade.png",
+    "localImage": "Gas_Grenade.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Gas_Grenade.png"
+    "stackSize": "3"
   },
   {
     "name": "Light Impact Grenade",
@@ -5326,9 +5359,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/4/4c/Light_Impact_Grenade.png",
+    "localImage": "Light_Impact_Grenade.png",
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Light_Impact_Grenade.png"
+    "stackSize": "5"
   },
   {
     "name": "Snap Blast Grenade",
@@ -5347,9 +5380,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/7/77/Snap_Blast_Grenade.png",
+    "localImage": "Snap_Blast_Grenade.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Snap_Blast_Grenade.png"
+    "stackSize": "3"
   },
   {
     "name": "Tagging Grenade",
@@ -5368,20 +5401,20 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/e/e5/Tagging_Grenade.png",
+    "localImage": "Tagging_Grenade.png",
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Tagging_Grenade.png"
+    "stackSize": "3"
   },
   {
     "name": "Lure Grenade Trap",
-    "description": "A laser trip wire that detonates a Lure Grenade",
+    "description": "A laser trip wire that detonates a Lure Grenade.",
     "rarity": "Common",
     "category": "Quick Use",
     "value": 1000,
     "image": "https://arcraiders.wiki/w/images/9/92/Lure_Grenade_Trap.png",
+    "localImage": "Lure_Grenade_Trap.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Lure_Grenade_Trap.png"
+    "stackSize": "3"
   },
   {
     "name": "Explosive Mine",
@@ -5400,9 +5433,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/2/22/Explosive_Mine.png",
+    "localImage": "Explosive_Mine.png",
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Explosive_Mine.png"
+    "stackSize": "3"
   },
   {
     "name": "Bandage",
@@ -5417,9 +5450,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/0/0c/Bandage.png",
+    "localImage": "Bandage.png",
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Bandage.png"
+    "stackSize": "5"
   },
   {
     "name": "Agave Juice",
@@ -5434,9 +5467,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/a/a8/Agave_Juice.png",
+    "localImage": "Agave_Juice.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Agave_Juice.png"
+    "stackSize": "5"
   },
   {
     "name": "Heavy Fuze Grenade",
@@ -5455,9 +5488,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/e/ea/Heavy_Fuze_Grenade.png",
+    "localImage": "Heavy_Fuze_Grenade.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Heavy_Fuze_Grenade.png"
+    "stackSize": "3"
   },
   {
     "name": "Trigger 'Nade",
@@ -5476,9 +5509,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/0/09/Trigger_Nade.png",
+    "localImage": "Trigger_Nade.png",
     "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Trigger_Nade.png"
+    "stackSize": "3"
   },
   {
     "name": "Jolt Mine",
@@ -5497,9 +5530,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/5/5a/Jolt_Mine.png",
+    "localImage": "Jolt_Mine.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Jolt_Mine.png"
+    "stackSize": "3"
   },
   {
     "name": "Door Blocker",
@@ -5514,9 +5547,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/6/68/Door_Blocker.png",
+    "localImage": "Door_Blocker.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Door_Blocker.png"
+    "stackSize": "3"
   },
   {
     "name": "Fruit Mix",
@@ -5525,9 +5558,9 @@
     "category": "Quick Use",
     "value": 1800,
     "image": "https://arcraiders.wiki/w/images/5/5a/Fruit_Mix.png",
+    "localImage": "Fruit_Mix.png",
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Fruit_Mix.png"
+    "stackSize": "5"
   },
   {
     "name": "Snap Hook",
@@ -5546,20 +5579,20 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/5/56/Snap_Hook.png",
+    "localImage": "Snap_Hook.png",
     "weight": "5.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Snap_Hook.png"
+    "stackSize": "1"
   },
   {
     "name": "Smoke Grenade Trap",
-    "description": "A laser trip write that detonates a Smoke Grenade.",
+    "description": "A laser trip wire that detonates a Smoke Grenade.",
     "rarity": "Rare",
     "category": "Quick Use",
     "value": 640,
     "image": "https://arcraiders.wiki/w/images/a/ac/Smoke_Grenade_Trap.png",
+    "localImage": "Smoke_Grenade_Trap.png",
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Smoke_Grenade_Trap.png"
+    "stackSize": "3"
   },
   {
     "name": "Light Stick",
@@ -5574,9 +5607,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/c/cc/Blue_Light_Stick.png",
+    "localImage": "Blue_Light_Stick.png",
     "weight": "0.15.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Blue_Light_Stick.png"
+    "stackSize": "5"
   },
   {
     "name": "Surge Shield Recharger",
@@ -5591,13 +5624,13 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/c/c9/Surge_Shield_Recharger.png",
+    "localImage": "Surge_Shield_Recharger.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Surge_Shield_Recharger.png"
+    "stackSize": "5"
   },
   {
     "name": "Li'l Smoke Grenade",
-    "description": "A Grenade that pops into a thick but small smoke cloud on impact, blocking visibility from ARC and other Raiders.",
+    "description": "A grenade that pops a thick but small smoke cloud on impact, blocking visibility from ARC and other Raiders.",
     "rarity": "Common",
     "category": "Quick Use",
     "value": 300,
@@ -5612,9 +5645,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/1/19/Lil_Smoke_Grenade.png",
+    "localImage": "Lil_Smoke_Grenade.png",
     "weight": "0.15.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Lil_Smoke_Grenade.png"
+    "stackSize": "5"
   },
   {
     "name": "Shrapnel Grenade",
@@ -5633,9 +5666,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/5/5f/Shrapnel_Grenade.png",
+    "localImage": "Shrapnel_Grenade.png",
     "weight": "0.15.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Shrapnel_Grenade.png"
+    "stackSize": "5"
   },
   {
     "name": "Flame Spray",
@@ -5654,9 +5687,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/7/73/Flame_Spray.png",
+    "localImage": "Flame_Spray.png",
     "weight": "1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Flame_Spray.png"
+    "stackSize": "1"
   },
   {
     "name": "Noisemaker",
@@ -5671,9 +5704,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/5/5c/Noisemaker.png",
+    "localImage": "Noisemaker.png",
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Noisemaker.png"
+    "stackSize": "3"
   },
   {
     "name": "Recorder",
@@ -5688,23 +5721,23 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/6/6d/Recorder.png",
+    "localImage": "Recorder.png",
     "canBeFoundIn": [
       "Residential"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Recorder.png"
+    "stackSize": "1"
   },
   {
     "name": "Blaze Grenade Trap",
-    "description": "laser trip wire that detonates a Blaze Grenade.",
+    "description": "A laser trip wire that detonates a Blaze Grenade.",
     "rarity": "Rare",
     "category": "Quick Use",
     "value": 1000,
     "image": "https://arcraiders.wiki/w/images/a/af/Blaze_Grenade_Trap.png",
+    "localImage": "Blaze_Grenade_Trap.png",
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Blaze_Grenade_Trap.png"
+    "stackSize": "3"
   },
   {
     "name": "Light Ammo",
@@ -5712,9 +5745,9 @@
     "category": "Ammunition",
     "value": 4,
     "image": "https://arcraiders.wiki/w/images/4/4a/LightAmmo_Box.png",
+    "localImage": "LightAmmo_Box.png",
     "weight": "0.01.mw-parser-output .template-weight{display:flex",
-    "stackSize": "100",
-    "localImage": "LightAmmo_Box.png"
+    "stackSize": "100"
   },
   {
     "name": "Medium Ammo",
@@ -5723,9 +5756,9 @@
     "category": "Ammunition",
     "value": 6,
     "image": "https://arcraiders.wiki/w/images/0/0c/MediumAmmo_Box.png",
+    "localImage": "MediumAmmo_Box.png",
     "weight": "0.025.mw-parser-output .template-weight{display:flex",
-    "stackSize": "80",
-    "localImage": "MediumAmmo_Box.png"
+    "stackSize": "80"
   },
   {
     "name": "Heavy Ammo",
@@ -5733,9 +5766,9 @@
     "category": "Ammunition",
     "value": 12,
     "image": "https://arcraiders.wiki/w/images/4/47/HeavyAmmo_Box.png",
+    "localImage": "HeavyAmmo_Box.png",
     "weight": "0.05.mw-parser-output .template-weight{display:flex",
-    "stackSize": "40",
-    "localImage": "HeavyAmmo_Box.png"
+    "stackSize": "40"
   },
   {
     "name": "Shotgun Ammo",
@@ -5743,9 +5776,9 @@
     "category": "Ammunition",
     "value": 20,
     "image": "https://arcraiders.wiki/w/images/c/c1/ShotgunAmmo_Box.png",
+    "localImage": "ShotgunAmmo_Box.png",
     "weight": "0.085.mw-parser-output .template-weight{display:flex",
-    "stackSize": "20",
-    "localImage": "ShotgunAmmo_Box.png"
+    "stackSize": "20"
   },
   {
     "name": "Launcher Ammo",
@@ -5754,9 +5787,9 @@
     "category": "Ammunition",
     "value": 250,
     "image": "https://arcraiders.wiki/w/images/9/99/Launcher_Ammo.png",
+    "localImage": "Launcher_Ammo.png",
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "24",
-    "localImage": "Launcher_Ammo.png"
+    "stackSize": "24"
   },
   {
     "name": "Energy Clip",
@@ -5765,9 +5798,9 @@
     "category": "Ammunition",
     "value": 1000,
     "image": "https://arcraiders.wiki/w/images/0/08/Energy_Clip.png",
+    "localImage": "Energy_Clip.png",
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Energy_Clip.png"
+    "stackSize": "5"
   },
   {
     "name": "Integrated Shield Recharger",
@@ -5775,9 +5808,9 @@
     "rarity": "Common",
     "category": "Quick Use",
     "image": "https://arcraiders.wiki/w/images/c/c9/Surge_Shield_Recharger.png",
+    "localImage": "Surge_Shield_Recharger.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Surge_Shield_Recharger.png"
+    "stackSize": "1"
   },
   {
     "name": "Integrated Binoculars",
@@ -5785,19 +5818,19 @@
     "rarity": "Common",
     "category": "Quick Use",
     "image": "https://arcraiders.wiki/w/images/7/74/Binoculars.png",
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "localImage": "Binoculars.png"
+    "localImage": "Binoculars.png",
+    "weight": "0.5.mw-parser-output .template-weight{display:flex"
   },
   {
     "name": "Gas Grenade Trap",
-    "description": "A laser trip write that detonates a Gas Grenade.",
+    "description": "A laser trip wire that detonates a Gas Grenade.",
     "rarity": "Common",
     "category": "Quick Use",
     "value": 300,
     "image": "https://arcraiders.wiki/w/images/3/33/Gas_Grenade_Trap.png",
+    "localImage": "Gas_Grenade_Trap.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Gas_Grenade_Trap.png"
+    "stackSize": "3"
   },
   {
     "name": "Deadline",
@@ -5816,9 +5849,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/c/c7/Deadline.png",
+    "localImage": "Deadline.png",
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Deadline.png"
+    "stackSize": "1"
   },
   {
     "name": "Pulse Mine",
@@ -5833,9 +5866,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/a/af/Pulse_Mine.png",
+    "localImage": "Pulse_Mine.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Pulse_Mine.png"
+    "stackSize": "3"
   },
   {
     "name": "Seeker Grenade",
@@ -5850,9 +5883,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/3/35/Seeker_Grenade.png",
+    "localImage": "Seeker_Grenade.png",
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Seeker_Grenade.png"
+    "stackSize": "5"
   },
   {
     "name": "Gas Mine",
@@ -5871,9 +5904,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/c/ce/Gas_Mine.png",
+    "localImage": "Gas_Mine.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Gas_Mine.png"
+    "stackSize": "3"
   },
   {
     "name": "Trailblazer",
@@ -5888,9 +5921,9 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/8/89/Trailblazer.png",
+    "localImage": "Trailblazer.png",
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Trailblazer.png"
+    "stackSize": "3"
   },
   {
     "name": "Flow Controller",
@@ -5909,12 +5942,12 @@
       }
     ],
     "image": "https://arcraiders.wiki/w/images/b/b6/Flow_Controller.png",
+    "localImage": "Flow_Controller.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "1.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Flow_Controller.png"
+    "stackSize": "3"
   },
   {
     "name": "ESR Analyzer",
@@ -5922,21 +5955,170 @@
     "rarity": "Common",
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/5/5e/ESR_Analyzer.png",
+    "localImage": "ESR_Analyzer.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "ESR_Analyzer.png"
+    "stackSize": "1"
   },
   {
-    "name": "Gun Parts",
-    "description": "Pictured item is Simple Gun Parts",
+    "name": "Firecracker",
+    "description": "A device that sparks and pops in a pleasant manner.",
     "rarity": "Common",
-    "category": "Crafting Material",
-    "image": "https://arcraiders.wiki/w/images/7/77/Simple-gun-parts.png",
-    "canBeFoundIn": [
-      "Raider",
-      "Security"
+    "category": "Quick Use",
+    "value": 270,
+    "parts": [
+      {
+        "quantity": 3,
+        "name": "Plastic Parts"
+      }
     ],
-    "weight": "N/A.mw-parser-output .template-weight{display:flex",
-    "localImage": "Simple-gun-parts.png"
+    "image": "https://arcraiders.wiki/w/images/8/86/Firecracker.png",
+    "localImage": "Firecracker.png",
+    "weight": "0.05.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5"
+  },
+  {
+    "name": "Fireworks Box",
+    "description": "A remotely triggered arrangement of dazzling fireworks, sure to put on a show.",
+    "rarity": "Rare",
+    "category": "Quick Use",
+    "value": 2000,
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Explosive Compound"
+      }
+    ],
+    "image": "https://arcraiders.wiki/w/images/0/0f/Fireworks_Box.png",
+    "localImage": "Fireworks_Box.png",
+    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1"
+  },
+  {
+    "name": "Flushing Terminal Key",
+    "description": "A pungent key used to operate the Flushing Terminals in the tunnels below Spaceport.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1"
+  },
+  {
+    "name": "Candleberries",
+    "description": "A waxy berry that grows only during a small window each year. People have depended on them to make candles, foods and medicine for ages.",
+    "rarity": "Rare",
+    "category": "Nature",
+    "value": 460,
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Assorted Seeds"
+      }
+    ],
+    "image": "https://arcraiders.wiki/w/images/9/9e/Candleberries.png",
+    "localImage": "Candleberries.png",
+    "canBeFoundIn": [
+      "Nature"
+    ],
+    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "stackSize": "10"
+  },
+  {
+    "name": "Burnt-Out Candles",
+    "description": "After the grid fell candles became the preferred source of light for many. Unlike electricity, a good old candle will never fail you. Unless it's windy. Or raining. Or...",
+    "rarity": "Common",
+    "category": "Trinket",
+    "value": 640,
+    "canBeFoundIn": [
+      "Residential",
+      "Old World"
+    ],
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "15"
+  },
+  {
+    "name": "Shaker",
+    "description": "A rhythmic instrument used to attract ARC's attention, and impress other Raiders.",
+    "rarity": "Common",
+    "category": "Quick Use",
+    "value": 1000,
+    "parts": [
+      {
+        "quantity": 10,
+        "name": "Plastic Parts"
+      }
+    ],
+    "image": "https://arcraiders.wiki/w/images/3/32/Shaker.webp",
+    "localImage": "Shaker.webp",
+    "canBeFoundIn": [
+      "Residential"
+    ],
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1"
+  },
+  {
+    "name": "Pilgrim's Peak Security Code",
+    "description": "Temporary security code to unlock the main gate.",
+    "rarity": "Common",
+    "category": "Key",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1"
+  },
+  {
+    "name": "Raider's Refuge Security Code",
+    "description": "Temporary security code to unlock the main gate.",
+    "rarity": "Common",
+    "category": "Key",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1"
+  },
+  {
+    "name": "Reinforced Reception Security Code",
+    "description": "Temporary security code to unlock the main gate.",
+    "rarity": "Common",
+    "category": "Key",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1"
+  },
+  {
+    "name": "Ancient Fort Security Code",
+    "description": "Temporary security code to unlock the main gate.",
+    "rarity": "Common",
+    "category": "Key",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1"
+  },
+  {
+    "name": "Snowball",
+    "description": "A compact snowball fashioned out of the most malleable and aerodynamic snow.",
+    "rarity": "Common",
+    "category": "Misc",
+    "value": 10,
+    "image": "https://arcraiders.wiki/w/images/0/04/Snowball.png",
+    "localImage": "Snowball.png",
+    "canBeFoundIn": [
+      "Nature"
+    ],
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5"
+  },
+  {
+    "name": "Acoustic Guitar",
+    "description": "A playable acoustic guitar used to attract ARC's attention, and impress other Raiders.",
+    "rarity": "Legendary",
+    "category": "Quick Use",
+    "value": 7000,
+    "parts": [
+      {
+        "quantity": 4,
+        "name": "Metal Parts"
+      },
+      {
+        "quantity": 6,
+        "name": "Wires"
+      }
+    ],
+    "image": "https://arcraiders.wiki/w/images/thumb/5/50/Acoustic_Guitar.png/1200px-Acoustic_Guitar.png.webp",
+    "localImage": "1200px-Acoustic_Guitar.png.webp",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1"
   }
 ]
