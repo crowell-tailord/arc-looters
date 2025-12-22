@@ -224,6 +224,7 @@ const LootTile = memo(function LootTile({
 			aria-label={`${item.name} details`}
 			style={{ '--bg': palette.background }}
 		>
+			<span class='atc__border atc__border--animated'></span>
 			<button
 				type='button'
 				className={`pinthis ${isPinned ? 'active' : ''}`}

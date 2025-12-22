@@ -282,15 +282,75 @@ p {
 		rgba(10, 12, 18, 0.95)
 	);
 	background: #0c1118;
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	/* border: 1px solid rgba(255, 255, 255, 0.1); */
 	border-radius: 1rem;
-	overflow: hidden;
+	/* overflow: hidden; */
 	cursor: pointer;
 	transition: transform 0.2s ease, border-color 0.2s ease;
 	display: flex;
 	flex-direction: column;
 	color: rgba(245, 245, 245, 1);
 	position: relative;
+	/* arc border effect */
+	/* arc border effect */
+	user-select: none;
+	/* border: 2px solid color-mix(in hsl, canvasText, canvas 90%); */
+	transition-property: translate, scale;
+	transition-duration: 0.16s;
+	transition-timing-function: ease-out;
+}
+
+.atc__border {
+	position: absolute;
+	inset: -2px;
+	container-type: inline-size;
+	border: 3px solid transparent;
+	mask: linear-gradient(#fff 0 0) padding-box,
+		linear-gradient(#fff 0 0) border-box;
+	mask-composite: exclude;
+	border-radius: inherit;
+	z-index: 1;
+}
+
+.tile:hover .atc__border.atc__border--animated::after {
+	content: '';
+	width: calc(200cqi + 4px);
+	height: calc(200cqi + 4px);
+	background: conic-gradient(
+		from 0 in hsl increasing hue,
+		#0000 0 20%,
+		hsl(0 100% 65%) 30%,
+		hsl(339 100% 65%) 70%,
+		#0000 80% 100%
+	);
+	background: conic-gradient(
+		black 0%,
+		purple 10%,
+		black 40%,
+		#ffffff 45%,
+		#00c0ff 50%,
+		purple 55%,
+		black 65%,
+		purple 80%,
+		#00c0ff 90%,
+		#00c0ff 95%,
+		#8d8d8df3 99%,
+		black 100%
+	);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+	z-index: -1;
+	animation: spin 3s infinite linear;
+	transition: all 0.22s ease-out;
+	opacity: 0.6;
+}
+
+@keyframes spin {
+	to {
+		rotate: 360deg;
+	}
 }
 
 .tile:hover {
@@ -310,6 +370,8 @@ p {
 		var(--bg) -30%,
 		rgba(10, 12, 18, 0.55) 80%
 	);
+	border-radius: 1rem 1rem 0 0;
+	overflow: hidden;
 }
 
 .progressive-image__placeholder {
