@@ -121,7 +121,7 @@ export default async function handler(req, res) {
 					},
 					{
 						name: 'Feedback',
-						value: trimmedName,
+						value: trimmedMessage,
 					},
 				],
 			},
