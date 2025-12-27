@@ -2,7 +2,7 @@ import { config as loadEnv } from 'dotenv';
 
 loadEnv();
 
-const slackWebhookUrl = process.env.SLACK_WEBHOOK_URL;
+const webhookUrl = process.env.WEBHOOK_URL;
 const normalizeOrigin = (origin) => origin?.trim().replace(/\/$/, '') || '';
 const defaultOrigins = [
 	'http://localhost:4173',
@@ -74,7 +74,7 @@ export default async function handler(req, res) {
 		return;
 	}
 
-	if (!slackWebhookUrl) {
+	if (!webhookUrl) {
 		res
 			.status(500)
 			.json({ ok: false, error: 'Slack webhook is not configured.' });
@@ -102,48 +102,75 @@ export default async function handler(req, res) {
 	}
 
 	const payload = {
-		text: `New loot correction submitted`,
-		blocks: [
+		embeds: [
 			{
-				type: 'header',
-				text: {
-					type: 'plain_text',
-					text: 'Arc Looter Feedback',
-				},
-			},
-			{
-				type: 'section',
-				text: {
-					type: 'mrkdwn',
-					text: `*Item*: ${trimmedName}`,
-				},
-			},
-			{
-				type: 'section',
-				text: {
-					type: 'mrkdwn',
-					text: `*Feedback:*\n${trimmedMessage}`,
-				},
-				accessory: {
-					type: 'image',
-					image_url: 'https://arclooter.xyz/fav.jpeg',
-					alt_text: 'arc icon',
-				},
-			},
-			{
-				type: 'context',
-				elements: [
+				fields: [
 					{
-						type: 'mrkdwn',
-						text: `Origin: ${origin}`,
+						name: 'New loot correction submitted',
+						value: '',
+						inline: true,
+					},
+					//   {
+					//     "name":"",
+					//     "value":"![](image-url.jpg)",
+					//     "inline":true
+					//   },
+					{
+						name: 'Item',
+						value: trimmedName,
+					},
+					{
+						name: 'Feedback',
+						value: trimmedName,
 					},
 				],
 			},
 		],
 	};
 
+	// const payload = {
+	// 	text: `New loot correction submitted`,
+	// 	blocks: [
+	// 		{
+	// 			type: 'header',
+	// 			text: {
+	// 				type: 'plain_text',
+	// 				text: 'Arc Looter Feedback',
+	// 			},
+	// 		},
+	// 		{
+	// 			type: 'section',
+	// 			text: {
+	// 				type: 'mrkdwn',
+	// 				text: `*Item*: ${trimmedName}`,
+	// 			},
+	// 		},
+	// 		{
+	// 			type: 'section',
+	// 			text: {
+	// 				type: 'mrkdwn',
+	// 				text: `*Feedback:*\n${trimmedMessage}`,
+	// 			},
+	// 			accessory: {
+	// 				type: 'image',
+	// 				image_url: 'https://arclooter.xyz/fav.jpeg',
+	// 				alt_text: 'arc icon',
+	// 			},
+	// 		},
+	// 		{
+	// 			type: 'context',
+	// 			elements: [
+	// 				{
+	// 					type: 'mrkdwn',
+	// 					text: `Origin: ${origin}`,
+	// 				},
+	// 			],
+	// 		},
+	// 	],
+	// };
+
 	try {
-		const response = await fetch(slackWebhookUrl, {
+		const response = await fetch(webhookUrl, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify(payload),
