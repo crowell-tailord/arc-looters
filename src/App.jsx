@@ -482,6 +482,7 @@ export default function App() {
 	const [query, setQuery] = useState('');
 	const [activeRarity, setActiveRarity] = useState('');
 	const [sortBy, setSortBy] = useState('nameAZ');
+	const [gridSize, setGridSize] = useState('normal');
 	const [pinnedNames, setPinnedNames] = useState(() => {
 		if (typeof window === 'undefined') return [];
 		try {
@@ -680,6 +681,74 @@ export default function App() {
 							</div>
 						)}
 					</div>
+					<div className='grid-size-toggle' role='group' aria-label='Grid size'>
+						<button
+							type='button'
+							className={`grid-size-button ${
+								gridSize === 'normal' ? 'active' : ''
+							}`}
+							onClick={() => setGridSize('normal')}
+							aria-pressed={gridSize === 'normal'}
+							aria-label='Normal grid (4 per row)'
+							title='Normal grid'
+						>
+							<svg
+								className='grid-size-icon'
+								viewBox='0 0 24 24'
+								role='img'
+								aria-hidden='true'
+								focusable='false'
+							>
+								{Array.from({ length: 9 }).map((_, index) => {
+									const row = Math.floor(index / 3);
+									const col = index % 3;
+									return (
+										<rect
+											key={`grid-3-${index}`}
+											x={4 + col * 6}
+											y={4 + row * 6}
+											width='3'
+											height='3'
+											rx='0.6'
+										/>
+									);
+								})}
+							</svg>
+						</button>
+						<button
+							type='button'
+							className={`grid-size-button ${
+								gridSize === 'small' ? 'active' : ''
+							}`}
+							onClick={() => setGridSize('small')}
+							aria-pressed={gridSize === 'small'}
+							aria-label='Small grid (8 per row)'
+							title='Small grid'
+						>
+							<svg
+								className='grid-size-icon'
+								viewBox='0 0 26 26'
+								role='img'
+								aria-hidden='true'
+								focusable='false'
+							>
+								{Array.from({ length: 25 }).map((_, index) => {
+									const row = Math.floor(index / 5);
+									const col = index % 5;
+									return (
+										<rect
+											key={`grid-5-${index}`}
+											x={3 + col * 4}
+											y={3 + row * 4}
+											width='2'
+											height='2'
+											rx='0.4'
+										/>
+									);
+								})}
+							</svg>
+						</button>
+					</div>
 				</div>
 				<div className='rarity-filters' aria-label='Filter loot by rarity'>
 					<button
@@ -712,7 +781,7 @@ export default function App() {
 				</div>
 			</section>
 			<main>
-				<div className='grid' aria-live='polite'>
+				<div className={`grid size-${gridSize}`} aria-live='polite'>
 					{visibleLoot.map((item) => (
 						<LootTile
 							key={item.name}
