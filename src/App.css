@@ -322,7 +322,7 @@ p {
 
 @media (min-width: 1200px) {
 	.grid.size-small {
-		grid-template-columns: repeat(8, minmax(0, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 		font-size: 12px;
 	}
 
