@@ -7,5 +7,10 @@
 			"5x Venator",
 			"3x Looting Mk. 2"
 		]
+	},
+	{
+		"name": "Silver Teaspoon Set",
+		"editType": "replace",
+		"rarity": "Rare"
 	}
 ]
