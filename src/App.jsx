@@ -497,6 +497,24 @@ export default function App() {
 	});
 	const [isSortMenuOpen, setIsSortMenuOpen] = useState(false);
 	const sortMenuRef = useRef(null);
+	const adRef = useRef(null);
+
+	useEffect(() => {
+		if (adRef.current) {
+			if (
+				adRef.current.querySelector(
+					'script[src="https://tailord-ads.vercel.app/embed.js"]'
+				)
+			) {
+				return;
+			}
+			const script = document.createElement('script');
+			script.src = 'https://tailord-ads.vercel.app/embed.js';
+			script.async = true;
+			adRef.current.appendChild(script);
+		}
+	}, []);
+
 	const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '').replace(
 		/\/$/,
 		''
@@ -793,6 +811,7 @@ export default function App() {
 					))}
 				</div>
 			</main>
+			<div ref={adRef} className='ad-container' />
 			<footer className='flex flex-col'>
 				<span>Enjoy!</span>
 				<span>
