@@ -643,15 +643,28 @@ export default function App() {
 
 	return (
 		<div className='page'>
-			<a
-				className='coffee-button'
-				href='https://buymeacoffee.com/crowexx'
-				target='_blank'
-				rel='noreferrer'
-				aria-label='Buy me a coffee'
-			>
-				<CoffeeIcon className='coffee-icon' /> buy me coffee
-			</a>
+			<div className='donation-spot'>
+				<a
+					className='coffee-button'
+					href='https://buymeacoffee.com/crowexx'
+					target='_blank'
+					rel='noreferrer'
+					aria-label='Buy me a coffee'
+				>
+					<span>1</span>
+					<div>
+						<CoffeeIcon className='coffee-icon' /> buy me coffee
+					</div>
+				</a>
+				<div className='donation-goal'>
+					$15{' '}
+					<span className='goal-track'>
+						<span className='goal-filled'>───</span>
+						<span className='goal-left'></span>─────────────
+					</span>{' '}
+					$100
+				</div>
+			</div>
 			<header className='hero'>
 				<h1>ARC LOOTER</h1>
 				{/* <LogoWordmark /> */}
