@@ -500,6 +500,7 @@ export default function App() {
 	const adRef = useRef(null);
 
 	useEffect(() => {
+		// tailord
 		if (adRef.current) {
 			if (
 				adRef.current.querySelector(
@@ -512,6 +513,12 @@ export default function App() {
 			script.src = 'https://tailord-ads.vercel.app/embed.js';
 			script.async = true;
 			adRef.current.appendChild(script);
+		}
+		// ezoic
+		if (window.ezstandalone) {
+			window.ezstandalone.cmd.push(function () {
+				window.ezstandalone.showAds(115);
+			});
 		}
 	}, []);
 
@@ -825,6 +832,7 @@ export default function App() {
 				</div>
 			</main>
 			<div ref={adRef} className='ad-container' />
+			<div id='ezoic-pub-ad-placeholder-101'></div>
 			<footer className='flex flex-col'>
 				<span>Enjoy!</span>
 				<span>
