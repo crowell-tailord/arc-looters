@@ -2,6 +2,7 @@ import { memo, useMemo, useState, useCallback, useEffect, useRef } from 'react';
 import lootData from './data/loot.json';
 import packageInfo from '../package.json';
 import './App.css';
+import PrivacyPolicy from './PrivacyPolicy';
 
 const DEFAULT_LOOT_IMAGE = '/assets/loot/loot-placeholder.svg';
 const rarityPalette = {
@@ -483,6 +484,7 @@ export default function App() {
 	const [activeRarity, setActiveRarity] = useState('');
 	const [sortBy, setSortBy] = useState('nameAZ');
 	const [gridSize, setGridSize] = useState('normal');
+	const [view, setView] = useState('catalog');
 	const [pinnedNames, setPinnedNames] = useState(() => {
 		if (typeof window === 'undefined') return [];
 		try {
@@ -498,6 +500,19 @@ export default function App() {
 	const [isSortMenuOpen, setIsSortMenuOpen] = useState(false);
 	const sortMenuRef = useRef(null);
 	const adRef = useRef(null);
+
+	useEffect(() => {
+		const checkHash = () => {
+			if (window.location.hash === '#privacy') {
+				setView('privacy');
+			} else {
+				setView('catalog');
+			}
+		};
+		checkHash();
+		window.addEventListener('hashchange', checkHash);
+		return () => window.removeEventListener('hashchange', checkHash);
+	}, []);
 
 	useEffect(() => {
 		// tailord
@@ -647,6 +662,17 @@ export default function App() {
 			return [...current, item.name];
 		});
 	}, []);
+
+	if (view === 'privacy') {
+		return (
+			<PrivacyPolicy
+				onBack={() => {
+					window.location.hash = '';
+					setView('catalog');
+				}}
+			/>
+		);
+	}
 
 	return (
 		<div className='page'>
@@ -837,7 +863,7 @@ export default function App() {
 				<span>Enjoy!</span>
 				<span>
 					&copy; 2025 <a href='https://www.x.com/iam_cro'>crøwexx</a>. v
-					{packageInfo.version}
+					{packageInfo.version} • <a href='#privacy'>Privacy Policy</a>
 				</span>
 				<a href='https://www.paypal.com/donate/?hosted_button_id=75NRXSYSWHT9N'>
 					Donate to help cover server costs ♥
