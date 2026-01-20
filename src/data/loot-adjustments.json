@@ -12,5 +12,10 @@
 		"name": "Silver Teaspoon Set",
 		"editType": "replace",
 		"rarity": "Rare"
+	},
+	{
+		"name": "Mod Components",
+		"editType": "replace",
+		"rarity": "Rare"
 	}
 ]

@@ -1,5 +1,49 @@
 [
   {
+    "name": "Acoustic Guitar",
+    "rarity": "Legendary",
+    "value": 7000,
+    "description": "A playable acoustic guitar used to attract ARC's attention, and impress other Raiders.",
+    "parts": [
+      {
+        "quantity": 4,
+        "name": "Metal Parts"
+      },
+      {
+        "quantity": 6,
+        "name": "Wires"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/thumb/5/50/Acoustic_Guitar.png/1200px-Acoustic_Guitar.png.webp",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "1200px-Acoustic_Guitar.png.webp"
+  },
+  {
+    "name": "Adrenaline Shot",
+    "rarity": "Common",
+    "value": 300,
+    "description": "A serum that fully restores stamina and temporarily increases stamina regeneration.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      },
+      {
+        "quantity": 1,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1b/Adrenaline_Shot.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Adrenaline_Shot.png"
+  },
+  {
     "name": "Advanced ARC Powercell",
     "rarity": "Rare",
     "value": 640,
@@ -10,7 +54,7 @@
         "name": "ARC Powercell"
       }
     ],
-    "category": "Misc",
+    "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/31/Advanced_ARC_Powercell.png",
     "canBeFoundIn": [
@@ -24,7 +68,7 @@
     "name": "Advanced Electrical Components",
     "rarity": "Rare",
     "value": 1750,
-    "description": "Used to craft utility items and shield mods. Can be recycled into crafting materials.",
+    "description": "Used to craft a wide range of items. Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 1,
@@ -35,16 +79,13 @@
         "name": "Wires"
       }
     ],
-    "category": "Advanced Material",
-    "keepForQuestsWorkshop": [
-      "5x Workshop",
-      "5x Expedition"
-    ],
+    "category": "Refined Material",
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/9b/Advanced_Electrical_Components.png",
     "canBeFoundIn": [
       "Electrical"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "5",
     "localImage": "Advanced_Electrical_Components.png"
   },
@@ -52,7 +93,7 @@
     "name": "Advanced Mechanical Components",
     "rarity": "Rare",
     "value": 1750,
-    "description": "Mostly used to craft advanced weapons. Can be recycled into crafting materials.",
+    "description": "Used to craft advanced weapons. Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 1,
@@ -60,18 +101,16 @@
       },
       {
         "quantity": 1,
-        "name": "Wires"
+        "name": "Steel Spring"
       }
     ],
-    "category": "Advanced Material",
-    "keepForQuestsWorkshop": [
-      "5x Workshop"
-    ],
+    "category": "Refined Material",
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/25/Advanced_Mechanical_Components.png",
     "canBeFoundIn": [
       "Mechanical"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "5",
     "localImage": "Advanced_Mechanical_Components.png"
   },
@@ -95,6 +134,24 @@
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
     "stackSize": "10",
     "localImage": "Agave.png"
+  },
+  {
+    "name": "Agave Juice",
+    "rarity": "Common",
+    "value": 1800,
+    "description": "A concoction that temporarily increases stamina regeneration, at a small initial cost to health.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a8/Agave_Juice.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Agave_Juice.png"
   },
   {
     "name": "Air Freshener",
@@ -143,6 +200,83 @@
     "localImage": "Alarm_Clock.png"
   },
   {
+    "name": "Ancient Fort Security Code",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Temporary security code to unlock the main gate.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Security_Code.png"
+  },
+  {
+    "name": "Angled Grip I",
+    "rarity": "Common",
+    "value": 640,
+    "description": "Slightly reduces horizontal recoil.",
+    "parts": [
+      {
+        "quantity": 6,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/b/b5/Angled_Grip_I.png",
+    "weight": "0.25",
+    "localImage": "Angled_Grip_I.png"
+  },
+  {
+    "name": "Angled Grip II",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Moderately reduces horizontal recoil.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Duct Tape"
+      },
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/2b/Angled_Grip_II.png",
+    "weight": "0.5",
+    "localImage": "Angled_Grip_II.png"
+  },
+  {
+    "name": "Angled Grip III",
+    "rarity": "Rare",
+    "value": 5000,
+    "description": "Significantly reduces horizontal recoil",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Duct Tape"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/0f/Angled_Grip_III.png",
+    "weight": "0.75",
+    "localImage": "Angled_Grip_III.png"
+  },
+  {
     "name": "Antiseptic",
     "rarity": "Rare",
     "value": 1000,
@@ -154,10 +288,7 @@
       }
     ],
     "category": "Refined Material",
-    "keepForQuestsWorkshop": [
-      "8x Workshop",
-      "2x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/f5/Antiseptic.png",
     "canBeFoundIn": [
       "Medical"
@@ -165,6 +296,27 @@
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "5",
     "localImage": "Antiseptic.png"
+  },
+  {
+    "name": "Anvil Splitter",
+    "rarity": "Legendary",
+    "value": 7000,
+    "description": "Tech mod for the Anvil that replaces its bullets with ones that split into 4 weaker projectiles.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/e/ef/Anvil_Splitter.png",
+    "weight": "0.5",
+    "localImage": "Anvil_Splitter.png"
   },
   {
     "name": "Apricot",
@@ -178,9 +330,7 @@
       }
     ],
     "category": "Nature",
-    "keepForQuestsWorkshop": [
-      "15x Scrappy"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/fc/Apricot.png",
     "canBeFoundIn": [
       "Nature"
@@ -193,7 +343,7 @@
     "name": "ARC Alloy",
     "rarity": "Uncommon",
     "value": 200,
-    "description": "Obtained from ARC enemies or activites, or by recycling certain ARC parts. Used to craft components.",
+    "description": "Obtained from ARC enemies or activities, or by recycling certain ARC parts. Used to craft components.",
     "parts": [
       {
         "quantity": 2,
@@ -201,10 +351,7 @@
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "18x Workshop",
-      "80x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a6/ARC_Alloy.png",
     "canBeFoundIn": [
       "ARC"
@@ -225,9 +372,7 @@
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "10x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/dc/ARC_Circuitry.png",
     "canBeFoundIn": [
       "ARC"
@@ -240,7 +385,7 @@
     "name": "ARC Coolant",
     "rarity": "Rare",
     "value": 1000,
-    "description": "Obtained from ARC enemies or activites. Can be recycled into chemicals",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 16,
@@ -253,7 +398,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "ARC_Coolant.png"
   },
@@ -261,7 +406,7 @@
     "name": "ARC Flex Rubber",
     "rarity": "Rare",
     "value": 1000,
-    "description": "Obtained from ARC enemies or activities. Can be recycled into rubber.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 16,
@@ -274,7 +419,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "ARC_Flex_Rubber.png"
   },
@@ -290,9 +435,7 @@
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "5x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/ad/ARC_Motion_Core.png",
     "canBeFoundIn": [
       "ARC"
@@ -318,7 +461,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "ARC_Performance_Steel.png"
   },
@@ -334,9 +477,7 @@
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "5x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/df/ARC_Powercell.png",
     "canBeFoundIn": [
       "ARC"
@@ -349,7 +490,7 @@
     "name": "ARC Synthetic Resin",
     "rarity": "Rare",
     "value": 1000,
-    "description": "Obtained from ARC enemies or activities. Can be recycled into plastic.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 14,
@@ -362,7 +503,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "ARC_Synthetic_Resin.png"
   },
@@ -370,7 +511,7 @@
     "name": "ARC Thermo Lining",
     "rarity": "Rare",
     "value": 1000,
-    "description": "Obtained from ARC enemies and activities. Can be recycled into fabric.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 16,
@@ -399,9 +540,7 @@
       }
     ],
     "category": "Nature",
-    "keepForQuestsWorkshop": [
-      "Currency for Celeste"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/51/Assorted_Seeds.png",
     "canBeFoundIn": [
       "Nature"
@@ -411,6 +550,42 @@
     "localImage": "Assorted_Seeds.png"
   },
   {
+    "name": "Bandage",
+    "rarity": "Common",
+    "value": 250,
+    "description": "A medical item that gradually restores health over time.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Fabric"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/0c/Bandage.png",
+    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Bandage.png"
+  },
+  {
+    "name": "Barricade Kit",
+    "rarity": "Uncommon",
+    "value": 640,
+    "description": "A deployable cover that can block incoming damage until it breaks.",
+    "parts": [
+      {
+        "quantity": 4,
+        "name": "Metal Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/cb/Barricade_Kit.png",
+    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Barricade_Kit.png"
+  },
+  {
     "name": "Bastion Cell",
     "rarity": "Epic",
     "value": 5000,
@@ -418,22 +593,20 @@
     "parts": [
       {
         "quantity": 2,
-        "name": "ARC Motion Core"
+        "name": "Advanced Mechanical Components"
       },
       {
         "quantity": 2,
-        "name": "Advanced Mechanical Components"
+        "name": "ARC Alloy"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "6x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/06/Bastion_Cell.png",
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Bastion_Cell.png"
   },
@@ -449,9 +622,7 @@
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "30x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/6d/Battery.png",
     "canBeFoundIn": [
       "Technological",
@@ -468,12 +639,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 4,
-        "name": "Canister"
-      },
-      {
         "quantity": 10,
         "name": "Metal Parts"
+      },
+      {
+        "quantity": 4,
+        "name": "Canister"
       }
     ],
     "category": "Recyclable",
@@ -485,6 +656,68 @@
     "weight": "3.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Bicycle_Pump.png"
+  },
+  {
+    "name": "Binoculars",
+    "rarity": "Common",
+    "value": 640,
+    "description": "A basic pair of binoculars with two levels of magnification.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Rubber Parts"
+      },
+      {
+        "quantity": 4,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/74/Binoculars.png",
+    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Binoculars.png"
+  },
+  {
+    "name": "Blaze Grenade",
+    "rarity": "Rare",
+    "value": 1600,
+    "description": "A grenade that detonates on impact, covering an area in fire that deals damage over time.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Oil"
+      },
+      {
+        "quantity": 4,
+        "name": "Metal Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/24/Blaze_Grenade.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Blaze_Grenade.png"
+  },
+  {
+    "name": "Blaze Grenade Trap",
+    "rarity": "Rare",
+    "value": 1000,
+    "description": "A laser trip wire that detonates a Blaze Grenade.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/af/Blaze_Grenade_Trap.png",
+    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Blaze_Grenade_Trap.png"
   },
   {
     "name": "Bloated Tuna Can",
@@ -507,6 +740,24 @@
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
     "stackSize": "15",
     "localImage": "Bloated_Tuna_Can.png"
+  },
+  {
+    "name": "Blue Gate Cellar Key",
+    "rarity": "Rare",
+    "value": 100,
+    "description": "Unlocks certain cellar doors near the Blue Gate",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7c/Blue_Gate_Key_Variant_1.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Blue_Gate_Key_Variant_1.png"
   },
   {
     "name": "Blue Gate Communication Tower Key",
@@ -545,24 +796,6 @@
     "localImage": "Blue_Gate_Key_Variant_2.png"
   },
   {
-    "name": "Blue Gate Cellar Key",
-    "rarity": "Rare",
-    "value": 100,
-    "description": "Unlocks certain cellar doors near the Blue Gate",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Key",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/7/7c/Blue_Gate_Key_Variant_1.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Blue_Gate_Key_Variant_1.png"
-  },
-  {
     "name": "Blue Gate Village Key",
     "rarity": "Uncommon",
     "value": 100,
@@ -596,9 +829,7 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "6x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/46/Bombardier_Cell.png",
     "canBeFoundIn": [
       "ARC"
@@ -683,12 +914,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 3,
-        "name": "Sensors"
+        "quantity": 2,
+        "name": "Wires"
       },
       {
         "quantity": 3,
-        "name": "Wires"
+        "name": "Sensors"
       }
     ],
     "category": "Recyclable",
@@ -763,7 +994,7 @@
     "localImage": "Buried_City_Key.png"
   },
   {
-    "name": "Buried City Residential Mastery Key",
+    "name": "Buried City Residential Master Key",
     "rarity": "Uncommon",
     "value": 100,
     "description": "Unlocks certain apartment doors in Buried City",
@@ -820,6 +1051,28 @@
     "localImage": "Burned_ARC_Circuitry.png"
   },
   {
+    "name": "Burnt-Out Candles",
+    "rarity": "Common",
+    "value": 640,
+    "description": "After the grid fell candles became the preferred source of light for many. Unlike electricity, a good old candle will never fail you. Unless it's windy. Or raining. Or...",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/0a/Burnt-Out_Candles.png",
+    "canBeFoundIn": [
+      "Residential",
+      "Old World"
+    ],
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "15",
+    "localImage": "Burnt-Out_Candles.png"
+  },
+  {
     "name": "Camera Lens",
     "rarity": "Uncommon",
     "value": 640,
@@ -862,6 +1115,27 @@
     "localImage": "Candle_Holder.png"
   },
   {
+    "name": "Candleberries",
+    "rarity": "Rare",
+    "value": 460,
+    "description": "A waxy berry that grows only during a small window each year. People have depended on them to make candles, foods and medicine for ages.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Assorted Seeds"
+      }
+    ],
+    "category": "Nature",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/9e/Candleberries.png",
+    "canBeFoundIn": [
+      "Nature"
+    ],
+    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "stackSize": "10",
+    "localImage": "Candleberries.png"
+  },
+  {
     "name": "Canister",
     "rarity": "Uncommon",
     "value": 300,
@@ -894,9 +1168,7 @@
       }
     ],
     "category": "Trinket",
-    "keepForQuestsWorkshop": [
-      "1x Scrappy"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/82/Cat_Bed.png",
     "canBeFoundIn": [
       "Commercial",
@@ -918,9 +1190,7 @@
       }
     ],
     "category": "Basic Material",
-    "keepForQuestsWorkshop": [
-      "50x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/92/Chemicals.png",
     "canBeFoundIn": [
       "Mechanical",
@@ -953,6 +1223,149 @@
     "localImage": "Coffee_Pot.png"
   },
   {
+    "name": "Combat Mk. 1",
+    "rarity": "Uncommon",
+    "value": 640,
+    "description": "Basic combat augment. Supports stronger shields, but with limited backpack capacity and Quick Use slots.",
+    "parts": [
+      {
+        "quantity": 3,
+        "name": "Plastic Parts"
+      },
+      {
+        "quantity": 3,
+        "name": "Rubber Parts"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/14/Combat_Mk._1.png",
+    "weight": "45.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Combat_Mk._1.png"
+  },
+  {
+    "name": "Combat Mk. 2",
+    "rarity": "Rare",
+    "value": 2000,
+    "description": "A Combat augment more focused on maneuverability than absorbing damage.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Magnet"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/54/Combat_Mk._2.png",
+    "weight": "55.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Combat_Mk._2.png"
+  },
+  {
+    "name": "Combat Mk. 3 (Aggressive)",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "An improved version of the Combat II augment. Supports more shield types, and comes with extra space for grenades.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a4/Combat_Mk._3_%28Aggressive%29.png",
+    "weight": "65.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Combat_Mk._3_(Aggressive).png"
+  },
+  {
+    "name": "Combat Mk. 3 (Flanking)",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "A combat augment more focused on maneuverability than absorbing damage.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/73/Combat_Mk._3_%28Flanking%29.png",
+    "weight": "60.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Combat_Mk._3_(Flanking).png"
+  },
+  {
+    "name": "Compensator I",
+    "rarity": "Common",
+    "value": 640,
+    "description": "Slightly reduces per-shot dispersion.",
+    "parts": [
+      {
+        "quantity": 5,
+        "name": "Metal Parts"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/5f/Compensator_I.png",
+    "weight": "0.25",
+    "localImage": "Compensator_I.png"
+  },
+  {
+    "name": "Compensator II",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Moderately reduces per-shot dispersion.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/0a/Compensator_II.png",
+    "weight": "0.5",
+    "localImage": "Compensator_II.png"
+  },
+  {
+    "name": "Compensator III",
+    "rarity": "Rare",
+    "value": 5000,
+    "description": "Significantly reduces per-shot dispersion.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/af/Compensator_III.png",
+    "weight": "0.75",
+    "localImage": "Compensator_III.png"
+  },
+  {
     "name": "Complex Gun Parts",
     "rarity": "Epic",
     "value": 3000,
@@ -980,12 +1393,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 5,
-        "name": "Chemicals"
-      },
-      {
         "quantity": 2,
         "name": "Oil"
+      },
+      {
+        "quantity": 5,
+        "name": "Chemicals"
       }
     ],
     "category": "Recyclable",
@@ -994,7 +1407,7 @@
     "canBeFoundIn": [
       "Mechanical"
     ],
-    "weight": "2.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Coolant.png"
   },
@@ -1005,12 +1418,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 6,
-        "name": "Chemicals"
-      },
-      {
         "quantity": 2,
         "name": "Steel Spring"
+      },
+      {
+        "quantity": 6,
+        "name": "Chemicals"
       }
     ],
     "category": "Recyclable",
@@ -1039,14 +1452,12 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "5x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/13/Cooling_Fan.png",
     "canBeFoundIn": [
       "Technological"
     ],
-    "weight": "3.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Cooling_Fan.png"
   },
@@ -1058,17 +1469,15 @@
     "parts": [
       {
         "quantity": 3,
-        "name": "Rubber Parts"
+        "name": "Battery"
       },
       {
-        "quantity": 5,
-        "name": "Battery"
+        "quantity": 3,
+        "name": "Rubber Parts"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "2x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/9a/Cracked_Bioscanner.png",
     "canBeFoundIn": [
       "Medical"
@@ -1081,7 +1490,7 @@
     "name": "Crude Explosives",
     "rarity": "Uncommon",
     "value": 270,
-    "description": "Used to craft explosives. Can be recycled into crafting materials",
+    "description": "Used to craft explosives. Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 3,
@@ -1089,9 +1498,7 @@
       }
     ],
     "category": "Refined Material",
-    "keepForQuestsWorkshop": [
-      "5x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/fc/Crude_Explosives.png",
     "canBeFoundIn": [
       "Industrial",
@@ -1108,7 +1515,7 @@
     "description": "Can be recycled into plastic parts.",
     "parts": [
       {
-        "quantity": 3,
+        "quantity": 4,
         "name": "Plastic Parts"
       }
     ],
@@ -1144,7 +1551,7 @@
     "name": "Dam Staff Room Key",
     "rarity": "Uncommon",
     "value": 100,
-    "description": "Unlocks a door in the Research and Administration building in The Dam",
+    "description": "Unlocks a door in the Research and Administration building on Dam Battlegrounds.",
     "parts": [
       {
         "quantity": 1,
@@ -1180,7 +1587,7 @@
     "name": "Dam Testing Annex Key",
     "rarity": "Rare",
     "value": 100,
-    "description": "?",
+    "description": "Unlocks a door in the Testing Annex on Dam Battlegrounds.",
     "parts": [
       {
         "quantity": 1,
@@ -1216,7 +1623,7 @@
     "name": "Damaged ARC Motion Core",
     "rarity": "Uncommon",
     "value": 640,
-    "description": "Can be recycled into ARC Alloy.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 2,
@@ -1237,7 +1644,7 @@
     "name": "Damaged ARC Powercell",
     "rarity": "Common",
     "value": 293,
-    "description": "Can be recycled into ARC Alloy.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 1,
@@ -1251,14 +1658,14 @@
       "ARC"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
+    "stackSize": "5",
     "localImage": "Damaged_ARC_Powercell.png"
   },
   {
     "name": "Damaged Fireball Burner",
     "rarity": "Common",
     "value": 270,
-    "description": "Can be recycled into crafting materials",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 1,
@@ -1271,7 +1678,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Damaged_Fireball_Burner.png"
   },
@@ -1279,26 +1686,24 @@
     "name": "Damaged Heat Sink",
     "rarity": "Rare",
     "value": 1000,
-    "description": "Can be recycled into crafting materials",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
-      {
-        "quantity": 6,
-        "name": "Metal Parts"
-      },
       {
         "quantity": 2,
         "name": "Wires"
+      },
+      {
+        "quantity": 6,
+        "name": "Metal Parts"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "2x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1f/Damaged_Heat_Sink.png",
     "canBeFoundIn": [
       "Technological"
     ],
-    "weight": "2.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Damaged_Heat_Sink.png"
   },
@@ -1324,10 +1729,31 @@
     "localImage": "Damaged_Hornet_Driver.png"
   },
   {
+    "name": "Damaged Leaper Pulse Unit",
+    "rarity": "Common",
+    "value": 2000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 3,
+        "name": "ARC Alloy"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/0a/Damaged_Leaper_Pulse_Unit.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Damaged_Leaper_Pulse_Unit.png"
+  },
+  {
     "name": "Damaged Rocketeer Driver",
     "rarity": "Common",
     "value": 2000,
-    "description": "Can be recycled into ARC Alloy.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 3,
@@ -1390,7 +1816,7 @@
     "name": "Damaged Wasp Driver",
     "rarity": "Common",
     "value": 270,
-    "description": "Can be recycled into ARC Alloy.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 1,
@@ -1404,6 +1830,7 @@
       "ARC"
     ],
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
     "localImage": "Damaged_Wasp_Driver.png"
   },
   {
@@ -1429,13 +1856,61 @@
     "localImage": "Dart_Board.png"
   },
   {
+    "name": "Deadline",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "A mine that deals damage to anything within its radius once the timer runs out.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "ARC Circuitry"
+      },
+      {
+        "quantity": 1,
+        "name": "Explosive Compound"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c7/Deadline.png",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Deadline.png"
+  },
+  {
+    "name": "Defibrillator",
+    "rarity": "Rare",
+    "value": 1000,
+    "description": "An injection that quickly revives downed Raiders and restores some health.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Moss"
+      },
+      {
+        "quantity": 1,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/5f/Defibrillator.png",
+    "weight": "0.75.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Defibrillator.png"
+  },
+  {
     "name": "Deflated Football",
     "rarity": "Uncommon",
     "value": 1000,
     "description": "Just by looking at this, you too start to feel slightly deflated.",
     "parts": [
       {
-        "quantity": 15,
+        "quantity": 9,
+        "name": "Fabric"
+      },
+      {
+        "quantity": 9,
         "name": "Rubber Parts"
       }
     ],
@@ -1453,7 +1928,7 @@
     "name": "Degraded ARC Rubber",
     "rarity": "Uncommon",
     "value": 640,
-    "description": "Obtained from ARC enemies or activites. Can be recycled into rubber.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 11,
@@ -1466,7 +1941,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Degraded_ARC_Rubber.png"
   },
@@ -1498,18 +1973,16 @@
     "description": "After all this time, you can still smell the goodness.",
     "parts": [
       {
-        "quantity": 8,
-        "name": "Fabric"
-      },
-      {
         "quantity": 1,
         "name": "Metal Parts"
+      },
+      {
+        "quantity": 8,
+        "name": "Fabric"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "1x Scrappy"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c5/Dog_Collar.png",
     "canBeFoundIn": [
       "Residential"
@@ -1519,10 +1992,28 @@
     "localImage": "Dog_Collar.png"
   },
   {
+    "name": "Door Blocker",
+    "rarity": "Common",
+    "value": 270,
+    "description": "A locking mechanism that can be placed on large metal doors to limit access.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Metal Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/68/Door_Blocker.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Door_Blocker.png"
+  },
+  {
     "name": "Dried-Out ARC Resin",
     "rarity": "Uncommon",
     "value": 640,
-    "description": "Obtained from ARC enemies or Activites. Can be recycled into plastic.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 9,
@@ -1535,7 +2026,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Dried-Out_ARC_Resin.png"
   },
@@ -1573,11 +2064,7 @@
       }
     ],
     "category": "Refined Material",
-    "keepForQuestsWorkshop": [
-      "5x Workshop",
-      "35x Expedition",
-      "1x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/25/Durable_Cloth.png",
     "canBeFoundIn": [
       "Medical",
@@ -1591,7 +2078,7 @@
     "name": "Electrical Components",
     "rarity": "Uncommon",
     "value": 640,
-    "description": "Used to craft components, utility items, shields, and shield mods. Can be recycled into crafting materials.",
+    "description": "Used to craft a wide range of items. Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 3,
@@ -1603,10 +2090,7 @@
       }
     ],
     "category": "Refined Material",
-    "keepForQuestsWorkshop": [
-      "10x Workshop",
-      "30x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/06/Electrical_Components.png",
     "canBeFoundIn": [
       "Electrical"
@@ -1630,12 +2114,48 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/e1/Empty_Wine_Bottle.png",
     "canBeFoundIn": [
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
     "stackSize": "5",
     "localImage": "Empty_Wine_Bottle.png"
+  },
+  {
+    "name": "Energy Clip",
+    "rarity": "Rare",
+    "value": 1000,
+    "description": "Ammo used for energy weapons. One clip will fully charge a single weapon.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Ammunition",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/08/Energy_Clip.png",
+    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Energy_Clip.png"
+  },
+  {
+    "name": "ESR Analyzer",
+    "rarity": "Common",
+    "value": 0,
+    "description": "A specialized medical device Lance needs recovered from a Buried City pharmacy.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/5e/ESR_Analyzer.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "ESR_Analyzer.png"
   },
   {
     "name": "Exodus Modules",
@@ -1648,14 +2168,12 @@
         "name": "Magnet"
       },
       {
-        "quantity": 1,
-        "name": "Mechanical Components"
+        "quantity": 2,
+        "name": "Processor"
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "1x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1b/Exodus_Modules.png",
     "canBeFoundIn": [
       "Exodus"
@@ -1693,12 +2211,12 @@
     "description": "The filters are clogged with sand and noxious fumes. Long past its lifespan.",
     "parts": [
       {
-        "quantity": 8,
-        "name": "Rubber Parts"
-      },
-      {
         "quantity": 4,
         "name": "Fabric"
+      },
+      {
+        "quantity": 8,
+        "name": "Rubber Parts"
       }
     ],
     "category": "Recyclable",
@@ -1723,9 +2241,7 @@
       }
     ],
     "category": "Refined Material",
-    "keepForQuestsWorkshop": [
-      "5x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/11/Explosive_Compound.png",
     "canBeFoundIn": [
       "Industrial",
@@ -1734,6 +2250,226 @@
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
     "stackSize": "5",
     "localImage": "Explosive_Compound.png"
+  },
+  {
+    "name": "Explosive Mine",
+    "rarity": "Rare",
+    "value": 1500,
+    "description": "A proximity-triggered mine that pops up and explodes, dealing damage to anything within its radius.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Sensors"
+      },
+      {
+        "quantity": 2,
+        "name": "Oil"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/22/Explosive_Mine.png",
+    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Explosive_Mine.png"
+  },
+  {
+    "name": "Extended Barrel",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "Moderately increases bullet velocity.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/2f/Extended_Barrel.png",
+    "weight": "0.5",
+    "localImage": "Extended_Barrel.png"
+  },
+  {
+    "name": "Extended Light Mag I",
+    "rarity": "Common",
+    "value": 640,
+    "description": "Slightly extends the ammo capacity of compatible weapons that use light ammo.",
+    "parts": [
+      {
+        "quantity": 6,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/23/Extended_Light_Mag_I.png",
+    "weight": "0.5",
+    "localImage": "Extended_Light_Mag_I.png"
+  },
+  {
+    "name": "Extended Light Mag II",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Moderately extends the ammo capacity of the compatible weapons that use light ammo.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Steel Spring"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/cf/Extended_Light_Mag_II.png",
+    "weight": "0.5",
+    "localImage": "Extended_Light_Mag_II.png"
+  },
+  {
+    "name": "Extended Light Mag III",
+    "rarity": "Rare",
+    "value": 5000,
+    "description": "Significantly extends the ammo capacity of the compatible weapons that use light ammo.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Steel Spring"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/40/Extended_Light_Mag_III.png",
+    "weight": "0.75",
+    "localImage": "Extended_Light_Mag_III.png"
+  },
+  {
+    "name": "Extended Medium Mag I",
+    "rarity": "Common",
+    "value": 640,
+    "description": "Slightly extends the ammo capacity of compatible weapons that use medium ammo.",
+    "parts": [
+      {
+        "quantity": 6,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/44/Extended_Medium_Mag_I.png",
+    "weight": "0.25",
+    "localImage": "Extended_Medium_Mag_I.png"
+  },
+  {
+    "name": "Extended Medium Mag II",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Moderately extends the ammo capacity of compatible weapons that use medium ammo.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Steel Spring"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/50/Extended_Medium_Mag_II.png",
+    "weight": "0.5",
+    "localImage": "Extended_Medium_Mag_II.png"
+  },
+  {
+    "name": "Extended Medium Mag III",
+    "rarity": "Rare",
+    "value": 5000,
+    "description": "Significantly extends the ammo capacity of compatible weapons that use medium ammo.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Steel Spring"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a1/Extended_Medium_Mag_III.png",
+    "weight": "0.75",
+    "localImage": "Extended_Medium_Mag_III.png"
+  },
+  {
+    "name": "Extended Shotgun Mag I",
+    "rarity": "Common",
+    "value": 640,
+    "description": "Slightly extends the ammo capacity of shotguns.",
+    "parts": [
+      {
+        "quantity": 6,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/9b/Extended_Shotgun_Mag_I.png",
+    "weight": "0.25",
+    "localImage": "Extended_Shotgun_Mag_I.png"
+  },
+  {
+    "name": "Extended Shotgun Mag II",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Moderately extends the ammo capacity of compatible weapons that use shotgun ammo.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Steel Spring"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/4f/Extended_Shotgun_Mag_II.png",
+    "weight": "0.5",
+    "localImage": "Extended_Shotgun_Mag_II.png"
+  },
+  {
+    "name": "Extended Shotgun Mag III",
+    "rarity": "Rare",
+    "value": 5000,
+    "description": "Significantly extends the ammo capacity of shotguns.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Steel Spring"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/77/Extended_Shotgun_Mag_III.png",
+    "weight": "0.75",
+    "localImage": "Extended_Shotgun_Mag_III.png"
   },
   {
     "name": "Fabric",
@@ -1747,14 +2483,12 @@
       }
     ],
     "category": "Basic Material",
-    "keepForQuestsWorkshop": [
-      "80x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/2b/Fabric.png",
     "canBeFoundIn": [
       "Commercial",
-      "Residential",
-      "Medical"
+      "Medical",
+      "Residential"
     ],
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
     "stackSize": "50",
@@ -1862,9 +2596,7 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "8x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/8b/Fireball_Burner.png",
     "canBeFoundIn": [
       "ARC"
@@ -1874,6 +2606,64 @@
     "localImage": "Fireball_Burner.png"
   },
   {
+    "name": "Firecracker",
+    "rarity": "Common",
+    "value": 270,
+    "description": "A device that sparks and pops in a pleasant manner.",
+    "parts": [
+      {
+        "quantity": 3,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/86/Firecracker.png",
+    "weight": "0.05.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Firecracker.png"
+  },
+  {
+    "name": "Fireworks Box",
+    "rarity": "Rare",
+    "value": 2000,
+    "description": "A remotely triggered arrangement of dazzling fireworks, sure to put on a show.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Explosive Compound"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/0f/Fireworks_Box.png",
+    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Fireworks_Box.png"
+  },
+  {
+    "name": "Flame Spray",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "A classic makeshift weapon, sure to leave scorch marks.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Canister"
+      },
+      {
+        "quantity": 1,
+        "name": "Fireball Burner"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/73/Flame_Spray.png",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Flame_Spray.png"
+  },
+  {
     "name": "Flow Controller",
     "rarity": "Rare",
     "value": 3000,
@@ -1881,13 +2671,15 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Advanced Mechanical Components 1× Sensors"
+        "name": "Advanced Mechanical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Sensors"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "1x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/b6/Flow_Controller.png",
     "canBeFoundIn": [
       "Exodus"
@@ -1916,6 +2708,23 @@
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
     "stackSize": "1",
     "localImage": "Fossilized_Lightning.png"
+  },
+  {
+    "name": "Free Loadout Augment",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Basic augment for rookie Raiders, offering slightly more backpack space and carry capacity.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/cf/Free_Loadout_Augment.png",
+    "weight": "35.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Free_Loadout_Augment.png"
   },
   {
     "name": "Frequency Modulation Box",
@@ -1949,25 +2758,41 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 5,
-        "name": "Plastic Parts"
+        "quantity": 2,
+        "name": "Electrical Components"
       },
       {
-        "quantity": 1,
-        "name": "Electrical Components"
+        "quantity": 5,
+        "name": "Plastic Parts"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/29/Fried_Motherboard.png",
     "canBeFoundIn": [
       "Technological"
     ],
-    "weight": "3.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Fried_Motherboard.png"
+  },
+  {
+    "name": "Fruit Mix",
+    "rarity": "Uncommon",
+    "value": 1800,
+    "description": "A food item that moderately increases both health and stamina.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/5a/Fruit_Mix.png",
+    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Fruit_Mix.png"
   },
   {
     "name": "Frying Pan",
@@ -2005,12 +2830,74 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/88/Garlic_Press.png",
     "canBeFoundIn": [
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Garlic_Press.png"
+  },
+  {
+    "name": "Gas Grenade",
+    "rarity": "Common",
+    "value": 270,
+    "description": "A grenade that creates a lingering toxic cloud on impact, draining the stamina of any Raiders within its area of effect.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      },
+      {
+        "quantity": 1,
+        "name": "Rubber Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/f/fe/Gas_Grenade.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Gas_Grenade.png"
+  },
+  {
+    "name": "Gas Grenade Trap",
+    "rarity": "Common",
+    "value": 300,
+    "description": "A laser trip wire that detonates a Gas Grenade.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/33/Gas_Grenade_Trap.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Gas_Grenade_Trap.png"
+  },
+  {
+    "name": "Gas Mine",
+    "rarity": "Common",
+    "value": 270,
+    "description": "A proximity-triggered mine that pops up and deploys a gas cloud that rapidly drains stamina.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      },
+      {
+        "quantity": 1,
+        "name": "Rubber Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/ce/Gas_Mine.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Gas_Mine.png"
   },
   {
     "name": "Geiger Counter",
@@ -2019,12 +2906,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 3,
-        "name": "Battery"
-      },
-      {
         "quantity": 1,
         "name": "Exodus Modules"
+      },
+      {
+        "quantity": 3,
+        "name": "Battery"
       }
     ],
     "category": "Recyclable",
@@ -2044,14 +2931,12 @@
     "description": "Used to craft medical supplies.",
     "parts": [
       {
-        "quantity": 4,
+        "quantity": 2,
         "name": "Assorted Seeds"
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "1x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0d/Great_Mullein.png",
     "canBeFoundIn": [
       "Nature"
@@ -2067,30 +2952,70 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 6,
-        "name": "Rubber Parts"
+        "quantity": 1,
+        "name": "Speaker Component"
       },
       {
-        "quantity": 2,
-        "name": "Speaker Component"
+        "quantity": 7,
+        "name": "Rubber Parts"
       }
     ],
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0f/Headphones.png",
     "canBeFoundIn": [
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "2.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Headphones.png"
   },
   {
+    "name": "Heavy Ammo",
+    "rarity": "Common",
+    "value": 12,
+    "description": "",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Ammunition",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/6f/Heavy_Ammo.png",
+    "weight": "0.05.mw-parser-output .template-weight{display:flex",
+    "stackSize": "40",
+    "localImage": "Heavy_Ammo.png"
+  },
+  {
+    "name": "Heavy Fuze Grenade",
+    "rarity": "Rare",
+    "value": 1600,
+    "description": "A grenade that detonates after a delay, dealing explosive damage in its radius.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Oil"
+      },
+      {
+        "quantity": 2,
+        "name": "Rubber Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/e/ea/Heavy_Fuze_Grenade.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Heavy_Fuze_Grenade.png"
+  },
+  {
     "name": "Heavy Gun Parts",
     "rarity": "Rare",
     "value": 700,
-    "description": "Used directly in crafting items of all tiers.",
+    "description": "Used to craft weapons.",
     "parts": [
       {
         "quantity": 2,
@@ -2101,12 +3026,76 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/33/Heavy_Gun_Parts.png",
     "canBeFoundIn": [
-      "Raider",
-      "Security"
+      "Security",
+      "Raider"
     ],
     "weight": "0.5.mw-parser-output .template-weight{display:flex",
     "stackSize": "5",
     "localImage": "Heavy_Gun_Parts.png"
+  },
+  {
+    "name": "Heavy Shield",
+    "rarity": "Epic",
+    "value": 5500,
+    "description": "A heavy shield that blocks a large portion of incoming damage, but carries a significant cost to mobility.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Voltage Converter"
+      },
+      {
+        "quantity": 2,
+        "name": "ARC Circuitry"
+      }
+    ],
+    "category": "Shield",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/f/f9/Heavy_Shield.png",
+    "weight": "9.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Heavy_Shield.png"
+  },
+  {
+    "name": "Herbal Bandage",
+    "rarity": "Uncommon",
+    "value": 900,
+    "description": "An improvised medical item that gradually restores health over time.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Assorted Seeds"
+      },
+      {
+        "quantity": 5,
+        "name": "Fabric"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c5/Herbal_Bandage.png",
+    "weight": "0.15.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Herbal_Bandage.png"
+  },
+  {
+    "name": "Horizontal Grip",
+    "rarity": "Epic",
+    "value": 7000,
+    "description": "Moderately reduces both vertical recoil and horizontal recoil.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Duct Tape"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/89/Horizontal_Grip.png",
+    "weight": "0.5",
+    "localImage": "Horizontal_Grip.png"
   },
   {
     "name": "Hornet Driver",
@@ -2124,10 +3113,7 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "5x Workshop",
-      "2x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/bb/Hornet_Driver.png",
     "canBeFoundIn": [
       "ARC"
@@ -2143,7 +3129,7 @@
     "description": "Can be recycled into chemicals.",
     "parts": [
       {
-        "quantity": 13,
+        "quantity": 11,
         "name": "Chemicals"
       }
     ],
@@ -2154,7 +3140,7 @@
       "Residential"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
+    "stackSize": "3",
     "localImage": "Household_Cleaner.png"
   },
   {
@@ -2173,9 +3159,7 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "5x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4b/Humidifier.png",
     "canBeFoundIn": [
       "Residential"
@@ -2188,7 +3172,7 @@
     "name": "Ice Cream Scooper",
     "rarity": "Uncommon",
     "value": 640,
-    "description": "It is theorized that scooping things was a favorite pasttime in the world before.",
+    "description": "It is theorized that scooping things was a favorite pastime in the world before.",
     "parts": [
       {
         "quantity": 7,
@@ -2209,10 +3193,10 @@
     "name": "Impure ARC Coolant",
     "rarity": "Uncommon",
     "value": 640,
-    "description": "Obtained from ARC enemies or activities. Can be recycled into chemicals.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 13,
+        "quantity": 12,
         "name": "Chemicals"
       }
     ],
@@ -2222,7 +3206,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Impure_ARC_Coolant.png"
   },
@@ -2233,18 +3217,16 @@
     "description": "Can be recycled into materials.",
     "parts": [
       {
-        "quantity": 7,
-        "name": "Chemicals"
-      },
-      {
         "quantity": 2,
         "name": "Battery"
+      },
+      {
+        "quantity": 7,
+        "name": "Chemicals"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c9/Industrial_Battery.png",
     "canBeFoundIn": [
       "Industrial"
@@ -2260,12 +3242,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 5,
-        "name": "Metal Parts"
-      },
-      {
         "quantity": 1,
         "name": "Voltage Converter"
+      },
+      {
+        "quantity": 5,
+        "name": "Metal Parts"
       }
     ],
     "category": "Recyclable",
@@ -2304,18 +3286,53 @@
     "localImage": "Industrial_Magnet.png"
   },
   {
+    "name": "Integrated Binoculars",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Can be equipped and used like regular binoculars, but cannot be dropped or removed from their slot.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/74/Binoculars.png",
+    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "localImage": "Binoculars.png"
+  },
+  {
+    "name": "Integrated Shield Recharger",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Reusable Shield Recharger on a fixed cooldown. Can be used like a normal Shield Charger, but cannot be dropped or removed from its slot.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c9/Surge_Shield_Recharger.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Surge_Shield_Recharger.png"
+  },
+  {
     "name": "Ion Sputter",
     "rarity": "Epic",
     "value": 6000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 4,
-        "name": "Voltage Converter"
-      },
-      {
         "quantity": 1,
         "name": "Exodus Modules"
+      },
+      {
+        "quantity": 4,
+        "name": "Voltage Converter"
       }
     ],
     "category": "Recyclable",
@@ -2329,29 +3346,70 @@
     "localImage": "Ion_Sputter.png"
   },
   {
+    "name": "Jolt Mine",
+    "rarity": "Rare",
+    "value": 850,
+    "description": "A proximity trigger mine that pops up and stuns anything within its radius.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Battery"
+      },
+      {
+        "quantity": 2,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/5a/Jolt_Mine.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Jolt_Mine.png"
+  },
+  {
+    "name": "Kinetic Converter",
+    "rarity": "Legendary",
+    "value": 7000,
+    "description": "Moderately increases fire rate.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Duct Tape"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/71/Kinetic_Converter.png",
+    "weight": "0.75",
+    "localImage": "Kinetic_Converter.png"
+  },
+  {
     "name": "Laboratory Reagents",
     "rarity": "Rare",
     "value": 2000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 2,
+        "quantity": 16,
         "name": "Chemicals"
       },
       {
-        "quantity": 2,
+        "quantity": 3,
         "name": "Crude Explosives"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/e5/Laboratory_Reagents.png",
     "canBeFoundIn": [
       "Medical"
     ],
-    "weight": "3.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Laboratory_Reagents.png"
   },
@@ -2378,27 +3436,22 @@
     "localImage": "Lance's_Mixtape_(5th_Edition).png"
   },
   {
-    "name": "Lemon",
-    "rarity": "Common",
-    "value": 640,
-    "description": "Can be consumed for a small amount of stamina.",
+    "name": "Launcher Ammo",
+    "rarity": "Rare",
+    "value": 250,
+    "description": "Anti-ARC payloads used mainly by the Hullcracker.",
     "parts": [
       {
-        "quantity": 3,
-        "name": "Assorted Seeds"
+        "quantity": 1,
+        "name": "Cannot be recycled"
       }
     ],
-    "category": "Nature",
-    "keepForQuestsWorkshop": [
-      "3x Scrappy"
-    ],
-    "image": "https://arcraiders.wiki/w/images/3/35/Lemon.png",
-    "canBeFoundIn": [
-      "Nature"
-    ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Lemon.png"
+    "category": "Ammunition",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/99/Launcher_Ammo.png",
+    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "stackSize": "24",
+    "localImage": "Launcher_Ammo.png"
   },
   {
     "name": "Leaper Pulse Unit",
@@ -2416,10 +3469,7 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Expedition",
-      "4x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a0/Leaper_Pulse_Unit.png",
     "canBeFoundIn": [
       "ARC"
@@ -2427,6 +3477,85 @@
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Leaper_Pulse_Unit.png"
+  },
+  {
+    "name": "Lemon",
+    "rarity": "Uncommon",
+    "value": 640,
+    "description": "Can be consumed for a small amount of stamina.",
+    "parts": [
+      {
+        "quantity": 3,
+        "name": "Assorted Seeds"
+      }
+    ],
+    "category": "Nature",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/35/Lemon.png",
+    "canBeFoundIn": [
+      "Nature"
+    ],
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "10",
+    "localImage": "Lemon.png"
+  },
+  {
+    "name": "Li'l Smoke Grenade",
+    "rarity": "Common",
+    "value": 300,
+    "description": "A grenade that pops a thick but small smoke cloud on impact, blocking visibility from ARC and other Raiders.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      },
+      {
+        "quantity": 1,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/19/Lil_Smoke_Grenade.png",
+    "weight": "0.15.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Lil_Smoke_Grenade.png"
+  },
+  {
+    "name": "Lidar Scanner",
+    "rarity": "Common",
+    "value": 0,
+    "description": "A laser-based scanner used to detect the subtlest changes to the Earth's surface.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/4d/Lidar_Scanner.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Lidar_Scanner.png"
+  },
+  {
+    "name": "Light Ammo",
+    "rarity": "Common",
+    "value": 4,
+    "description": "",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Ammunition",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/22/Light_Ammo.png",
+    "weight": "0.01.mw-parser-output .template-weight{display:flex",
+    "stackSize": "100",
+    "localImage": "Light_Ammo.png"
   },
   {
     "name": "Light Bulb",
@@ -2440,9 +3569,7 @@
       }
     ],
     "category": "Trinket",
-    "keepForQuestsWorkshop": [
-      "5x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/2c/Light_Bulb.png",
     "canBeFoundIn": [
       "Electrical"
@@ -2466,21 +3593,219 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c9/Light_Gun_Parts.png",
     "canBeFoundIn": [
-      "Security",
-      "Raider"
+      "Raider",
+      "Security"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
     "stackSize": "5",
     "localImage": "Light_Gun_Parts.png"
   },
   {
-    "name": "Magnet",
+    "name": "Light Impact Grenade",
+    "rarity": "Common",
+    "value": 270,
+    "description": "A grenade that detonates on impact, dealing explosive damage in a small radius.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      },
+      {
+        "quantity": 1,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/4c/Light_Impact_Grenade.png",
+    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Light_Impact_Grenade.png"
+  },
+  {
+    "name": "Light Shield",
     "rarity": "Uncommon",
-    "value": 300,
-    "description": "",
+    "value": 640,
+    "description": "A lightweight shield that blocks a small portion of incoming damage without impacting mobility.",
+    "parts": [
+      {
+        "quantity": 4,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Shield",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/40/Light_Shield.png",
+    "weight": "5.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Light_Shield.png"
+  },
+  {
+    "name": "Light Stick",
+    "rarity": "Common",
+    "value": 150,
+    "description": "A throwable chemical light that illuminates the area around it.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/cc/Blue_Light_Stick.png",
+    "weight": "0.15.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Blue_Light_Stick.png"
+  },
+  {
+    "name": "Lightweight Stock",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "Moderately improves ADS & draw speed.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Duct Tape"
+      },
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/cb/Lightweight_Stock.png",
+    "weight": "0.25",
+    "localImage": "Lightweight_Stock.png"
+  },
+  {
+    "name": "Looting Mk. 1",
+    "rarity": "Uncommon",
+    "value": 640,
+    "description": "Basic looting augment. More backpack slots and weight capacity, but low defensive and tactical capability.",
     "parts": [
       {
         "quantity": 3,
+        "name": "Plastic Parts"
+      },
+      {
+        "quantity": 3,
+        "name": "Rubber Parts"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/27/Looting_Mk._1.png",
+    "weight": "50.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Looting_Mk._1.png"
+  },
+  {
+    "name": "Looting Mk. 2",
+    "rarity": "Rare",
+    "value": 2000,
+    "description": "Significantly increases looting potential; adds slots for trinkets.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Magnet"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7c/Looting_Mk._2.png",
+    "weight": "60.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Looting_Mk._2.png"
+  },
+  {
+    "name": "Looting Mk. 3 (Cautious)",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "A looting augment that swaps some carry capacity to increase survivability.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/68/Looting_Mk._3_%28Cautious%29.png",
+    "weight": "70.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Looting_Mk._3_(Cautious).png"
+  },
+  {
+    "name": "Looting Mk. 3 (Survivor)",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "A heavy-duty pack mule augment. Large weight capacity and large backpack space.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/74/Looting_Mk._3_%28Survivor%29.png",
+    "weight": "80.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Looting_Mk._3_(Survivor).png"
+  },
+  {
+    "name": "Lure Grenade",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "A noisy device that sticks to surfaces, distracting nearby ARC machines and drawing their fire.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Speaker Component"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/77/Lure_Grenade.png",
+    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Lure_Grenade.png"
+  },
+  {
+    "name": "Lure Grenade Trap",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "A laser trip wire that detonates a Lure Grenade.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/92/Lure_Grenade_Trap.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Lure_Grenade_Trap.png"
+  },
+  {
+    "name": "Magnet",
+    "rarity": "Uncommon",
+    "value": 300,
+    "description": "Used to craft a wide range of items. Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 2,
         "name": "Metal Parts"
       }
     ],
@@ -2514,9 +3839,7 @@
       }
     ],
     "category": "Refined Material",
-    "keepForQuestsWorkshop": [
-      "3x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5e/Magnetic_Accelerator.png",
     "canBeFoundIn": [
       "Exodus"
@@ -2541,9 +3864,7 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "1x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a2/Magnetron.png",
     "canBeFoundIn": [
       "Exodus"
@@ -2560,11 +3881,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Power Rod"
+        "name": "Magnetic Accelerator"
       },
       {
         "quantity": 1,
-        "name": "Magnetic Accelerator"
+        "name": "Power Rod"
       }
     ],
     "category": "Recyclable",
@@ -2584,25 +3905,41 @@
     "description": "Used to craft a wide range of items. Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 3,
-        "name": "Metal Parts"
-      },
-      {
         "quantity": 2,
         "name": "Rubber Parts"
+      },
+      {
+        "quantity": 3,
+        "name": "Metal Parts"
       }
     ],
     "category": "Refined Material",
-    "keepForQuestsWorkshop": [
-      "5x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/94/Mechanical_Components.png",
     "canBeFoundIn": [
       "Mechanical"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5.mw-parser-output .template-weight{display:flex",
     "stackSize": "10",
     "localImage": "Mechanical_Components.png"
+  },
+  {
+    "name": "Medium Ammo",
+    "rarity": "Common",
+    "value": 6,
+    "description": "",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Ammunition",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/d/d3/Medium_Ammo.png",
+    "weight": "0.025.mw-parser-output .template-weight{display:flex",
+    "stackSize": "80",
+    "localImage": "Medium_Ammo.png"
   },
   {
     "name": "Medium Gun Parts",
@@ -2627,6 +3964,23 @@
     "localImage": "Medium_Gun_Parts.png"
   },
   {
+    "name": "Medium Shield",
+    "rarity": "Rare",
+    "value": 2000,
+    "description": "A standard shield that blocks a medium portion of incoming damage at a moderate cost to mobility.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "ARC Circuitry"
+      }
+    ],
+    "category": "Shield",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/41/Medium_Shield.png",
+    "weight": "7.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Medium_Shield.png"
+  },
+  {
     "name": "Metal Brackets",
     "rarity": "Uncommon",
     "value": 640,
@@ -2645,7 +3999,7 @@
       "Electrical"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
+    "stackSize": "3",
     "localImage": "Metal_Brackets.png"
   },
   {
@@ -2660,10 +4014,7 @@
       }
     ],
     "category": "Basic Material",
-    "keepForQuestsWorkshop": [
-      "80x Workshop",
-      "150x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/89/Metal_Parts.png",
     "canBeFoundIn": [
       "Mechanical",
@@ -2704,7 +4055,7 @@
     "name": "Mini Centrifuge",
     "rarity": "Rare",
     "value": 3000,
-    "description": "Can be recycled into creafting materials.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 1,
@@ -2721,13 +4072,13 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Mini_Centrifuge.png"
   },
   {
     "name": "Mod Components",
-    "rarity": "Epic",
+    "rarity": "Rare",
     "value": 1750,
     "description": "Used to craft weapons mods. Can be recycled into crafting materials.",
     "parts": [
@@ -2740,7 +4091,7 @@
         "name": "Steel Spring"
       }
     ],
-    "category": "Advanced Material",
+    "category": "Refined Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0f/Mod_Components.png",
     "canBeFoundIn": [
@@ -2779,17 +4130,15 @@
     "parts": [
       {
         "quantity": 2,
-        "name": "Oil"
+        "name": "Mechanical Components"
       },
       {
         "quantity": 2,
-        "name": "Mechanical Components"
+        "name": "Oil"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0f/Motor.png",
     "canBeFoundIn": [
       "Mechanical"
@@ -2810,9 +4159,7 @@
       }
     ],
     "category": "Nature",
-    "keepForQuestsWorkshop": [
-      "12x Scrappy"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/8c/Mushroom.png",
     "canBeFoundIn": [
       "Nature"
@@ -2867,6 +4214,83 @@
     "localImage": "Music_Box.png"
   },
   {
+    "name": "Muzzle Brake I",
+    "rarity": "Common",
+    "value": 640,
+    "description": "Slightly reduces both vertical recoil & horizontal recoil.",
+    "parts": [
+      {
+        "quantity": 5,
+        "name": "Metal Parts"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/4f/Muzzle_Brake_I.png",
+    "weight": "0.25",
+    "localImage": "Muzzle_Brake_I.png"
+  },
+  {
+    "name": "Muzzle Brake II",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Moderately reduces both vertical recoil & horizontal recoil.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/23/Muzzle_Brake_II.png",
+    "weight": "0.5",
+    "localImage": "Muzzle_Brake_II.png"
+  },
+  {
+    "name": "Muzzle Brake III",
+    "rarity": "Rare",
+    "value": 5000,
+    "description": "Significantly reduces both vertical recoil & horizontal recoil.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a2/Muzzle_Brake_III.png",
+    "weight": "0.5",
+    "localImage": "Muzzle_Brake_III.png"
+  },
+  {
+    "name": "Noisemaker",
+    "rarity": "Common",
+    "value": 640,
+    "description": "A deployable proximity sensor that sounds an alarm when enemy raiders are detected.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Speaker Component"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/5c/Noisemaker.png",
+    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Noisemaker.png"
+  },
+  {
     "name": "Number Plate",
     "rarity": "Uncommon",
     "value": 270,
@@ -2910,7 +4334,7 @@
   },
   {
     "name": "Olives",
-    "rarity": "Common",
+    "rarity": "Uncommon",
     "value": 640,
     "description": "Can be consumed for a small amount of stamina.",
     "parts": [
@@ -2920,9 +4344,7 @@
       }
     ],
     "category": "Nature",
-    "keepForQuestsWorkshop": [
-      "6x Scrappy"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/f3/Olives.png",
     "canBeFoundIn": [
       "Nature"
@@ -2930,6 +4352,27 @@
     "weight": "0.2.mw-parser-output .template-weight{display:flex",
     "stackSize": "10",
     "localImage": "Olives.png"
+  },
+  {
+    "name": "Padded Stock",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "Significantly improves stability.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Duct Tape"
+      },
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/4b/Padded_Stock.png",
+    "weight": "0.5",
+    "localImage": "Padded_Stock.png"
   },
   {
     "name": "Painted Box",
@@ -2971,6 +4414,46 @@
     "localImage": "Patrol_Car_Key.png"
   },
   {
+    "name": "Photoelectric Cloak",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "A gadget that allows the user to conceal themselves from ARC.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Speaker Component"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/06/Photoelectric_Cloak.png",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Photoelectric_Cloak.png"
+  },
+  {
+    "name": "Pilgrim's Peak Security Code",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Temporary security code to unlock the main gate.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Security_Code.png"
+  },
+  {
     "name": "Plastic Parts",
     "rarity": "Common",
     "value": 60,
@@ -2982,14 +4465,12 @@
       }
     ],
     "category": "Basic Material",
-    "keepForQuestsWorkshop": [
-      "75x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c9/Plastic_Parts.png",
     "canBeFoundIn": [
-      "Technological",
       "Commercial",
-      "Residential"
+      "Residential",
+      "Technological"
     ],
     "weight": "0.1.mw-parser-output .template-weight{display:flex",
     "stackSize": "50",
@@ -3024,12 +4505,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 6,
-        "name": "Fabric"
-      },
-      {
         "quantity": 2,
         "name": "Oil"
+      },
+      {
+        "quantity": 6,
+        "name": "Fabric"
       }
     ],
     "category": "Recyclable",
@@ -3050,17 +4531,15 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Crude Explosives"
+        "name": "ARC Alloy"
       },
       {
         "quantity": 1,
-        "name": "ARC Alloy"
+        "name": "Crude Explosives"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "5x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c6/Pop_Trigger.png",
     "canBeFoundIn": [
       "ARC"
@@ -3095,7 +4574,7 @@
     "localImage": "Portable_TV.png"
   },
   {
-    "name": "Poster of Natural Wonders",
+    "name": "Poster Of Natural Wonders",
     "rarity": "Uncommon",
     "value": 2000,
     "description": "If you stand close and squint your eyes, it's like the world never came crumbling down.",
@@ -3177,9 +4656,7 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/f8/Power_Cable.png",
     "canBeFoundIn": [
       "Electrical",
@@ -3205,7 +4682,7 @@
         "name": "ARC Circuitry"
       }
     ],
-    "category": "Advanced Material",
+    "category": "Refined Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/31/Power_Rod.png",
     "canBeFoundIn": [
@@ -3217,7 +4694,7 @@
   },
   {
     "name": "Prickly Pear",
-    "rarity": "Common",
+    "rarity": "Uncommon",
     "value": 640,
     "description": "Can be consumed for a small amount of stamina.",
     "parts": [
@@ -3227,9 +4704,7 @@
       }
     ],
     "category": "Nature",
-    "keepForQuestsWorkshop": [
-      "6x Scrappy"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/80/Prickly_Pear.png",
     "canBeFoundIn": [
       "Nature"
@@ -3246,11 +4721,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Wires"
+        "name": "Plastic Parts"
       },
       {
         "quantity": 1,
-        "name": "Plastic Parts"
+        "name": "Wires"
       }
     ],
     "category": "Topside Material",
@@ -3289,6 +4764,24 @@
     "localImage": "Projector.png"
   },
   {
+    "name": "Pulse Mine",
+    "rarity": "Uncommon",
+    "value": 470,
+    "description": "A proximity-triggered mine that pops up and knocks back anything within its radius.",
+    "parts": [
+      {
+        "quantity": 6,
+        "name": "Chemicals"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/af/Pulse_Mine.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Pulse_Mine.png"
+  },
+  {
     "name": "Queen Reactor",
     "rarity": "Legendary",
     "value": 13000,
@@ -3296,11 +4789,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Power Rod"
+        "name": "Magnetic Accelerator"
       },
       {
         "quantity": 1,
-        "name": "Magnetic Accelerator"
+        "name": "Power Rod"
       }
     ],
     "category": "Recyclable",
@@ -3321,11 +4814,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Speaker Component"
+        "name": "Sensors"
       },
       {
         "quantity": 1,
-        "name": "Sensors"
+        "name": "Speaker Component"
       }
     ],
     "category": "Recyclable",
@@ -3343,11 +4836,15 @@
     "name": "Radio Relay",
     "rarity": "Rare",
     "value": 3000,
-    "description": "Can be recylced into crafting materials.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 2,
-        "name": "Speaker Component 2x Sensors"
+        "name": "Sensors"
+      },
+      {
+        "quantity": 2,
+        "name": "Speaker Component"
       }
     ],
     "category": "Recyclable",
@@ -3379,6 +4876,45 @@
     "localImage": "Raider_Hatch_Key.png"
   },
   {
+    "name": "Raider's Refuge Security Code",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Temporary security code to unlock the main gate.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Security_Code.png"
+  },
+  {
+    "name": "Recorder",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "A playable recorder used to attract ARC's attention, and impress other Raiders.",
+    "parts": [
+      {
+        "quantity": 10,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/6d/Recorder.png",
+    "canBeFoundIn": [
+      "Residential"
+    ],
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Recorder.png"
+  },
+  {
     "name": "Red Coral Jewelry",
     "rarity": "Rare",
     "value": 5000,
@@ -3402,18 +4938,36 @@
     "localImage": "Red_Coral_Jewelry.png"
   },
   {
+    "name": "Reinforced Reception Security Code",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Temporary security code to unlock the main gate.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Security_Code.png"
+  },
+  {
     "name": "Remote Control",
-    "rarity": "Uncommon",
+    "rarity": "Rare",
     "value": 1000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 2,
-        "name": "Plastic Parts"
-      },
-      {
         "quantity": 1,
         "name": "Sensors"
+      },
+      {
+        "quantity": 7,
+        "name": "Plastic Parts"
       }
     ],
     "category": "Recyclable",
@@ -3425,6 +4979,28 @@
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Remote_Control.png"
+  },
+  {
+    "name": "Remote Raider Flare",
+    "rarity": "Common",
+    "value": 270,
+    "description": "A deployable device that, when manually triggered, launches a Raider Distress Flare.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      },
+      {
+        "quantity": 1,
+        "name": "Rubber Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/f/ff/Remote_Raider_Flare.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Remote_Raider_Flare.png"
   },
   {
     "name": "Resin",
@@ -3455,11 +5031,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Magnet"
+        "name": "Durable Cloth"
       },
       {
         "quantity": 1,
-        "name": "Durable Cloth"
+        "name": "Magnet"
       }
     ],
     "category": "Recyclable",
@@ -3476,7 +5052,7 @@
     "name": "Rocket Thruster",
     "rarity": "Rare",
     "value": 2000,
-    "description": "Can be reycled into crafting materials.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 2,
@@ -3513,14 +5089,12 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/ef/Rocketeer_Driver.png",
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Rocketeer_Driver.png"
   },
@@ -3560,8 +5134,8 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/b4/Rope.png",
     "canBeFoundIn": [
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
     "stackSize": "5",
@@ -3569,7 +5143,7 @@
   },
   {
     "name": "Rosary",
-    "rarity": "Common",
+    "rarity": "Rare",
     "value": 2000,
     "description": "May be worth a few coins.",
     "parts": [
@@ -3649,7 +5223,7 @@
     "canBeFoundIn": [
       "Electrical"
     ],
-    "weight": "2.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Rubber_Pad.png"
   },
@@ -3665,10 +5239,7 @@
       }
     ],
     "category": "Basic Material",
-    "keepForQuestsWorkshop": [
-      "30x Workshop",
-      "200x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/93/Rubber_Parts.png",
     "canBeFoundIn": [
       "Mechanical",
@@ -3733,12 +5304,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 6,
-        "name": "Metal Parts"
-      },
-      {
         "quantity": 3,
         "name": "Rubber Parts"
+      },
+      {
+        "quantity": 6,
+        "name": "Metal Parts"
       }
     ],
     "category": "Recyclable",
@@ -3794,31 +5365,6 @@
     "localImage": "Ruined_Parachute.png"
   },
   {
-    "name": "Ruined Tactical Vest",
-    "rarity": "Uncommon",
-    "value": 640,
-    "description": "Can be recycled into crafting materials.",
-    "parts": [
-      {
-        "quantity": 5,
-        "name": "Fabric"
-      },
-      {
-        "quantity": 1,
-        "name": "Magnet"
-      }
-    ],
-    "category": "Recyclable",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/c/c2/Ruined_Tactical_Vest.png",
-    "canBeFoundIn": [
-      "Security"
-    ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Ruined_Tactical_Vest.png"
-  },
-  {
     "name": "Ruined Riot Shield",
     "rarity": "Rare",
     "value": 1000,
@@ -3844,6 +5390,31 @@
     "localImage": "Ruined_Riot_Shield.png"
   },
   {
+    "name": "Ruined Tactical Vest",
+    "rarity": "Uncommon",
+    "value": 640,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Magnet"
+      },
+      {
+        "quantity": 5,
+        "name": "Fabric"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c2/Ruined_Tactical_Vest.png",
+    "canBeFoundIn": [
+      "Security"
+    ],
+    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Ruined_Tactical_Vest.png"
+  },
+  {
     "name": "Rusted Bolts",
     "rarity": "Uncommon",
     "value": 640,
@@ -3858,8 +5429,8 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/bf/Rusted_Bolts.png",
     "canBeFoundIn": [
-      "Mechanical",
-      "Industrial"
+      "Industrial",
+      "Mechanical"
     ],
     "weight": "0.8.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
@@ -3872,23 +5443,21 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 4,
-        "name": "Metal Parts"
-      },
-      {
         "quantity": 2,
         "name": "Mechanical Components"
+      },
+      {
+        "quantity": 4,
+        "name": "Metal Parts"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cf/Rusted_Gear.png",
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "3.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Rusted_Gear.png"
   },
@@ -3899,23 +5468,21 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 2,
-        "name": "Syringe"
-      },
-      {
         "quantity": 1,
         "name": "Antiseptic"
+      },
+      {
+        "quantity": 2,
+        "name": "Syringe"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1a/Rusted_Shut_Medical_Kit.png",
     "canBeFoundIn": [
       "Medical"
     ],
-    "weight": "3.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Rusted_Shut_Medical_Kit.png"
   },
@@ -3926,18 +5493,16 @@
     "description": "Can be recycled into metal parts.",
     "parts": [
       {
-        "quantity": 8,
-        "name": "Metal Parts"
-      },
-      {
         "quantity": 1,
         "name": "Steel Spring"
+      },
+      {
+        "quantity": 8,
+        "name": "Metal Parts"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/30/Rusted_Tools.png",
     "canBeFoundIn": [
       "Mechanical",
@@ -3975,12 +5540,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 2,
-        "name": "Electrical Components"
-      },
-      {
         "quantity": 14,
         "name": "Assorted Seeds"
+      },
+      {
+        "quantity": 2,
+        "name": "Electrical Components"
       }
     ],
     "category": "Recyclable",
@@ -3994,28 +5559,44 @@
     "localImage": "Sample_Cleaner.png"
   },
   {
+    "name": "Seeker Grenade",
+    "rarity": "Uncommon",
+    "value": 640,
+    "description": "A homing grenade that targets a single nearby ARC dealing explosive damage on impact.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Crude Explosives"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/35/Seeker_Grenade.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Seeker_Grenade.png"
+  },
+  {
     "name": "Sensors",
     "rarity": "Rare",
     "value": 500,
     "description": "Used in crafting.",
     "parts": [
       {
-        "quantity": 2,
-        "name": "Wires"
+        "quantity": 1,
+        "name": "Metal Parts"
       },
       {
-        "quantity": 2,
-        "name": "Metal Parts"
+        "quantity": 1,
+        "name": "Wires"
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "20x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/9c/Sensors.png",
     "canBeFoundIn": [
-      "Technological",
-      "Security"
+      "Security",
+      "Technological"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
     "stackSize": "5",
@@ -4037,9 +5618,7 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "4x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/91/Sentinel_Firing_Core.png",
     "canBeFoundIn": [
       "ARC"
@@ -4049,6 +5628,187 @@
     "localImage": "Sentinel_Firing_Core.png"
   },
   {
+    "name": "Shaker",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "A rhythmic instrument used to attract ARC's attention, and impress other Raiders.",
+    "parts": [
+      {
+        "quantity": 10,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/22/Shaker.png",
+    "canBeFoundIn": [
+      "Residential"
+    ],
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Shaker.png"
+  },
+  {
+    "name": "Shield Recharger",
+    "rarity": "Uncommon",
+    "value": 520,
+    "description": "A handheld repair kit that recharges a shield over time.",
+    "parts": [
+      {
+        "quantity": 4,
+        "name": "Rubber Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/44/Shield_Recharger.png",
+    "weight": "0.15.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Shield_Recharger.png"
+  },
+  {
+    "name": "Shotgun Ammo",
+    "rarity": "Common",
+    "value": 20,
+    "description": "",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Ammunition",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/61/Shotgun_Ammo.png",
+    "weight": "0.085.mw-parser-output .template-weight{display:flex",
+    "stackSize": "20",
+    "localImage": "Shotgun_Ammo.png"
+  },
+  {
+    "name": "Shotgun Choke I",
+    "rarity": "Common",
+    "value": 640,
+    "description": "Slightly reduces base dispersion.",
+    "parts": [
+      {
+        "quantity": 5,
+        "name": "Metal Parts"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/07/Shotgun_Choke_I.png",
+    "weight": "0.25",
+    "localImage": "Shotgun_Choke_I.png"
+  },
+  {
+    "name": "Shotgun Choke II",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Moderately reduces base dispersion.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/63/Shotgun_Choke_II.png",
+    "weight": "0.5",
+    "localImage": "Shotgun_Choke_II.png"
+  },
+  {
+    "name": "Shotgun Choke III",
+    "rarity": "Rare",
+    "value": 5000,
+    "description": "Significantly reduces base dispersion.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/36/Shotgun_Choke_III.png",
+    "weight": "0.75",
+    "localImage": "Shotgun_Choke_III.png"
+  },
+  {
+    "name": "Shotgun Silencer",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "Moderately reduces the amount of noise produced when firing.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/4d/Shotgun_Silencer.png",
+    "weight": "0.5",
+    "localImage": "Shotgun_Silencer.png"
+  },
+  {
+    "name": "Showstopper",
+    "rarity": "Rare",
+    "value": 2200,
+    "description": "A grenade that detonates after a delay, stunning enemies within its radius.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Electrical Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Battery"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/18/Showstopper.png",
+    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Showstopper.png"
+  },
+  {
+    "name": "Shrapnel Grenade",
+    "rarity": "Uncommon",
+    "value": 800,
+    "description": "A makeshift fuze grenade that bursts into razor-sharp fragments upon detonation.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Crude Explosives"
+      },
+      {
+        "quantity": 1,
+        "name": "Metal Parts"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/5f/Shrapnel_Grenade.png",
+    "weight": "0.15.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Shrapnel_Grenade.png"
+  },
+  {
     "name": "Shredder Gyro",
     "rarity": "Rare",
     "value": 3000,
@@ -4056,17 +5816,15 @@
     "parts": [
       {
         "quantity": 3,
-        "name": "Mechanical Components"
+        "name": "ARC Alloy"
       },
       {
         "quantity": 3,
-        "name": "ARC Alloy"
+        "name": "Mechanical Components"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "10x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/96/Shredder_Gyro.png",
     "canBeFoundIn": [
       "ARC"
@@ -4101,6 +5859,69 @@
     "localImage": "Signal_Amplifier.png"
   },
   {
+    "name": "Silencer I",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Slightly reduces the amount of noise produced when firing.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/f/f7/Silencer_I.png",
+    "weight": "0.25",
+    "localImage": "Silencer_I.png"
+  },
+  {
+    "name": "Silencer II",
+    "rarity": "Rare",
+    "value": 5000,
+    "description": "Moderately reduces the amount of noise produced when firing.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c0/Silencer_II.png",
+    "weight": "0.5",
+    "localImage": "Silencer_II.png"
+  },
+  {
+    "name": "Silencer III",
+    "rarity": "Epic",
+    "value": 7000,
+    "description": "Significantly reduces the amount of noise produced when firing.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 3,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/3e/Silencer_III.png",
+    "weight": "0.75",
+    "localImage": "Silencer_III.png"
+  },
+  {
     "name": "Silver Teaspoon Set",
     "rarity": "Rare",
     "value": 3000,
@@ -4127,7 +5948,7 @@
     "name": "Simple Gun Parts",
     "rarity": "Uncommon",
     "value": 330,
-    "description": "Used to craft weapons. Can be recycled into scrap metal.",
+    "description": "Used to craft weapons.",
     "parts": [
       {
         "quantity": 2,
@@ -4136,14 +5957,98 @@
     ],
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/7/77/Simple-gun-parts.png",
+    "image": "https://arcraiders.wiki/w/images/d/da/Simple_Gun_Parts.png",
     "canBeFoundIn": [
       "Raider",
       "Security"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
     "stackSize": "10",
-    "localImage": "Simple-gun-parts.png"
+    "localImage": "Simple_Gun_Parts.png"
+  },
+  {
+    "name": "Smoke Grenade",
+    "rarity": "Rare",
+    "value": 1000,
+    "description": "A grenade that creates a lingering smoke cloud on impact, blocking visibility from ARC and other Raiders.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Canister"
+      },
+      {
+        "quantity": 2,
+        "name": "Chemicals"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/d/d5/Smoke_Grenade.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Smoke_Grenade.png"
+  },
+  {
+    "name": "Smoke Grenade Trap",
+    "rarity": "Rare",
+    "value": 640,
+    "description": "A laser trip wire that detonates a Smoke Grenade.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/ac/Smoke_Grenade_Trap.png",
+    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Smoke_Grenade_Trap.png"
+  },
+  {
+    "name": "Snap Blast Grenade",
+    "rarity": "Uncommon",
+    "value": 800,
+    "description": "A grenade that sticks to surfaces, dealing explosive damage after a short delay.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      },
+      {
+        "quantity": 1,
+        "name": "Magnet"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/77/Snap_Blast_Grenade.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Snap_Blast_Grenade.png"
+  },
+  {
+    "name": "Snap Hook",
+    "rarity": "Legendary",
+    "value": 14000,
+    "description": "A gadget that allows the user to scale structures and cover large distances.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Power Rod"
+      },
+      {
+        "quantity": 3,
+        "name": "Rope"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/56/Snap_Hook.png",
+    "weight": "5.0.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Snap_Hook.png"
   },
   {
     "name": "Snitch Scanner",
@@ -4152,7 +6057,7 @@
     "description": "Can be recycled into ARC Alloy.",
     "parts": [
       {
-        "quantity": 4,
+        "quantity": 1,
         "name": "ARC Alloy"
       },
       {
@@ -4161,9 +6066,7 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "6x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/e5/Snitch_Scanner.png",
     "canBeFoundIn": [
       "ARC"
@@ -4171,6 +6074,27 @@
     "weight": "0.75.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Snitch_Scanner.png"
+  },
+  {
+    "name": "Snowball",
+    "rarity": "Common",
+    "value": 10,
+    "description": "A compact snowball fashioned out of the most malleable and aerodynamic snow.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Misc",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/04/Snowball.png",
+    "canBeFoundIn": [
+      "Nature"
+    ],
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Snowball.png"
   },
   {
     "name": "Spaceport Container Storage Key",
@@ -4202,9 +6126,7 @@
       }
     ],
     "category": "Key",
-    "keepForQuestsWorkshop": [
-      "1x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/98/Spaceport_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
     "stackSize": "1",
@@ -4222,9 +6144,7 @@
       }
     ],
     "category": "Key",
-    "keepForQuestsWorkshop": [
-      "1x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/98/Spaceport_Key.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
     "stackSize": "1",
@@ -4259,7 +6179,7 @@
         "name": "Plastic Parts"
       },
       {
-        "quantity": 2,
+        "quantity": 3,
         "name": "Rubber Parts"
       }
     ],
@@ -4306,11 +6226,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Sensors"
+        "name": "Exodus Modules"
       },
       {
         "quantity": 1,
-        "name": "Exodus Modules"
+        "name": "Sensors"
       }
     ],
     "category": "Recyclable",
@@ -4324,10 +6244,35 @@
     "localImage": "Spectrum_Analyzer.png"
   },
   {
+    "name": "Spotter Relay",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "ARC Alloy"
+      },
+      {
+        "quantity": 2,
+        "name": "Electrical Components"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/58/Spotter_Relay.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Spotter_Relay.png"
+  },
+  {
     "name": "Spring Cushion",
     "rarity": "Rare",
     "value": 2000,
-    "description": "Can be recyled into crafting materials.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 2,
@@ -4342,37 +6287,71 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/26/Spring_Cushion.png",
     "canBeFoundIn": [
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "2.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Spring_Cushion.png"
   },
   {
-    "name": "Spotter Relay",
-    "rarity": "Uncommon",
-    "value": 2000,
-    "description": "Can be recycled into crafting materials.",
+    "name": "Stable Stock I",
+    "rarity": "Common",
+    "value": 640,
+    "description": "Slightly improves dispersion & recoil recovery time.",
     "parts": [
       {
-        "quantity": 2,
-        "name": "Electrical Components"
+        "quantity": 6,
+        "name": "Rubber Parts"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/8d/Stable_Stock_I.png",
+    "weight": "0.25",
+    "localImage": "Stable_Stock_I.png"
+  },
+  {
+    "name": "Stable Stock II",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Slightly improves dispersion & recoil recovery time.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Duct Tape"
       },
       {
         "quantity": 1,
-        "name": "ARC Alloy"
+        "name": "Mechanical Components"
       }
     ],
-    "category": "Recyclable",
+    "category": "Mods",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/5/58/Spotter_Relay.png",
-    "canBeFoundIn": [
-      "ARC"
+    "image": "https://arcraiders.wiki/w/images/b/b4/Stable_Stock_II.png",
+    "weight": "0.5",
+    "localImage": "Stable_Stock_II.png"
+  },
+  {
+    "name": "Stable Stock III",
+    "rarity": "Rare",
+    "value": 5000,
+    "description": "Significantly improves dispersion & recoil recovery time",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mod Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Duct Tape"
+      }
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Spotter_Relay.png"
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/e/eb/Stable_Stock_III.png",
+    "weight": "0.75",
+    "localImage": "Stable_Stock_III.png"
   },
   {
     "name": "Statuette",
@@ -4400,17 +6379,15 @@
     "name": "Steel Spring",
     "rarity": "Uncommon",
     "value": 300,
-    "description": "Used to craft a wide range of items. Can be recycled into scrap metal.",
+    "description": "Used to craft a wide range of items. Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 3,
+        "quantity": 2,
         "name": "Metal Parts"
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "15x Expedition"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/db/Steel_Spring.png",
     "canBeFoundIn": [
       "Industrial"
@@ -4440,7 +6417,7 @@
   {
     "name": "Stella Montis Assembly Admin Key",
     "rarity": "Uncommon",
-    "value": 100,
+    "value": 250,
     "description": "Unlocks a door in Assembly in Stella Montis",
     "parts": [
       {
@@ -4459,7 +6436,7 @@
     "name": "Stella Montis Medical Storage Key",
     "rarity": "Uncommon",
     "value": 100,
-    "description": "Unlocks a door in the Medical Storage in Stella Montis",
+    "description": "Unlocks a door in Medical Research in Stella Montis",
     "parts": [
       {
         "quantity": 1,
@@ -4492,6 +6469,46 @@
     "localImage": "Stella_Montis_Key.png"
   },
   {
+    "name": "Sterilized Bandage",
+    "rarity": "Rare",
+    "value": 2000,
+    "description": "A medical item that gradually restores a large amount of health over time.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Antiseptic"
+      },
+      {
+        "quantity": 1,
+        "name": "Fabric"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/99/Sterilized_Bandage.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Sterilized_Bandage.png"
+  },
+  {
+    "name": "Surge Shield Recharger",
+    "rarity": "Rare",
+    "value": 1200,
+    "description": "A handheld kit that recharges a shield on use.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Electrical Components"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c9/Surge_Shield_Recharger.png",
+    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "stackSize": "5",
+    "localImage": "Surge_Shield_Recharger.png"
+  },
+  {
     "name": "Surveyor Vault",
     "rarity": "Rare",
     "value": 2000,
@@ -4499,23 +6516,20 @@
     "parts": [
       {
         "quantity": 2,
-        "name": "Mechanical Components"
+        "name": "ARC Alloy"
       },
       {
         "quantity": 2,
-        "name": "ARC Alloy"
+        "name": "Mechanical Components"
       }
     ],
-    "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "5x Workshop",
-      "1x Quest"
-    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a9/Surveyor_Vault.png",
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Surveyor_Vault.png"
   },
@@ -4535,9 +6549,7 @@
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/8e/Synthesized_Fuel.png",
     "canBeFoundIn": [
       "Exodus"
@@ -4550,21 +6562,19 @@
     "name": "Syringe",
     "rarity": "Rare",
     "value": 500,
-    "description": "Used to craft medical Supplies. Can be recycled into plastic.",
+    "description": "Used to craft medical supplies. Can be recycled into plastic.",
     "parts": [
-      {
-        "quantity": 3,
-        "name": "Plastic Parts"
-      },
       {
         "quantity": 2,
         "name": "Chemicals"
+      },
+      {
+        "quantity": 3,
+        "name": "Plastic Parts"
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "1x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/17/Syringe.png",
     "canBeFoundIn": [
       "Medical"
@@ -4574,10 +6584,116 @@
     "localImage": "Syringe.png"
   },
   {
+    "name": "Tactical Mk. 1",
+    "rarity": "Uncommon",
+    "value": 640,
+    "description": "Basic tactical augment. More Quick Use slots for more tactical choice, but limited survivability and slightly lower looting potential.",
+    "parts": [
+      {
+        "quantity": 3,
+        "name": "Plastic Parts"
+      },
+      {
+        "quantity": 3,
+        "name": "Rubber Parts"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/18/Tactical_Mk._1.png",
+    "weight": "40.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Tactical_Mk._1.png"
+  },
+  {
+    "name": "Tactical Mk. 2",
+    "rarity": "Rare",
+    "value": 2000,
+    "description": "Adds more backpack space and an extra utility item slot.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Magnet"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/6c/Tactical_Mk._2.png",
+    "weight": "45.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Tactical_Mk._2.png"
+  },
+  {
+    "name": "Tactical Mk. 3 (Defensive)",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "A defensive-focused augment for keeping Shields topped up.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a9/Tactical_Mk._3_%28Defensive%29.png",
+    "weight": "60.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Tactical_Mk._3_(Defensive).png"
+  },
+  {
+    "name": "Tactical Mk. 3 (Healing)",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "A healing-focused augment which adds extra slots for healing items.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/12/Tactical_Mk._3_%28Healing%29.png",
+    "weight": "55.0.mw-parser-output .template-weight{display:flex",
+    "localImage": "Tactical_Mk._3_(Healing).png"
+  },
+  {
+    "name": "Tagging Grenade",
+    "rarity": "Rare",
+    "value": 1000,
+    "description": "A grenade that detonates after a delay, tagging Raiders and ARC enemies in an area, allowing you to briefly track their location.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Plastic Parts"
+      },
+      {
+        "quantity": 1,
+        "name": "Sensors"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/e/e5/Tagging_Grenade.png",
+    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Tagging_Grenade.png"
+  },
+  {
     "name": "Tattered ARC Lining",
     "rarity": "Uncommon",
     "value": 640,
-    "description": "Obtained from ARC enemies or activities. Can be recycled into fabric.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 12,
@@ -4647,12 +6763,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 6,
-        "name": "Rubber Parts"
+        "quantity": 1,
+        "name": "Sensors"
       },
       {
-        "quantity": 2,
-        "name": "Sensors"
+        "quantity": 7,
+        "name": "Rubber Parts"
       }
     ],
     "category": "Recyclable",
@@ -4669,27 +6785,25 @@
     "name": "Tick Pod",
     "rarity": "Uncommon",
     "value": 640,
-    "description": "Can be recycled into ARC Alloy.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 1,
-        "name": "Chemicals"
+        "quantity": 2,
+        "name": "ARC Alloy"
       },
       {
-        "quantity": 1,
-        "name": "Metal Parts"
+        "quantity": 2,
+        "name": "Chemicals"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "8x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/95/Tick_Pod.png",
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
+    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
     "localImage": "Tick_Pod.png"
   },
   {
@@ -4699,18 +6813,16 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 5,
-        "name": "Plastic Parts"
-      },
-      {
         "quantity": 3,
         "name": "Wires"
+      },
+      {
+        "quantity": 5,
+        "name": "Plastic Parts"
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "3x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/50/Toaster.png",
     "canBeFoundIn": [
       "Residential"
@@ -4718,6 +6830,28 @@
     "weight": "2.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Toaster.png"
+  },
+  {
+    "name": "Torn Blanket",
+    "rarity": "Rare",
+    "value": 640,
+    "description": "Can be recycled into fabric.",
+    "parts": [
+      {
+        "quantity": 12,
+        "name": "Fabric"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/af/Torn_Blanket.png",
+    "canBeFoundIn": [
+      "Residential",
+      "Medical"
+    ],
+    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Torn_Blanket.png"
   },
   {
     "name": "Torn Book",
@@ -4742,26 +6876,44 @@
     "localImage": "Torn_Book.png"
   },
   {
-    "name": "Torn Blanket",
+    "name": "Trailblazer",
     "rarity": "Rare",
-    "value": 640,
-    "description": "Can be recycled into fabric.",
+    "value": 1600,
+    "description": "A grenade that emits a trail of flammable gas along its path, causing an explosive chain reaction when it ignites.",
     "parts": [
       {
-        "quantity": 12,
-        "name": "Fabric"
+        "quantity": 2,
+        "name": "Crude Explosives"
       }
     ],
-    "category": "Recyclable",
+    "category": "Quick Use",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/a/af/Torn_Blanket.png",
-    "canBeFoundIn": [
-      "Residential",
-      "Medical"
-    ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "image": "https://arcraiders.wiki/w/images/8/89/Trailblazer.png",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
-    "localImage": "Torn_Blanket.png"
+    "localImage": "Trailblazer.png"
+  },
+  {
+    "name": "Trigger 'Nade",
+    "rarity": "Rare",
+    "value": 1000,
+    "description": "A remote-detonated grenade that can stick to surfaces and ARC, dealing explosive damage when triggered.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/09/Trigger_Nade.png",
+    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Trigger_Nade.png"
   },
   {
     "name": "Turbo Pump",
@@ -4837,6 +6989,65 @@
     "localImage": "Vase.png"
   },
   {
+    "name": "Vertical Grip I",
+    "rarity": "Common",
+    "value": 640,
+    "description": "Slightly reduces vertical recoil.",
+    "parts": [
+      {
+        "quantity": 6,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/4d/Vertical_Grip_I.png",
+    "weight": "0.25",
+    "localImage": "Vertical_Grip_I.png"
+  },
+  {
+    "name": "Vertical Grip II",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Moderately reduces vertical recoil.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Duct Tape"
+      },
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/3c/Vertical_Grip_II.png",
+    "weight": "0.5",
+    "localImage": "Vertical_Grip_II.png"
+  },
+  {
+    "name": "Vertical Grip III",
+    "rarity": "Rare",
+    "value": 5000,
+    "description": "Significantly reduces vertical recoil.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Duct Tape"
+      },
+      {
+        "quantity": 2,
+        "name": "Mechanical Components"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/20/Vertical_Grip_III.png",
+    "weight": "0.75",
+    "localImage": "Vertical_Grip_III.png"
+  },
+  {
     "name": "Very Comfortable Pillow",
     "rarity": "Uncommon",
     "value": 2000,
@@ -4848,17 +7059,59 @@
       }
     ],
     "category": "Trinket",
-    "keepForQuestsWorkshop": [
-      "3x Scrappy"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a4/Very_Comfortable_Pillow.png",
     "canBeFoundIn": [
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
     "localImage": "Very_Comfortable_Pillow.png"
+  },
+  {
+    "name": "Vita Shot",
+    "rarity": "Rare",
+    "value": 2200,
+    "description": "A medical item that restores a large amount of health.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Syringe"
+      },
+      {
+        "quantity": 4,
+        "name": "Chemicals"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7d/Vita_Shot.png",
+    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "stackSize": "3",
+    "localImage": "Vita_Shot.png"
+  },
+  {
+    "name": "Vita Spray",
+    "rarity": "Epic",
+    "value": 3000,
+    "description": "A medical item that continuously restores health during use. Can be used on yourself or your allies.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Antiseptic"
+      },
+      {
+        "quantity": 2,
+        "name": "Canister"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1d/Vita_Spray.png",
+    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "stackSize": "1",
+    "localImage": "Vita_Spray.png"
   },
   {
     "name": "Volcanic Rock",
@@ -4889,18 +7142,18 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Wires"
+        "name": "Rubber Parts"
       },
       {
         "quantity": 1,
-        "name": "Rubber Parts"
+        "name": "Wires"
       }
     ],
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c7/Voltage_Converter.png",
     "canBeFoundIn": [
-      "Technological"
+      "Electrical"
     ],
     "weight": "0.3.mw-parser-output .template-weight{display:flex",
     "stackSize": "5",
@@ -4922,9 +7175,7 @@
       }
     ],
     "category": "Recyclable",
-    "keepForQuestsWorkshop": [
-      "8x Workshop"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/30/Wasp_Driver.png",
     "canBeFoundIn": [
       "ARC"
@@ -4965,12 +7216,12 @@
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 4,
-        "name": "Metal Parts"
-      },
-      {
         "quantity": 2,
         "name": "Oil"
+      },
+      {
+        "quantity": 4,
+        "name": "Metal Parts"
       }
     ],
     "category": "Recyclable",
@@ -4996,9 +7247,7 @@
       }
     ],
     "category": "Topside Material",
-    "keepForQuestsWorkshop": [
-      "30x Expedition 3x Quest"
-    ],
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/39/Wires.png",
     "canBeFoundIn": [
       "Electrical",
@@ -5009,175 +7258,10 @@
     "localImage": "Wires.png"
   },
   {
-    "name": "Smoke Grenade",
-    "description": "A grenade that creates a lingering smoke cloud on impact, blocking visibility from other Raiders.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 1000,
-    "parts": [
-      {
-        "quantity": 2,
-        "name": "Chemicals"
-      },
-      {
-        "quantity": 1,
-        "name": "Canister"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/d/d5/Smoke_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Smoke_Grenade.png"
-  },
-  {
-    "name": "Remote Raider Flare",
-    "description": "A deployable device that, when manually triggered, launches a Raider Distress Flare.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 270,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Chemicals"
-      },
-      {
-        "quantity": 1,
-        "name": "Rubber Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/f/ff/Remote_Raider_Flare.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Remote_Raider_Flare.png"
-  },
-  {
-    "name": "Binoculars",
-    "description": "A basic pair of binoculars with two levels of magnification.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 640,
-    "parts": [
-      {
-        "quantity": 4,
-        "name": "Plastic Parts"
-      },
-      {
-        "quantity": 2,
-        "name": "Rubber Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/7/74/Binoculars.png",
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Binoculars.png"
-  },
-  {
-    "name": "Zipline",
-    "description": "A deployable zipline that allows you to quickly move between two locations.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 1000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Rope"
-      },
-      {
-        "quantity": 1,
-        "name": "Metal Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/f/f9/Zipline.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Zipline.png"
-  },
-  {
-    "name": "Sterilized Bandage",
-    "description": "A medical item that gradually restores a large amount of health over time.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 2000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Fabric"
-      },
-      {
-        "quantity": 1,
-        "name": "Antiseptic"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/9/99/Sterilized_Bandage.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Sterilized_Bandage.png"
-  },
-  {
-    "name": "Shield Recharger",
-    "description": "A handheld repair kit that recharges a shield over time.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 520,
-    "parts": [
-      {
-        "quantity": 4,
-        "name": "Rubber Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/4/44/Shield_Recharger.png",
-    "weight": "0.15.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Shield_Recharger.png"
-  },
-  {
-    "name": "Vita Spray",
-    "description": "A medical item that continuously restores health during use. Can be used on yourself or your allies.",
-    "rarity": "Epic",
-    "category": "Quick Use",
-    "value": 3000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Antiseptic"
-      },
-      {
-        "quantity": 2,
-        "name": "Canister"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/1/1d/Vita_Spray.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Vita_Spray.png"
-  },
-  {
-    "name": "Showstopper",
-    "description": "A grenade that detonates after a delay, stunning enemies within its radius.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 2200,
-    "parts": [
-      {
-        "quantity": 2,
-        "name": "Battery"
-      },
-      {
-        "quantity": 1,
-        "name": "Electrical Components"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/1/18/Showstopper.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Showstopper.png"
-  },
-  {
     "name": "Wolfpack",
-    "description": "A grenade that scatters into multiple homing missiles, each one targeting ARC and dealing explosive damage on impact.",
     "rarity": "Epic",
-    "category": "Quick Use",
     "value": 5000,
+    "description": "A grenade that scatters into multiple homing missiles, each one targeting ARC and dealing explosive damage on impact.",
     "parts": [
       {
         "quantity": 1,
@@ -5188,834 +7272,34 @@
         "name": "Explosive Compound"
       }
     ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/24/Wolfpack.png",
     "weight": "1.0.mw-parser-output .template-weight{display:flex",
     "stackSize": "1",
     "localImage": "Wolfpack.png"
   },
   {
-    "name": "Buried City Residential Master Key",
-    "description": "Unlocks certain apartment doors in Buried City",
-    "rarity": "Common",
-    "category": "Key",
-    "value": 100,
-    "image": "https://arcraiders.wiki/w/images/1/11/Buried_City_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Buried_City_Key.png"
-  },
-  {
-    "name": "Lure Grenade",
-    "description": "A noise device that sticks to surfaces, distracting nearby ARC machines and drawing their fire.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 1000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Speaker Component"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/7/77/Lure_Grenade.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Lure_Grenade.png"
-  },
-  {
-    "name": "Adrenaline Shot",
-    "description": "A serum that fully restores stamina and temporarily increases stamina regeneration.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 300,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Chemicals"
-      },
-      {
-        "quantity": 1,
-        "name": "Plastic Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/1/1b/Adrenaline_Shot.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Adrenaline_Shot.png"
-  },
-  {
-    "name": "Vita Shot",
-    "description": "A medical item that restores a large amount of health.",
+    "name": "Zipline",
     "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 2200,
-    "parts": [
-      {
-        "quantity": 4,
-        "name": "Chemicals"
-      },
-      {
-        "quantity": 1,
-        "name": "Syringe"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/7/7d/Vita_Shot.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Vita_Shot.png"
-  },
-  {
-    "name": "Herbal Bandage",
-    "description": "An improvised medical item that gradually restores health over time.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 900,
-    "parts": [
-      {
-        "quantity": 2,
-        "name": "Assorted Seeds"
-      },
-      {
-        "quantity": 5,
-        "name": "Fabric"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/c/c5/Herbal_Bandage.png",
-    "weight": "0.15.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Herbal_Bandage.png"
-  },
-  {
-    "name": "Defibrillator",
-    "description": "An injection that quickly revives downed raiders and restores some health.",
-    "rarity": "Rare",
-    "category": "Quick Use",
     "value": 1000,
+    "description": "A deployable zipline that allows you to quickly move between two locations.",
     "parts": [
       {
         "quantity": 1,
-        "name": "Plastic Parts"
-      },
-      {
-        "quantity": 1,
-        "name": "Moss"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/5/5f/Defibrillator.png",
-    "weight": "0.75.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Defibrillator.png"
-  },
-  {
-    "name": "Photoelectric Cloak",
-    "description": "A gadget that allows the user to conceal themselves from ARC.",
-    "rarity": "Epic",
-    "category": "Quick Use",
-    "value": 5000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Advanced Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Speaker Component"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/0/06/Photoelectric_Cloak.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Photoelectric_Cloak.png"
-  },
-  {
-    "name": "Barricade Kit",
-    "description": "A deployable cover that can block incoming damage until it breaks.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 640,
-    "parts": [
-      {
-        "quantity": 4,
         "name": "Metal Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/c/cb/Barricade_Kit.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Barricade_Kit.png"
-  },
-  {
-    "name": "Blaze Grenade",
-    "description": "A grenade that detonates on impact, covering an area in fire that deals damage over time.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 1600,
-    "parts": [
-      {
-        "quantity": 2,
-        "name": "Oil"
-      },
-      {
-        "quantity": 4,
-        "name": "Metal Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/2/24/Blaze_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Blaze_Grenade.png"
-  },
-  {
-    "name": "Gas Grenade",
-    "description": "A grenade that creates a lingering toxic cloud on impact, draining the stamina of any Raiders within its area of effect.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 270,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Chemicals"
       },
       {
         "quantity": 1,
-        "name": "Rubber Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/f/fe/Gas_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Gas_Grenade.png"
-  },
-  {
-    "name": "Light Impact Grenade",
-    "description": "A grenade that detonates on impact, dealing explosive damage in a small radius.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 270,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Chemicals"
-      },
-      {
-        "quantity": 1,
-        "name": "Plastic Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/4/4c/Light_Impact_Grenade.png",
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Light_Impact_Grenade.png"
-  },
-  {
-    "name": "Snap Blast Grenade",
-    "description": "A grenade that sticks to surfaces, dealing explosive damage after a short delay.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 800,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Chemicals"
-      },
-      {
-        "quantity": 1,
-        "name": "Magnet"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/7/77/Snap_Blast_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Snap_Blast_Grenade.png"
-  },
-  {
-    "name": "Tagging Grenade",
-    "description": "A grenade that detonates after a delay, tagging Raiders and ARC enemies in an area, allowing you to briefly track their location.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 1000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Plastic Parts"
-      },
-      {
-        "quantity": 1,
-        "name": "Sensors"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/e/e5/Tagging_Grenade.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Tagging_Grenade.png"
-  },
-  {
-    "name": "Lure Grenade Trap",
-    "description": "A laser trip wire that detonates a Lure Grenade.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 1000,
-    "image": "https://arcraiders.wiki/w/images/9/92/Lure_Grenade_Trap.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Lure_Grenade_Trap.png"
-  },
-  {
-    "name": "Explosive Mine",
-    "description": "A proximity-triggered mine that pops up and explodes, dealing damage to anything within its radius.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 1500,
-    "parts": [
-      {
-        "quantity": 2,
-        "name": "Oil"
-      },
-      {
-        "quantity": 1,
-        "name": "Sensors"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/2/22/Explosive_Mine.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Explosive_Mine.png"
-  },
-  {
-    "name": "Bandage",
-    "description": "A medical item that gradually restores health over time.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 250,
-    "parts": [
-      {
-        "quantity": 2,
-        "name": "Fabric"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/0/0c/Bandage.png",
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Bandage.png"
-  },
-  {
-    "name": "Agave Juice",
-    "description": "A concoction that temporarily increases stamina regeneration, at a small initial cost to health.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 1800,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/a/a8/Agave_Juice.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Agave_Juice.png"
-  },
-  {
-    "name": "Heavy Fuze Grenade",
-    "description": "A grenade that detonates after a delay, dealing explosive damage in its radius.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 1600,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Oil"
-      },
-      {
-        "quantity": 2,
-        "name": "Rubber Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/e/ea/Heavy_Fuze_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Heavy_Fuze_Grenade.png"
-  },
-  {
-    "name": "Trigger 'Nade",
-    "description": "A remote-detonated grenade that can stick to surfaces and ARC, dealing explosive damage when triggered.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 1000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Chemicals"
-      },
-      {
-        "quantity": 1,
-        "name": "Processor"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/0/09/Trigger_Nade.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Trigger_Nade.png"
-  },
-  {
-    "name": "Jolt Mine",
-    "description": "A proximity trigger mine that pops up and stuns anything within its radius.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 850,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Battery"
-      },
-      {
-        "quantity": 2,
-        "name": "Plastic Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/5/5a/Jolt_Mine.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Jolt_Mine.png"
-  },
-  {
-    "name": "Door Blocker",
-    "description": "A locking mechanism that can be placed on large metal doors to limit access.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 270,
-    "parts": [
-      {
-        "quantity": 2,
-        "name": "Metal Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/6/68/Door_Blocker.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Door_Blocker.png"
-  },
-  {
-    "name": "Fruit Mix",
-    "description": "A food item that moderately increases both health and stamina.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 1800,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/5/5a/Fruit_Mix.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Fruit_Mix.png"
-  },
-  {
-    "name": "Snap Hook",
-    "description": "A gadget that allows the user to scale structures and cover large distances.",
-    "rarity": "Legendary",
-    "category": "Quick Use",
-    "value": 14000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Power Rod"
-      },
-      {
-        "quantity": 3,
         "name": "Rope"
       }
     ],
-    "image": "https://arcraiders.wiki/w/images/5/56/Snap_Hook.png",
-    "weight": "5.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Snap_Hook.png"
-  },
-  {
-    "name": "Smoke Grenade Trap",
-    "description": "A laser trip wire that detonates a Smoke Grenade.",
-    "rarity": "Rare",
     "category": "Quick Use",
-    "value": 640,
-    "image": "https://arcraiders.wiki/w/images/a/ac/Smoke_Grenade_Trap.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/f/f9/Zipline.png",
+    "weight": "0.4.mw-parser-output .template-weight{display:flex",
     "stackSize": "3",
-    "localImage": "Smoke_Grenade_Trap.png"
-  },
-  {
-    "name": "Light Stick",
-    "description": "A throwable chemical light that illuminates the area around it.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 150,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Chemicals"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/c/cc/Blue_Light_Stick.png",
-    "weight": "0.15.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Blue_Light_Stick.png"
-  },
-  {
-    "name": "Surge Shield Recharger",
-    "description": "A handheld kit that recharges a shield on use.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 1200,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Electrical Components"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/c/c9/Surge_Shield_Recharger.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Surge_Shield_Recharger.png"
-  },
-  {
-    "name": "Li'l Smoke Grenade",
-    "description": "A grenade that pops a thick but small smoke cloud on impact, blocking visibility from ARC and other Raiders.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 300,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Chemicals"
-      },
-      {
-        "quantity": 1,
-        "name": "Plastic Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/1/19/Lil_Smoke_Grenade.png",
-    "weight": "0.15.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Lil_Smoke_Grenade.png"
-  },
-  {
-    "name": "Shrapnel Grenade",
-    "description": "A makeshift fuze grenade that bursts into razor-sharp fragments upon detonation.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 800,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Crude Explosives"
-      },
-      {
-        "quantity": 1,
-        "name": "Metal Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/5/5f/Shrapnel_Grenade.png",
-    "weight": "0.15.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Shrapnel_Grenade.png"
-  },
-  {
-    "name": "Flame Spray",
-    "description": "A classic makeshift weapon, sure to leave scorch marks.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 2000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Canister"
-      },
-      {
-        "quantity": 1,
-        "name": "Fireball Burner"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/7/73/Flame_Spray.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Flame_Spray.png"
-  },
-  {
-    "name": "Noisemaker",
-    "description": "A deployable proximity sensor that sounds an alarm when enemy raiders are detected.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 640,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Speaker Component"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/5/5c/Noisemaker.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Noisemaker.png"
-  },
-  {
-    "name": "Recorder",
-    "description": "A playable recorder used to attract ARC's attention, and impress other Raiders.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 1000,
-    "parts": [
-      {
-        "quantity": 10,
-        "name": "Plastic Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/6/6d/Recorder.png",
-    "canBeFoundIn": [
-      "Residential"
-    ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Recorder.png"
-  },
-  {
-    "name": "Blaze Grenade Trap",
-    "description": "A laser trip wire that detonates a Blaze Grenade.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 1000,
-    "image": "https://arcraiders.wiki/w/images/a/af/Blaze_Grenade_Trap.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Blaze_Grenade_Trap.png"
-  },
-  {
-    "name": "Light Ammo",
-    "rarity": "Common",
-    "category": "Ammunition",
-    "value": 4,
-    "image": "https://arcraiders.wiki/w/images/4/4a/LightAmmo_Box.png",
-    "weight": "0.01.mw-parser-output .template-weight{display:flex",
-    "stackSize": "100",
-    "localImage": "LightAmmo_Box.png"
-  },
-  {
-    "name": "Medium Ammo",
-    "rarity": "Common",
-    "category": "Ammunition",
-    "value": 6,
-    "image": "https://arcraiders.wiki/w/images/0/0c/MediumAmmo_Box.png",
-    "weight": "0.025.mw-parser-output .template-weight{display:flex",
-    "stackSize": "80",
-    "localImage": "MediumAmmo_Box.png"
-  },
-  {
-    "name": "Heavy Ammo",
-    "rarity": "Common",
-    "category": "Ammunition",
-    "value": 12,
-    "image": "https://arcraiders.wiki/w/images/4/47/HeavyAmmo_Box.png",
-    "weight": "0.05.mw-parser-output .template-weight{display:flex",
-    "stackSize": "40",
-    "localImage": "HeavyAmmo_Box.png"
-  },
-  {
-    "name": "Shotgun Ammo",
-    "rarity": "Common",
-    "category": "Ammunition",
-    "value": 20,
-    "image": "https://arcraiders.wiki/w/images/c/c1/ShotgunAmmo_Box.png",
-    "weight": "0.085.mw-parser-output .template-weight{display:flex",
-    "stackSize": "20",
-    "localImage": "ShotgunAmmo_Box.png"
-  },
-  {
-    "name": "Launcher Ammo",
-    "description": "Extremely effective against ARC armor.",
-    "rarity": "Rare",
-    "category": "Ammunition",
-    "value": 250,
-    "image": "https://arcraiders.wiki/w/images/9/99/Launcher_Ammo.png",
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
-    "stackSize": "24",
-    "localImage": "Launcher_Ammo.png"
-  },
-  {
-    "name": "Energy Clip",
-    "description": "Extremely effective against ARC armor.",
-    "rarity": "Rare",
-    "category": "Ammunition",
-    "value": 1000,
-    "image": "https://arcraiders.wiki/w/images/0/08/Energy_Clip.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Energy_Clip.png"
-  },
-  {
-    "name": "Integrated Shield Recharger",
-    "description": "Reusable Shield Recharger on a fixed cooldown. Can be used like a normal Shield Charger, but cannot be dropped or removed from its slot.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "image": "https://arcraiders.wiki/w/images/c/c9/Surge_Shield_Recharger.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Surge_Shield_Recharger.png"
-  },
-  {
-    "name": "Integrated Binoculars",
-    "description": "Can be equipped and used like regular binoculars, but cannot be dropped or removed from their slot.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "image": "https://arcraiders.wiki/w/images/7/74/Binoculars.png",
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "localImage": "Binoculars.png"
-  },
-  {
-    "name": "Gas Grenade Trap",
-    "description": "A laser trip wire that detonates a Gas Grenade.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 300,
-    "image": "https://arcraiders.wiki/w/images/3/33/Gas_Grenade_Trap.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Gas_Grenade_Trap.png"
-  },
-  {
-    "name": "Deadline",
-    "description": "A mine that deals damage to anything within its radius once the timer runs out.",
-    "rarity": "Epic",
-    "category": "Quick Use",
-    "value": 5000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Explosive Compound"
-      },
-      {
-        "quantity": 1,
-        "name": "ARC Circuitry"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/c/c7/Deadline.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Deadline.png"
-  },
-  {
-    "name": "Pulse Mine",
-    "description": "A proximity-triggered mine that pops up and knocks back anything within its radius.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 470,
-    "parts": [
-      {
-        "quantity": 6,
-        "name": "Chemicals"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/a/af/Pulse_Mine.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Pulse_Mine.png"
-  },
-  {
-    "name": "Seeker Grenade",
-    "description": "A homing grenade that targets a single nearby ARC dealing explosive damage on impact.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 640,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Crude Explosives"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/3/35/Seeker_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Seeker_Grenade.png"
-  },
-  {
-    "name": "Gas Mine",
-    "description": "A proximity-triggered mine that pops up and deploys a gas cloud that rapidly drains stamina.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 270,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Chemicals"
-      },
-      {
-        "quantity": 1,
-        "name": "Rubber Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/c/ce/Gas_Mine.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Gas_Mine.png"
-  },
-  {
-    "name": "Trailblazer",
-    "description": "A grenade that emits a trail of flammable gas along its path, causing an explosive chain reaction when it ignites.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 1600,
-    "parts": [
-      {
-        "quantity": 2,
-        "name": "Crude Explosives"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/8/89/Trailblazer.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "3",
-    "localImage": "Trailblazer.png"
-  },
-  {
-    "name": "ESR Analyzer",
-    "description": "A specialized medical device Lance needs recovered from a Buried City pharmacy.",
-    "rarity": "Common",
-    "category": "Quest Item",
-    "image": "https://arcraiders.wiki/w/images/5/5e/ESR_Analyzer.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "ESR_Analyzer.png"
-  },
-  {
-    "name": "Firecracker",
-    "description": "A device that sparks and pops in a pleasant manner.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 270,
-    "parts": [
-      {
-        "quantity": 3,
-        "name": "Plastic Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/8/86/Firecracker.png",
-    "weight": "0.05.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Firecracker.png"
-  },
-  {
-    "name": "Fireworks Box",
-    "description": "A remotely triggered arrangement of dazzling fireworks, sure to put on a show.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "value": 2000,
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Explosive Compound"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/0/0f/Fireworks_Box.png",
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Fireworks_Box.png"
+    "localImage": "Zipline.png"
   },
   {
     "name": "Flushing Terminal Key",
@@ -6026,133 +7310,43 @@
     "stackSize": "1"
   },
   {
-    "name": "Candleberries",
-    "description": "A waxy berry that grows only during a small window each year. People have depended on them to make candles, foods and medicine for ages.",
-    "rarity": "Rare",
-    "category": "Nature",
-    "value": 460,
-    "parts": [
-      {
-        "quantity": 2,
-        "name": "Assorted Seeds"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/9/9e/Candleberries.png",
-    "canBeFoundIn": [
-      "Nature"
-    ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
-    "stackSize": "10",
-    "localImage": "Candleberries.png"
-  },
-  {
-    "name": "Burnt-Out Candles",
-    "description": "After the grid fell candles became the preferred source of light for many. Unlike electricity, a good old candle will never fail you. Unless it's windy. Or raining. Or...",
+    "name": "Major Aiva's Patch",
+    "description": "A torn patch, found amidst rubble and ruin.",
     "rarity": "Common",
-    "category": "Trinket",
-    "value": 640,
-    "image": "https://arcraiders.wiki/w/images/6/64/Burnt-out_Candles.png",
-    "canBeFoundIn": [
-      "Residential",
-      "Old World"
-    ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "15",
-    "localImage": "Burnt-out_Candles.png"
-  },
-  {
-    "name": "Shaker",
-    "description": "A rhythmic instrument used to attract ARC's attention, and impress other Raiders.",
-    "rarity": "Common",
-    "category": "Quick Use",
-    "value": 1000,
-    "parts": [
-      {
-        "quantity": 10,
-        "name": "Plastic Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/3/32/Shaker.webp",
-    "canBeFoundIn": [
-      "Residential"
-    ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "Shaker.webp"
-  },
-  {
-    "name": "Pilgrim's Peak Security Code",
-    "description": "Temporary security code to unlock the main gate.",
-    "rarity": "Common",
-    "category": "Key",
-    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/9/90/Major_Aiva%27s_Patch.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
     "stackSize": "1",
-    "localImage": "Security_Code.png"
+    "localImage": "Major_Aiva's_Patch.png"
   },
   {
-    "name": "Raider's Refuge Security Code",
-    "description": "Temporary security code to unlock the main gate.",
+    "name": "Raider Flag",
+    "description": "Sun-bleached and wrinkled, yet dignified all the same.",
     "rarity": "Common",
-    "category": "Key",
-    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/7/76/Raider_Flag.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
     "stackSize": "1",
-    "localImage": "Security_Code.png"
+    "localImage": "Raider_Flag.png"
   },
   {
-    "name": "Reinforced Reception Security Code",
-    "description": "Temporary security code to unlock the main gate.",
+    "name": "Major Aiva's Mementos",
+    "description": "A closely-shut box, covered in many years worth of dust.",
     "rarity": "Common",
-    "category": "Key",
-    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/f/f6/Major_Aiva%27s_Mementos.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
     "stackSize": "1",
-    "localImage": "Security_Code.png"
+    "localImage": "Major_Aiva's_Mementos.png"
   },
   {
-    "name": "Ancient Fort Security Code",
-    "description": "Temporary security code to unlock the main gate.",
+    "name": "Celeste's Journal",
+    "description": "Battered and torn, you can see the faint outline of doodles along the edges.",
     "rarity": "Common",
-    "category": "Key",
-    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/4/41/Celeste%27s_Journal.png",
     "weight": "0.25.mw-parser-output .template-weight{display:flex",
     "stackSize": "1",
-    "localImage": "Security_Code.png"
-  },
-  {
-    "name": "Snowball",
-    "description": "A compact snowball fashioned out of the most malleable and aerodynamic snow.",
-    "rarity": "Common",
-    "category": "Misc",
-    "value": 10,
-    "image": "https://arcraiders.wiki/w/images/0/04/Snowball.png",
-    "canBeFoundIn": [
-      "Nature"
-    ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
-    "stackSize": "5",
-    "localImage": "Snowball.png"
-  },
-  {
-    "name": "Acoustic Guitar",
-    "description": "A playable acoustic guitar used to attract ARC's attention, and impress other Raiders.",
-    "rarity": "Legendary",
-    "category": "Quick Use",
-    "value": 7000,
-    "parts": [
-      {
-        "quantity": 6,
-        "name": "Wires"
-      },
-      {
-        "quantity": 4,
-        "name": "Metal Parts"
-      }
-    ],
-    "image": "https://arcraiders.wiki/w/images/thumb/5/50/Acoustic_Guitar.png/1200px-Acoustic_Guitar.png.webp",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
-    "stackSize": "1",
-    "localImage": "1200px-Acoustic_Guitar.png.webp"
+    "localImage": "Celeste's_Journal.png"
   }
 ]
