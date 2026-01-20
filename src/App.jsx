@@ -188,7 +188,7 @@ function RarityLabel({ rarity, category }) {
 
 const LootTile = memo(function LootTile({
 	item,
-	onClick,
+	onSelect,
 	onPinToggle,
 	isPinned,
 }) {
@@ -201,9 +201,9 @@ const LootTile = memo(function LootTile({
 					? target.closest('.pinthis')
 					: event.currentTarget.querySelector('.pinthis');
 			if (pinElement && pinElement.contains(target)) return;
-			onClick?.();
+			onSelect?.(item);
 		},
-		[onClick],
+		[onSelect, item],
 	);
 
 	const handlePinClick = useCallback(
@@ -850,7 +850,7 @@ export default function App() {
 						<LootTile
 							key={item.name}
 							item={item}
-							onClick={() => handleSelect(item)}
+							onSelect={handleSelect}
 							onPinToggle={handlePinToggle}
 							isPinned={pinnedSet.has(item.name)}
 						/>
