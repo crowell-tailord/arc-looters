@@ -1,6 +1,6 @@
 {
 	"name": "arc-raiders-loot",
-	"version": "1.18.0",
+	"version": "1.19.0",
 	"private": true,
 	"packageManager": "npm@10.8.2",
 	"type": "module",
