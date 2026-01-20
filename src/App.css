@@ -733,9 +733,14 @@ p {
 	height: 19px;
 	display: inline-block;
 }
+.stack-size {
+	margin-right: auto;
+}
 .tile-footer {
 	align-self: end;
 	margin-top: auto;
+	width: 100%;
+	justify-content: end;
 }
 .coin-price::before {
 	content: url('/i/coin-22px.webp');
