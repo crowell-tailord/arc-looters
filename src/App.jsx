@@ -142,7 +142,7 @@ function ProgressiveImage({
 				onLoad(event);
 			}
 		},
-		[onLoad]
+		[onLoad],
 	);
 
 	const wrapperClasses = [
@@ -203,7 +203,7 @@ const LootTile = memo(function LootTile({
 			if (pinElement && pinElement.contains(target)) return;
 			onClick?.();
 		},
-		[onClick]
+		[onClick],
 	);
 
 	const handlePinClick = useCallback(
@@ -212,7 +212,7 @@ const LootTile = memo(function LootTile({
 			event.stopPropagation();
 			onPinToggle?.(item);
 		},
-		[onPinToggle, item]
+		[onPinToggle, item],
 	);
 
 	const key = (item.rarity || 'common').toLowerCase();
@@ -280,7 +280,7 @@ function DetailModal({ item, onClose, onReport }) {
 				onClose();
 			}
 		},
-		[onClose]
+		[onClose],
 	);
 	const key = (item.rarity || 'common').toLowerCase();
 	const palette = rarityPalette[key] || rarityPalette.common;
@@ -405,7 +405,7 @@ function FeedbackModal({ item, onClose, apiBaseUrl }) {
 				setError(submitError.message || 'Could not send feedback.');
 			}
 		},
-		[endpoint, item.name, message]
+		[endpoint, item.name, message],
 	);
 
 	const handleBackdropClick = useCallback(
@@ -414,7 +414,7 @@ function FeedbackModal({ item, onClose, apiBaseUrl }) {
 				onClose();
 			}
 		},
-		[onClose]
+		[onClose],
 	);
 
 	return (
@@ -468,8 +468,8 @@ function FeedbackModal({ item, onClose, apiBaseUrl }) {
 						{status === 'sending'
 							? 'Sending…'
 							: status === 'sent'
-							? 'Sent!'
-							: 'Send Report'}
+								? 'Sent!'
+								: 'Send Report'}
 					</button>
 				</div>
 			</form>
@@ -489,7 +489,7 @@ export default function App() {
 		if (typeof window === 'undefined') return [];
 		try {
 			const stored = JSON.parse(
-				localStorage.getItem('arc-loot-pinned') || '[]'
+				localStorage.getItem('arc-loot-pinned') || '[]',
 			);
 			return Array.isArray(stored) ? stored : [];
 		} catch (error) {
@@ -519,7 +519,7 @@ export default function App() {
 		if (adRef.current) {
 			if (
 				adRef.current.querySelector(
-					'script[src="https://tailord-ads.vercel.app/embed.js"]'
+					'script[src="https://tailord-ads.vercel.app/embed.js"]',
 				)
 			) {
 				return;
@@ -530,16 +530,16 @@ export default function App() {
 			adRef.current.appendChild(script);
 		}
 		// ezoic
-		if (window.ezstandalone) {
-			window.ezstandalone.cmd.push(function () {
-				window.ezstandalone.showAds(115);
-			});
-		}
+		// if (window.ezstandalone) {
+		// 	window.ezstandalone.cmd.push(function () {
+		// 		window.ezstandalone.showAds(115);
+		// 	});
+		// }
 	}, []);
 
 	const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || '').replace(
 		/\/$/,
-		''
+		'',
 	);
 	const currentSortLabel =
 		sortOptions.find((option) => option.value === sortBy)?.label ?? 'Name';
@@ -610,7 +610,7 @@ export default function App() {
 				const nameMatch = item.name.toLowerCase().includes(lowered);
 				const rarityMatch = item.rarity?.toLowerCase().includes(lowered);
 				const partMatch = item.parts?.some((piece) =>
-					piece.name.toLowerCase().includes(lowered)
+					piece.name.toLowerCase().includes(lowered),
 				);
 				return nameMatch || rarityMatch || partMatch;
 			});
@@ -618,7 +618,7 @@ export default function App() {
 
 		if (activeRarity) {
 			items = items.filter(
-				(item) => item.rarity?.toLowerCase() === activeRarity
+				(item) => item.rarity?.toLowerCase() === activeRarity,
 			);
 		}
 
@@ -627,18 +627,18 @@ export default function App() {
 
 	const pinnedSet = useMemo(
 		() => new Set(pinnedNames.filter(Boolean)),
-		[pinnedNames]
+		[pinnedNames],
 	);
 
 	const pinnedLoot = useMemo(
 		() => sortedLoot.filter((item) => pinnedSet.has(item.name)),
-		[sortedLoot, pinnedSet]
+		[sortedLoot, pinnedSet],
 	);
 
 	const visibleLoot = useMemo(() => {
 		if (!pinnedLoot.length) return filteredLoot;
 		const filteredWithoutPinned = filteredLoot.filter(
-			(item) => !pinnedSet.has(item.name)
+			(item) => !pinnedSet.has(item.name),
 		);
 		return [...pinnedLoot, ...filteredWithoutPinned];
 	}, [filteredLoot, pinnedLoot, pinnedSet]);
