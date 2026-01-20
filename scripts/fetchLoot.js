@@ -293,6 +293,14 @@ const parseInfoboxDetails = (root) => {
       return;
     }
 
+    if (hasClass(row, 'data-weight')) {
+      const weightDiv = row.querySelector('.template-weight');
+      if (weightDiv) {
+        data.weight = sanitize(weightDiv.text);
+      }
+      return;
+    }
+
     const header = row.querySelector('th');
     const valueCell = row.querySelector('td');
     if (!header || !valueCell) return;

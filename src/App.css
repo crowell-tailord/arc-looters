@@ -19,6 +19,9 @@ h4,
 p {
 	margin: 0;
 }
+.gap-sm {
+	gap: 1rem;
+}
 .page {
 	padding-bottom: 2rem;
 	position: relative;
@@ -721,14 +724,23 @@ p {
 	justify-content: space-between;
 	width: 100%;
 }
-.coin-price {
+.weight::before {
+	content: '';
+	background-image: url('/i/Weight-44px.webp');
+	background-repeat: no-repeat;
+	background-size: 22px;
+	width: 22px;
+	height: 19px;
+	display: inline-block;
+}
+.tile-footer {
 	align-self: end;
 	margin-top: auto;
 }
 .coin-price::before {
 	content: url('/i/coin-22px.webp');
 	width: 22px;
-	height: 19px;
+	height: 21px;
 	display: inline-block;
 	vertical-align: bottom;
 }

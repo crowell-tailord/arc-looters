@@ -267,7 +267,10 @@ const LootTile = memo(function LootTile({
 						);
 					})}
 				</div>
-				<span className='coin-price'>{formatCurrency(item.value)}</span>
+				<div className='tile-footer flex gap-sm'>
+					<span className='weight'>{item.weight}</span>
+					<span className='coin-price'>{formatCurrency(item.value)}</span>
+				</div>
 			</div>
 		</div>
 	);
@@ -341,8 +344,8 @@ function DetailModal({ item, onClose, onReport }) {
 						))}
 					</p>
 				)}
-				<div className='flex flex-apart'>
-					<span className='weight'>{}</span>
+				<div className='tile-footer flex gap-sm'>
+					<span className='weight'>{item.weight}</span>
 					<p className='coin-price'>{formatCurrency(item.value)}</p>
 				</div>
 				<div className='modal-actions'>

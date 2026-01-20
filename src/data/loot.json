@@ -17,7 +17,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/thumb/5/50/Acoustic_Guitar.png/1200px-Acoustic_Guitar.png.webp",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "1",
     "localImage": "1200px-Acoustic_Guitar.png.webp"
   },
@@ -39,7 +39,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1b/Adrenaline_Shot.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "5",
     "localImage": "Adrenaline_Shot.png"
   },
@@ -60,7 +60,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "5",
     "localImage": "Advanced_ARC_Powercell.png"
   },
@@ -85,7 +85,7 @@
     "canBeFoundIn": [
       "Electrical"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "5",
     "localImage": "Advanced_Electrical_Components.png"
   },
@@ -110,7 +110,7 @@
     "canBeFoundIn": [
       "Mechanical"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "5",
     "localImage": "Advanced_Mechanical_Components.png"
   },
@@ -131,7 +131,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "10",
     "localImage": "Agave.png"
   },
@@ -149,7 +149,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a8/Agave_Juice.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "5",
     "localImage": "Agave_Juice.png"
   },
@@ -170,7 +170,7 @@
     "canBeFoundIn": [
       "Mechanical"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Air_Freshener.png"
   },
@@ -195,7 +195,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Alarm_Clock.png"
   },
@@ -213,7 +213,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Security_Code.png"
   },
@@ -231,7 +231,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/b5/Angled_Grip_I.png",
-    "weight": "0.25",
     "localImage": "Angled_Grip_I.png"
   },
   {
@@ -252,7 +251,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/2b/Angled_Grip_II.png",
-    "weight": "0.5",
     "localImage": "Angled_Grip_II.png"
   },
   {
@@ -273,7 +271,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0f/Angled_Grip_III.png",
-    "weight": "0.75",
     "localImage": "Angled_Grip_III.png"
   },
   {
@@ -293,7 +290,7 @@
     "canBeFoundIn": [
       "Medical"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "5",
     "localImage": "Antiseptic.png"
   },
@@ -315,7 +312,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/ef/Anvil_Splitter.png",
-    "weight": "0.5",
     "localImage": "Anvil_Splitter.png"
   },
   {
@@ -335,7 +331,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "10",
     "localImage": "Apricot.png"
   },
@@ -356,7 +352,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "15",
     "localImage": "ARC_Alloy.png"
   },
@@ -377,7 +373,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "ARC_Circuitry.png"
   },
@@ -398,7 +394,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "ARC_Coolant.png"
   },
@@ -419,7 +415,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "ARC_Flex_Rubber.png"
   },
@@ -440,7 +436,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "ARC_Motion_Core.png"
   },
@@ -461,7 +457,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "ARC_Performance_Steel.png"
   },
@@ -482,7 +478,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "5",
     "localImage": "ARC_Powercell.png"
   },
@@ -503,7 +499,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "ARC_Synthetic_Resin.png"
   },
@@ -524,7 +520,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "ARC_Thermo_Lining.png"
   },
@@ -545,7 +541,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.05.mw-parser-output .template-weight{display:flex",
+    "weight": "0.05",
     "stackSize": "100",
     "localImage": "Assorted_Seeds.png"
   },
@@ -563,7 +559,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0c/Bandage.png",
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "weight": "0.1",
     "stackSize": "5",
     "localImage": "Bandage.png"
   },
@@ -581,7 +577,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cb/Barricade_Kit.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "3",
     "localImage": "Barricade_Kit.png"
   },
@@ -606,7 +602,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Bastion_Cell.png"
   },
@@ -628,7 +624,7 @@
       "Technological",
       "Electrical"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "15",
     "localImage": "Battery.png"
   },
@@ -653,7 +649,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Bicycle_Pump.png"
   },
@@ -675,7 +671,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/74/Binoculars.png",
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "1",
     "localImage": "Binoculars.png"
   },
@@ -697,7 +693,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/24/Blaze_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "5",
     "localImage": "Blaze_Grenade.png"
   },
@@ -715,7 +711,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/af/Blaze_Grenade_Trap.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Blaze_Grenade_Trap.png"
   },
@@ -737,7 +733,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "15",
     "localImage": "Bloated_Tuna_Can.png"
   },
@@ -755,7 +751,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/7c/Blue_Gate_Key_Variant_1.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Blue_Gate_Key_Variant_1.png"
   },
@@ -773,7 +769,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/de/Blue_Gate_Key_Variant_2.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Blue_Gate_Key_Variant_2.png"
   },
@@ -791,7 +787,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/de/Blue_Gate_Key_Variant_2.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Blue_Gate_Key_Variant_2.png"
   },
@@ -809,7 +805,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/7c/Blue_Gate_Key_Variant_1.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Blue_Gate_Key_Variant_1.png"
   },
@@ -834,7 +830,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Bombardier_Cell.png"
   },
@@ -857,7 +853,7 @@
       "Old World",
       "Commercial"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "1",
     "localImage": "Breathtaking_Snow_Globe.png"
   },
@@ -882,7 +878,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Broken_Flashlight.png"
   },
@@ -903,7 +899,7 @@
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Broken_Guidance_System.png"
   },
@@ -928,7 +924,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Broken_Handheld_Radio.png"
   },
@@ -953,7 +949,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Broken_Taser.png"
   },
@@ -971,7 +967,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/11/Buried_City_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Buried_City_Key.png"
   },
@@ -989,7 +985,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/11/Buried_City_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Buried_City_Key.png"
   },
@@ -1007,7 +1003,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/11/Buried_City_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Buried_City_Key.png"
   },
@@ -1025,7 +1021,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/11/Buried_City_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Buried_City_Key.png"
   },
@@ -1046,7 +1042,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "5",
     "localImage": "Burned_ARC_Circuitry.png"
   },
@@ -1068,7 +1064,7 @@
       "Residential",
       "Old World"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "15",
     "localImage": "Burnt-Out_Candles.png"
   },
@@ -1089,7 +1085,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "5",
     "localImage": "Camera_Lens.png"
   },
@@ -1110,7 +1106,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Candle_Holder.png"
   },
@@ -1131,7 +1127,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "10",
     "localImage": "Candleberries.png"
   },
@@ -1152,7 +1148,7 @@
     "canBeFoundIn": [
       "Commercial"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "15",
     "localImage": "Canister.png"
   },
@@ -1174,7 +1170,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "3",
     "localImage": "Cat_Bed.png"
   },
@@ -1197,7 +1193,7 @@
       "Residential",
       "Medical"
     ],
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "weight": "0.1",
     "stackSize": "50",
     "localImage": "Chemicals.png"
   },
@@ -1218,7 +1214,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Coffee_Pot.png"
   },
@@ -1240,7 +1236,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/14/Combat_Mk._1.png",
-    "weight": "45.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "localImage": "Combat_Mk._1.png"
   },
   {
@@ -1261,7 +1257,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/54/Combat_Mk._2.png",
-    "weight": "55.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "localImage": "Combat_Mk._2.png"
   },
   {
@@ -1282,7 +1278,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a4/Combat_Mk._3_%28Aggressive%29.png",
-    "weight": "65.0.mw-parser-output .template-weight{display:flex",
+    "weight": "5.0",
     "localImage": "Combat_Mk._3_(Aggressive).png"
   },
   {
@@ -1303,7 +1299,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/73/Combat_Mk._3_%28Flanking%29.png",
-    "weight": "60.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "localImage": "Combat_Mk._3_(Flanking).png"
   },
   {
@@ -1320,7 +1316,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5f/Compensator_I.png",
-    "weight": "0.25",
     "localImage": "Compensator_I.png"
   },
   {
@@ -1341,7 +1336,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0a/Compensator_II.png",
-    "weight": "0.5",
     "localImage": "Compensator_II.png"
   },
   {
@@ -1362,7 +1356,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/af/Compensator_III.png",
-    "weight": "0.75",
     "localImage": "Compensator_III.png"
   },
   {
@@ -1382,7 +1375,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Complex_Gun_Parts.png"
   },
@@ -1407,7 +1400,7 @@
     "canBeFoundIn": [
       "Mechanical"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Coolant.png"
   },
@@ -1432,7 +1425,7 @@
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Cooling_Coil.png"
   },
@@ -1457,7 +1450,7 @@
     "canBeFoundIn": [
       "Technological"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Cooling_Fan.png"
   },
@@ -1482,7 +1475,7 @@
     "canBeFoundIn": [
       "Medical"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Cracked_Bioscanner.png"
   },
@@ -1504,7 +1497,7 @@
       "Industrial",
       "Security"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "10",
     "localImage": "Crude_Explosives.png"
   },
@@ -1525,7 +1518,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Crumpled_Plastic_Bottle.png"
   },
@@ -1543,7 +1536,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Dam_Battlegrounds_Key.png"
   },
@@ -1561,7 +1554,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Dam_Battlegrounds_Key.png"
   },
@@ -1579,7 +1572,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Dam_Battlegrounds_Key.png"
   },
@@ -1597,7 +1590,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Dam_Battlegrounds_Key.png"
   },
@@ -1615,7 +1608,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Dam_Battlegrounds_Key.png"
   },
@@ -1636,7 +1629,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "5",
     "localImage": "Damaged_ARC_Motion_Core.png"
   },
@@ -1657,7 +1650,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "5",
     "localImage": "Damaged_ARC_Powercell.png"
   },
@@ -1678,7 +1671,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Damaged_Fireball_Burner.png"
   },
@@ -1703,7 +1696,7 @@
     "canBeFoundIn": [
       "Technological"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Damaged_Heat_Sink.png"
   },
@@ -1724,7 +1717,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Damaged_Hornet_Driver.png"
   },
@@ -1745,7 +1738,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Damaged_Leaper_Pulse_Unit.png"
   },
@@ -1766,7 +1759,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "3",
     "localImage": "Damaged_Rocketeer_Driver.png"
   },
@@ -1787,7 +1780,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "3",
     "localImage": "Damaged_Snitch_Scanner.png"
   },
@@ -1808,7 +1801,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "3",
     "localImage": "Damaged_Tick_Pod.png"
   },
@@ -1829,7 +1822,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "3",
     "localImage": "Damaged_Wasp_Driver.png"
   },
@@ -1851,7 +1844,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Dart_Board.png"
   },
@@ -1873,7 +1866,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c7/Deadline.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "1",
     "localImage": "Deadline.png"
   },
@@ -1895,7 +1888,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5f/Defibrillator.png",
-    "weight": "0.75.mw-parser-output .template-weight{display:flex",
+    "weight": "0.75",
     "stackSize": "3",
     "localImage": "Defibrillator.png"
   },
@@ -1920,7 +1913,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Deflated_Football.png"
   },
@@ -1941,7 +1934,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Degraded_ARC_Rubber.png"
   },
@@ -1962,7 +1955,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Diving_Goggles.png"
   },
@@ -1987,7 +1980,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Dog_Collar.png"
   },
@@ -2005,7 +1998,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/68/Door_Blocker.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Door_Blocker.png"
   },
@@ -2026,7 +2019,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Dried-Out_ARC_Resin.png"
   },
@@ -2048,7 +2041,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "15",
     "localImage": "Duct_Tape.png"
   },
@@ -2070,7 +2063,7 @@
       "Medical",
       "Commercial"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "10",
     "localImage": "Durable_Cloth.png"
   },
@@ -2095,7 +2088,7 @@
     "canBeFoundIn": [
       "Electrical"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "10",
     "localImage": "Electrical_Components.png"
   },
@@ -2117,7 +2110,7 @@
       "Residential",
       "Commercial"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "5",
     "localImage": "Empty_Wine_Bottle.png"
   },
@@ -2135,7 +2128,7 @@
     "category": "Ammunition",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/08/Energy_Clip.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Energy_Clip.png"
   },
@@ -2153,7 +2146,7 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5e/ESR_Analyzer.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "ESR_Analyzer.png"
   },
@@ -2178,7 +2171,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Exodus_Modules.png"
   },
@@ -2200,7 +2193,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "weight": "0.1",
     "stackSize": "15",
     "localImage": "Expired_Pasta.png"
   },
@@ -2225,7 +2218,7 @@
     "canBeFoundIn": [
       "Medical"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Expired_Respirator.png"
   },
@@ -2247,7 +2240,7 @@
       "Industrial",
       "Security"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Explosive_Compound.png"
   },
@@ -2269,7 +2262,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/22/Explosive_Mine.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "3",
     "localImage": "Explosive_Mine.png"
   },
@@ -2291,7 +2284,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/2f/Extended_Barrel.png",
-    "weight": "0.5",
     "localImage": "Extended_Barrel.png"
   },
   {
@@ -2308,7 +2300,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/23/Extended_Light_Mag_I.png",
-    "weight": "0.5",
     "localImage": "Extended_Light_Mag_I.png"
   },
   {
@@ -2329,7 +2320,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cf/Extended_Light_Mag_II.png",
-    "weight": "0.5",
     "localImage": "Extended_Light_Mag_II.png"
   },
   {
@@ -2350,7 +2340,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/40/Extended_Light_Mag_III.png",
-    "weight": "0.75",
     "localImage": "Extended_Light_Mag_III.png"
   },
   {
@@ -2367,7 +2356,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/44/Extended_Medium_Mag_I.png",
-    "weight": "0.25",
     "localImage": "Extended_Medium_Mag_I.png"
   },
   {
@@ -2388,7 +2376,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/50/Extended_Medium_Mag_II.png",
-    "weight": "0.5",
     "localImage": "Extended_Medium_Mag_II.png"
   },
   {
@@ -2409,7 +2396,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a1/Extended_Medium_Mag_III.png",
-    "weight": "0.75",
     "localImage": "Extended_Medium_Mag_III.png"
   },
   {
@@ -2426,7 +2412,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/9b/Extended_Shotgun_Mag_I.png",
-    "weight": "0.25",
     "localImage": "Extended_Shotgun_Mag_I.png"
   },
   {
@@ -2447,7 +2432,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4f/Extended_Shotgun_Mag_II.png",
-    "weight": "0.5",
     "localImage": "Extended_Shotgun_Mag_II.png"
   },
   {
@@ -2468,7 +2452,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/77/Extended_Shotgun_Mag_III.png",
-    "weight": "0.75",
     "localImage": "Extended_Shotgun_Mag_III.png"
   },
   {
@@ -2490,7 +2473,7 @@
       "Medical",
       "Residential"
     ],
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "weight": "0.1",
     "stackSize": "50",
     "localImage": "Fabric.png"
   },
@@ -2511,7 +2494,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "15",
     "localImage": "Faded_Photograph.png"
   },
@@ -2532,7 +2515,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "5",
     "localImage": "Fertilizer.png"
   },
@@ -2554,7 +2537,7 @@
       "Residential",
       "Old World"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Film_Reel.png"
   },
@@ -2576,7 +2559,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Fine_Wristwatch.png"
   },
@@ -2601,7 +2584,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "3",
     "localImage": "Fireball_Burner.png"
   },
@@ -2619,7 +2602,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/86/Firecracker.png",
-    "weight": "0.05.mw-parser-output .template-weight{display:flex",
+    "weight": "0.05",
     "stackSize": "5",
     "localImage": "Firecracker.png"
   },
@@ -2637,7 +2620,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0f/Fireworks_Box.png",
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "1",
     "localImage": "Fireworks_Box.png"
   },
@@ -2659,7 +2642,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/73/Flame_Spray.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "1",
     "localImage": "Flame_Spray.png"
   },
@@ -2684,7 +2667,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Flow_Controller.png"
   },
@@ -2705,7 +2688,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Fossilized_Lightning.png"
   },
@@ -2723,7 +2706,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cf/Free_Loadout_Augment.png",
-    "weight": "35.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "localImage": "Free_Loadout_Augment.png"
   },
   {
@@ -2747,7 +2730,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Frequency_Modulation_Box.png"
   },
@@ -2772,7 +2755,7 @@
     "canBeFoundIn": [
       "Technological"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Fried_Motherboard.png"
   },
@@ -2790,7 +2773,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5a/Fruit_Mix.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Fruit_Mix.png"
   },
@@ -2811,7 +2794,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Frying_Pan.png"
   },
@@ -2833,7 +2816,7 @@
       "Residential",
       "Commercial"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Garlic_Press.png"
   },
@@ -2855,7 +2838,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/fe/Gas_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Gas_Grenade.png"
   },
@@ -2873,7 +2856,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/33/Gas_Grenade_Trap.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "3",
     "localImage": "Gas_Grenade_Trap.png"
   },
@@ -2895,7 +2878,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/ce/Gas_Mine.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "3",
     "localImage": "Gas_Mine.png"
   },
@@ -2920,7 +2903,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Geiger_Counter.png"
   },
@@ -2941,7 +2924,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "15",
     "localImage": "Great_Mullein.png"
   },
@@ -2967,7 +2950,7 @@
       "Residential",
       "Commercial"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Headphones.png"
   },
@@ -2985,7 +2968,7 @@
     "category": "Ammunition",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/6f/Heavy_Ammo.png",
-    "weight": "0.05.mw-parser-output .template-weight{display:flex",
+    "weight": "0.05",
     "stackSize": "40",
     "localImage": "Heavy_Ammo.png"
   },
@@ -3007,7 +2990,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/ea/Heavy_Fuze_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Heavy_Fuze_Grenade.png"
   },
@@ -3029,7 +3012,7 @@
       "Security",
       "Raider"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "5",
     "localImage": "Heavy_Gun_Parts.png"
   },
@@ -3051,7 +3034,7 @@
     "category": "Shield",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/f9/Heavy_Shield.png",
-    "weight": "9.0.mw-parser-output .template-weight{display:flex",
+    "weight": "9.0",
     "localImage": "Heavy_Shield.png"
   },
   {
@@ -3072,7 +3055,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c5/Herbal_Bandage.png",
-    "weight": "0.15.mw-parser-output .template-weight{display:flex",
+    "weight": "0.15",
     "stackSize": "5",
     "localImage": "Herbal_Bandage.png"
   },
@@ -3094,7 +3077,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/89/Horizontal_Grip.png",
-    "weight": "0.5",
     "localImage": "Horizontal_Grip.png"
   },
   {
@@ -3118,7 +3100,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.75.mw-parser-output .template-weight{display:flex",
+    "weight": "0.75",
     "stackSize": "3",
     "localImage": "Hornet_Driver.png"
   },
@@ -3139,7 +3121,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Household_Cleaner.png"
   },
@@ -3164,7 +3146,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Humidifier.png"
   },
@@ -3185,7 +3167,7 @@
     "canBeFoundIn": [
       "Commercial"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Ice_Cream_Scooper.png"
   },
@@ -3206,7 +3188,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Impure_ARC_Coolant.png"
   },
@@ -3231,7 +3213,7 @@
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Industrial_Battery.png"
   },
@@ -3256,7 +3238,7 @@
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Industrial_Charger.png"
   },
@@ -3281,7 +3263,7 @@
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Industrial_Magnet.png"
   },
@@ -3299,7 +3281,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/74/Binoculars.png",
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "localImage": "Binoculars.png"
   },
   {
@@ -3316,7 +3298,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c9/Surge_Shield_Recharger.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "1",
     "localImage": "Surge_Shield_Recharger.png"
   },
@@ -3341,7 +3323,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Ion_Sputter.png"
   },
@@ -3363,7 +3345,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5a/Jolt_Mine.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Jolt_Mine.png"
   },
@@ -3385,7 +3367,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/71/Kinetic_Converter.png",
-    "weight": "0.75",
     "localImage": "Kinetic_Converter.png"
   },
   {
@@ -3409,7 +3390,7 @@
     "canBeFoundIn": [
       "Medical"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Laboratory_Reagents.png"
   },
@@ -3431,7 +3412,7 @@
       "Residential",
       "Commercial"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Lance's_Mixtape_(5th_Edition).png"
   },
@@ -3449,7 +3430,7 @@
     "category": "Ammunition",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/99/Launcher_Ammo.png",
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "weight": "0.1",
     "stackSize": "24",
     "localImage": "Launcher_Ammo.png"
   },
@@ -3474,7 +3455,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Leaper_Pulse_Unit.png"
   },
@@ -3495,7 +3476,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "10",
     "localImage": "Lemon.png"
   },
@@ -3517,7 +3498,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/19/Lil_Smoke_Grenade.png",
-    "weight": "0.15.mw-parser-output .template-weight{display:flex",
+    "weight": "0.15",
     "stackSize": "5",
     "localImage": "Lil_Smoke_Grenade.png"
   },
@@ -3535,7 +3516,7 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4d/Lidar_Scanner.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Lidar_Scanner.png"
   },
@@ -3553,7 +3534,7 @@
     "category": "Ammunition",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/22/Light_Ammo.png",
-    "weight": "0.01.mw-parser-output .template-weight{display:flex",
+    "weight": "0.01",
     "stackSize": "100",
     "localImage": "Light_Ammo.png"
   },
@@ -3574,7 +3555,7 @@
     "canBeFoundIn": [
       "Electrical"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Light_Bulb.png"
   },
@@ -3596,7 +3577,7 @@
       "Raider",
       "Security"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Light_Gun_Parts.png"
   },
@@ -3618,7 +3599,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4c/Light_Impact_Grenade.png",
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "weight": "0.1",
     "stackSize": "5",
     "localImage": "Light_Impact_Grenade.png"
   },
@@ -3636,7 +3617,7 @@
     "category": "Shield",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/40/Light_Shield.png",
-    "weight": "5.0.mw-parser-output .template-weight{display:flex",
+    "weight": "5.0",
     "localImage": "Light_Shield.png"
   },
   {
@@ -3653,7 +3634,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cc/Blue_Light_Stick.png",
-    "weight": "0.15.mw-parser-output .template-weight{display:flex",
+    "weight": "0.15",
     "stackSize": "5",
     "localImage": "Blue_Light_Stick.png"
   },
@@ -3675,7 +3656,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cb/Lightweight_Stock.png",
-    "weight": "0.25",
     "localImage": "Lightweight_Stock.png"
   },
   {
@@ -3696,7 +3676,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/27/Looting_Mk._1.png",
-    "weight": "50.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "localImage": "Looting_Mk._1.png"
   },
   {
@@ -3717,7 +3697,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/7c/Looting_Mk._2.png",
-    "weight": "60.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "localImage": "Looting_Mk._2.png"
   },
   {
@@ -3738,7 +3718,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/68/Looting_Mk._3_%28Cautious%29.png",
-    "weight": "70.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "localImage": "Looting_Mk._3_(Cautious).png"
   },
   {
@@ -3759,7 +3739,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/74/Looting_Mk._3_%28Survivor%29.png",
-    "weight": "80.0.mw-parser-output .template-weight{display:flex",
+    "weight": "4.0",
     "localImage": "Looting_Mk._3_(Survivor).png"
   },
   {
@@ -3776,7 +3756,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/77/Lure_Grenade.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "3",
     "localImage": "Lure_Grenade.png"
   },
@@ -3794,7 +3774,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/92/Lure_Grenade_Trap.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "3",
     "localImage": "Lure_Grenade_Trap.png"
   },
@@ -3819,7 +3799,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "15",
     "localImage": "Magnet.png"
   },
@@ -3844,7 +3824,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Magnetic_Accelerator.png"
   },
@@ -3869,7 +3849,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Magnetron.png"
   },
@@ -3894,7 +3874,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "10.0.mw-parser-output .template-weight{display:flex",
+    "weight": "10.0",
     "stackSize": "1",
     "localImage": "Matriarch_Reactor.png"
   },
@@ -3919,7 +3899,7 @@
     "canBeFoundIn": [
       "Mechanical"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "10",
     "localImage": "Mechanical_Components.png"
   },
@@ -3937,7 +3917,7 @@
     "category": "Ammunition",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/d3/Medium_Ammo.png",
-    "weight": "0.025.mw-parser-output .template-weight{display:flex",
+    "weight": "0.025",
     "stackSize": "80",
     "localImage": "Medium_Ammo.png"
   },
@@ -3959,7 +3939,7 @@
       "Raider",
       "Security"
     ],
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "5",
     "localImage": "Medium_Gun_Parts.png"
   },
@@ -3977,7 +3957,7 @@
     "category": "Shield",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/41/Medium_Shield.png",
-    "weight": "7.0.mw-parser-output .template-weight{display:flex",
+    "weight": "7.0",
     "localImage": "Medium_Shield.png"
   },
   {
@@ -3998,7 +3978,7 @@
       "Mechanical",
       "Electrical"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Metal_Brackets.png"
   },
@@ -4022,7 +4002,7 @@
       "Electrical",
       "Technological"
     ],
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "weight": "0.1",
     "stackSize": "50",
     "localImage": "Metal_Parts.png"
   },
@@ -4047,7 +4027,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Microscope.png"
   },
@@ -4072,7 +4052,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Mini_Centrifuge.png"
   },
@@ -4097,7 +4077,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "5",
     "localImage": "Mod_Components.png"
   },
@@ -4118,7 +4098,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "10",
     "localImage": "Moss.png"
   },
@@ -4143,7 +4123,7 @@
     "canBeFoundIn": [
       "Mechanical"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Motor.png"
   },
@@ -4164,7 +4144,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "10",
     "localImage": "Mushroom.png"
   },
@@ -4186,7 +4166,7 @@
       "Residential",
       "Commercial"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Music_Album.png"
   },
@@ -4209,7 +4189,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "3",
     "localImage": "Music_Box.png"
   },
@@ -4227,7 +4207,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4f/Muzzle_Brake_I.png",
-    "weight": "0.25",
     "localImage": "Muzzle_Brake_I.png"
   },
   {
@@ -4248,7 +4227,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/23/Muzzle_Brake_II.png",
-    "weight": "0.5",
     "localImage": "Muzzle_Brake_II.png"
   },
   {
@@ -4269,7 +4247,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a2/Muzzle_Brake_III.png",
-    "weight": "0.5",
     "localImage": "Muzzle_Brake_III.png"
   },
   {
@@ -4286,7 +4263,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5c/Noisemaker.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Noisemaker.png"
   },
@@ -4307,7 +4284,7 @@
     "canBeFoundIn": [
       "Mechanical"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Number_Plate.png"
   },
@@ -4328,7 +4305,7 @@
     "canBeFoundIn": [
       "Mechanical"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "15",
     "localImage": "Oil.png"
   },
@@ -4349,7 +4326,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "10",
     "localImage": "Olives.png"
   },
@@ -4371,7 +4348,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4b/Padded_Stock.png",
-    "weight": "0.5",
     "localImage": "Padded_Stock.png"
   },
   {
@@ -4391,7 +4367,7 @@
     "canBeFoundIn": [
       "Old World"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Painted_Box.png"
   },
@@ -4409,7 +4385,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/b0/Patrol_Car_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Patrol_Car_Key.png"
   },
@@ -4431,7 +4407,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/06/Photoelectric_Cloak.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "1",
     "localImage": "Photoelectric_Cloak.png"
   },
@@ -4449,7 +4425,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Security_Code.png"
   },
@@ -4472,7 +4448,7 @@
       "Residential",
       "Technological"
     ],
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "weight": "0.1",
     "stackSize": "50",
     "localImage": "Plastic_Parts.png"
   },
@@ -4494,7 +4470,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Playing_Cards.png"
   },
@@ -4519,7 +4495,7 @@
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Polluted_Air_Filter.png"
   },
@@ -4544,7 +4520,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "3",
     "localImage": "Pop_Trigger.png"
   },
@@ -4569,7 +4545,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "1",
     "localImage": "Portable_TV.png"
   },
@@ -4591,7 +4567,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Poster_of_Natural_Wonders.png"
   },
@@ -4613,7 +4589,7 @@
       "Old World",
       "Residential"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Pottery.png"
   },
@@ -4640,7 +4616,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Power_Bank.png"
   },
@@ -4663,7 +4639,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Power_Cable.png"
   },
@@ -4688,7 +4664,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Power_Rod.png"
   },
@@ -4709,7 +4685,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "10",
     "localImage": "Prickly_Pear.png"
   },
@@ -4734,7 +4710,7 @@
     "canBeFoundIn": [
       "Technological"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "5",
     "localImage": "Processor.png"
   },
@@ -4759,7 +4735,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Projector.png"
   },
@@ -4777,7 +4753,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/af/Pulse_Mine.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "3",
     "localImage": "Pulse_Mine.png"
   },
@@ -4802,7 +4778,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "10.0.mw-parser-output .template-weight{display:flex",
+    "weight": "10.0",
     "stackSize": "1",
     "localImage": "Queen_Reactor.png"
   },
@@ -4828,7 +4804,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Radio.png"
   },
@@ -4853,7 +4829,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Radio_Relay.png"
   },
@@ -4871,7 +4847,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/68/Raider_Hatch_Key.png",
-    "weight": "0.01.mw-parser-output .template-weight{display:flex",
+    "weight": "0.01",
     "stackSize": "1",
     "localImage": "Raider_Hatch_Key.png"
   },
@@ -4889,7 +4865,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Security_Code.png"
   },
@@ -4910,7 +4886,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "1",
     "localImage": "Recorder.png"
   },
@@ -4933,7 +4909,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Red_Coral_Jewelry.png"
   },
@@ -4951,7 +4927,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Security_Code.png"
   },
@@ -4976,7 +4952,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Remote_Control.png"
   },
@@ -4998,7 +4974,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/ff/Remote_Raider_Flare.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Remote_Raider_Flare.png"
   },
@@ -5019,7 +4995,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "10",
     "localImage": "Resin.png"
   },
@@ -5044,7 +5020,7 @@
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Ripped_Safety_Vest.png"
   },
@@ -5069,7 +5045,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Rocket_Thruster.png"
   },
@@ -5094,7 +5070,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Rocketeer_Driver.png"
   },
@@ -5115,7 +5091,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "10",
     "localImage": "Roots.png"
   },
@@ -5137,7 +5113,7 @@
       "Residential",
       "Commercial"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Rope.png"
   },
@@ -5159,7 +5135,7 @@
       "Old World",
       "Residential"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Rosary.png"
   },
@@ -5184,7 +5160,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Rotary_Encoder.png"
   },
@@ -5202,7 +5178,7 @@
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/df/Rubber_Duck.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "15",
     "localImage": "Rubber_Duck.png"
   },
@@ -5223,7 +5199,7 @@
     "canBeFoundIn": [
       "Electrical"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Rubber_Pad.png"
   },
@@ -5246,7 +5222,7 @@
       "Industrial",
       "Electrical"
     ],
-    "weight": "0.1.mw-parser-output .template-weight{display:flex",
+    "weight": "0.1",
     "stackSize": "50",
     "localImage": "Rubber_Parts.png"
   },
@@ -5271,7 +5247,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Ruined_Accordion.png"
   },
@@ -5293,7 +5269,7 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/aa/Ruined_Augment.png",
-    "weight": "3.mw-parser-output .template-weight{display:flex",
+    "weight": "3",
     "stackSize": "1",
     "localImage": "Ruined_Augment.png"
   },
@@ -5318,7 +5294,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Ruined_Baton.png"
   },
@@ -5339,7 +5315,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Ruined_Handcuffs.png"
   },
@@ -5360,7 +5336,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Ruined_Parachute.png"
   },
@@ -5385,7 +5361,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Ruined_Riot_Shield.png"
   },
@@ -5410,7 +5386,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Ruined_Tactical_Vest.png"
   },
@@ -5432,7 +5408,7 @@
       "Industrial",
       "Mechanical"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Rusted_Bolts.png"
   },
@@ -5457,7 +5433,7 @@
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Rusted_Gear.png"
   },
@@ -5482,7 +5458,7 @@
     "canBeFoundIn": [
       "Medical"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Rusted_Shut_Medical_Kit.png"
   },
@@ -5508,7 +5484,7 @@
       "Mechanical",
       "Industrial"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Rusted_Tools.png"
   },
@@ -5529,7 +5505,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Rusty_ARC_Steel.png"
   },
@@ -5554,7 +5530,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Sample_Cleaner.png"
   },
@@ -5572,7 +5548,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/35/Seeker_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "5",
     "localImage": "Seeker_Grenade.png"
   },
@@ -5598,7 +5574,7 @@
       "Security",
       "Technological"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Sensors.png"
   },
@@ -5623,7 +5599,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Sentinel_Firing_Core.png"
   },
@@ -5644,7 +5620,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "1",
     "localImage": "Shaker.png"
   },
@@ -5662,7 +5638,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/44/Shield_Recharger.png",
-    "weight": "0.15.mw-parser-output .template-weight{display:flex",
+    "weight": "0.15",
     "stackSize": "5",
     "localImage": "Shield_Recharger.png"
   },
@@ -5680,7 +5656,7 @@
     "category": "Ammunition",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/61/Shotgun_Ammo.png",
-    "weight": "0.085.mw-parser-output .template-weight{display:flex",
+    "weight": "0.085",
     "stackSize": "20",
     "localImage": "Shotgun_Ammo.png"
   },
@@ -5698,7 +5674,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/07/Shotgun_Choke_I.png",
-    "weight": "0.25",
     "localImage": "Shotgun_Choke_I.png"
   },
   {
@@ -5719,7 +5694,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/63/Shotgun_Choke_II.png",
-    "weight": "0.5",
     "localImage": "Shotgun_Choke_II.png"
   },
   {
@@ -5740,7 +5714,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/36/Shotgun_Choke_III.png",
-    "weight": "0.75",
     "localImage": "Shotgun_Choke_III.png"
   },
   {
@@ -5761,7 +5734,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4d/Shotgun_Silencer.png",
-    "weight": "0.5",
     "localImage": "Shotgun_Silencer.png"
   },
   {
@@ -5782,7 +5754,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/18/Showstopper.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "5",
     "localImage": "Showstopper.png"
   },
@@ -5804,7 +5776,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5f/Shrapnel_Grenade.png",
-    "weight": "0.15.mw-parser-output .template-weight{display:flex",
+    "weight": "0.15",
     "stackSize": "5",
     "localImage": "Shrapnel_Grenade.png"
   },
@@ -5829,7 +5801,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Shredder_Gyro.png"
   },
@@ -5854,7 +5826,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Signal_Amplifier.png"
   },
@@ -5876,7 +5848,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/f7/Silencer_I.png",
-    "weight": "0.25",
     "localImage": "Silencer_I.png"
   },
   {
@@ -5897,7 +5868,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c0/Silencer_II.png",
-    "weight": "0.5",
     "localImage": "Silencer_II.png"
   },
   {
@@ -5918,7 +5888,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/3e/Silencer_III.png",
-    "weight": "0.75",
     "localImage": "Silencer_III.png"
   },
   {
@@ -5940,7 +5909,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Silver_Teaspoon_Set.png"
   },
@@ -5962,7 +5931,7 @@
       "Raider",
       "Security"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "10",
     "localImage": "Simple_Gun_Parts.png"
   },
@@ -5984,7 +5953,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/d/d5/Smoke_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "5",
     "localImage": "Smoke_Grenade.png"
   },
@@ -6002,7 +5971,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/ac/Smoke_Grenade_Trap.png",
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Smoke_Grenade_Trap.png"
   },
@@ -6024,7 +5993,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/77/Snap_Blast_Grenade.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Snap_Blast_Grenade.png"
   },
@@ -6046,7 +6015,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/56/Snap_Hook.png",
-    "weight": "5.0.mw-parser-output .template-weight{display:flex",
+    "weight": "5.0",
     "stackSize": "1",
     "localImage": "Snap_Hook.png"
   },
@@ -6071,7 +6040,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.75.mw-parser-output .template-weight{display:flex",
+    "weight": "0.75",
     "stackSize": "3",
     "localImage": "Snitch_Scanner.png"
   },
@@ -6092,7 +6061,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "5",
     "localImage": "Snowball.png"
   },
@@ -6110,7 +6079,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/98/Spaceport_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Spaceport_Key.png"
   },
@@ -6128,7 +6097,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/98/Spaceport_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Spaceport_Key.png"
   },
@@ -6146,7 +6115,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/98/Spaceport_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Spaceport_Key.png"
   },
@@ -6164,7 +6133,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/98/Spaceport_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Spaceport_Key.png"
   },
@@ -6189,7 +6158,7 @@
     "canBeFoundIn": [
       "Commercial"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Speaker_Component.png"
   },
@@ -6214,7 +6183,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Spectrometer.png"
   },
@@ -6239,7 +6208,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Spectrum_Analyzer.png"
   },
@@ -6264,7 +6233,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Spotter_Relay.png"
   },
@@ -6290,7 +6259,7 @@
       "Residential",
       "Commercial"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Spring_Cushion.png"
   },
@@ -6308,7 +6277,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/8d/Stable_Stock_I.png",
-    "weight": "0.25",
     "localImage": "Stable_Stock_I.png"
   },
   {
@@ -6329,7 +6297,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/b4/Stable_Stock_II.png",
-    "weight": "0.5",
     "localImage": "Stable_Stock_II.png"
   },
   {
@@ -6350,7 +6317,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/eb/Stable_Stock_III.png",
-    "weight": "0.75",
     "localImage": "Stable_Stock_III.png"
   },
   {
@@ -6371,7 +6337,7 @@
       "Old World",
       "Residential"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Statuette.png"
   },
@@ -6392,7 +6358,7 @@
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "15",
     "localImage": "Steel_Spring.png"
   },
@@ -6410,7 +6376,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Stella_Montis_Key.png"
   },
@@ -6428,7 +6394,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Stella_Montis_Key.png"
   },
@@ -6446,7 +6412,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Stella_Montis_Key.png"
   },
@@ -6464,7 +6430,7 @@
     "category": "Key",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Stella_Montis_Key.png"
   },
@@ -6486,7 +6452,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/99/Sterilized_Bandage.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "3",
     "localImage": "Sterilized_Bandage.png"
   },
@@ -6504,7 +6470,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c9/Surge_Shield_Recharger.png",
-    "weight": "0.2.mw-parser-output .template-weight{display:flex",
+    "weight": "0.2",
     "stackSize": "5",
     "localImage": "Surge_Shield_Recharger.png"
   },
@@ -6529,7 +6495,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Surveyor_Vault.png"
   },
@@ -6554,7 +6520,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "5",
     "localImage": "Synthesized_Fuel.png"
   },
@@ -6579,7 +6545,7 @@
     "canBeFoundIn": [
       "Medical"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Syringe.png"
   },
@@ -6601,7 +6567,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/18/Tactical_Mk._1.png",
-    "weight": "40.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "localImage": "Tactical_Mk._1.png"
   },
   {
@@ -6622,7 +6588,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/6c/Tactical_Mk._2.png",
-    "weight": "45.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "localImage": "Tactical_Mk._2.png"
   },
   {
@@ -6643,7 +6609,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a9/Tactical_Mk._3_%28Defensive%29.png",
-    "weight": "60.0.mw-parser-output .template-weight{display:flex",
+    "weight": "5.0",
     "localImage": "Tactical_Mk._3_(Defensive).png"
   },
   {
@@ -6664,7 +6630,7 @@
     "category": "Augment",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/12/Tactical_Mk._3_%28Healing%29.png",
-    "weight": "55.0.mw-parser-output .template-weight{display:flex",
+    "weight": "4.0",
     "localImage": "Tactical_Mk._3_(Healing).png"
   },
   {
@@ -6685,7 +6651,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/e5/Tagging_Grenade.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "3",
     "localImage": "Tagging_Grenade.png"
   },
@@ -6706,7 +6672,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Tattered_ARC_Lining.png"
   },
@@ -6727,7 +6693,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "0.8.mw-parser-output .template-weight{display:flex",
+    "weight": "0.8",
     "stackSize": "3",
     "localImage": "Tattered_Clothes.png"
   },
@@ -6752,7 +6718,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "1.5.mw-parser-output .template-weight{display:flex",
+    "weight": "1.5",
     "stackSize": "3",
     "localImage": "Telemetry_Transceiver.png"
   },
@@ -6777,7 +6743,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Thermostat.png"
   },
@@ -6802,7 +6768,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "3",
     "localImage": "Tick_Pod.png"
   },
@@ -6827,7 +6793,7 @@
     "canBeFoundIn": [
       "Residential"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Toaster.png"
   },
@@ -6849,7 +6815,7 @@
       "Residential",
       "Medical"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Torn_Blanket.png"
   },
@@ -6871,7 +6837,7 @@
       "Residential",
       "Old World"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Torn_Book.png"
   },
@@ -6889,7 +6855,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/89/Trailblazer.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "3",
     "localImage": "Trailblazer.png"
   },
@@ -6911,7 +6877,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/09/Trigger_Nade.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "3",
     "localImage": "Trigger_Nade.png"
   },
@@ -6936,7 +6902,7 @@
     "canBeFoundIn": [
       "Exodus"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Turbo_Pump.png"
   },
@@ -6961,7 +6927,7 @@
     "canBeFoundIn": [
       "Security"
     ],
-    "weight": "3.0.mw-parser-output .template-weight{display:flex",
+    "weight": "3.0",
     "stackSize": "3",
     "localImage": "Unusable_Weapon.png"
   },
@@ -6984,7 +6950,7 @@
       "Commercial",
       "Residential"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Vase.png"
   },
@@ -7002,7 +6968,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4d/Vertical_Grip_I.png",
-    "weight": "0.25",
     "localImage": "Vertical_Grip_I.png"
   },
   {
@@ -7023,7 +6988,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/3c/Vertical_Grip_II.png",
-    "weight": "0.5",
     "localImage": "Vertical_Grip_II.png"
   },
   {
@@ -7044,7 +7008,6 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/20/Vertical_Grip_III.png",
-    "weight": "0.75",
     "localImage": "Vertical_Grip_III.png"
   },
   {
@@ -7065,7 +7028,7 @@
       "Residential",
       "Commercial"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "3",
     "localImage": "Very_Comfortable_Pillow.png"
   },
@@ -7087,7 +7050,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/7d/Vita_Shot.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "3",
     "localImage": "Vita_Shot.png"
   },
@@ -7109,7 +7072,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1d/Vita_Spray.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "1",
     "localImage": "Vita_Spray.png"
   },
@@ -7130,7 +7093,7 @@
     "canBeFoundIn": [
       "Nature"
     ],
-    "weight": "0.5.mw-parser-output .template-weight{display:flex",
+    "weight": "0.5",
     "stackSize": "5",
     "localImage": "Volcanic_Rock.png"
   },
@@ -7155,7 +7118,7 @@
     "canBeFoundIn": [
       "Electrical"
     ],
-    "weight": "0.3.mw-parser-output .template-weight{display:flex",
+    "weight": "0.3",
     "stackSize": "5",
     "localImage": "Voltage_Converter.png"
   },
@@ -7180,7 +7143,7 @@
     "canBeFoundIn": [
       "ARC"
     ],
-    "weight": "0.6.mw-parser-output .template-weight{display:flex",
+    "weight": "0.6",
     "stackSize": "3",
     "localImage": "Wasp_Driver.png"
   },
@@ -7205,7 +7168,7 @@
     "canBeFoundIn": [
       "Industrial"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Water_Filter.png"
   },
@@ -7231,7 +7194,7 @@
       "Mechanical",
       "Industrial"
     ],
-    "weight": "2.0.mw-parser-output .template-weight{display:flex",
+    "weight": "2.0",
     "stackSize": "3",
     "localImage": "Water_Pump.png"
   },
@@ -7253,7 +7216,7 @@
       "Electrical",
       "Technological"
     ],
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "15",
     "localImage": "Wires.png"
   },
@@ -7275,7 +7238,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/24/Wolfpack.png",
-    "weight": "1.0.mw-parser-output .template-weight{display:flex",
+    "weight": "1.0",
     "stackSize": "1",
     "localImage": "Wolfpack.png"
   },
@@ -7297,7 +7260,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/f9/Zipline.png",
-    "weight": "0.4.mw-parser-output .template-weight{display:flex",
+    "weight": "0.4",
     "stackSize": "3",
     "localImage": "Zipline.png"
   },
@@ -7306,7 +7269,7 @@
     "description": "A pungent key used to operate the Flushing Terminals in the tunnels below Spaceport.",
     "rarity": "Common",
     "category": "Quest Item",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1"
   },
   {
@@ -7315,7 +7278,7 @@
     "rarity": "Common",
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/9/90/Major_Aiva%27s_Patch.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Major_Aiva's_Patch.png"
   },
@@ -7325,7 +7288,7 @@
     "rarity": "Common",
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/7/76/Raider_Flag.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Raider_Flag.png"
   },
@@ -7335,7 +7298,7 @@
     "rarity": "Common",
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/f/f6/Major_Aiva%27s_Mementos.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Major_Aiva's_Mementos.png"
   },
@@ -7345,7 +7308,7 @@
     "rarity": "Common",
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/4/41/Celeste%27s_Journal.png",
-    "weight": "0.25.mw-parser-output .template-weight{display:flex",
+    "weight": "0.25",
     "stackSize": "1",
     "localImage": "Celeste's_Journal.png"
   }
