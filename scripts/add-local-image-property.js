@@ -5,16 +5,12 @@ const lootPath = join(process.cwd(), "src/data/loot.json");
 const loot = JSON.parse(readFileSync(lootPath, "utf8"));
 
 const updatedLoot = loot.map((entry) => {
-  const updatedEntry = {};
+  const updatedEntry = { ...entry };
 
-  for (const key of Object.keys(entry)) {
-    updatedEntry[key] = entry[key];
-
-    if (key === "image" && entry.image) {
-      updatedEntry.localImage = decodeURIComponent(
-        basename(new URL(entry.image).pathname)
-      );
-    }
+  if (entry.image) {
+    updatedEntry.localImage = decodeURIComponent(
+      basename(new URL(entry.image).pathname)
+    );
   }
 
   return updatedEntry;

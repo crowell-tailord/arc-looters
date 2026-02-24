@@ -12,7 +12,7 @@ const imageUrls = Array.from(
 );
 
 async function download(url) {
-  const filename = basename(new URL(url).pathname);
+  const filename = decodeURIComponent(basename(new URL(url).pathname));
   const destination = join(outputDir, filename);
 
   if (existsSync(destination)) {

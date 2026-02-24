@@ -16,10 +16,10 @@
     ],
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/thumb/5/50/Acoustic_Guitar.png/1200px-Acoustic_Guitar.png.webp",
+    "image": "https://arcraiders.wiki/w/images/5/50/Acoustic_Guitar.png",
     "weight": "1.0",
     "stackSize": "1",
-    "localImage": "1200px-Acoustic_Guitar.png.webp"
+    "localImage": "Acoustic_Guitar.png"
   },
   {
     "name": "Adrenaline Shot",
@@ -115,6 +115,24 @@
     "localImage": "Advanced_Mechanical_Components.png"
   },
   {
+    "name": "Agave Juice",
+    "rarity": "Common",
+    "value": 1800,
+    "description": "A concoction that temporarily increases stamina regeneration, at a small initial cost to health.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a8/Agave_Juice.png",
+    "weight": "0.2",
+    "stackSize": "5",
+    "localImage": "Agave_Juice.png"
+  },
+  {
     "name": "Agave",
     "rarity": "Uncommon",
     "value": 1000,
@@ -134,24 +152,6 @@
     "weight": "0.2",
     "stackSize": "10",
     "localImage": "Agave.png"
-  },
-  {
-    "name": "Agave Juice",
-    "rarity": "Common",
-    "value": 1800,
-    "description": "A concoction that temporarily increases stamina regeneration, at a small initial cost to health.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Quick Use",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/a/a8/Agave_Juice.png",
-    "weight": "0.2",
-    "stackSize": "5",
-    "localImage": "Agave_Juice.png"
   },
   {
     "name": "Air Freshener",
@@ -200,22 +200,22 @@
     "localImage": "Alarm_Clock.png"
   },
   {
-    "name": "Ancient Fort Security Code",
-    "rarity": "Common",
-    "value": 0,
-    "description": "Temporary security code to unlock the main gate.",
+    "name": "Alien Duck",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "A long, long way from home.",
     "parts": [
       {
         "quantity": 1,
         "name": "Cannot be recycled"
       }
     ],
-    "category": "Key",
+    "category": "Trinket",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "Security_Code.png"
+    "image": "https://arcraiders.wiki/w/images/3/3e/Alien_Duck.png",
+    "weight": "0.3",
+    "stackSize": "15",
+    "localImage": "Alien_Duck.png"
   },
   {
     "name": "Angled Grip I",
@@ -676,6 +676,41 @@
     "localImage": "Binoculars.png"
   },
   {
+    "name": "Integrated Binoculars",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Can be equipped and used like regular binoculars, but cannot be dropped or removed from their slot.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/74/Binoculars.png",
+    "weight": "0.0",
+    "localImage": "Binoculars.png"
+  },
+  {
+    "name": "Blaze Grenade Trap",
+    "rarity": "Rare",
+    "value": 1000,
+    "description": "A laser trip wire that detonates a Blaze Grenade.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/af/Blaze_Grenade_Trap.png",
+    "weight": "0.3",
+    "stackSize": "3",
+    "localImage": "Blaze_Grenade_Trap.png"
+  },
+  {
     "name": "Blaze Grenade",
     "rarity": "Rare",
     "value": 1600,
@@ -696,24 +731,6 @@
     "weight": "0.2",
     "stackSize": "5",
     "localImage": "Blaze_Grenade.png"
-  },
-  {
-    "name": "Blaze Grenade Trap",
-    "rarity": "Rare",
-    "value": 1000,
-    "description": "A laser trip wire that detonates a Blaze Grenade.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Quick Use",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/a/af/Blaze_Grenade_Trap.png",
-    "weight": "0.3",
-    "stackSize": "3",
-    "localImage": "Blaze_Grenade_Trap.png"
   },
   {
     "name": "Bloated Tuna Can",
@@ -742,6 +759,24 @@
     "rarity": "Rare",
     "value": 100,
     "description": "Unlocks certain cellar doors near the Blue Gate",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7c/Blue_Gate_Key_Variant_1.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Blue_Gate_Key_Variant_1.png"
+  },
+  {
+    "name": "Blue Gate Village Key",
+    "rarity": "Uncommon",
+    "value": 100,
+    "description": "Unlocks a door to one of the old village buildings near the Blue Gate.",
     "parts": [
       {
         "quantity": 1,
@@ -792,22 +827,22 @@
     "localImage": "Blue_Gate_Key_Variant_2.png"
   },
   {
-    "name": "Blue Gate Village Key",
-    "rarity": "Uncommon",
-    "value": 100,
-    "description": "Unlocks a door to one of the old village buildings near the Blue Gate.",
+    "name": "Blue Light Stick",
+    "rarity": "Common",
+    "value": 150,
+    "description": "A throwable chemical light that illuminates the area around it.",
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Chemicals"
       }
     ],
-    "category": "Key",
+    "category": "Quick Use",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/7/7c/Blue_Gate_Key_Variant_1.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "Blue_Gate_Key_Variant_1.png"
+    "image": "https://arcraiders.wiki/w/images/c/cc/Blue_Light_Stick.png",
+    "weight": "0.15",
+    "stackSize": "5",
+    "localImage": "Blue_Light_Stick.png"
   },
   {
     "name": "Bombardier Cell",
@@ -1893,6 +1928,24 @@
     "localImage": "Defibrillator.png"
   },
   {
+    "name": "Integrated Defibrillator",
+    "rarity": "Rare",
+    "value": 0,
+    "description": "Defibrillator Recharger on a fixed cooldown. Can be used like a normal Defibrillator, but cannot be dropped or removed from its slot.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/5f/Defibrillator.png",
+    "weight": "0.0",
+    "stackSize": "1",
+    "localImage": "Defibrillator.png"
+  },
+  {
     "name": "Deflated Football",
     "rarity": "Uncommon",
     "value": 1000,
@@ -1985,6 +2038,24 @@
     "localImage": "Dog_Collar.png"
   },
   {
+    "name": "Doodly Duck",
+    "rarity": "Rare",
+    "value": 3000,
+    "description": "Everything is a canvas to a creative child.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/91/Doodly_Duck.png",
+    "weight": "0.3",
+    "stackSize": "15",
+    "localImage": "Doodly_Duck.png"
+  },
+  {
     "name": "Door Blocker",
     "rarity": "Common",
     "value": 270,
@@ -2027,7 +2098,7 @@
     "name": "Duct Tape",
     "rarity": "Uncommon",
     "value": 300,
-    "description": "Used to craft weapons and weapon mods. Can be recycled into plastic.",
+    "description": "Used to craft a wide range of items. Can be recycled into crafting materials",
     "parts": [
       {
         "quantity": 3,
@@ -2038,8 +2109,8 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4e/Duct_Tape.png",
     "canBeFoundIn": [
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "0.25",
     "stackSize": "15",
@@ -2131,24 +2202,6 @@
     "weight": "0.3",
     "stackSize": "5",
     "localImage": "Energy_Clip.png"
-  },
-  {
-    "name": "ESR Analyzer",
-    "rarity": "Common",
-    "value": 0,
-    "description": "A specialized medical device Lance needs recovered from a Buried City pharmacy.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Trinket",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/5/5e/ESR_Analyzer.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "ESR_Analyzer.png"
   },
   {
     "name": "Exodus Modules",
@@ -2499,6 +2552,24 @@
     "localImage": "Faded_Photograph.png"
   },
   {
+    "name": "Familiar Duck",
+    "rarity": "Epic",
+    "value": 7000,
+    "description": "Unlike the real one, this one fits in your pack.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/4f/Familiar_Duck.png",
+    "weight": "0.3",
+    "stackSize": "15",
+    "localImage": "Familiar_Duck.png"
+  },
+  {
     "name": "Fertilizer",
     "rarity": "Uncommon",
     "value": 1000,
@@ -2645,6 +2716,24 @@
     "weight": "1.0",
     "stackSize": "1",
     "localImage": "Flame_Spray.png"
+  },
+  {
+    "name": "Flashy Duck",
+    "rarity": "Rare",
+    "value": 3000,
+    "description": "Lovingly hand-painted by someone of great talent—clearly. Any guesses who?",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/f/f1/Flashy_Duck.png",
+    "weight": "0.3",
+    "stackSize": "15",
+    "localImage": "Flashy_Duck.png"
   },
   {
     "name": "Flow Controller",
@@ -2821,6 +2910,24 @@
     "localImage": "Garlic_Press.png"
   },
   {
+    "name": "Gas Grenade Trap",
+    "rarity": "Common",
+    "value": 300,
+    "description": "A laser trip wire that detonates a Gas Grenade.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/33/Gas_Grenade_Trap.png",
+    "weight": "0.25",
+    "stackSize": "3",
+    "localImage": "Gas_Grenade_Trap.png"
+  },
+  {
     "name": "Gas Grenade",
     "rarity": "Common",
     "value": 270,
@@ -2841,24 +2948,6 @@
     "weight": "0.2",
     "stackSize": "3",
     "localImage": "Gas_Grenade.png"
-  },
-  {
-    "name": "Gas Grenade Trap",
-    "rarity": "Common",
-    "value": 300,
-    "description": "A laser trip wire that detonates a Gas Grenade.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Quick Use",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/3/33/Gas_Grenade_Trap.png",
-    "weight": "0.25",
-    "stackSize": "3",
-    "localImage": "Gas_Grenade_Trap.png"
   },
   {
     "name": "Gas Mine",
@@ -2908,6 +2997,24 @@
     "localImage": "Geiger_Counter.png"
   },
   {
+    "name": "Gentle Duck",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "Udderly adorable.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c4/Gentle_Duck.png",
+    "weight": "0.3",
+    "stackSize": "15",
+    "localImage": "Gentle_Duck.png"
+  },
+  {
     "name": "Great Mullein",
     "rarity": "Uncommon",
     "value": 300,
@@ -2927,6 +3034,24 @@
     "weight": "0.25",
     "stackSize": "15",
     "localImage": "Great_Mullein.png"
+  },
+  {
+    "name": "Green Light Stick",
+    "rarity": "Common",
+    "value": 150,
+    "description": "A throwable chemical light that illuminates the area around it.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/27/Green_Light_Stick.png",
+    "weight": "0.15",
+    "stackSize": "5",
+    "localImage": "Green_Light_Stick.png"
   },
   {
     "name": "Headphones",
@@ -3268,27 +3393,10 @@
     "localImage": "Industrial_Magnet.png"
   },
   {
-    "name": "Integrated Binoculars",
-    "rarity": "Common",
-    "value": 0,
-    "description": "Can be equipped and used like regular binoculars, but cannot be dropped or removed from their slot.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Quick Use",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/7/74/Binoculars.png",
-    "weight": "0.5",
-    "localImage": "Binoculars.png"
-  },
-  {
     "name": "Integrated Shield Recharger",
     "rarity": "Common",
     "value": 0,
-    "description": "Reusable Shield Recharger on a fixed cooldown. Can be used like a normal Shield Charger, but cannot be dropped or removed from its slot.",
+    "description": "Reusable Shield Recharger on a fixed cooldown. Can be used like a normal Shield Recharger, but cannot be dropped or removed from its slot.",
     "parts": [
       {
         "quantity": 1,
@@ -3297,10 +3405,9 @@
     ],
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/c/c9/Surge_Shield_Recharger.png",
-    "weight": "0.2",
-    "stackSize": "1",
-    "localImage": "Surge_Shield_Recharger.png"
+    "image": "https://arcraiders.wiki/w/images/a/a7/Integrated_Shield_Recharger.png",
+    "weight": "0.0",
+    "localImage": "Integrated_Shield_Recharger.png"
   },
   {
     "name": "Ion Sputter",
@@ -3331,7 +3438,7 @@
     "name": "Jolt Mine",
     "rarity": "Rare",
     "value": 850,
-    "description": "A proximity trigger mine that pops up and stuns anything within its radius.",
+    "description": "A proximity-triggered mine that pops up and stuns anything within its radius.",
     "parts": [
       {
         "quantity": 1,
@@ -3497,28 +3604,10 @@
     ],
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/1/19/Lil_Smoke_Grenade.png",
+    "image": "https://arcraiders.wiki/w/images/0/0d/Li%27l_Smoke_Grenade.png",
     "weight": "0.15",
     "stackSize": "5",
-    "localImage": "Lil_Smoke_Grenade.png"
-  },
-  {
-    "name": "Lidar Scanner",
-    "rarity": "Common",
-    "value": 0,
-    "description": "A laser-based scanner used to detect the subtlest changes to the Earth's surface.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Trinket",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/4/4d/Lidar_Scanner.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "Lidar_Scanner.png"
+    "localImage": "Li'l_Smoke_Grenade.png"
   },
   {
     "name": "Light Ammo",
@@ -3537,27 +3626,6 @@
     "weight": "0.01",
     "stackSize": "100",
     "localImage": "Light_Ammo.png"
-  },
-  {
-    "name": "Light Bulb",
-    "rarity": "Uncommon",
-    "value": 2000,
-    "description": "Without light, life underground would be impossible.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Trinket",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/2/2c/Light_Bulb.png",
-    "canBeFoundIn": [
-      "Electrical"
-    ],
-    "weight": "0.2",
-    "stackSize": "3",
-    "localImage": "Light_Bulb.png"
   },
   {
     "name": "Light Gun Parts",
@@ -3621,24 +3689,6 @@
     "localImage": "Light_Shield.png"
   },
   {
-    "name": "Light Stick",
-    "rarity": "Common",
-    "value": 150,
-    "description": "A throwable chemical light that illuminates the area around it.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Chemicals"
-      }
-    ],
-    "category": "Quick Use",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/c/cc/Blue_Light_Stick.png",
-    "weight": "0.15",
-    "stackSize": "5",
-    "localImage": "Blue_Light_Stick.png"
-  },
-  {
     "name": "Lightweight Stock",
     "rarity": "Epic",
     "value": 5000,
@@ -3657,6 +3707,27 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cb/Lightweight_Stock.png",
     "localImage": "Lightweight_Stock.png"
+  },
+  {
+    "name": "Light Bulb",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Without light, life underground would be impossible.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/2c/Light_Bulb.png",
+    "canBeFoundIn": [
+      "Electrical"
+    ],
+    "weight": "0.2",
+    "stackSize": "3",
+    "localImage": "Light_Bulb.png"
   },
   {
     "name": "Looting Mk. 1",
@@ -3722,6 +3793,27 @@
     "localImage": "Looting_Mk._3_(Cautious).png"
   },
   {
+    "name": "Looting Mk. 3 (Safekeeper)",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "A looting augment that trades weight and utility for increased looting potential.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c6/Looting_Mk._3_%28Safekeeper%29.png",
+    "weight": "5.0",
+    "localImage": "Looting_Mk._3_(Safekeeper).png"
+  },
+  {
     "name": "Looting Mk. 3 (Survivor)",
     "rarity": "Epic",
     "value": 5000,
@@ -3743,24 +3835,6 @@
     "localImage": "Looting_Mk._3_(Survivor).png"
   },
   {
-    "name": "Lure Grenade",
-    "rarity": "Uncommon",
-    "value": 1000,
-    "description": "A noisy device that sticks to surfaces, distracting nearby ARC machines and drawing their fire.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Speaker Component"
-      }
-    ],
-    "category": "Quick Use",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/7/77/Lure_Grenade.png",
-    "weight": "0.4",
-    "stackSize": "3",
-    "localImage": "Lure_Grenade.png"
-  },
-  {
     "name": "Lure Grenade Trap",
     "rarity": "Uncommon",
     "value": 1000,
@@ -3777,6 +3851,24 @@
     "weight": "0.25",
     "stackSize": "3",
     "localImage": "Lure_Grenade_Trap.png"
+  },
+  {
+    "name": "Lure Grenade",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "A noisy device that sticks to surfaces, distracting nearby ARC machines and drawing their fire.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Speaker Component"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/77/Lure_Grenade.png",
+    "weight": "0.4",
+    "stackSize": "3",
+    "localImage": "Lure_Grenade.png"
   },
   {
     "name": "Magnet",
@@ -4149,28 +4241,6 @@
     "localImage": "Mushroom.png"
   },
   {
-    "name": "Music Album",
-    "rarity": "Rare",
-    "value": 3000,
-    "description": "Perfect for relaxing nights at home, casual get-togethers, and provide air guitar concerts.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Trinket",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/9/90/Music_Album.png",
-    "canBeFoundIn": [
-      "Residential",
-      "Commercial"
-    ],
-    "weight": "0.3",
-    "stackSize": "3",
-    "localImage": "Music_Album.png"
-  },
-  {
     "name": "Music Box",
     "rarity": "Rare",
     "value": 5000,
@@ -4192,6 +4262,28 @@
     "weight": "0.4",
     "stackSize": "3",
     "localImage": "Music_Box.png"
+  },
+  {
+    "name": "Music Album",
+    "rarity": "Rare",
+    "value": 3000,
+    "description": "Perfect for relaxing nights at home, casual get-togethers, and provide air guitar concerts.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/90/Music_Album.png",
+    "canBeFoundIn": [
+      "Residential",
+      "Commercial"
+    ],
+    "weight": "0.3",
+    "stackSize": "3",
+    "localImage": "Music_Album.png"
   },
   {
     "name": "Muzzle Brake I",
@@ -4352,7 +4444,7 @@
   },
   {
     "name": "Painted Box",
-    "rarity": "Common",
+    "rarity": "Uncommon",
     "value": 2000,
     "description": "May be worth a few coins.",
     "parts": [
@@ -4410,24 +4502,6 @@
     "weight": "1.0",
     "stackSize": "1",
     "localImage": "Photoelectric_Cloak.png"
-  },
-  {
-    "name": "Pilgrim's Peak Security Code",
-    "rarity": "Common",
-    "value": 0,
-    "description": "Temporary security code to unlock the main gate.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Key",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "Security_Code.png"
   },
   {
     "name": "Plastic Parts",
@@ -4613,8 +4687,8 @@
     "image": "https://arcraiders.wiki/w/images/7/77/Power_Bank.png",
     "canBeFoundIn": [
       "Electrical",
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "2.0",
     "stackSize": "3",
@@ -4636,8 +4710,8 @@
     "image": "https://arcraiders.wiki/w/images/f/f8/Power_Cable.png",
     "canBeFoundIn": [
       "Electrical",
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "2.0",
     "stackSize": "3",
@@ -4783,6 +4857,31 @@
     "localImage": "Queen_Reactor.png"
   },
   {
+    "name": "Radio Relay",
+    "rarity": "Rare",
+    "value": 3000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Sensors"
+      },
+      {
+        "quantity": 2,
+        "name": "Speaker Component"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/b/b6/Radio_Relay.png",
+    "canBeFoundIn": [
+      "Exodus"
+    ],
+    "weight": "1.5",
+    "stackSize": "3",
+    "localImage": "Radio_Relay.png"
+  },
+  {
     "name": "Radio",
     "rarity": "Rare",
     "value": 1000,
@@ -4809,31 +4908,6 @@
     "localImage": "Radio.png"
   },
   {
-    "name": "Radio Relay",
-    "rarity": "Rare",
-    "value": 3000,
-    "description": "Can be recycled into crafting materials.",
-    "parts": [
-      {
-        "quantity": 2,
-        "name": "Sensors"
-      },
-      {
-        "quantity": 2,
-        "name": "Speaker Component"
-      }
-    ],
-    "category": "Recyclable",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/b/b6/Radio_Relay.png",
-    "canBeFoundIn": [
-      "Exodus"
-    ],
-    "weight": "1.5",
-    "stackSize": "3",
-    "localImage": "Radio_Relay.png"
-  },
-  {
     "name": "Raider Hatch Key",
     "rarity": "Rare",
     "value": 2000,
@@ -4850,24 +4924,6 @@
     "weight": "0.01",
     "stackSize": "1",
     "localImage": "Raider_Hatch_Key.png"
-  },
-  {
-    "name": "Raider's Refuge Security Code",
-    "rarity": "Common",
-    "value": 0,
-    "description": "Temporary security code to unlock the main gate.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Key",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "Security_Code.png"
   },
   {
     "name": "Recorder",
@@ -4914,22 +4970,22 @@
     "localImage": "Red_Coral_Jewelry.png"
   },
   {
-    "name": "Reinforced Reception Security Code",
+    "name": "Red Light Stick",
     "rarity": "Common",
-    "value": 0,
-    "description": "Temporary security code to unlock the main gate.",
+    "value": 150,
+    "description": "A throwable chemical light that illuminates the area around it.",
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Chemicals"
       }
     ],
-    "category": "Key",
+    "category": "Quick Use",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "Security_Code.png"
+    "image": "https://arcraiders.wiki/w/images/9/93/Red_Light_Stick.png",
+    "weight": "0.15",
+    "stackSize": "5",
+    "localImage": "Red_Light_Stick.png"
   },
   {
     "name": "Remote Control",
@@ -5255,7 +5311,7 @@
     "name": "Ruined Augment",
     "rarity": "Common",
     "value": 270,
-    "description": "An augment ruined beyond repair",
+    "description": "An augment ruined beyond repair.",
     "parts": [
       {
         "quantity": 2,
@@ -5269,7 +5325,7 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/aa/Ruined_Augment.png",
-    "weight": "3",
+    "weight": "3.0",
     "stackSize": "1",
     "localImage": "Ruined_Augment.png"
   },
@@ -5533,6 +5589,78 @@
     "weight": "1.5",
     "stackSize": "3",
     "localImage": "Sample_Cleaner.png"
+  },
+  {
+    "name": "Ancient Fort Security Code",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Temporary security code to unlock the main gate.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Security_Code.png"
+  },
+  {
+    "name": "Pilgrim's Peak Security Code",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Temporary security code to unlock the main gate.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Security_Code.png"
+  },
+  {
+    "name": "Raider's Refuge Security Code",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Temporary security code to unlock the main gate.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Security_Code.png"
+  },
+  {
+    "name": "Reinforced Reception Security Code",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Temporary security code to unlock the main gate.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1d/Security_Code.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Security_Code.png"
   },
   {
     "name": "Seeker Grenade",
@@ -5936,6 +6064,24 @@
     "localImage": "Simple_Gun_Parts.png"
   },
   {
+    "name": "Smoke Grenade Trap",
+    "rarity": "Rare",
+    "value": 640,
+    "description": "A laser trip wire that detonates a Smoke Grenade.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/ac/Smoke_Grenade_Trap.png",
+    "weight": "0.3",
+    "stackSize": "3",
+    "localImage": "Smoke_Grenade_Trap.png"
+  },
+  {
     "name": "Smoke Grenade",
     "rarity": "Rare",
     "value": 1000,
@@ -5956,24 +6102,6 @@
     "weight": "0.2",
     "stackSize": "5",
     "localImage": "Smoke_Grenade.png"
-  },
-  {
-    "name": "Smoke Grenade Trap",
-    "rarity": "Rare",
-    "value": 640,
-    "description": "A laser trip wire that detonates a Smoke Grenade.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Quick Use",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/a/ac/Smoke_Grenade_Trap.png",
-    "weight": "0.3",
-    "stackSize": "3",
-    "localImage": "Smoke_Grenade_Trap.png"
   },
   {
     "name": "Snap Blast Grenade",
@@ -6363,24 +6491,6 @@
     "localImage": "Steel_Spring.png"
   },
   {
-    "name": "Stella Montis Archives Key",
-    "rarity": "Epic",
-    "value": 100,
-    "description": "Unlocks a door in the Archives in Stella Montis",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Key",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "Stella_Montis_Key.png"
-  },
-  {
     "name": "Stella Montis Assembly Admin Key",
     "rarity": "Uncommon",
     "value": 250,
@@ -6421,6 +6531,24 @@
     "rarity": "Rare",
     "value": 100,
     "description": "Unlocks a door in the Securty Checkpoint in Stella Montis",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Stella_Montis_Key.png"
+  },
+  {
+    "name": "Stella Montis Archives Key",
+    "rarity": "Epic",
+    "value": 100,
+    "description": "Unlocks a door in the Archives in Stella Montis",
     "parts": [
       {
         "quantity": 1,
@@ -6632,6 +6760,27 @@
     "image": "https://arcraiders.wiki/w/images/1/12/Tactical_Mk._3_%28Healing%29.png",
     "weight": "4.0",
     "localImage": "Tactical_Mk._3_(Healing).png"
+  },
+  {
+    "name": "Tactical Mk. 3 (Revival)",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "A tactical augment focused on utility over defense and looting.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/e/e0/Tactical_Mk._3_%28Revival%29.png",
+    "weight": "3.0",
+    "localImage": "Tactical_Mk._3_(Revival).png"
   },
   {
     "name": "Tagging Grenade",
@@ -6880,6 +7029,24 @@
     "weight": "0.4",
     "stackSize": "3",
     "localImage": "Trigger_Nade.png"
+  },
+  {
+    "name": "Tropical Duck",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "It quietly dreams of taking to the skies with its brethren.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/cc/Tropical_Duck.png",
+    "weight": "0.3",
+    "stackSize": "15",
+    "localImage": "Tropical_Duck.png"
   },
   {
     "name": "Turbo Pump",
@@ -7243,6 +7410,24 @@
     "localImage": "Wolfpack.png"
   },
   {
+    "name": "Yellow Light Stick",
+    "rarity": "Common",
+    "value": 150,
+    "description": "A throwable chemical light that illuminates the area around it.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Chemicals"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1f/Yellow_Light_Stick.png",
+    "weight": "0.15",
+    "stackSize": "5",
+    "localImage": "Yellow_Light_Stick.png"
+  },
+  {
     "name": "Zipline",
     "rarity": "Rare",
     "value": 1000,
@@ -7265,12 +7450,24 @@
     "localImage": "Zipline.png"
   },
   {
+    "name": "ESR Analyzer",
+    "description": "A specialized medical device Lance needs recovered from a Buried City pharmacy.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/5/5e/ESR_Analyzer.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "ESR_Analyzer.png"
+  },
+  {
     "name": "Flushing Terminal Key",
     "description": "A pungent key used to operate the Flushing Terminals in the tunnels below Spaceport.",
     "rarity": "Common",
     "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/9/90/Flushing_Terminal_Key.png",
     "weight": "0.25",
-    "stackSize": "1"
+    "stackSize": "1",
+    "localImage": "Flushing_Terminal_Key.png"
   },
   {
     "name": "Major Aiva's Patch",
@@ -7311,5 +7508,107 @@
     "weight": "0.25",
     "stackSize": "1",
     "localImage": "Celeste's_Journal.png"
+  },
+  {
+    "name": "LiDAR Scanner",
+    "description": "A laser-based scanner used to detect the subtlest changes to the Earth's surface.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/4/4d/Lidar_Scanner.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Lidar_Scanner.png"
+  },
+  {
+    "name": "First Wave Compass",
+    "description": "Dusty but functional, these helped chart a course when all seemed lost.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/f/f2/First_Wave_Compass.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "First_Wave_Compass.png"
+  },
+  {
+    "name": "First Wave Tape",
+    "description": "An old tape found inside a battered old camcorder.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/0/0d/First_Wave_Tape.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "First_Wave_Tape.png"
+  },
+  {
+    "name": "First Wave Rations",
+    "description": "Often heated above discreet fires, these meager provisions are said to have fueled a resistance.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/6/62/First_Wave_Rations.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "First_Wave_Rations.png"
+  },
+  {
+    "name": "Espresso Machine Parts",
+    "description": "Replacement parts salvaged from an espresso machine.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/7/75/Espresso_Machine_Parts.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Espresso_Machine_Parts.png"
+  },
+  {
+    "name": "Possibly Toxic Plant",
+    "description": "A speculated source of miraculous healing, and/or particularly nasty rashes.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/9/9a/Possibly_Toxic_Plant.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Possibly_Toxic_Plant.png"
+  },
+  {
+    "name": "Stack Of Movie Tapes",
+    "description": "A stack of movie tapes, sure to please even the most pedantic of cinephiles.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/6/6e/Stack_Of_Movie_Tapes.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Stack_Of_Movie_Tapes.png"
+  },
+  {
+    "name": "Old World Books",
+    "description": "The past survives in fragments, often dull or ordinary, yet priceless to the right person.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "weight": "0.25",
+    "stackSize": "1"
+  },
+  {
+    "name": "Experimental Seed Sample",
+    "description": "A cryogenically frozen research sample of an experimental crop.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "weight": "0.25",
+    "stackSize": "1"
+  },
+  {
+    "name": "Nutrient Meter",
+    "description": "Ideal for monitoring soil and water nutrient levels in greenhouses or fields.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "weight": "0.5",
+    "stackSize": "1"
+  },
+  {
+    "name": "Moisture Meter",
+    "description": "Measures soil moisture levels for precise irrigation control.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "weight": "0.5",
+    "stackSize": "1"
   }
 ]

@@ -158,6 +158,14 @@ const findColumn = (headers, predicate) => {
   return headers.findIndex((value) => value.toLowerCase().includes(lower));
 };
 
+const normalizeImageUrl = (url) => {
+  if (!url) return '';
+  if (url.includes('/thumb/')) {
+    return url.replace(/\/thumb\//, '/').replace(/\/[^\/]+$/, '');
+  }
+  return url;
+};
+
 const resolveImageHref = (img) => {
   if (!img) return '';
 
@@ -179,7 +187,7 @@ const resolveImageHref = (img) => {
     source = new URL(source, TARGET_URL).href;
   }
 
-  return source;
+  return normalizeImageUrl(source);
 };
 
 const findSectionAfterAnchor = (root, ids) => {
@@ -301,6 +309,14 @@ const parseInfoboxDetails = (root) => {
       return;
     }
 
+    if (hasClass(row, 'data-stacksize')) {
+      const valueCell = row.querySelector('td');
+      if (valueCell) {
+        data.stackSize = sanitize(valueCell.text);
+      }
+      return;
+    }
+
     const header = row.querySelector('th');
     const valueCell = row.querySelector('td');
     if (!header || !valueCell) return;
@@ -326,7 +342,7 @@ const parseInfoboxDetails = (root) => {
       return;
     }
 
-    if (!data.stackSize && label.includes('stack size')) {
+    if (!data.stackSize && (label.includes('stack size') || label === 'stack')) {
       data.stackSize = segments[0];
       return;
     }
