@@ -231,6 +231,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/b5/Angled_Grip_I.png",
+    "weight": "0.25",
     "localImage": "Angled_Grip_I.png"
   },
   {
@@ -251,6 +252,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/2b/Angled_Grip_II.png",
+    "weight": "0.5",
     "localImage": "Angled_Grip_II.png"
   },
   {
@@ -271,6 +273,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0f/Angled_Grip_III.png",
+    "weight": "0.75",
     "localImage": "Angled_Grip_III.png"
   },
   {
@@ -312,6 +315,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/ef/Anvil_Splitter.png",
+    "weight": "0.5",
     "localImage": "Anvil_Splitter.png"
   },
   {
@@ -584,15 +588,15 @@
   {
     "name": "Bastion Cell",
     "rarity": "Epic",
-    "value": 5000,
+    "value": 3000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 2,
+        "quantity": 1,
         "name": "Advanced Mechanical Components"
       },
       {
-        "quantity": 2,
+        "quantity": 3,
         "name": "ARC Alloy"
       }
     ],
@@ -847,15 +851,15 @@
   {
     "name": "Bombardier Cell",
     "rarity": "Epic",
-    "value": 5000,
+    "value": 3000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 2,
+        "quantity": 1,
         "name": "Advanced Mechanical Components"
       },
       {
-        "quantity": 2,
+        "quantity": 3,
         "name": "ARC Alloy"
       }
     ],
@@ -1338,6 +1342,31 @@
     "localImage": "Combat_Mk._3_(Flanking).png"
   },
   {
+    "name": "Comet Igniter",
+    "rarity": "Rare",
+    "value": 1000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "ARC Alloy"
+      },
+      {
+        "quantity": 2,
+        "name": "Crude Explosives"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c8/Comet_Igniter.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "1.0",
+    "stackSize": "3",
+    "localImage": "Comet_Igniter.png"
+  },
+  {
     "name": "Compensator I",
     "rarity": "Common",
     "value": 640,
@@ -1351,6 +1380,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/5f/Compensator_I.png",
+    "weight": "0.25",
     "localImage": "Compensator_I.png"
   },
   {
@@ -1371,6 +1401,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/0a/Compensator_II.png",
+    "weight": "0.5",
     "localImage": "Compensator_II.png"
   },
   {
@@ -1391,6 +1422,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/af/Compensator_III.png",
+    "weight": "0.75",
     "localImage": "Compensator_III.png"
   },
   {
@@ -1562,6 +1594,24 @@
     "rarity": "Epic",
     "value": 100,
     "description": "Unlocks door to Control Tower on Dam Battlegrounds",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Dam_Battlegrounds_Key.png"
+  },
+  {
+    "name": "Dam Controlled Access Zone Key",
+    "rarity": "Rare",
+    "value": 100,
+    "description": "Unlocks a door in the Controlled Access Zone on Dam Battlegrounds.",
     "parts": [
       {
         "quantity": 1,
@@ -1759,7 +1809,7 @@
   {
     "name": "Damaged Leaper Pulse Unit",
     "rarity": "Common",
-    "value": 2000,
+    "value": 1000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
@@ -1780,7 +1830,7 @@
   {
     "name": "Damaged Rocketeer Driver",
     "rarity": "Common",
-    "value": 2000,
+    "value": 1000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
@@ -1886,7 +1936,7 @@
   {
     "name": "Deadline",
     "rarity": "Epic",
-    "value": 5000,
+    "value": 6000,
     "description": "A mine that deals damage to anything within its radius once the timer runs out.",
     "parts": [
       {
@@ -2337,6 +2387,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/2f/Extended_Barrel.png",
+    "weight": "0.5",
     "localImage": "Extended_Barrel.png"
   },
   {
@@ -2353,6 +2404,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/23/Extended_Light_Mag_I.png",
+    "weight": "0.5",
     "localImage": "Extended_Light_Mag_I.png"
   },
   {
@@ -2373,6 +2425,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cf/Extended_Light_Mag_II.png",
+    "weight": "0.5",
     "localImage": "Extended_Light_Mag_II.png"
   },
   {
@@ -2393,6 +2446,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/40/Extended_Light_Mag_III.png",
+    "weight": "0.75",
     "localImage": "Extended_Light_Mag_III.png"
   },
   {
@@ -2409,6 +2463,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/44/Extended_Medium_Mag_I.png",
+    "weight": "0.25",
     "localImage": "Extended_Medium_Mag_I.png"
   },
   {
@@ -2429,6 +2484,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/5/50/Extended_Medium_Mag_II.png",
+    "weight": "0.5",
     "localImage": "Extended_Medium_Mag_II.png"
   },
   {
@@ -2449,6 +2505,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a1/Extended_Medium_Mag_III.png",
+    "weight": "0.75",
     "localImage": "Extended_Medium_Mag_III.png"
   },
   {
@@ -2465,6 +2522,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/9b/Extended_Shotgun_Mag_I.png",
+    "weight": "0.25",
     "localImage": "Extended_Shotgun_Mag_I.png"
   },
   {
@@ -2485,6 +2543,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4f/Extended_Shotgun_Mag_II.png",
+    "weight": "0.5",
     "localImage": "Extended_Shotgun_Mag_II.png"
   },
   {
@@ -2505,6 +2564,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/77/Extended_Shotgun_Mag_III.png",
+    "weight": "0.75",
     "localImage": "Extended_Shotgun_Mag_III.png"
   },
   {
@@ -2646,7 +2706,7 @@
       },
       {
         "quantity": 1,
-        "name": "Chemicals"
+        "name": "Crude Explosives"
       }
     ],
     "category": "Recyclable",
@@ -2676,6 +2736,31 @@
     "weight": "0.05",
     "stackSize": "5",
     "localImage": "Firecracker.png"
+  },
+  {
+    "name": "Firefly Burner",
+    "rarity": "Rare",
+    "value": 1000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "ARC Alloy"
+      },
+      {
+        "quantity": 2,
+        "name": "Crude Explosives"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/04/Firefly_Burner.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.75",
+    "stackSize": "3",
+    "localImage": "Firefly_Burner.png"
   },
   {
     "name": "Fireworks Box",
@@ -3202,20 +3287,21 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/89/Horizontal_Grip.png",
+    "weight": "0.5",
     "localImage": "Horizontal_Grip.png"
   },
   {
     "name": "Hornet Driver",
     "rarity": "Rare",
-    "value": 2000,
+    "value": 1000,
     "description": "Can be recycled into ARC Alloy.",
     "parts": [
       {
-        "quantity": 2,
+        "quantity": 1,
         "name": "ARC Alloy"
       },
       {
-        "quantity": 2,
+        "quantity": 1,
         "name": "Electrical Components"
       }
     ],
@@ -3474,6 +3560,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/7/71/Kinetic_Converter.png",
+    "weight": "0.75",
     "localImage": "Kinetic_Converter.png"
   },
   {
@@ -3544,11 +3631,11 @@
   {
     "name": "Leaper Pulse Unit",
     "rarity": "Epic",
-    "value": 5000,
+    "value": 3000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 2,
+        "quantity": 1,
         "name": "Advanced Mechanical Components"
       },
       {
@@ -3706,6 +3793,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/cb/Lightweight_Stock.png",
+    "weight": "0.25",
     "localImage": "Lightweight_Stock.png"
   },
   {
@@ -3948,7 +4036,7 @@
   {
     "name": "Matriarch Reactor",
     "rarity": "Legendary",
-    "value": 13000,
+    "value": 11000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
@@ -4299,6 +4387,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4f/Muzzle_Brake_I.png",
+    "weight": "0.25",
     "localImage": "Muzzle_Brake_I.png"
   },
   {
@@ -4319,6 +4408,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/23/Muzzle_Brake_II.png",
+    "weight": "0.5",
     "localImage": "Muzzle_Brake_II.png"
   },
   {
@@ -4339,6 +4429,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a2/Muzzle_Brake_III.png",
+    "weight": "0.5",
     "localImage": "Muzzle_Brake_III.png"
   },
   {
@@ -4440,6 +4531,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4b/Padded_Stock.png",
+    "weight": "0.5",
     "localImage": "Padded_Stock.png"
   },
   {
@@ -4834,7 +4926,7 @@
   {
     "name": "Queen Reactor",
     "rarity": "Legendary",
-    "value": 13000,
+    "value": 11000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
@@ -5108,7 +5200,7 @@
   {
     "name": "Rocketeer Driver",
     "rarity": "Epic",
-    "value": 5000,
+    "value": 3000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
@@ -5709,7 +5801,7 @@
   {
     "name": "Sentinel Firing Core",
     "rarity": "Rare",
-    "value": 3000,
+    "value": 2000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
@@ -5717,7 +5809,7 @@
         "name": "ARC Alloy"
       },
       {
-        "quantity": 3,
+        "quantity": 2,
         "name": "Mechanical Components"
       }
     ],
@@ -5756,7 +5848,7 @@
     "name": "Shield Recharger",
     "rarity": "Uncommon",
     "value": 520,
-    "description": "A handheld repair kit that recharges a shield over time.",
+    "description": "A handheld kit that gradually recharges shield over time.",
     "parts": [
       {
         "quantity": 4,
@@ -5802,6 +5894,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/07/Shotgun_Choke_I.png",
+    "weight": "0.25",
     "localImage": "Shotgun_Choke_I.png"
   },
   {
@@ -5822,6 +5915,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/63/Shotgun_Choke_II.png",
+    "weight": "0.5",
     "localImage": "Shotgun_Choke_II.png"
   },
   {
@@ -5842,6 +5936,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/36/Shotgun_Choke_III.png",
+    "weight": "0.75",
     "localImage": "Shotgun_Choke_III.png"
   },
   {
@@ -5862,12 +5957,13 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4d/Shotgun_Silencer.png",
+    "weight": "0.5",
     "localImage": "Shotgun_Silencer.png"
   },
   {
     "name": "Showstopper",
     "rarity": "Rare",
-    "value": 2200,
+    "value": 2100,
     "description": "A grenade that detonates after a delay, stunning enemies within its radius.",
     "parts": [
       {
@@ -5875,8 +5971,8 @@
         "name": "Electrical Components"
       },
       {
-        "quantity": 2,
-        "name": "Battery"
+        "quantity": 1,
+        "name": "Voltage Converter"
       }
     ],
     "category": "Quick Use",
@@ -5911,15 +6007,15 @@
   {
     "name": "Shredder Gyro",
     "rarity": "Rare",
-    "value": 3000,
+    "value": 2000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 3,
+        "quantity": 2,
         "name": "ARC Alloy"
       },
       {
-        "quantity": 3,
+        "quantity": 2,
         "name": "Mechanical Components"
       }
     ],
@@ -5976,6 +6072,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/f7/Silencer_I.png",
+    "weight": "0.25",
     "localImage": "Silencer_I.png"
   },
   {
@@ -5996,6 +6093,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c0/Silencer_II.png",
+    "weight": "0.5",
     "localImage": "Silencer_II.png"
   },
   {
@@ -6016,6 +6114,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/3e/Silencer_III.png",
+    "weight": "0.75",
     "localImage": "Silencer_III.png"
   },
   {
@@ -6150,7 +6249,7 @@
   {
     "name": "Snitch Scanner",
     "rarity": "Uncommon",
-    "value": 2000,
+    "value": 1000,
     "description": "Can be recycled into ARC Alloy.",
     "parts": [
       {
@@ -6158,7 +6257,7 @@
         "name": "ARC Alloy"
       },
       {
-        "quantity": 2,
+        "quantity": 1,
         "name": "Electrical Components"
       }
     ],
@@ -6343,7 +6442,7 @@
   {
     "name": "Spotter Relay",
     "rarity": "Uncommon",
-    "value": 2000,
+    "value": 1000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
@@ -6351,7 +6450,7 @@
         "name": "ARC Alloy"
       },
       {
-        "quantity": 2,
+        "quantity": 1,
         "name": "Electrical Components"
       }
     ],
@@ -6405,6 +6504,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/8/8d/Stable_Stock_I.png",
+    "weight": "0.25",
     "localImage": "Stable_Stock_I.png"
   },
   {
@@ -6425,6 +6525,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/b/b4/Stable_Stock_II.png",
+    "weight": "0.5",
     "localImage": "Stable_Stock_II.png"
   },
   {
@@ -6445,6 +6546,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/eb/Stable_Stock_III.png",
+    "weight": "0.75",
     "localImage": "Stable_Stock_III.png"
   },
   {
@@ -6605,15 +6707,15 @@
   {
     "name": "Surveyor Vault",
     "rarity": "Rare",
-    "value": 2000,
+    "value": 1000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 2,
+        "quantity": 1,
         "name": "ARC Alloy"
       },
       {
-        "quantity": 2,
+        "quantity": 1,
         "name": "Mechanical Components"
       }
     ],
@@ -6993,7 +7095,7 @@
   {
     "name": "Trailblazer",
     "rarity": "Rare",
-    "value": 1600,
+    "value": 2200,
     "description": "A grenade that emits a trail of flammable gas along its path, causing an explosive chain reaction when it ignites.",
     "parts": [
       {
@@ -7135,6 +7237,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/4/4d/Vertical_Grip_I.png",
+    "weight": "0.25",
     "localImage": "Vertical_Grip_I.png"
   },
   {
@@ -7155,6 +7258,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/3c/Vertical_Grip_II.png",
+    "weight": "0.5",
     "localImage": "Vertical_Grip_II.png"
   },
   {
@@ -7175,6 +7279,7 @@
     "category": "Mods",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/20/Vertical_Grip_III.png",
+    "weight": "0.75",
     "localImage": "Vertical_Grip_III.png"
   },
   {
@@ -7224,7 +7329,7 @@
   {
     "name": "Vita Spray",
     "rarity": "Epic",
-    "value": 3000,
+    "value": 3400,
     "description": "A medical item that continuously restores health during use. Can be used on yourself or your allies.",
     "parts": [
       {
@@ -7232,7 +7337,7 @@
         "name": "Antiseptic"
       },
       {
-        "quantity": 2,
+        "quantity": 1,
         "name": "Canister"
       }
     ],
@@ -7292,7 +7397,7 @@
   {
     "name": "Wasp Driver",
     "rarity": "Rare",
-    "value": 1000,
+    "value": 640,
     "description": "Can be recycled into ARC Alloy.",
     "parts": [
       {
@@ -7390,7 +7495,7 @@
   {
     "name": "Wolfpack",
     "rarity": "Epic",
-    "value": 5000,
+    "value": 6000,
     "description": "A grenade that scatters into multiple homing missiles, each one targeting ARC and dealing explosive damage on impact.",
     "parts": [
       {
@@ -7456,7 +7561,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/5/5e/ESR_Analyzer.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "ESR_Analyzer.png"
   },
   {
@@ -7466,7 +7570,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/9/90/Flushing_Terminal_Key.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "Flushing_Terminal_Key.png"
   },
   {
@@ -7476,7 +7579,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/9/90/Major_Aiva%27s_Patch.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "Major_Aiva's_Patch.png"
   },
   {
@@ -7486,7 +7588,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/7/76/Raider_Flag.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "Raider_Flag.png"
   },
   {
@@ -7496,7 +7597,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/f/f6/Major_Aiva%27s_Mementos.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "Major_Aiva's_Mementos.png"
   },
   {
@@ -7506,7 +7606,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/4/41/Celeste%27s_Journal.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "Celeste's_Journal.png"
   },
   {
@@ -7516,7 +7615,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/4/4d/Lidar_Scanner.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "Lidar_Scanner.png"
   },
   {
@@ -7526,7 +7624,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/f/f2/First_Wave_Compass.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "First_Wave_Compass.png"
   },
   {
@@ -7536,7 +7633,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/0/0d/First_Wave_Tape.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "First_Wave_Tape.png"
   },
   {
@@ -7546,7 +7642,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/6/62/First_Wave_Rations.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "First_Wave_Rations.png"
   },
   {
@@ -7556,7 +7651,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/7/75/Espresso_Machine_Parts.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "Espresso_Machine_Parts.png"
   },
   {
@@ -7566,7 +7660,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/9/9a/Possibly_Toxic_Plant.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "Possibly_Toxic_Plant.png"
   },
   {
@@ -7576,7 +7669,6 @@
     "category": "Quest Item",
     "image": "https://arcraiders.wiki/w/images/6/6e/Stack_Of_Movie_Tapes.png",
     "weight": "0.5",
-    "stackSize": "1",
     "localImage": "Stack_Of_Movie_Tapes.png"
   },
   {
@@ -7584,31 +7676,47 @@
     "description": "The past survives in fragments, often dull or ordinary, yet priceless to the right person.",
     "rarity": "Common",
     "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/3/35/Old_World_Books.png",
     "weight": "0.25",
-    "stackSize": "1"
+    "localImage": "Old_World_Books.png"
   },
   {
     "name": "Experimental Seed Sample",
     "description": "A cryogenically frozen research sample of an experimental crop.",
     "rarity": "Common",
     "category": "Quest Item",
-    "weight": "0.25",
-    "stackSize": "1"
+    "weight": "0.25"
   },
   {
     "name": "Nutrient Meter",
     "description": "Ideal for monitoring soil and water nutrient levels in greenhouses or fields.",
     "rarity": "Common",
     "category": "Quest Item",
-    "weight": "0.5",
-    "stackSize": "1"
+    "weight": "0.5"
   },
   {
     "name": "Moisture Meter",
     "description": "Measures soil moisture levels for precise irrigation control.",
     "rarity": "Common",
     "category": "Quest Item",
+    "weight": "0.5"
+  },
+  {
+    "name": "Project Heartwood Blueprints",
+    "description": "A mix of complex-looking blueprints and reports, labeled Project Heartwood",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/8/8b/Project_Heartwood_Blueprints.png",
     "weight": "0.5",
-    "stackSize": "1"
+    "localImage": "Project_Heartwood_Blueprints.png"
+  },
+  {
+    "name": "Dusty Film Reel",
+    "description": "A dusty recording of a solemn corporate announcement.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/8/8d/Dusty_Film_Reel.png",
+    "weight": "0.5",
+    "localImage": "Dusty_Film_Reel.png"
   }
 ]
