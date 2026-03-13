@@ -253,7 +253,23 @@ const LootTile = memo(function LootTile({
 			<div className='tile-content flex flex-col'>
 				<RarityLabel rarity={item.rarity} category={item.category} />
 				<h2>{item.name}</h2>
+				{/* <div className='tile-craft flex flex-col'>
+					<span>crafting:</span>
+					{item.parts?.map((p, i) => {
+						const pre_mark =
+							p.name === 'Cannot be crafted' ? '☒' : `${p.quantity}x`;
+						return (
+							<span
+								key={`${item.name}-part-${p.name}-${i}`}
+								className='craft-name'
+							>
+								{pre_mark} {p.name}
+							</span>
+						);
+					})}
+				</div> */}
 				<div className='tile-recycles flex flex-col'>
+					<span>recycling:</span>
 					{item.parts?.map((p, i) => {
 						const pre_mark =
 							p.name === 'Cannot be recycled' ? '☒' : `${p.quantity}x`;
@@ -267,17 +283,32 @@ const LootTile = memo(function LootTile({
 						);
 					})}
 				</div>
-				<div className='tile-footer flex gap-sm'>
+				{/* <div className='tile-recycles flex flex-col'>
+					<span>salvaging:</span>
+					{item.parts?.map((p, i) => {
+						const pre_mark =
+							p.name === 'Cannot be recycled' ? '☒' : `${p.quantity}x`;
+						return (
+							<span
+								key={`${item.name}-part-${p.name}-${i}`}
+								className='recycle-name'
+							>
+								{pre_mark} {p.name}
+							</span>
+						);
+					})}
+				</div> */}
+				{/* <div className='tile-footer flex gap-sm'>
 					{item.stackSize && (
 						<span className='stack-size'>
 							<small>stack {item.stackSize}</small>
 						</span>
 					)}
-					{item.weight && <span className='weight'>{item.weight}</span>}
+					{item.weight && <p className='weight'>{item.weight}</p>}
 					<p className='coin-price'>
 						{item.value ? formatCurrency(item.value) : '0'}
 					</p>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
@@ -701,19 +732,19 @@ export default function App() {
 					rel='noreferrer'
 					aria-label='Buy me a coffee'
 				>
-					<span>1</span>
+					{/* <span>1</span> */}
 					<div>
 						<CoffeeIcon className='coffee-icon' /> buy me coffee
 					</div>
 				</a>
-				<div className='donation-goal'>
+				{/* <div className='donation-goal'>
 					$15{' '}
 					<span className='goal-track'>
 						<span className='goal-filled'>───</span>
 						<span className='goal-left'></span>─────────────
 					</span>{' '}
 					$100
-				</div>
+				</div> */}
 			</div>
 			<header className='hero'>
 				<h1>ARC LOOTER</h1>

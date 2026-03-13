@@ -95,7 +95,10 @@ p {
 	border: 1px solid rgba(255, 255, 255, 0.14);
 	background: #0a0f16;
 	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
-	transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+	transition:
+		background 0.2s ease,
+		border-color 0.2s ease,
+		transform 0.2s ease;
 	padding: 0.5rem;
 	line-height: 1.25rem;
 }
@@ -177,7 +180,9 @@ p {
 	background: rgb(0 0 0 / 34%);
 	font-size: 0.95rem;
 	outline: none;
-	transition: border-color 0.2s ease, background 0.2s ease;
+	transition:
+		border-color 0.2s ease,
+		background 0.2s ease;
 	backdrop-filter: blur(12px);
 	color: white;
 	height: 40px;
@@ -204,7 +209,9 @@ p {
 	backdrop-filter: blur(12px);
 	background: rgb(0 0 0 / 34%);
 	color: white;
-	transition: background 0.2s ease, border-color 0.2s ease;
+	transition:
+		background 0.2s ease,
+		border-color 0.2s ease;
 	cursor: pointer;
 	height: 40px;
 	line-height: 19px;
@@ -272,7 +279,9 @@ p {
 	font-weight: 600;
 	letter-spacing: 0.02em;
 	cursor: pointer;
-	transition: background 0.2s ease, color 0.2s ease;
+	transition:
+		background 0.2s ease,
+		color 0.2s ease;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -302,9 +311,9 @@ p {
 }
 
 .rarity-label {
-	padding: 0.2rem 0.6rem;
-	font-size: 0.65rem;
-	font-weight: 600;
+	padding: 0.25rem;
+	font-size: 0.6rem;
+	font-weight: 700;
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
 	color: #0c1118;
@@ -321,7 +330,10 @@ p {
 .rarity-filter-button {
 	border: 1px solid transparent;
 	background: #fff;
-	transition: transform 0.15s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+	transition:
+		transform 0.15s ease,
+		border-color 0.2s ease,
+		box-shadow 0.2s ease;
 	cursor: pointer;
 }
 
@@ -335,6 +347,8 @@ p {
 }
 .rarity-labels {
 	gap: 0.1em;
+	margin-block-start: -50px;
+	position: absolute;
 }
 
 @media screen and (max-width: 768px) {
@@ -388,7 +402,9 @@ p {
 	border-radius: 1rem;
 	/* overflow: hidden; */
 	cursor: pointer;
-	transition: transform 0.2s ease, border-color 0.2s ease;
+	transition:
+		transform 0.2s ease,
+		border-color 0.2s ease;
 	display: flex;
 	flex-direction: column;
 	color: rgba(245, 245, 245, 1);
@@ -407,7 +423,8 @@ p {
 	inset: -2px;
 	container-type: inline-size;
 	border: 3px solid transparent;
-	mask: linear-gradient(#fff 0 0) padding-box,
+	mask:
+		linear-gradient(#fff 0 0) padding-box,
 		linear-gradient(#fff 0 0) border-box;
 	mask-composite: exclude;
 	border-radius: inherit;
@@ -509,19 +526,13 @@ p {
 }
 
 .tile .progressive-image {
-	min-height: 240px;
+	min-height: 200px;
 }
 
 .tile .progressive-image__content {
-	height: 200px;
+	height: 160px;
 	object-fit: contain;
 	padding: 20px;
-}
-
-@media screen and (max-width: 768px) {
-	.tile .progressive-image {
-		min-height: 100px;
-	}
 }
 
 .modal .progressive-image {
@@ -564,14 +575,27 @@ p {
 	gap: 0.5rem;
 }
 
+.tile-craft {
+	margin-top: 0.5rem;
+	padding: 8px;
+	background: rgba(255, 255, 255, 0.08);
+}
+
 .tile-recycles {
 	margin-top: 0.5rem;
 	justify-content: space-between;
 	gap: 0.3rem;
+	border: 1px dashed rgba(255, 255, 255, 0.08);
+	padding: 8px;
+	font-size: 0.8rem;
 }
 .tile-recycles span {
 	color: #9fe9ff;
 	opacity: 0.5;
+}
+
+.size-small .tile-recycles {
+	display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -639,7 +663,10 @@ p {
 	font-weight: 700;
 	cursor: pointer;
 	border: 1px solid rgba(255, 255, 255, 0.12);
-	transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease,
+	transition:
+		background 0.2s ease,
+		border-color 0.2s ease,
+		color 0.2s ease,
 		opacity 0.2s ease;
 }
 .primary-button {
@@ -741,6 +768,13 @@ p {
 	margin-top: auto;
 	width: 100%;
 	justify-content: end;
+	align-items: end;
+}
+.tile-footer > p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3px;
 }
 .coin-price::before {
 	content: url('/i/coin-22px.webp');
@@ -821,7 +855,10 @@ footer {
 	border: none;
 	cursor: pointer;
 	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-	transition: transform 0.18s ease, background 0.2s ease, color 0.2s ease;
+	transition:
+		transform 0.18s ease,
+		background 0.2s ease,
+		color 0.2s ease;
 	z-index: 2;
 	pointer-events: auto;
 	padding: 0;
