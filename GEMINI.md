@@ -62,6 +62,11 @@ To scrape the latest loot data from the wiki:
 npm run fetch-loot
 ```
 
+To download new item images locally:
+```bash
+npm run download-images
+```
+
 ## Architecture Notes
 
 *   **Data Flow:** The app loads `loot.json` directly into the client bundle. State management is handled locally within React components (`useState`, `useMemo`).

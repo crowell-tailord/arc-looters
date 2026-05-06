@@ -10,7 +10,8 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"fetch-loot": "node scripts/fetchLoot.js",
-		"fetch-images": "node scripts/add-local-image-property.js"
+		"fetch-images": "node scripts/add-local-image-property.js",
+		"download-images": "node scripts/download-loot-images.js"
 	},
 	"dependencies": {
 		"@vercel/analytics": "^1.5.0",
