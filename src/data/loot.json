@@ -529,6 +529,31 @@
     "localImage": "ARC_Thermo_Lining.png"
   },
   {
+    "name": "Assessor Matrix",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Mechanical Components"
+      },
+      {
+        "quantity": 3,
+        "name": "Advanced ARC Powercell"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/18/Assessor_Matrix.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Assessor_Matrix.png"
+  },
+  {
     "name": "Assorted Seeds",
     "rarity": "Common",
     "value": 100,
@@ -1286,11 +1311,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Magnet"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -1307,11 +1328,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Advanced Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Processor"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -1328,11 +1345,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Advanced Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Processor"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -1545,6 +1558,28 @@
     "weight": "2.0",
     "stackSize": "3",
     "localImage": "Cracked_Bioscanner.png"
+  },
+  {
+    "name": "Crash Mat",
+    "rarity": "Uncommon",
+    "value": 1200,
+    "description": "A throwable emergency landing device, to soften some heavy landings.",
+    "parts": [
+      {
+        "quantity": 3,
+        "name": "Plastic Parts"
+      },
+      {
+        "quantity": 6,
+        "name": "Fabric"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/75/Crash_Mat.png",
+    "weight": "0.3",
+    "stackSize": "5",
+    "localImage": "Crash_Mat.png"
   },
   {
     "name": "Crude Explosives",
@@ -2063,6 +2098,23 @@
     "localImage": "Diving_Goggles.png"
   },
   {
+    "name": "Dockmaster's Detector",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "These detectors seem to be able to locate foreign objects buried in the sands around Riven Tides, though their exact way of functioning is unknown.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/41/Dockmaster%27s_Detector.png",
+    "weight": "1.0",
+    "localImage": "Dockmaster's_Detector.png"
+  },
+  {
     "name": "Dog Collar",
     "rarity": "Rare",
     "value": 640,
@@ -2238,7 +2290,7 @@
   {
     "name": "Energy Clip",
     "rarity": "Rare",
-    "value": 1000,
+    "value": 200,
     "description": "Ammo used for energy weapons. One clip will fully charge a single weapon.",
     "parts": [
       {
@@ -2687,8 +2739,8 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/94/Fine_Wristwatch.png",
     "canBeFoundIn": [
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "0.2",
     "stackSize": "3",
@@ -2873,8 +2925,12 @@
     "description": "Basic augment for rookie Raiders, offering slightly more backpack space and carry capacity.",
     "parts": [
       {
-        "quantity": 1,
-        "name": "Cannot be recycled"
+        "quantity": 6,
+        "name": "Plastic Parts"
+      },
+      {
+        "quantity": 6,
+        "name": "Rubber Parts"
       }
     ],
     "category": "Augment",
@@ -3179,7 +3235,7 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/6f/Heavy_Ammo.png",
     "weight": "0.05",
-    "stackSize": "40",
+    "stackSize": "60",
     "localImage": "Heavy_Ammo.png"
   },
   {
@@ -3675,6 +3731,24 @@
     "localImage": "Lemon.png"
   },
   {
+    "name": "\"Leviathan's Crown\" Ship Model",
+    "rarity": "Legendary",
+    "value": 10000,
+    "description": "A majestic sight in any era, this fierce merchant ship is indifferent to the aerodynamic benefits of fiberglass technology.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/71/Leviathan%27s_Crown_Ship_Model.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Leviathan's_Crown_Ship_Model.png"
+  },
+  {
     "name": "Li'l Smoke Grenade",
     "rarity": "Common",
     "value": 300,
@@ -3846,11 +3920,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Magnet"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -3867,11 +3937,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Advanced Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Processor"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -3888,11 +3954,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Advanced Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Processor"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -3909,11 +3971,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Advanced Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Processor"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -4329,6 +4387,28 @@
     "localImage": "Mushroom.png"
   },
   {
+    "name": "Music Album",
+    "rarity": "Rare",
+    "value": 3000,
+    "description": "Perfect for relaxing nights at home, casual get-togethers, and provide air guitar concerts.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/90/Music_Album.png",
+    "canBeFoundIn": [
+      "Residential",
+      "Commercial"
+    ],
+    "weight": "0.3",
+    "stackSize": "3",
+    "localImage": "Music_Album.png"
+  },
+  {
     "name": "Music Box",
     "rarity": "Rare",
     "value": 5000,
@@ -4350,28 +4430,6 @@
     "weight": "0.4",
     "stackSize": "3",
     "localImage": "Music_Box.png"
-  },
-  {
-    "name": "Music Album",
-    "rarity": "Rare",
-    "value": 3000,
-    "description": "Perfect for relaxing nights at home, casual get-togethers, and provide air guitar concerts.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Trinket",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/9/90/Music_Album.png",
-    "canBeFoundIn": [
-      "Residential",
-      "Commercial"
-    ],
-    "weight": "0.3",
-    "stackSize": "3",
-    "localImage": "Music_Album.png"
   },
   {
     "name": "Muzzle Brake I",
@@ -4591,7 +4649,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/06/Photoelectric_Cloak.png",
-    "weight": "1.0",
+    "weight": "3.0",
     "stackSize": "1",
     "localImage": "Photoelectric_Cloak.png"
   },
@@ -4728,14 +4786,14 @@
     ],
     "category": "Trinket",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/f/f2/Poster_of_Natural_Wonders.png",
+    "image": "https://arcraiders.wiki/w/images/2/2b/Poster_Of_Natural_Wonders.png",
     "canBeFoundIn": [
       "Commercial",
       "Residential"
     ],
     "weight": "0.3",
     "stackSize": "3",
-    "localImage": "Poster_of_Natural_Wonders.png"
+    "localImage": "Poster_Of_Natural_Wonders.png"
   },
   {
     "name": "Pottery",
@@ -4808,6 +4866,28 @@
     "weight": "2.0",
     "stackSize": "3",
     "localImage": "Power_Cable.png"
+  },
+  {
+    "name": "Powered Descender",
+    "rarity": "Epic",
+    "value": 10000,
+    "description": "Reduces fall speed when used in the air, but has a wind-up time before reaching full force. Shuts down once out of power.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "ARC Circuitry"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/21/Powered_Descender.png",
+    "weight": "5.0",
+    "stackSize": "1",
+    "localImage": "Powered_Descender.png"
   },
   {
     "name": "Power Rod",
@@ -5053,9 +5133,9 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1a/Red_Coral_Jewelry.png",
     "canBeFoundIn": [
+      "Residential",
       "Old World",
-      "Commercial",
-      "Residential"
+      "Commercial"
     ],
     "weight": "0.3",
     "stackSize": "3",
@@ -5171,6 +5251,114 @@
     "weight": "0.8",
     "stackSize": "3",
     "localImage": "Ripped_Safety_Vest.png"
+  },
+  {
+    "name": "Riven Tides Hotel Keycard No. 107",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a9/Riven_Tides_Hotel_Keycard.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Riven_Tides_Hotel_Keycard.png"
+  },
+  {
+    "name": "Riven Tides Hotel Keycard No. 208",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a9/Riven_Tides_Hotel_Keycard.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Riven_Tides_Hotel_Keycard.png"
+  },
+  {
+    "name": "Riven Tides Hotel Keycard No. 311",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a9/Riven_Tides_Hotel_Keycard.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Riven_Tides_Hotel_Keycard.png"
+  },
+  {
+    "name": "Riven Tides Classified Records Keycard",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Unlocks a door to the Classified Records room in the Port Authority Building at Riven Tides.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7b/Icon_Coins.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Icon_Coins.png"
+  },
+  {
+    "name": "Riven Tides Crane House Keycard",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Unlocks a door in one of the Crane Houses at Riven Tides.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7b/Icon_Coins.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Icon_Coins.png"
+  },
+  {
+    "name": "Riven Tides Secure Storage Keycard",
+    "rarity": "Epic",
+    "value": 100,
+    "description": "Unlocks a door to the Secure Storage room in the Port Authority Building at Riven Tides",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/6d/Riven_Tides_Secure_Storage_Keycard.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Riven_Tides_Secure_Storage_Keycard.png"
   },
   {
     "name": "Rocket Thruster",
@@ -6163,6 +6351,24 @@
     "localImage": "Simple_Gun_Parts.png"
   },
   {
+    "name": "\"Sirena Dorata\" Ship Model",
+    "rarity": "Epic",
+    "value": 7000,
+    "description": "With the Mediterranean sun glistening off its hull, this vibrant yacht is the timeless epitome of saltwater splendour.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/1e/Sirena_Dorata_Ship_Model.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Sirena_Dorata_Ship_Model.png"
+  },
+  {
     "name": "Smoke Grenade Trap",
     "rarity": "Rare",
     "value": 640,
@@ -6282,12 +6488,9 @@
         "name": "Cannot be recycled"
       }
     ],
-    "category": "Misc",
+    "category": "Nature",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/0/04/Snowball.png",
-    "canBeFoundIn": [
-      "Nature"
-    ],
     "weight": "0.2",
     "stackSize": "5",
     "localImage": "Snowball.png"
@@ -6553,7 +6756,7 @@
     "name": "Statuette",
     "rarity": "Rare",
     "value": 3000,
-    "description": "Worth a small fortune",
+    "description": "Worth a small fortune.",
     "parts": [
       {
         "quantity": 1,
@@ -6687,6 +6890,28 @@
     "localImage": "Sterilized_Bandage.png"
   },
   {
+    "name": "Surge Coil",
+    "rarity": "Rare",
+    "value": 2100,
+    "description": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Sensors"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/5b/Surge_Coil.png",
+    "weight": "0.4",
+    "stackSize": "3",
+    "localImage": "Surge_Coil.png"
+  },
+  {
     "name": "Surge Shield Recharger",
     "rarity": "Rare",
     "value": 1200,
@@ -6808,11 +7033,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Magnet"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -6829,11 +7050,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Advanced Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Processor"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -6850,11 +7067,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Advanced Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Processor"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -6871,11 +7084,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Advanced Electrical Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Processor"
+        "name": "Cannot be recycled"
       }
     ],
     "category": "Augment",
@@ -6883,6 +7092,23 @@
     "image": "https://arcraiders.wiki/w/images/e/e0/Tactical_Mk._3_%28Revival%29.png",
     "weight": "3.0",
     "localImage": "Tactical_Mk._3_(Revival).png"
+  },
+  {
+    "name": "Tactical Mk. 3 (Smoke)",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "An upgraded version of the Tactical MK.2 augment, adding expanded capacity across the board.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Augment",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/d/d6/Tactical_Mk._3_%28Smoke%29.png",
+    "weight": "4.0",
+    "localImage": "Tactical_Mk._3_(Smoke).png"
   },
   {
     "name": "Tagging Grenade",
@@ -7127,10 +7353,10 @@
     ],
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/0/09/Trigger_Nade.png",
+    "image": "https://arcraiders.wiki/w/images/c/cc/Trigger_%27Nade.png",
     "weight": "0.4",
     "stackSize": "3",
-    "localImage": "Trigger_Nade.png"
+    "localImage": "Trigger_'Nade.png"
   },
   {
     "name": "Tropical Duck",
@@ -7149,6 +7375,31 @@
     "weight": "0.3",
     "stackSize": "15",
     "localImage": "Tropical_Duck.png"
+  },
+  {
+    "name": "Turbine Compressor",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "ARC Circuitry"
+      },
+      {
+        "quantity": 1,
+        "name": "ARC Motion Core"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/d/d4/Turbine_Compressor.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "Turbine_Compressor.png"
   },
   {
     "name": "Turbo Pump",
@@ -7176,6 +7427,24 @@
     "localImage": "Turbo_Pump.png"
   },
   {
+    "name": "\"Twilight Compass\" Ship Model",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "A spirited up-and-comer, this two-master has been known to sail ever so slightly beyond the horizon",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/1/18/Twilight_Compass_Ship_Model.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Twilight_Compass_Ship_Model.png"
+  },
+  {
     "name": "Unusable Weapon",
     "rarity": "Rare",
     "value": 2000,
@@ -7201,6 +7470,31 @@
     "localImage": "Unusable_Weapon.png"
   },
   {
+    "name": "Vaporizer Regulator",
+    "rarity": "Epic",
+    "value": 6000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 2,
+        "name": "ARC Circuitry"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/b/b8/Vaporizer_Regulator.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "Vaporizer_Regulator.png"
+  },
+  {
     "name": "Vase",
     "rarity": "Rare",
     "value": 3000,
@@ -7216,12 +7510,30 @@
     "image": "https://arcraiders.wiki/w/images/6/6e/Vase.png",
     "canBeFoundIn": [
       "Old World",
-      "Commercial",
-      "Residential"
+      "Residential",
+      "Commercial"
     ],
     "weight": "0.3",
     "stackSize": "3",
     "localImage": "Vase.png"
+  },
+  {
+    "name": "\"Velocity\" Ship Model",
+    "rarity": "Rare",
+    "value": 3000,
+    "description": "Optimized for performance, this marvel of technology sure hopes you weren't planning on packing a particularly elaborate lunch.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c4/Velocity_Ship_Model.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Velocity_Ship_Model.png"
   },
   {
     "name": "Vertical Grip I",
@@ -7471,6 +7783,46 @@
     "localImage": "Water_Pump.png"
   },
   {
+    "name": "White Flag",
+    "rarity": "Common",
+    "value": 640,
+    "description": "A deployable white flag.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Plastic Parts"
+      },
+      {
+        "quantity": 5,
+        "name": "Fabric"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/43/White_Flag.png",
+    "weight": "0.2",
+    "stackSize": "5",
+    "localImage": "White_Flag.png"
+  },
+  {
+    "name": "\"Wind Sprite\" Ship Model",
+    "rarity": "Common",
+    "value": 1000,
+    "description": "Undaunted in the face of its larger brethren, this nimble one-master has been known to brave even the most just-above-average of waves.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/95/Wind_Sprite_Ship_Model.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Wind_Sprite_Ship_Model.png"
+  },
+  {
     "name": "Wires",
     "rarity": "Uncommon",
     "value": 200,
@@ -7613,9 +7965,9 @@
     "description": "A laser-based scanner used to detect the subtlest changes to the Earth's surface.",
     "rarity": "Common",
     "category": "Quest Item",
-    "image": "https://arcraiders.wiki/w/images/4/4d/Lidar_Scanner.png",
+    "image": "https://arcraiders.wiki/w/images/a/ae/LiDAR_Scanner.png",
     "weight": "0.25",
-    "localImage": "Lidar_Scanner.png"
+    "localImage": "LiDAR_Scanner.png"
   },
   {
     "name": "First Wave Compass",
@@ -7685,21 +8037,27 @@
     "description": "A cryogenically frozen research sample of an experimental crop.",
     "rarity": "Common",
     "category": "Quest Item",
-    "weight": "0.25"
+    "image": "https://arcraiders.wiki/w/images/d/d9/Experimental_Seed_Sample.png",
+    "weight": "0.25",
+    "localImage": "Experimental_Seed_Sample.png"
   },
   {
     "name": "Nutrient Meter",
     "description": "Ideal for monitoring soil and water nutrient levels in greenhouses or fields.",
     "rarity": "Common",
     "category": "Quest Item",
-    "weight": "0.5"
+    "image": "https://arcraiders.wiki/w/images/1/16/Nutrient_Meter.png",
+    "weight": "0.5",
+    "localImage": "Nutrient_Meter.png"
   },
   {
     "name": "Moisture Meter",
     "description": "Measures soil moisture levels for precise irrigation control.",
     "rarity": "Common",
     "category": "Quest Item",
-    "weight": "0.5"
+    "image": "https://arcraiders.wiki/w/images/1/1f/Moisture_Meter.png",
+    "weight": "0.5",
+    "localImage": "Moisture_Meter.png"
   },
   {
     "name": "Project Heartwood Blueprints",
@@ -7718,5 +8076,68 @@
     "image": "https://arcraiders.wiki/w/images/8/8d/Dusty_Film_Reel.png",
     "weight": "0.5",
     "localImage": "Dusty_Film_Reel.png"
+  },
+  {
+    "name": "Scout Patrol Note",
+    "description": "A note seemingly documenting patrol schedules and access codes.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/5/55/Scout_Patrol_Note.png",
+    "weight": "0.5",
+    "localImage": "Scout_Patrol_Note.png"
+  },
+  {
+    "name": "Dodger's Note",
+    "description": "A hurriedly scribbled note, all crumpled up.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/c/c8/Dodger%27s_Note.png",
+    "weight": "0.5",
+    "localImage": "Dodger's_Note.png"
+  },
+  {
+    "name": "Secret Meeting Info",
+    "description": "Thorough documentation of secret meetings held by researchers around the Stella Montis facility.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/5/55/Secret_Meeting_Info.png",
+    "weight": "0.5",
+    "localImage": "Secret_Meeting_Info.png"
+  },
+  {
+    "name": "Seed Vault Box Key",
+    "description": "A key opening a specific box in Stella Montis' Seed Vault",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/1/14/Seed_Vault_Box_Key.png",
+    "weight": "0.5",
+    "localImage": "Seed_Vault_Box_Key.png"
+  },
+  {
+    "name": "Official Shutdown Documentation",
+    "description": "Top-secret protocols outlining the shutdown of Project Heartwood.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/c/cb/Official_Shutdown_Documentation.png",
+    "weight": "0.5",
+    "localImage": "Official_Shutdown_Documentation.png"
+  },
+  {
+    "name": "Marano Market Business Card",
+    "description": "The scribbled writing on this business card almost obscures the logo of Marano's market.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/f/ff/Marano_Market_Business_Card.png",
+    "weight": "0.5",
+    "localImage": "Marano_Market_Business_Card.png"
+  },
+  {
+    "name": "Precision Gimbal",
+    "description": "A particularly mesmerizing part, supposedly crucial to the construction of Exodus spaceships.",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/b/be/Precision_Gimbal.png",
+    "weight": "0.5",
+    "localImage": "Precision_Gimbal.png"
   }
 ]
