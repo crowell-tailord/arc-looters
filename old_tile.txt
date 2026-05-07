@@ -1,0 +1,120 @@
+			/>
+		</div>
+	);
+}
+
+function RarityLabel({ rarity, category }) {
+	return (
+		<div className='flex rarity-labels'>
+			<span className='rarity-label'>{rarity || 'Unknown'}</span>
+			<span className='rarity-label'>{category || 'Unknown'}</span>
+		</div>
+	);
+}
+
+const LootTile = memo(function LootTile({
+	item,
+	onSelect,
+	onPinToggle,
+	isPinned,
+}) {
+	const handleTileClick = useCallback(
+		(event) => {
+			if (event.defaultPrevented) return;
+			const target = event.target;
+			const pinElement =
+				target instanceof Element
+					? target.closest('.pinthis')
+					: event.currentTarget.querySelector('.pinthis');
+			if (pinElement && pinElement.contains(target)) return;
+			onSelect?.(item);
+		},
+		[onSelect, item],
+	);
+
+	const handlePinClick = useCallback(
+		(event) => {
+			event.preventDefault();
+			event.stopPropagation();
+			onPinToggle?.(item);
+		},
+		[onPinToggle, item],
+	);
+
+	const key = (item.rarity || 'common').toLowerCase();
+	const palette = rarityPalette[key] || rarityPalette.common;
+
+	return (
+		<div
+			className={`tile ${isPinned ? 'is-pinned' : ''}`}
+			onClick={handleTileClick}
+			aria-label={`${item.name} details`}
+			style={{ '--bg': palette.background }}
+		>
+			<span className='atc__border atc__border--animated'></span>
+			<button
+				type='button'
+				className={`pinthis ${isPinned ? 'active' : ''}`}
+				aria-pressed={isPinned}
+				aria-label={isPinned ? 'Unpin item' : 'Pin item'}
+				onClick={handlePinClick}
+			>
+				<svg
+					className='pin-icon'
+					viewBox='0 0 24 24'
+					role='img'
+					aria-hidden='true'
+					focusable='false'
+				>
+					<path d='M12 2a3 3 0 0 1 3 3v1.5h1.25c.64 0 .96.77.5 1.22l-2.84 2.78 2.37 2.37c.48.48.14 1.29-.54 1.29H13v6.35a1 1 0 0 1-2 0V14.1H8.26c-.68 0-1.02-.81-.54-1.29l2.37-2.37-2.84-2.78c-.46-.45-.14-1.22.5-1.22H9V5a3 3 0 0 1 3-3Z' />
+				</svg>
+			</button>
+			<ProgressiveImage
+				src={`/assets/loot/${item.localImage}`}
+				alt={`${item.name} - ${item.rarity || 'Unknown'} ${
+					item.category || 'item'
+				}`}
+				loading='lazy'
+			/>
+			<div className='tile-content flex flex-col'>
+				<RarityLabel rarity={item.rarity} category={item.category} />
+				<h2>{item.name}</h2>
+				{/* <div className='tile-craft flex flex-col'>
+					<span>crafting:</span>
+					{item.parts?.map((p, i) => {
+						const pre_mark =
+							p.name === 'Cannot be crafted' ? '☒' : `${p.quantity}x`;
+						return (
+							<span
+								key={`${item.name}-part-${p.name}-${i}`}
+								className='craft-name'
+							>
+								{pre_mark} {p.name}
+							</span>
+						);
+					})}
+				</div> */}
+				<div className='tile-recycles flex flex-col'>
+					<span>recycling:</span>
+					{item.parts?.map((p, i) => {
+						const pre_mark =
+							p.name === 'Cannot be recycled' ? '☒' : `${p.quantity}x`;
+						return (
+							<span
+								key={`${item.name}-part-${p.name}-${i}`}
+								className='recycle-name'
+							>
+								{pre_mark} {p.name}
+							</span>
+						);
+					})}
+				</div>
+				{/* <div className='tile-recycles flex flex-col'>
+					<span>salvaging:</span>
+					{item.parts?.map((p, i) => {
+						const pre_mark =
+							p.name === 'Cannot be recycled' ? '☒' : `${p.quantity}x`;
+						return (
+							<span
+								key={`${item.name}-part-${p.name}-${i}`}
+								className='recycle-name'

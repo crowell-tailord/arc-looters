@@ -4,6 +4,10 @@ import packageInfo from '../package.json';
 import './App.css';
 import PrivacyPolicy from './PrivacyPolicy';
 
+import { cn } from '@/lib/utils';
+import { Card, CardContent, CardTitle, CardFooter } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+
 const DEFAULT_LOOT_IMAGE = '/assets/loot/loot-placeholder.svg';
 const rarityPalette = {
 	legendary: { background: '#fbc700' },
@@ -177,237 +181,236 @@ function ProgressiveImage({
 	);
 }
 
-function RarityLabel({ rarity, category }) {
-	return (
-		<div className='flex rarity-labels'>
-			<span className='rarity-label'>{rarity || 'Unknown'}</span>
-			<span className='rarity-label'>{category || 'Unknown'}</span>
-		</div>
-	);
+function RarityLabel({ rarity, category, className = '' }) {
+        return (
+                <div className={'flex gap-1 z-20 rarity-labels ' + className}>
+                        <Badge className="text-[9px] px-1.5 py-0 uppercase font-bold text-[#0c1118] bg-[var(--bg)] hover:bg-[var(--bg)]" style={{ backgroundColor: 'var(--bg)' }}>{rarity || 'Unknown'}</Badge>
+                        <Badge variant="outline" className="text-[9px] px-1.5 py-0 uppercase font-bold bg-muted/80 backdrop-blur-sm text-foreground hover:bg-muted/80 border-transparent">{category || 'Unknown'}</Badge>
+                </div>
+        );
 }
 
 const LootTile = memo(function LootTile({
-	item,
-	onSelect,
-	onPinToggle,
-	isPinned,
+        item,
+        onSelect,
+        onPinToggle,
+        isPinned,
 }) {
-	const handleTileClick = useCallback(
-		(event) => {
-			if (event.defaultPrevented) return;
-			const target = event.target;
-			const pinElement =
-				target instanceof Element
-					? target.closest('.pinthis')
-					: event.currentTarget.querySelector('.pinthis');
-			if (pinElement && pinElement.contains(target)) return;
-			onSelect?.(item);
-		},
-		[onSelect, item],
-	);
+        const handleTileClick = useCallback(
+                (event) => {
+                        if (event.defaultPrevented) return;
+                        const target = event.target;
+                        const pinElement =
+                                target instanceof Element
+                                        ? target.closest('.pinthis')
+                                        : event.currentTarget.querySelector('.pinthis');
+                        if (pinElement && pinElement.contains(target)) return;
+                        onSelect?.(item);
+                },
+                [onSelect, item],
+        );
 
-	const handlePinClick = useCallback(
-		(event) => {
-			event.preventDefault();
-			event.stopPropagation();
-			onPinToggle?.(item);
-		},
-		[onPinToggle, item],
-	);
+        const handlePinClick = useCallback(
+                (event) => {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        onPinToggle?.(item);
+                },
+                [onPinToggle, item],
+        );
 
-	const key = (item.rarity || 'common').toLowerCase();
-	const palette = rarityPalette[key] || rarityPalette.common;
+        const key = (item.rarity || 'common').toLowerCase();
+        const palette = rarityPalette[key] || rarityPalette.common;
 
-	return (
-		<div
-			className={`tile ${isPinned ? 'is-pinned' : ''}`}
-			onClick={handleTileClick}
-			aria-label={`${item.name} details`}
-			style={{ '--bg': palette.background }}
-		>
-			<span className='atc__border atc__border--animated'></span>
-			<button
-				type='button'
-				className={`pinthis ${isPinned ? 'active' : ''}`}
-				aria-pressed={isPinned}
-				aria-label={isPinned ? 'Unpin item' : 'Pin item'}
-				onClick={handlePinClick}
-			>
-				<svg
-					className='pin-icon'
-					viewBox='0 0 24 24'
-					role='img'
-					aria-hidden='true'
-					focusable='false'
-				>
-					<path d='M12 2a3 3 0 0 1 3 3v1.5h1.25c.64 0 .96.77.5 1.22l-2.84 2.78 2.37 2.37c.48.48.14 1.29-.54 1.29H13v6.35a1 1 0 0 1-2 0V14.1H8.26c-.68 0-1.02-.81-.54-1.29l2.37-2.37-2.84-2.78c-.46-.45-.14-1.22.5-1.22H9V5a3 3 0 0 1 3-3Z' />
-				</svg>
-			</button>
-			<ProgressiveImage
-				src={`/assets/loot/${item.localImage}`}
-				alt={`${item.name} - ${item.rarity || 'Unknown'} ${
-					item.category || 'item'
-				}`}
-				loading='lazy'
-			/>
-			<div className='tile-content flex flex-col'>
-				<RarityLabel rarity={item.rarity} category={item.category} />
-				<h2>{item.name}</h2>
-				{/* <div className='tile-craft flex flex-col'>
-					<span>crafting:</span>
-					{item.parts?.map((p, i) => {
-						const pre_mark =
-							p.name === 'Cannot be crafted' ? '☒' : `${p.quantity}x`;
-						return (
-							<span
-								key={`${item.name}-part-${p.name}-${i}`}
-								className='craft-name'
-							>
-								{pre_mark} {p.name}
-							</span>
-						);
-					})}
-				</div> */}
-				<div className='tile-recycles flex flex-col'>
-					<span>recycling:</span>
-					{item.parts?.map((p, i) => {
-						const pre_mark =
-							p.name === 'Cannot be recycled' ? '☒' : `${p.quantity}x`;
-						return (
-							<span
-								key={`${item.name}-part-${p.name}-${i}`}
-								className='recycle-name'
-							>
-								{pre_mark} {p.name}
-							</span>
-						);
-					})}
-				</div>
-				{/* <div className='tile-recycles flex flex-col'>
-					<span>salvaging:</span>
-					{item.parts?.map((p, i) => {
-						const pre_mark =
-							p.name === 'Cannot be recycled' ? '☒' : `${p.quantity}x`;
-						return (
-							<span
-								key={`${item.name}-part-${p.name}-${i}`}
-								className='recycle-name'
-							>
-								{pre_mark} {p.name}
-							</span>
-						);
-					})}
-				</div> */}
-				{/* <div className='tile-footer flex gap-sm'>
-					{item.stackSize && (
-						<span className='stack-size'>
-							<small>stack {item.stackSize}</small>
-						</span>
-					)}
-					{item.weight && <p className='weight'>{item.weight}</p>}
-					<p className='coin-price'>
-						{item.value ? formatCurrency(item.value) : '0'}
-					</p>
-				</div> */}
-			</div>
-		</div>
-	);
+        return (
+                <Card
+                        className={cn(
+                                "tile relative p-0 overflow-visible border-0 bg-[#0c1118] text-foreground transition-all duration-200 ring-0 hover:ring-0",
+                                isPinned ? 'is-pinned ring-2 hover:ring-2 ring-purple-500 hover:ring-purple-500' : ''
+                        )}
+                        onClick={handleTileClick}
+                        aria-label={item.name + " details"}
+                        style={{ '--bg': palette.background }}
+                >
+                        <span className='atc__border atc__border--animated'></span>
+                        <button
+                                type='button'
+                                className={"pinthis " + (isPinned ? 'active' : '')}
+                                aria-pressed={isPinned}
+                                aria-label={isPinned ? 'Unpin item' : 'Pin item'}
+                                onClick={handlePinClick}
+                        >
+                                <svg
+                                        className='pin-icon'
+                                        viewBox='0 0 24 24'
+                                        role='img'
+                                        aria-hidden='true'
+                                        focusable='false'
+                                >
+                                        <path d='M12 2a3 3 0 0 1 3 3v1.5h1.25c.64 0 .96.77.5 1.22l-2.84 2.78 2.37 2.37c.48.48.14 1.29-.54 1.29H13v6.35a1 1 0 0 1-2 0V14.1H8.26c-.68 0-1.02-.81-.54-1.29l2.37-2.37-2.84-2.78c-.46-.45-.14-1.22.5-1.22H9V5a3 3 0 0 1 3-3Z' />
+                                </svg>
+                        </button>
+                        
+                        <div className="relative w-full rounded-t-xl overflow-hidden flex flex-col">
+                                <ProgressiveImage
+                                        src={"/assets/loot/" + item.localImage}
+                                        alt={item.name + " - " + (item.rarity || 'Unknown') + " " + (item.category || 'item')}
+                                        loading='lazy'
+                                />
+                                <RarityLabel rarity={item.rarity} category={item.category} className="absolute bottom-2 left-2 z-20" />
+                        </div>
+                        
+                        <CardContent className="p-3 pt-0 flex flex-col h-full flex-1">
+                                <CardTitle className="text-sm sm:text-base mt-2 leading-tight min-h-[2.5rem] flex items-start">{item.name}</CardTitle>
+                                
+                                <div className='tile-recycles flex flex-col mt-2 p-2 bg-white/5 border border-dashed border-white/10 rounded-md text-[11px] min-h-[50px]'>
+                                        <span className="text-muted-foreground mb-1">recycling:</span>
+                                        {item.parts?.map((p, i) => {
+                                                const pre_mark =
+                                                        p.name === 'Cannot be recycled' ? '☒' : p.quantity + "x";
+                                                return (
+                                                        <span
+                                                                key={item.name + "-part-" + p.name + "-" + i}
+                                                                className='text-[#9fe9ff] opacity-80'
+                                                        >
+                                                                {pre_mark} {p.name}
+                                                        </span>
+                                                );
+                                        })}
+                                </div>
+                                
+                                <CardFooter className='p-0 mt-auto pt-3 flex items-end w-full gap-2 text-sm bg-transparent border-t-0'>
+                                        {item.stackSize && (
+                                                <span className='stack-size mr-auto text-xs opacity-70'>
+                                                        <small>stack {item.stackSize}</small>
+                                                </span>
+                                        )}
+                                        {item.weight && <span className='weight font-medium text-xs'>{item.weight}</span>}
+                                        <p className='coin-price font-bold ml-auto'>
+                                                {item.value ? Number(item.value || 0).toLocaleString('en-US') : '0'}
+                                        </p>
+                                </CardFooter>
+                        </CardContent>
+                </Card>
+        );
 });
 
 function DetailModal({ item, onClose, onReport }) {
-	const handleBackdropClick = useCallback(
-		(event) => {
-			if (event.target === event.currentTarget) {
-				onClose();
-			}
-		},
-		[onClose],
-	);
-	const key = (item.rarity || 'common').toLowerCase();
-	const palette = rarityPalette[key] || rarityPalette.common;
+        const handleBackdropClick = useCallback(
+                (event) => {
+                        if (event.target === event.currentTarget) {
+                                onClose();
+                        }
+                },
+                [onClose],
+        );
+        const key = (item.rarity || 'common').toLowerCase();
+        const palette = rarityPalette[key] || rarityPalette.common;
 
-	return (
-		<div
-			className='modal-backdrop'
-			role='dialog'
-			aria-modal='true'
-			onClick={handleBackdropClick}
-			style={{ '--bg': palette.background }}
-		>
-			<div className='modal flex flex-col' role='document'>
-				<ProgressiveImage
-					src={`/assets/loot/${item.localImage}`}
-					alt={`${item.name} detail image - ${item.rarity || 'Unknown'} ${
-						item.category || 'item'
-					}`}
-					loading='lazy'
-				/>
-				<hr />
-				<RarityLabel rarity={item.rarity} category={item.category} />
-				<h3>{item.name}</h3>
-				<p>{item.description}</p>
-				<div className='flex flex-col info-row'>
-					Can Be Found:
-					{item.canBeFoundIn?.map((l, i) => {
-						return (
-							<span
-								key={`${item.name}-foundin-${l}-${i}`}
-								className={`foundin location-${l.replace(' ', '_')}`}
-							>
-								{l}
-							</span>
-						);
-					})}
-				</div>
-				<div className='tile-recycles flex flex-col info-row'>
-					Recycles Into:
-					{item.parts?.map((p, i) => {
-						const pre_mark =
-							p.name === 'Cannot be recycled' ? '☒' : `${p.quantity}x`;
-						return (
-							<span
-								key={`${item.name}-part-${p.name}-${i}`}
-								className='recycle-name'
-							>
-								{pre_mark} {p.name}
-							</span>
-						);
-					})}
-				</div>
-				{item.keepForQuestsWorkshop?.[0] && (
-					<p className='flex flex-col keepfor info-row'>
-						Should Keep For:
-						{item.keepForQuestsWorkshop.map((keep, i) => (
-							<span key={`${item.name}-keepfor-${i}`}>{keep}</span>
-						))}
-					</p>
-				)}
-				<div className='tile-footer flex gap-sm'>
-					{item.stackSize && (
-						<span className='stack-size'>
-							<small>stack {item.stackSize}</small>
-						</span>
-					)}
-					{item.weight && <span className='weight'>{item.weight}</span>}
-					<p className='coin-price'>
-						{item.value ? formatCurrency(item.value) : '0'}
-					</p>
-				</div>
-				<div className='modal-actions'>
-					<button
-						type='button'
-						className='ghost-button'
-						onClick={() => onReport?.(item)}
-					>
-						Info incorrect?
-					</button>
-				</div>
-				<button className='close' onClick={onClose} aria-label='Close'>
-					×
-				</button>
-			</div>
-		</div>
-	);
+        return (
+                <div
+                        className='modal-backdrop z-50'
+                        role='dialog'
+                        aria-modal='true'
+                        onClick={handleBackdropClick}
+                        style={{ '--bg': palette.background }}
+                >
+                        <div className='modal relative flex flex-col w-full max-w-lg bg-[#0c1118] border border-white/10 rounded-2xl shadow-2xl text-foreground overflow-hidden p-0' role='document'>
+                                <button className='absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center rounded-full bg-black/40 text-white hover:bg-black/60 transition-colors border-none cursor-pointer' onClick={onClose} aria-label='Close'>
+                                        ×
+                                </button>
+                                
+                                <div className="w-full bg-gradient-to-b from-white/5 to-transparent pt-8 pb-4 px-6 flex justify-center items-center border-b border-white/5 relative">
+                                        <ProgressiveImage
+                                                src={"/assets/loot/" + item.localImage}
+                                                alt={item.name + " detail image - " + (item.rarity || 'Unknown') + " " + (item.category || 'item')}
+                                                loading='lazy'
+                                                wrapperClassName="w-full max-w-[200px] aspect-square flex justify-center items-center"
+                                                className="w-full h-full object-contain drop-shadow-2xl"
+                                        />
+                                </div>
+                                
+                                <div className="p-6 flex flex-col gap-5 w-full">
+                                        <div className="flex flex-col gap-2">
+                                                <RarityLabel rarity={item.rarity} category={item.category} className="mb-1 -mt-2 relative ml-0" />
+                                                <h3 className="text-2xl font-bold m-0 leading-tight">{item.name}</h3>
+                                                {item.description && <p className="text-sm text-muted-foreground m-0 opacity-80 leading-relaxed">{item.description}</p>}
+                                        </div>
+                                        
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full">
+                                                {item.canBeFoundIn && item.canBeFoundIn.length > 0 && (
+                                                        <div className="bg-white/5 border border-white/5 p-3 rounded-xl flex flex-col gap-2">
+                                                                <span className="text-[10px] text-muted-foreground uppercase tracking-wider font-bold">Can Be Found In</span>
+                                                                <div className="flex flex-col gap-1.5">
+                                                                        {item.canBeFoundIn.map((l, i) => (
+                                                                                <span key={item.name + "-foundin-" + l + "-" + i} className={"text-sm flex items-center gap-2 foundin location-" + l.replace(' ', '_')}>
+                                                                                        {l}
+                                                                                </span>
+                                                                        ))}
+                                                                </div>
+                                                        </div>
+                                                )}
+                                                
+                                                {item.parts && item.parts.length > 0 && (
+                                                        <div className="bg-white/5 border border-white/5 p-3 rounded-xl flex flex-col gap-2">
+                                                                <span className="text-[10px] text-muted-foreground uppercase tracking-wider font-bold">Recycles Into</span>
+                                                                <div className="flex flex-col gap-1.5">
+                                                                        {item.parts.map((p, i) => {
+                                                                                const pre_mark = p.name === 'Cannot be recycled' ? '☒' : p.quantity + "x";
+                                                                                return (
+                                                                                        <span key={item.name + "-part-" + p.name + "-" + i} className='text-sm text-[#9fe9ff] opacity-80 flex items-center gap-1.5'>
+                                                                                                <span className="text-white/60 font-mono text-xs">{pre_mark}</span> {p.name}
+                                                                                        </span>
+                                                                                );
+                                                                        })}
+                                                                </div>
+                                                        </div>
+                                                )}
+                                        </div>
+                                        
+                                        {item.keepForQuestsWorkshop && item.keepForQuestsWorkshop[0] && (
+                                                <div className="bg-[#b37eff]/10 border border-[#b37eff]/20 p-3 rounded-xl flex flex-col gap-2 w-full">
+                                                        <span className="text-[10px] text-[#cdaaff] uppercase tracking-wider font-bold">Should Keep For</span>
+                                                        <div className="flex flex-wrap gap-x-3 gap-y-1">
+                                                                {item.keepForQuestsWorkshop.map((keep, i) => (
+                                                                        <span key={item.name + "-keepfor-" + i} className="text-sm text-purple-200/90">• {keep}</span>
+                                                                ))}
+                                                        </div>
+                                                </div>
+                                        )}
+                                        
+                                        <div className="flex flex-wrap items-center justify-between gap-4 bg-black/40 border border-white/5 p-4 rounded-xl w-full mt-2">
+                                                <div className="flex gap-4 items-center">
+                                                        {item.stackSize && (
+                                                                <span className='text-xs text-white/50 flex flex-col'>
+                                                                        <span className="uppercase text-[9px] font-bold tracking-widest mb-0.5">Stack</span>
+                                                                        {item.stackSize}
+                                                                </span>
+                                                        )}
+                                                        {item.weight && (
+                                                                <span className='text-xs flex flex-col'>
+                                                                        <span className="uppercase text-[9px] font-bold tracking-widest text-white/50 mb-0.5">Weight</span>
+                                                                        <span className="weight opacity-90">{item.weight}</span>
+                                                                </span>
+                                                        )}
+                                                </div>
+                                                <div className='flex flex-col items-end'>
+                                                        <span className="uppercase text-[9px] font-bold tracking-widest text-white/50 mb-0.5">Value</span>
+                                                        <span className='coin-price font-bold text-lg leading-none'>
+                                                                {item.value ? Number(item.value || 0).toLocaleString('en-US') : '0'}
+                                                        </span>
+                                                </div>
+                                        </div>
+                                        
+                                        <div className='w-full flex justify-end pt-2 border-t border-white/5 mt-1'>
+                                                <button type='button' className='ghost-button text-xs py-1.5 px-3' onClick={() => onReport?.(item)}>
+                                                        Info incorrect?
+                                                </button>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        );
 }
 
 function FeedbackModal({ item, onClose, apiBaseUrl }) {
