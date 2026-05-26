@@ -2422,10 +2422,48 @@
     "localImage": "Explosive_Mine.png"
   },
   {
-    "name": "Extended Barrel",
+    "name": "Extended Barrel I",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "Slightly increases bullet velocity & distance until damage falloff.",
+    "parts": [
+      {
+        "quantity": 5,
+        "name": "Metal Parts"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/e/ea/Extended_Barrel_I.png",
+    "weight": "0.25",
+    "localImage": "Extended_Barrel_I.png"
+  },
+  {
+    "name": "Extended Barrel II",
+    "rarity": "Rare",
+    "value": 3000,
+    "description": "Moderately increases bullet velocity & distance until damage falloff.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Wires"
+      }
+    ],
+    "category": "Mods",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/d/d4/Extended_Barrel_II.png",
+    "weight": "0.5",
+    "localImage": "Extended_Barrel_II.png"
+  },
+  {
+    "name": "Extended Barrel III",
     "rarity": "Epic",
     "value": 5000,
-    "description": "Moderately increases bullet velocity.",
+    "description": "Significantly increases bullet velocity & distance until damage falloff.",
     "parts": [
       {
         "quantity": 1,
@@ -2438,9 +2476,9 @@
     ],
     "category": "Mods",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/2/2f/Extended_Barrel.png",
-    "weight": "0.5",
-    "localImage": "Extended_Barrel.png"
+    "image": "https://arcraiders.wiki/w/images/c/c5/Extended_Barrel_III.png",
+    "weight": "0.75",
+    "localImage": "Extended_Barrel_III.png"
   },
   {
     "name": "Extended Light Mag I",
@@ -2921,7 +2959,7 @@
   {
     "name": "Free Loadout Augment",
     "rarity": "Common",
-    "value": 100,
+    "value": 660,
     "description": "Basic augment for rookie Raiders, offering slightly more backpack space and carry capacity.",
     "parts": [
       {
@@ -3784,7 +3822,7 @@
     "category": "Ammunition",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/22/Light_Ammo.png",
-    "weight": "0.01",
+    "weight": "0.017",
     "stackSize": "100",
     "localImage": "Light_Ammo.png"
   },
@@ -3920,7 +3958,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Magnet"
       }
     ],
     "category": "Augment",
@@ -5253,6 +5295,57 @@
     "localImage": "Ripped_Safety_Vest.png"
   },
   {
+    "name": "Riven Tides Classified Records Keycard",
+    "rarity": "Uncommon",
+    "value": 100,
+    "description": "Unlocks a door to the Classified Records room in the Port Authority Building at Riven Tides.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/af/Riven_Tides_Classified_Records_Keycard.png",
+    "weight": "0.25",
+    "localImage": "Riven_Tides_Classified_Records_Keycard.png"
+  },
+  {
+    "name": "Riven Tides Crane House Keycard",
+    "rarity": "Uncommon",
+    "value": 100,
+    "description": "Unlocks a door in one of the Crane Houses at Riven Tides.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/5b/Riven_Tides_Crane_House_Keycard.png",
+    "weight": "0.25",
+    "localImage": "Riven_Tides_Crane_House_Keycard.png"
+  },
+  {
+    "name": "Riven Tides Hotel Keycard No. 102",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a9/Riven_Tides_Hotel_Keycard.png",
+    "weight": "0.25",
+    "localImage": "Riven_Tides_Hotel_Keycard.png"
+  },
+  {
     "name": "Riven Tides Hotel Keycard No. 107",
     "rarity": "Common",
     "value": 100,
@@ -5267,7 +5360,40 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a9/Riven_Tides_Hotel_Keycard.png",
     "weight": "0.5",
-    "stackSize": "1",
+    "localImage": "Riven_Tides_Hotel_Keycard.png"
+  },
+  {
+    "name": "Riven Tides Hotel Keycard No. 113",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a9/Riven_Tides_Hotel_Keycard.png",
+    "weight": "0.5",
+    "localImage": "Riven_Tides_Hotel_Keycard.png"
+  },
+  {
+    "name": "Riven Tides Hotel Keycard No. 205",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Unlocks the door to one of Panorama Azzurro's many suites at Riven Tides.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a9/Riven_Tides_Hotel_Keycard.png",
+    "weight": "0.25",
     "localImage": "Riven_Tides_Hotel_Keycard.png"
   },
   {
@@ -5285,7 +5411,6 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/a/a9/Riven_Tides_Hotel_Keycard.png",
     "weight": "0.5",
-    "stackSize": "1",
     "localImage": "Riven_Tides_Hotel_Keycard.png"
   },
   {
@@ -5307,10 +5432,10 @@
     "localImage": "Riven_Tides_Hotel_Keycard.png"
   },
   {
-    "name": "Riven Tides Classified Records Keycard",
+    "name": "Riven Tides Hotel Keycard No. 404",
     "rarity": "Common",
-    "value": 100,
-    "description": "Unlocks a door to the Classified Records room in the Port Authority Building at Riven Tides.",
+    "value": 0,
+    "description": "",
     "parts": [
       {
         "quantity": 1,
@@ -5319,28 +5444,8 @@
     ],
     "category": "Key",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/7/7b/Icon_Coins.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "Icon_Coins.png"
-  },
-  {
-    "name": "Riven Tides Crane House Keycard",
-    "rarity": "Common",
-    "value": 100,
-    "description": "Unlocks a door in one of the Crane Houses at Riven Tides.",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Key",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/7/7b/Icon_Coins.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "Icon_Coins.png"
+    "image": "https://arcraiders.wiki/w/images/a/a9/Riven_Tides_Hotel_Keycard.png",
+    "localImage": "Riven_Tides_Hotel_Keycard.png"
   },
   {
     "name": "Riven Tides Secure Storage Keycard",
@@ -5357,7 +5462,6 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/6/6d/Riven_Tides_Secure_Storage_Keycard.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "Riven_Tides_Secure_Storage_Keycard.png"
   },
   {

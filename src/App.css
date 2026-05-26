@@ -49,6 +49,7 @@ p {
 .hero h1 {
 	margin: 0;
 	font-size: clamp(2rem, 3vw, 2.8rem);
+	font-weight: 700;
 }
 
 .hero p {
@@ -617,18 +618,19 @@ p {
 }
 
 .modal {
-        background: #0c1118;
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        border-radius: 1rem;
-        width: min(560px, 100%);
-        max-height: 90vh;
-        overflow: auto;
-        padding: 1.5rem;
-        align-items: start;
-        position: relative;
-        gap: 0.9rem;
-        color: #f5f5f5;
-}.modal .info-row {
+	background: #0c1118;
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: 1rem;
+	width: min(560px, 100%);
+	max-height: 90vh;
+	overflow: auto;
+	padding: 1.5rem;
+	align-items: start;
+	position: relative;
+	gap: 0.9rem;
+	color: #f5f5f5;
+}
+.modal .info-row {
 	margin-bottom: 1rem;
 }
 .modal hr {
