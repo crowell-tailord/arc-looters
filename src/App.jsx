@@ -837,6 +837,7 @@ export default function App() {
 			<header className='hero'>
 				<h1>ARC LOOTER</h1>
 				{/* <LogoWordmark /> */}
+				<h3>Frozen Trail update!</h3>
 				<p>
 					Raider's looting handguide. Browse loot, peek at recycle parts, and
 					compare sell value.

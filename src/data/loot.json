@@ -65,6 +65,23 @@
     "localImage": "Advanced_ARC_Powercell.png"
   },
   {
+    "name": "Advanced Camera",
+    "rarity": "Rare",
+    "value": 0,
+    "description": "A more advanced camera with a few extra bells and whistles.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "",
+    "weight": "0.5",
+    "stackSize": "1"
+  },
+  {
     "name": "Advanced Electrical Components",
     "rarity": "Rare",
     "value": 1750,
@@ -529,6 +546,24 @@
     "localImage": "ARC_Thermo_Lining.png"
   },
   {
+    "name": "Arcade Duck",
+    "rarity": "Epic",
+    "value": 7000,
+    "description": "",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/a/a8/Arcade_Duck.png",
+    "weight": "0.3",
+    "stackSize": "15",
+    "localImage": "Arcade_Duck.png"
+  },
+  {
     "name": "Assessor Matrix",
     "rarity": "Epic",
     "value": 5000,
@@ -593,6 +628,24 @@
     "localImage": "Bandage.png"
   },
   {
+    "name": "Banjo",
+    "rarity": "Rare",
+    "value": 0,
+    "description": "A playable banjo used to attract ARC's attention, and impress other Raiders.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/2b/Banjo.png",
+    "weight": "1",
+    "stackSize": "1",
+    "localImage": "Banjo.png"
+  },
+  {
     "name": "Barricade Kit",
     "rarity": "Uncommon",
     "value": 640,
@@ -609,6 +662,23 @@
     "weight": "0.4",
     "stackSize": "3",
     "localImage": "Barricade_Kit.png"
+  },
+  {
+    "name": "Basic Camera",
+    "rarity": "Uncommon",
+    "value": 0,
+    "description": "",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "",
+    "weight": "0.5",
+    "stackSize": "1"
   },
   {
     "name": "Bastion Cell",
@@ -634,6 +704,23 @@
     "weight": "1.0",
     "stackSize": "3",
     "localImage": "Bastion_Cell.png"
+  },
+  {
+    "name": "Battered Paperback",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Filled with dog-eared pages and coffee stains, an inquisitive mind may find wisdom nonetheless.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Research Item",
+    "keepForQuestsWorkshop": [],
+    "image": "",
+    "weight": "0.5",
+    "stackSize": "5"
   },
   {
     "name": "Battery",
@@ -874,6 +961,1417 @@
     "localImage": "Blue_Light_Stick.png"
   },
   {
+    "name": "Angled Grip II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately reduces horizontal recoil.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Angled Grip III Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly reduces horizontal recoil",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Anvil Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Has high damage output and headshot damage, but slow handling.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Aphelion Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Fires high velocity energy rounds.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Barricade Kit Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A deployable cover that can block incoming damage until it breaks.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Bettina Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Has slow fire rate and high damage output.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Blaze Grenade Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A grenade that detonates on impact, covering an area in fire that deals damage over time.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Blue Light Stick Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A throwable chemical light that illuminates the area around it.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Bobcat Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Has a high fire rate but low accuracy.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Burletta Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Has decent damage output and accuracy.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Canto Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Has high damage output and headshot damage, but slow handling.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Combat Mk. 3 (Aggressive) Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "An improved version of the Combat II augment. Supports more shield types, and comes with extra space for grenades.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Combat Mk. 3 (Flanking) Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A combat augment more focused on maneuverability than absorbing damage.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Compensator II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately reduces per-shot dispersion.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Compensator III Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly reduces per-shot dispersion.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Complex Gun Parts Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Used to craft advanced weapons.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Crash Mat Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A throwable emergency landing device, to soften some heavy landings.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Deadline Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A mine that deals damage to anything within its radius once the timer runs out.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Defibrillator Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "An injection that quickly revives downed Raiders and restores some health.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Dolabra Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Equalizer Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A high capacity experimental beam rifle.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Explosive Mine Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A proximity-triggered mine that pops up and explodes, dealing damage to anything within its radius.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Extended Barrel II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately increases bullet velocity & distance until damage falloff.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Extended Barrel III Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly increases bullet velocity & distance until damage falloff.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Extended Light Mag II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately extends the ammo capacity of the compatible weapons that use light ammo.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Extended Light Mag III Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly extends the ammo capacity of the compatible weapons that use light ammo.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Extended Medium Mag II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately extends the ammo capacity of compatible weapons that use medium ammo.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Extended Medium Mag III Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly extends the ammo capacity of compatible weapons that use medium ammo.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Extended Shotgun Mag II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately extends the ammo capacity of compatible weapons that use shotgun ammo.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Extended Shotgun Mag III Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly extends the ammo capacity of shotguns.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Fireworks Box Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A remotely triggered arrangement of dazzling fireworks, sure to put on a show.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Gas Mine Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A proximity-triggered mine that pops up and deploys a gas cloud that rapidly drains stamina.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Green Light Stick Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A throwable chemical light that illuminates the area around it.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Heavy Gun Parts Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Used to craft weapons.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Hullcracker Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Fires explosive projectiles that only detonate when hitting ARC.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Il Toro Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Has a large bullet spread, sharp falloff, and high damage output.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Jolt Mine Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A proximity-triggered mine that pops up and stuns anything within its radius.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Jupiter Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A bolt-action sniper rifle with exceptional damage output and accuracy, but slow handling.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Light Gun Parts Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Assorted spare parts used for pistols and SMGs.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Lightweight Stock Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately improves ADS & draw speed.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Looting Mk. 3 (Safekeeper) Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A looting augment that trades weight and utility for increased looting potential.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Looting Mk. 3 (Survivor) Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A heavy-duty pack mule augment. Large weight capacity and large backpack space.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Lure Grenade Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A noisy device that sticks to surfaces, distracting nearby ARC machines and drawing their fire.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Medium Gun Parts Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Assorted spare parts used for rifles.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Muzzle Brake II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately reduces both vertical recoil & horizontal recoil.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Muzzle Brake III Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly reduces both vertical recoil & horizontal recoil.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Osprey Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Has reliable damage output and accuracy.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Padded Stock Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly improves stability.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Powered Descender Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Reduces fall speed when used in the air, but has a wind-up time before reaching full force. Shuts down once out of power.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Pulse Mine Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A proximity-triggered mine that pops up and knocks back anything within its radius.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Rascal Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Fires explosive projectiles that only detonate when hitting ARC.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Red Light Stick Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A throwable chemical light that illuminates the area around it.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Remote Raider Flare Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A deployable device that, when manually triggered, launches a Raider Distress Flare.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Seeker Grenade Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A homing grenade that targets a single nearby ARC dealing explosive damage on impact.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Shotgun Choke II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately reduces base dispersion.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Shotgun Choke III Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly reduces base dispersion.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Shotgun Silencer Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately reduces the amount of noise produced when firing.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Showstopper Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A grenade that detonates after a delay, stunning enemies within its radius.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Silencer I Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Slightly reduces the amount of noise produced when firing.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Silencer II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately reduces the amount of noise produced when firing.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Smoke Grenade Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A grenade that creates a lingering smoke cloud on impact, blocking visibility from ARC and other Raiders.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Snap Hook Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A gadget that allows the user to scale structures and cover large distances.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Stable Stock II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Slightly improves dispersion & recoil recovery time.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Stable Stock III Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly improves dispersion & recoil recovery time",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Surge Coil Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A deployable device that periodically electrifies the area around itself and briefly stuns anything caught within it.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Tactical Mk. 3 (Defensive) Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A defensive-focused augment for keeping Shields topped up.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Tactical Mk. 3 (Healing) Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A healing-focused augment which adds extra slots for healing items.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Tactical Mk. 3 (Revival) Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A tactical augment focused on utility over defense and looting.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Tactical Mk. 3 (Smoke) Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "An upgraded version of the Tactical MK.2 augment, adding expanded capacity across the board.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Tagging Grenade Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A grenade that detonates after a delay, tagging Raiders and ARC enemies in an area, allowing you to briefly track their location.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Tempest Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Has moderate fire rate and accuracy.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Torrente Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Has a large ammo capacity, but is only accurate while crouched.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Trailblazer Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A grenade that emits a trail of flammable gas along its path, causing an explosive chain reaction when it ignites.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Trigger 'Nade Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A remote-detonated grenade that can stick to surfaces and ARC, dealing explosive damage when triggered.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Venator Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Semi-automatic pistol. Fires two shots at a time.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Vertical Grip II Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Moderately reduces vertical recoil.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Vertical Grip III Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Significantly reduces vertical recoil.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Vita Shot Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A medical item that restores a large amount of health.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Vita Spray Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A medical item that continuously restores health during use. Can be used on yourself or your allies.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Vulcano Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Has good bullet spread but sharp falloff.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "White Flag Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A deployable white flag.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Wolfpack Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A grenade that scatters into multiple homing missiles, each one targeting ARC and dealing explosive damage on impact.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Yellow Light Stick Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A throwable chemical light that illuminates the area around it.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
     "name": "Bombardier Cell",
     "rarity": "Epic",
     "value": 3000,
@@ -961,7 +2459,7 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/93/Broken_Guidance_System.png",
     "canBeFoundIn": [
-      "Industrial"
+      "Exodus"
     ],
     "weight": "3.0",
     "stackSize": "3",
@@ -1016,6 +2514,42 @@
     "weight": "2.0",
     "stackSize": "3",
     "localImage": "Broken_Taser.png"
+  },
+  {
+    "name": "Bronze Statuette",
+    "rarity": "Legendary",
+    "value": 10000,
+    "description": "",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/d/d2/Bronze_Statuette.png",
+    "weight": "0.5",
+    "stackSize": "25",
+    "localImage": "Bronze_Statuette.png"
+  },
+  {
+    "name": "Bully Fragmenter",
+    "rarity": "Epic",
+    "value": 0,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/f/fe/Bully_Fragmenter.png",
+    "weight": "0.4",
+    "stackSize": "3",
+    "localImage": "Bully_Fragmenter.png"
   },
   {
     "name": "Buried City Hospital Key",
@@ -1131,6 +2665,27 @@
     "weight": "0.2",
     "stackSize": "15",
     "localImage": "Burnt-Out_Candles.png"
+  },
+  {
+    "name": "Calculator",
+    "rarity": "Common",
+    "value": 0,
+    "description": "Used in crafting.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "",
+    "canBeFoundIn": [
+      "Technological",
+      "Electrical"
+    ],
+    "weight": "0.5",
+    "stackSize": "3"
   },
   {
     "name": "Camera Lens",
@@ -1283,6 +2838,24 @@
     "localImage": "Coffee_Pot.png"
   },
   {
+    "name": "Colorful Shoes (Rare)",
+    "rarity": "Rare",
+    "value": 3000,
+    "description": "This specialized footwear is adorned with vibrant ceremonial designs, and designed to anchor the wearer to the ground. It is thought to have belonged to ancient wanderers of great renown.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/89/Colorful_Shoes_Rare.png",
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "Colorful_Shoes_Rare.png"
+  },
+  {
     "name": "Combat Mk. 1",
     "rarity": "Uncommon",
     "value": 640,
@@ -1311,7 +2884,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Magnet"
       }
     ],
     "category": "Augment",
@@ -1328,7 +2905,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
       }
     ],
     "category": "Augment",
@@ -1345,7 +2926,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
       }
     ],
     "category": "Augment",
@@ -1715,24 +3300,6 @@
     "localImage": "Dam_Battlegrounds_Key.png"
   },
   {
-    "name": "Dam Utility Key",
-    "rarity": "Uncommon",
-    "value": 100,
-    "description": "?",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "Cannot be recycled"
-      }
-    ],
-    "category": "Key",
-    "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/4/49/Dam_Battlegrounds_Key.png",
-    "weight": "0.25",
-    "stackSize": "1",
-    "localImage": "Dam_Battlegrounds_Key.png"
-  },
-  {
     "name": "Damaged ARC Motion Core",
     "rarity": "Uncommon",
     "value": 640,
@@ -2077,6 +3644,27 @@
     "localImage": "Degraded_ARC_Rubber.png"
   },
   {
+    "name": "Differential Microphone",
+    "rarity": "Rare",
+    "value": 0,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "",
+    "canBeFoundIn": [
+      "Technological",
+      "Electrical"
+    ],
+    "weight": "0.5",
+    "stackSize": "3"
+  },
+  {
     "name": "Diving Goggles",
     "rarity": "Rare",
     "value": 640,
@@ -2266,6 +3854,41 @@
     "localImage": "Electrical_Components.png"
   },
   {
+    "name": "Elephant Obelisk",
+    "rarity": "Legendary",
+    "value": 10000,
+    "description": "An object of particular nomadic fixation, some believe that these legendary beasts of burden carried the Launch Towers into place.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/53/Elephant_Obelisk.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Elephant_Obelisk.png"
+  },
+  {
+    "name": "Emperor Beacon",
+    "rarity": "Epic",
+    "value": 0,
+    "description": "A beacon with a copy of the Emperor's identifier signal. Deploy in an open area to call in Harvester Payloads.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "",
+    "weight": "2",
+    "stackSize": "3"
+  },
+  {
     "name": "Empty Wine Bottle",
     "rarity": "Common",
     "value": 1000,
@@ -2306,6 +3929,41 @@
     "localImage": "Energy_Clip.png"
   },
   {
+    "name": "Epoxy Bucket",
+    "rarity": "Rare",
+    "value": 0,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "",
+    "weight": "0.5",
+    "stackSize": "5"
+  },
+  {
+    "name": "Equatorial Sundial",
+    "rarity": "Rare",
+    "value": 3000,
+    "description": "A marvel of ancient ingenuity, those with a penchant for stargazing may find the mesmerizing patterns oddly familiar.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/8c/Equatorial_Sundial.png",
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "Equatorial_Sundial.png"
+  },
+  {
     "name": "Exodus Modules",
     "rarity": "Epic",
     "value": 2750,
@@ -2329,6 +3987,26 @@
     "weight": "1.0",
     "stackSize": "3",
     "localImage": "Exodus_Modules.png"
+  },
+  {
+    "name": "Exodus Technical Handbook",
+    "rarity": "Rare",
+    "value": 0,
+    "description": "Filled with equal parts obsure jargon and complex diagrams.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Research Item",
+    "keepForQuestsWorkshop": [],
+    "image": "",
+    "canBeFoundIn": [
+      "Exodus"
+    ],
+    "weight": "0.5",
+    "stackSize": "5"
   },
   {
     "name": "Expired Pasta",
@@ -2376,6 +4054,23 @@
     "weight": "2.0",
     "stackSize": "3",
     "localImage": "Expired_Respirator.png"
+  },
+  {
+    "name": "Expired Security Code",
+    "rarity": "Common",
+    "value": 10,
+    "description": "An expired security code. Has no more practical use.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/0/0f/Expired_Security_Code.png",
+    "weight": "0.5",
+    "localImage": "Expired_Security_Code.png"
   },
   {
     "name": "Explosive Compound",
@@ -3028,6 +4723,24 @@
     "localImage": "Fried_Motherboard.png"
   },
   {
+    "name": "Frosty Duck",
+    "rarity": "Rare",
+    "value": 3000,
+    "description": "",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/91/Frosty_Duck.png",
+    "weight": "0.3",
+    "stackSize": "15",
+    "localImage": "Frosty_Duck.png"
+  },
+  {
     "name": "Fruit Mix",
     "rarity": "Uncommon",
     "value": 1800,
@@ -3194,6 +4907,144 @@
     "localImage": "Gentle_Duck.png"
   },
   {
+    "name": "Glitched ARC Circuitry",
+    "rarity": "Legendary",
+    "value": 5000,
+    "description": "A hefty, electro-mechanical part with integrated magnetic circuitry. Perhaps used for data storage or processing.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Exodus Modules"
+      },
+      {
+        "quantity": 6,
+        "name": "ARC Alloy"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/4b/Glitched_ARC_Circuitry.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Glitched_ARC_Circuitry.png"
+  },
+  {
+    "name": "Glitched ARC Light Ring",
+    "rarity": "Epic",
+    "value": 3000,
+    "description": "A circular light located on the undercarriage of the glitched Wasp.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 3,
+        "name": "ARC Alloy"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c0/Glitched_ARC_Light_Ring.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Glitched_ARC_Light_Ring.png"
+  },
+  {
+    "name": "Glitched ARC Phased Array",
+    "rarity": "Rare",
+    "value": 2000,
+    "description": "A part composed of hundreds of miniscule repeating metallic cells. It exhibits electrical integration and appears mechanically immobile.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Sensors"
+      },
+      {
+        "quantity": 3,
+        "name": "ARC Alloy"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/35/Glitched_ARC_Phased_Array.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Glitched_ARC_Phased_Array.png"
+  },
+  {
+    "name": "Glitched ARC Power Converter",
+    "rarity": "Common",
+    "value": 640,
+    "description": "A compact, cylindrical part with multiple metallic layers. Its industrial architecture suggests a heavy-duty energy transformation function.",
+    "parts": [
+      {
+        "quantity": 3,
+        "name": "ARC Alloy"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/22/Glitched_ARC_Power_Converter.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Glitched_ARC_Power_Converter.png"
+  },
+  {
+    "name": "Glitched ARC Transmitter",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "A metallic part with a hollow center, like a socket or port waiting for a plug, with four antenna-like prongs at its corners.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "ARC Alloy"
+      },
+      {
+        "quantity": 1,
+        "name": "Electrical Components"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/d/da/Glitched_ARC_Transmitter.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Glitched_ARC_Transmitter.png"
+  },
+  {
+    "name": "Grappling Hook",
+    "rarity": "Common",
+    "value": 0,
+    "description": "A simple gadget that anchors to most surfaces, allowing users to navigate hard-to-reach places.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/3d/Grappling_Hook.png",
+    "weight": "5",
+    "localImage": "Grappling_Hook.png"
+  },
+  {
     "name": "Great Mullein",
     "rarity": "Uncommon",
     "value": 300,
@@ -3231,6 +5082,27 @@
     "weight": "0.15",
     "stackSize": "5",
     "localImage": "Green_Light_Stick.png"
+  },
+  {
+    "name": "Harmonica",
+    "rarity": "Common",
+    "value": 0,
+    "description": "A playable harmonica used to attract ARC's attention, and impress other Raiders.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/b/b8/Harmonica.png",
+    "canBeFoundIn": [
+      "Residential"
+    ],
+    "weight": "0.2",
+    "stackSize": "1",
+    "localImage": "Harmonica.png"
   },
   {
     "name": "Headphones",
@@ -3979,7 +5851,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
       }
     ],
     "category": "Augment",
@@ -3996,7 +5872,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
       }
     ],
     "category": "Augment",
@@ -4013,7 +5893,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
       }
     ],
     "category": "Augment",
@@ -4408,6 +6292,24 @@
     "localImage": "Motor.png"
   },
   {
+    "name": "MRI Duck",
+    "rarity": "Legendary",
+    "value": 10000,
+    "description": "",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/89/MRI_Duck.png",
+    "weight": "0.3",
+    "stackSize": "15",
+    "localImage": "MRI_Duck.png"
+  },
+  {
     "name": "Mushroom",
     "rarity": "Uncommon",
     "value": 1000,
@@ -4672,6 +6574,24 @@
     "weight": "0.25",
     "stackSize": "1",
     "localImage": "Patrol_Car_Key.png"
+  },
+  {
+    "name": "Pendola Pass Observation Key",
+    "rarity": "Epic",
+    "value": 100,
+    "description": "Unlocks a door in the Cielo Sereno Observatory main building on Pendola Pass.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7b/Icon_Coins.png",
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Icon_Coins.png"
   },
   {
     "name": "Photoelectric Cloak",
@@ -6116,6 +8036,24 @@
     "localImage": "Sentinel_Firing_Core.png"
   },
   {
+    "name": "Sextant",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "Once thought to be a rudimentary spaceship prototype, it is claimed by the Nomads to be a sophisticated method for documenting one's travels.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/b/b0/Sextant.png",
+    "weight": "0.5",
+    "stackSize": "5",
+    "localImage": "Sextant.png"
+  },
+  {
     "name": "Shaker",
     "rarity": "Uncommon",
     "value": 1000,
@@ -6469,7 +8407,7 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/1e/Sirena_Dorata_Ship_Model.png",
     "weight": "0.5",
-    "stackSize": "1",
+    "stackSize": "3",
     "localImage": "Sirena_Dorata_Ship_Model.png"
   },
   {
@@ -6879,6 +8817,23 @@
     "localImage": "Statuette.png"
   },
   {
+    "name": "Steel Cable",
+    "rarity": "Rare",
+    "value": 0,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "",
+    "weight": "0.5",
+    "stackSize": "5"
+  },
+  {
     "name": "Steel Spring",
     "rarity": "Uncommon",
     "value": 300,
@@ -6902,7 +8857,7 @@
   {
     "name": "Stella Montis Assembly Admin Key",
     "rarity": "Uncommon",
-    "value": 250,
+    "value": 100,
     "description": "Unlocks a door in Assembly in Stella Montis",
     "parts": [
       {
@@ -6914,7 +8869,6 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/19/Stella_Montis_Key.png",
     "weight": "0.25",
-    "stackSize": "1",
     "localImage": "Stella_Montis_Key.png"
   },
   {
@@ -7137,7 +9091,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Magnet"
       }
     ],
     "category": "Augment",
@@ -7154,7 +9112,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
       }
     ],
     "category": "Augment",
@@ -7171,7 +9133,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
       }
     ],
     "category": "Augment",
@@ -7188,7 +9154,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
       }
     ],
     "category": "Augment",
@@ -7205,7 +9175,11 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Advanced Electrical Components"
+      },
+      {
+        "quantity": 1,
+        "name": "Processor"
       }
     ],
     "category": "Augment",
@@ -7302,6 +9276,24 @@
     "weight": "1.5",
     "stackSize": "3",
     "localImage": "Telemetry_Transceiver.png"
+  },
+  {
+    "name": "Tellurion",
+    "rarity": "Epic",
+    "value": 7000,
+    "description": "A marvel of ancient ingenuity, those with a penchant for stargazing may find the mesmerizing patterns oddly familiar.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/21/Tellurion.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Tellurion.png"
   },
   {
     "name": "Thermostat",
@@ -7441,6 +9433,24 @@
     "localImage": "Trailblazer.png"
   },
   {
+    "name": "Train Model",
+    "rarity": "Common",
+    "value": 1000,
+    "description": "Hand-crafted with full underbody detailing, these models offer a surprisingly intricate schematic of pre-Exodus locomotion.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/93/Train_Model.png",
+    "weight": "0.5",
+    "stackSize": "10",
+    "localImage": "Train_Model.png"
+  },
+  {
     "name": "Trigger 'Nade",
     "rarity": "Rare",
     "value": 1000,
@@ -7534,7 +9544,7 @@
     "name": "\"Twilight Compass\" Ship Model",
     "rarity": "Uncommon",
     "value": 1000,
-    "description": "A spirited up-and-comer, this two-master has been known to sail ever so slightly beyond the horizon",
+    "description": "A spirited up-and-comer, this two-master has been known to sail ever so slightly beyond the horizon.",
     "parts": [
       {
         "quantity": 1,
@@ -7545,7 +9555,7 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/1/18/Twilight_Compass_Ship_Model.png",
     "weight": "0.5",
-    "stackSize": "1",
+    "stackSize": "5",
     "localImage": "Twilight_Compass_Ship_Model.png"
   },
   {
@@ -7636,7 +9646,7 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/c/c4/Velocity_Ship_Model.png",
     "weight": "0.5",
-    "stackSize": "1",
+    "stackSize": "3",
     "localImage": "Velocity_Ship_Model.png"
   },
   {
@@ -7719,6 +9729,24 @@
     "weight": "0.3",
     "stackSize": "3",
     "localImage": "Very_Comfortable_Pillow.png"
+  },
+  {
+    "name": "Vintage Steering Wheel",
+    "rarity": "Uncommon",
+    "value": 2000,
+    "description": "A harmonious artifact of three-way symmetry, some Nomads believe this to be an ancient reliquary honoring the lunar, the solar and the terrestrial.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/2f/Vintage_Steering_Wheel.png",
+    "weight": "0.5",
+    "stackSize": "5",
+    "localImage": "Vintage_Steering_Wheel.png"
   },
   {
     "name": "Vita Shot",
@@ -7923,7 +9951,7 @@
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/9/95/Wind_Sprite_Ship_Model.png",
     "weight": "0.5",
-    "stackSize": "1",
+    "stackSize": "10",
     "localImage": "Wind_Sprite_Ship_Model.png"
   },
   {
@@ -7969,6 +9997,24 @@
     "weight": "1.0",
     "stackSize": "1",
     "localImage": "Wolfpack.png"
+  },
+  {
+    "name": "Yank Grenade",
+    "rarity": "Uncommon",
+    "value": 0,
+    "description": "A grenade that anchors a line to whatever it hits, pulling the target toward the point of impact.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/20/Yank_Grenade.png",
+    "weight": "0.35",
+    "stackSize": "3",
+    "localImage": "Yank_Grenade.png"
   },
   {
     "name": "Yellow Light Stick",
@@ -8243,5 +10289,164 @@
     "image": "https://arcraiders.wiki/w/images/b/be/Precision_Gimbal.png",
     "weight": "0.5",
     "localImage": "Precision_Gimbal.png"
+  },
+  {
+    "name": "Colorful Shoes (Epic)",
+    "description": "This specialized footwear is adorned with vibrant ceremonial designs, and designed to anchor the wearer to the ground. It is thought to have belonged to ancient wanderers of great renown.",
+    "rarity": "Epic",
+    "category": "Trinket",
+    "image": "https://arcraiders.wiki/w/images/4/4b/Colorful_Shoes_Epic.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Colorful_Shoes_Epic.png"
+  },
+  {
+    "name": "Colorful Shoes (Legendary)",
+    "description": "This specialized footwear is adorned with vibrant ceremonial designs, and designed to anchor the wearer to the ground. It is thought to have belonged to ancient wanderers of great renown.",
+    "rarity": "Legendary",
+    "category": "Trinket",
+    "image": "https://arcraiders.wiki/w/images/a/af/Colorful_Shoes_Legendary.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Colorful_Shoes_Legendary.png"
+  },
+  {
+    "name": "Tether Launcher",
+    "description": "A two-shot tether launcher that anchors a line to whatever it hits, linking both points together.",
+    "rarity": "Rare",
+    "category": "Quick Use",
+    "image": "https://arcraiders.wiki/w/images/thumb/3/31/Tether_Launcher.png/1200px-Tether_Launcher.png.webp",
+    "weight": "5",
+    "stackSize": "1",
+    "localImage": "1200px-Tether_Launcher.png.webp"
+  },
+  {
+    "name": "Piano",
+    "image": "https://arcraiders.wiki/w/images/e/ea/Piano.png",
+    "canBeFoundIn": [
+      "Residential",
+      "Old World"
+    ],
+    "localImage": "Piano.png"
+  },
+  {
+    "name": "ARC Conductive Coupler",
+    "description": "One of three distinct coupler's found in ARC Machines, said to combine into a singular conduit.",
+    "rarity": "Epic",
+    "category": "Topside Material",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1"
+  },
+  {
+    "name": "Cable Stripper",
+    "description": "Used in crafting.",
+    "rarity": "Common",
+    "category": "Topside Material",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "?"
+      }
+    ],
+    "canBeFoundIn": [
+      "Mechanical",
+      "Industrial"
+    ],
+    "weight": "0.5",
+    "stackSize": "15"
+  },
+  {
+    "name": "Mini Pump",
+    "description": "Can be recycled into crafting materials.",
+    "rarity": "Common",
+    "category": "Recyclable",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "?"
+      }
+    ],
+    "canBeFoundIn": [
+      "Technological",
+      "Electrical"
+    ],
+    "weight": "0.5",
+    "stackSize": "5"
+  },
+  {
+    "name": "Planks",
+    "description": "Used in crafting.",
+    "rarity": "Common",
+    "category": "Basic Material",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "?"
+      }
+    ],
+    "weight": "0.1",
+    "stackSize": "50"
+  },
+  {
+    "name": "Insulation Roll",
+    "description": "Can be recycled into crafting materials.",
+    "rarity": "Epic",
+    "category": "Recyclable",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "?"
+      }
+    ],
+    "weight": "0.5",
+    "stackSize": "3"
+  },
+  {
+    "name": "ARC Insulated Coupler",
+    "description": "One of three distinct couplers found in ARC machines, said to combine into a singular conduit.",
+    "rarity": "Epic",
+    "category": "Topside Material",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "?"
+      }
+    ],
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.25",
+    "stackSize": "1"
+  },
+  {
+    "name": "Skulker Targeter",
+    "description": "Can be recycled into crafting materials.",
+    "rarity": "Common",
+    "category": "Recyclable",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "?"
+      }
+    ],
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "1",
+    "stackSize": "3"
+  },
+  {
+    "name": "ARC Plated Coupler",
+    "description": "One of three distinct coupler's found in ARC Machines, said to combine into a singular conduit.",
+    "rarity": "Epic",
+    "category": "Topside Material",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.25",
+    "stackSize": "1"
   }
 ]
