@@ -67,19 +67,20 @@
   {
     "name": "Advanced Camera",
     "rarity": "Rare",
-    "value": 0,
+    "value": 1000,
     "description": "A more advanced camera with a few extra bells and whistles.",
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Calculator"
       }
     ],
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
-    "image": "",
+    "image": "https://arcraiders.wiki/w/images/e/ed/Advanced_Camera.png",
     "weight": "0.5",
-    "stackSize": "1"
+    "stackSize": "1",
+    "localImage": "Advanced_Camera.png"
   },
   {
     "name": "Advanced Electrical Components",
@@ -235,6 +236,129 @@
     "localImage": "Alien_Duck.png"
   },
   {
+    "name": "Amplification Module Mk. I",
+    "rarity": "Amplified",
+    "value": 7000,
+    "description": "Advanced ARC technology that unlocks common weapon Amplification.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/33/Amplification_Module_Mk._I.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Amplification_Module_Mk._I.png"
+  },
+  {
+    "name": "Amplification Module Mk. II",
+    "rarity": "Amplified",
+    "value": 7000,
+    "description": "Advanced ARC technology that unlocks uncommon weapon Amplification.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c7/Amplification_Module_Mk._II.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Amplification_Module_Mk._II.png"
+  },
+  {
+    "name": "Amplification Module Mk. III",
+    "rarity": "Amplified",
+    "value": 7000,
+    "description": "Advanced ARC technology that unlocks rare weapon Amplification.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/37/Amplification_Module_Mk._III.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Amplification_Module_Mk._III.png"
+  },
+  {
+    "name": "Amplification Module Mk. IV",
+    "rarity": "Amplified",
+    "value": 7000,
+    "description": "Advanced ARC technology that unlocks epic weapon Amplification.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c4/Amplification_Module_Mk._IV.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Amplification_Module_Mk._IV.png"
+  },
+  {
+    "name": "Amplification Module Mk. V",
+    "rarity": "Amplified",
+    "value": 7000,
+    "description": "Advanced ARC technology that unlocks legendary weapon Amplification.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7f/Amplification_Module_Mk._V.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Amplification_Module_Mk._V.png"
+  },
+  {
+    "name": "Amplified Fragments",
+    "rarity": "Epic",
+    "value": 500,
+    "description": "Obtained through recycling and used to repair amplified weapons.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/e/ec/Amplified_Fragments.png",
+    "weight": "0.5",
+    "stackSize": "50",
+    "localImage": "Amplified_Fragments.png"
+  },
+  {
     "name": "Angled Grip I",
     "rarity": "Common",
     "value": 640,
@@ -318,18 +442,14 @@
     "name": "Anvil Splitter",
     "rarity": "Legendary",
     "value": 7000,
-    "description": "Tech mod for the Anvil that replaces its bullets with ones that split into 4 weaker projectiles.",
+    "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 1,
-        "name": "Mod Components"
-      },
-      {
-        "quantity": 1,
-        "name": "Processor"
+        "quantity": 5,
+        "name": "Amplified Fragments"
       }
     ],
-    "category": "Mods",
+    "category": "Misc",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/e/ef/Anvil_Splitter.png",
     "weight": "0.5",
@@ -399,6 +519,27 @@
     "localImage": "ARC_Circuitry.png"
   },
   {
+    "name": "ARC Conductive Coupler",
+    "rarity": "Epic",
+    "value": 100,
+    "description": "One of three distinct coupler's found in ARC machines, said to combine into a singular conduit.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/83/ARC_Conductive_Coupler.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "ARC_Conductive_Coupler.png"
+  },
+  {
     "name": "ARC Coolant",
     "rarity": "Rare",
     "value": 1000,
@@ -420,6 +561,27 @@
     "localImage": "ARC_Coolant.png"
   },
   {
+    "name": "ARC Data Module",
+    "rarity": "Epic",
+    "value": 2000,
+    "description": "A secondary data module found in a range of ARC machines.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Research Item",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/d/d0/ARC_Data_Module.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "ARC_Data_Module.png"
+  },
+  {
     "name": "ARC Flex Rubber",
     "rarity": "Rare",
     "value": 1000,
@@ -439,6 +601,27 @@
     "weight": "1.0",
     "stackSize": "3",
     "localImage": "ARC_Flex_Rubber.png"
+  },
+  {
+    "name": "ARC Insulated Coupler",
+    "rarity": "Epic",
+    "value": 100,
+    "description": "One of three distinct couplers found in ARC machines, said to combine into a singular conduit.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/5/52/ARC_Insulated_Coupler.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "ARC_Insulated_Coupler.png"
   },
   {
     "name": "ARC Motion Core",
@@ -481,6 +664,27 @@
     "weight": "1.0",
     "stackSize": "3",
     "localImage": "ARC_Performance_Steel.png"
+  },
+  {
+    "name": "ARC Plated Coupler",
+    "rarity": "Epic",
+    "value": 0,
+    "description": "One of three distinct coupler's found in ARC Machines, said to combine into a singular conduit.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/84/ARC_Plated_Coupler.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "ARC_Plated_Coupler.png"
   },
   {
     "name": "ARC Powercell",
@@ -564,6 +768,29 @@
     "localImage": "Arcade_Duck.png"
   },
   {
+    "name": "Archive Desk Lamp",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "May be worth a few coins.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/c/c6/Archive_Desk_Lamp.png",
+    "canBeFoundIn": [
+      "Commercial",
+      "Residential",
+      "Old World"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Archive_Desk_Lamp.png"
+  },
+  {
     "name": "Assessor Matrix",
     "rarity": "Epic",
     "value": 5000,
@@ -641,7 +868,7 @@
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/2/2b/Banjo.png",
-    "weight": "1",
+    "weight": "1.0",
     "stackSize": "1",
     "localImage": "Banjo.png"
   },
@@ -666,19 +893,20 @@
   {
     "name": "Basic Camera",
     "rarity": "Uncommon",
-    "value": 0,
-    "description": "",
+    "value": 640,
+    "description": "A simple little camera that gets the job done.",
     "parts": [
       {
-        "quantity": 1,
-        "name": "Cannot be recycled"
+        "quantity": 5,
+        "name": "Plastic Parts"
       }
     ],
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
-    "image": "",
+    "image": "https://arcraiders.wiki/w/images/2/2d/Basic_Camera.png",
     "weight": "0.5",
-    "stackSize": "1"
+    "stackSize": "1",
+    "localImage": "Basic_Camera.png"
   },
   {
     "name": "Bastion Cell",
@@ -708,7 +936,7 @@
   {
     "name": "Battered Paperback",
     "rarity": "Common",
-    "value": 0,
+    "value": 270,
     "description": "Filled with dog-eared pages and coffee stains, an inquisitive mind may find wisdom nonetheless.",
     "parts": [
       {
@@ -718,9 +946,10 @@
     ],
     "category": "Research Item",
     "keepForQuestsWorkshop": [],
-    "image": "",
+    "image": "https://arcraiders.wiki/w/images/f/f7/Battered_Paperback.png",
     "weight": "0.5",
-    "stackSize": "5"
+    "stackSize": "5",
+    "localImage": "Battered_Paperback.png"
   },
   {
     "name": "Battery",
@@ -961,6 +1190,23 @@
     "localImage": "Blue_Light_Stick.png"
   },
   {
+    "name": "Advanced Camera Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A more advanced camera with a few extra bells and whistles.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
     "name": "Angled Grip II Blueprint",
     "rarity": "Common",
     "value": 5000,
@@ -1016,6 +1262,23 @@
     "rarity": "Common",
     "value": 5000,
     "description": "Fires high velocity energy rounds.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Bantam Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Short-barrel revolver with varied fire rate, good handling and damage, but with low accuracy, control and range.",
     "parts": [
       {
         "quantity": 1,
@@ -1134,7 +1397,7 @@
     "name": "Canto Blueprint",
     "rarity": "Common",
     "value": 5000,
-    "description": "Has high damage output and headshot damage, but slow handling.",
+    "description": "Fully automatic submachine gun with a larger caliber.",
     "parts": [
       {
         "quantity": 1,
@@ -1288,6 +1551,23 @@
     "rarity": "Common",
     "value": 5000,
     "description": "An experimental weapon that can either fire a wide short range blast, or be focused to fire a tight medium range beam of heat.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Emperor Gateway Conduit Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Combining three distinct couplers, this conduit seems to fit into the Fallen Emperor at Pendola Pass.",
     "parts": [
       {
         "quantity": 1,
@@ -1492,6 +1772,23 @@
     "rarity": "Common",
     "value": 5000,
     "description": "A proximity-triggered mine that pops up and deploys a gas cloud that rapidly drains stamina.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Grappling Hook Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A simple gadget that anchors to most surfaces, allowing users to navigate hard-to-reach places.",
     "parts": [
       {
         "quantity": 1,
@@ -2049,6 +2346,23 @@
     "localImage": "Blueprint.png"
   },
   {
+    "name": "Stiletto Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "Semi-automatic rifle with high accuracy, good handling and low initial recoil, but becomes harder to handle with sustained fire.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
     "name": "Surge Coil Blueprint",
     "rarity": "Common",
     "value": 5000,
@@ -2168,6 +2482,23 @@
     "localImage": "Blueprint.png"
   },
   {
+    "name": "Tether Launcher Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A two-shot tether launcher that anchors a line to whatever it hits, linking both points together.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
     "name": "Torrente Blueprint",
     "rarity": "Common",
     "value": 5000,
@@ -2222,7 +2553,7 @@
     "name": "Venator Blueprint",
     "rarity": "Common",
     "value": 5000,
-    "description": "Semi-automatic pistol. Fires two shots at a time.",
+    "description": "Fires two shots at a time.",
     "parts": [
       {
         "quantity": 1,
@@ -2342,6 +2673,23 @@
     "rarity": "Common",
     "value": 5000,
     "description": "A grenade that scatters into multiple homing missiles, each one targeting ARC and dealing explosive damage on impact.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Blueprint",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/9/98/Blueprint.png",
+    "weight": "0.0",
+    "localImage": "Blueprint.png"
+  },
+  {
+    "name": "Yank Grenade Blueprint",
+    "rarity": "Common",
+    "value": 5000,
+    "description": "A grenade that anchors a line to whatever it hits, pulling the target toward the point of impact.",
     "parts": [
       {
         "quantity": 1,
@@ -2519,7 +2867,7 @@
     "name": "Bronze Statuette",
     "rarity": "Legendary",
     "value": 10000,
-    "description": "",
+    "description": "An aged but beautiful bronze statuette. Rumor has it that the Nomad Envoy collects these.",
     "parts": [
       {
         "quantity": 1,
@@ -2536,7 +2884,7 @@
   {
     "name": "Bully Fragmenter",
     "rarity": "Epic",
-    "value": 0,
+    "value": 5000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
@@ -2547,9 +2895,35 @@
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/f/fe/Bully_Fragmenter.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
     "weight": "0.4",
     "stackSize": "3",
     "localImage": "Bully_Fragmenter.png"
+  },
+  {
+    "name": "Bureau Desk Lamp",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "May be worth a few coins.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/b/bc/Bureau_Desk_Lamp.png",
+    "canBeFoundIn": [
+      "Commercial",
+      "Residential",
+      "Old World"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Bureau_Desk_Lamp.png"
   },
   {
     "name": "Buried City Hospital Key",
@@ -2667,25 +3041,52 @@
     "localImage": "Burnt-Out_Candles.png"
   },
   {
-    "name": "Calculator",
-    "rarity": "Common",
-    "value": 0,
+    "name": "Cable Stripper",
+    "rarity": "Uncommon",
+    "value": 270,
     "description": "Used in crafting.",
     "parts": [
       {
-        "quantity": 1,
-        "name": "Cannot be recycled"
+        "quantity": 2,
+        "name": "Metal Parts"
       }
     ],
     "category": "Topside Material",
     "keepForQuestsWorkshop": [],
-    "image": "",
+    "image": "https://arcraiders.wiki/w/images/8/86/Cable_Stripper.png",
+    "canBeFoundIn": [
+      "Mechanical",
+      "Industrial"
+    ],
+    "weight": "0.5",
+    "stackSize": "15",
+    "localImage": "Cable_Stripper.png"
+  },
+  {
+    "name": "Calculator",
+    "rarity": "Rare",
+    "value": 640,
+    "description": "Used in crafting.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Wires"
+      },
+      {
+        "quantity": 2,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/23/Calculator.png",
     "canBeFoundIn": [
       "Technological",
       "Electrical"
     ],
     "weight": "0.5",
-    "stackSize": "3"
+    "stackSize": "3",
+    "localImage": "Calculator.png"
   },
   {
     "name": "Camera Lens",
@@ -3644,25 +4045,52 @@
     "localImage": "Degraded_ARC_Rubber.png"
   },
   {
-    "name": "Differential Microphone",
+    "name": "Desk Lamp",
     "rarity": "Rare",
-    "value": 0,
-    "description": "Can be recycled into crafting materials.",
+    "value": 2000,
+    "description": "May be worth a few coins.",
     "parts": [
       {
         "quantity": 1,
         "name": "Cannot be recycled"
       }
     ],
+    "category": "Trinket",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/2a/Desk_Lamp.png",
+    "canBeFoundIn": [
+      "Commercial",
+      "Residential"
+    ],
+    "weight": "0.25",
+    "stackSize": "1",
+    "localImage": "Desk_Lamp.png"
+  },
+  {
+    "name": "Differential Microphone",
+    "rarity": "Rare",
+    "value": 1000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Speaker Component"
+      },
+      {
+        "quantity": 2,
+        "name": "Wires"
+      }
+    ],
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
-    "image": "",
+    "image": "https://arcraiders.wiki/w/images/9/98/Differential_Microphone.png",
     "canBeFoundIn": [
       "Technological",
       "Electrical"
     ],
     "weight": "0.5",
-    "stackSize": "3"
+    "stackSize": "3",
+    "localImage": "Differential_Microphone.png"
   },
   {
     "name": "Diving Goggles",
@@ -3884,9 +4312,49 @@
     ],
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
-    "image": "",
-    "weight": "2",
-    "stackSize": "3"
+    "image": "https://arcraiders.wiki/w/images/3/37/Emperor_Beacon.png",
+    "weight": "2.0",
+    "stackSize": "3",
+    "localImage": "Emperor_Beacon.png"
+  },
+  {
+    "name": "Emperor Gateway Conduit",
+    "rarity": "Legendary",
+    "value": 1000,
+    "description": "Combining three distinct couplers, this conduit seems to fit into the Fallen Emperor at Pendola Pass",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Key",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/20/Emperor_Gateway_Conduit.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Emperor_Gateway_Conduit.png"
+  },
+  {
+    "name": "Emperor Modulator",
+    "rarity": "Legendary",
+    "value": 7000,
+    "description": "Can be used to upgrade the gunsmith",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/4/4c/Emperor_Modulator.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Emperor_Modulator.png"
   },
   {
     "name": "Empty Wine Bottle",
@@ -3931,19 +4399,20 @@
   {
     "name": "Epoxy Bucket",
     "rarity": "Rare",
-    "value": 0,
+    "value": 1000,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
-        "quantity": 1,
-        "name": "Cannot be recycled"
+        "quantity": 8,
+        "name": "Chemicals"
       }
     ],
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
-    "image": "",
+    "image": "https://arcraiders.wiki/w/images/f/ff/Epoxy_Bucket.png",
     "weight": "0.5",
-    "stackSize": "5"
+    "stackSize": "5",
+    "localImage": "Epoxy_Bucket.png"
   },
   {
     "name": "Equatorial Sundial",
@@ -3991,7 +4460,7 @@
   {
     "name": "Exodus Technical Handbook",
     "rarity": "Rare",
-    "value": 0,
+    "value": 1000,
     "description": "Filled with equal parts obsure jargon and complex diagrams.",
     "parts": [
       {
@@ -4001,12 +4470,13 @@
     ],
     "category": "Research Item",
     "keepForQuestsWorkshop": [],
-    "image": "",
+    "image": "https://arcraiders.wiki/w/images/a/a3/Exodus_Technical_Handbook.png",
     "canBeFoundIn": [
       "Exodus"
     ],
     "weight": "0.5",
-    "stackSize": "5"
+    "stackSize": "5",
+    "localImage": "Exodus_Technical_Handbook.png"
   },
   {
     "name": "Expired Pasta",
@@ -4631,6 +5101,24 @@
     "localImage": "Flow_Controller.png"
   },
   {
+    "name": "Fluted Rotor Core",
+    "rarity": "Epic",
+    "value": 5000,
+    "description": "Used to craft amplified weapons.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7b/Icon_Coins.png",
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "Icon_Coins.png"
+  },
+  {
     "name": "Fossilized Lightning",
     "rarity": "Epic",
     "value": 4000,
@@ -4721,6 +5209,46 @@
     "weight": "3.0",
     "stackSize": "3",
     "localImage": "Fried_Motherboard.png"
+  },
+  {
+    "name": "Frigate Diagnostic Node",
+    "rarity": "Legendary",
+    "value": 3000,
+    "description": "Found in the trail of ARC Frigates, the electromagnetic signatures of these nodes turn out to be partially decipherable.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Research Item",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/3d/Frigate_Diagnostic_Node.png",
+    "weight": "1.0",
+    "stackSize": "1",
+    "localImage": "Frigate_Diagnostic_Node.png"
+  },
+  {
+    "name": "Frigate Inductor",
+    "rarity": "Legendary",
+    "value": 7000,
+    "description": "Can be used to upgrade the research station",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Advanced ARC Powercell"
+      },
+      {
+        "quantity": 2,
+        "name": "ARC Circuitry"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/2/22/Frigate_Inductor.png",
+    "weight": "0.5",
+    "stackSize": "1",
+    "localImage": "Frigate_Inductor.png"
   },
   {
     "name": "Frosty Duck",
@@ -5029,19 +5557,24 @@
   },
   {
     "name": "Grappling Hook",
-    "rarity": "Common",
-    "value": 0,
+    "rarity": "Uncommon",
+    "value": 1200,
     "description": "A simple gadget that anchors to most surfaces, allowing users to navigate hard-to-reach places.",
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Cable Stripper"
+      },
+      {
+        "quantity": 1,
+        "name": "Rope"
       }
     ],
     "category": "Quick Use",
     "keepForQuestsWorkshop": [],
     "image": "https://arcraiders.wiki/w/images/3/3d/Grappling_Hook.png",
-    "weight": "5",
+    "weight": "5.0",
+    "stackSize": "1",
     "localImage": "Grappling_Hook.png"
   },
   {
@@ -5084,8 +5617,30 @@
     "localImage": "Green_Light_Stick.png"
   },
   {
+    "name": "Hand Drill",
+    "rarity": "Rare",
+    "value": 640,
+    "description": "Used in crafting.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Mechanical Components"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/d/d4/Hand_Drill.png",
+    "canBeFoundIn": [
+      "Mechanical",
+      "Industrial"
+    ],
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "Hand_Drill.png"
+  },
+  {
     "name": "Harmonica",
-    "rarity": "Common",
+    "rarity": "Uncommon",
     "value": 0,
     "description": "A playable harmonica used to attract ARC's attention, and impress other Raiders.",
     "parts": [
@@ -5445,6 +6000,24 @@
     "localImage": "Industrial_Magnet.png"
   },
   {
+    "name": "Insulation Roll",
+    "rarity": "Epic",
+    "value": 0,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Durable Cloth"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/d/de/Insulation_Roll.png",
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "Insulation_Roll.png"
+  },
+  {
     "name": "Integrated Shield Recharger",
     "rarity": "Common",
     "value": 0,
@@ -5575,6 +6148,32 @@
     "weight": "0.2",
     "stackSize": "3",
     "localImage": "Lance's_Mixtape_(5th_Edition).png"
+  },
+  {
+    "name": "Laser Level",
+    "rarity": "Epic",
+    "value": 2000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Mechanical Components"
+      },
+      {
+        "quantity": 2,
+        "name": "Steel Spring"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/31/Laser_Level.png",
+    "canBeFoundIn": [
+      "Mechanical",
+      "Industrial"
+    ],
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "Laser_Level.png"
   },
   {
     "name": "Launcher Ammo",
@@ -6221,6 +6820,32 @@
     "localImage": "Mini_Centrifuge.png"
   },
   {
+    "name": "Mini Pump",
+    "rarity": "Uncommon",
+    "value": 640,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Sensors"
+      },
+      {
+        "quantity": 2,
+        "name": "Plastic Parts"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/e/e9/Mini_Pump.png",
+    "canBeFoundIn": [
+      "Technological",
+      "Electrical"
+    ],
+    "weight": "0.5",
+    "stackSize": "5",
+    "localImage": "Mini_Pump.png"
+  },
+  {
     "name": "Mod Components",
     "rarity": "Rare",
     "value": 1750,
@@ -6290,6 +6915,23 @@
     "weight": "3.0",
     "stackSize": "3",
     "localImage": "Motor.png"
+  },
+  {
+    "name": "Mountaineer's Detector",
+    "rarity": "Rare",
+    "value": 2000,
+    "description": "Useful for finding foreign objects hidden in the snow. As an added bonus, it works just as well on sand.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/6e/Mountaineer%27s_Detector.png",
+    "weight": "1.0",
+    "localImage": "Mountaineer's_Detector.png"
   },
   {
     "name": "MRI Duck",
@@ -6576,7 +7218,7 @@
     "localImage": "Patrol_Car_Key.png"
   },
   {
-    "name": "Pendola Pass Observation Key",
+    "name": "Pendola Pass Observatory Key",
     "rarity": "Epic",
     "value": 100,
     "description": "Unlocks a door in the Cielo Sereno Observatory main building on Pendola Pass.",
@@ -6588,10 +7230,10 @@
     ],
     "category": "Key",
     "keepForQuestsWorkshop": [],
-    "image": "https://arcraiders.wiki/w/images/7/7b/Icon_Coins.png",
+    "image": "https://arcraiders.wiki/w/images/3/3c/Pendola_Pass_Observatory_Key.png",
     "weight": "0.25",
     "stackSize": "1",
-    "localImage": "Icon_Coins.png"
+    "localImage": "Pendola_Pass_Observatory_Key.png"
   },
   {
     "name": "Photoelectric Cloak",
@@ -6614,6 +7256,24 @@
     "weight": "3.0",
     "stackSize": "1",
     "localImage": "Photoelectric_Cloak.png"
+  },
+  {
+    "name": "Planks",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Used in crafting.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Basic Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/b/b9/Planks.png",
+    "weight": "0.1",
+    "stackSize": "50",
+    "localImage": "Planks.png"
   },
   {
     "name": "Plastic Parts",
@@ -6991,6 +7651,28 @@
     "localImage": "Queen_Reactor.png"
   },
   {
+    "name": "Radial Press",
+    "rarity": "Epic",
+    "value": 3000,
+    "description": "Used in crafting.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Advanced Mechanical Components"
+      }
+    ],
+    "category": "Topside Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7e/Radial_Press.png",
+    "canBeFoundIn": [
+      "Mechanical",
+      "Industrial"
+    ],
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "Radial_Press.png"
+  },
+  {
     "name": "Radio Relay",
     "rarity": "Rare",
     "value": 3000,
@@ -7058,6 +7740,27 @@
     "weight": "0.01",
     "stackSize": "1",
     "localImage": "Raider_Hatch_Key.png"
+  },
+  {
+    "name": "Raider Logbook",
+    "rarity": "Uncommon",
+    "value": 640,
+    "description": "Surprisingly diligent notetaking, in surprisingly legible handwriting.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Research Item",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/b/b6/Raider_Logbook.png",
+    "canBeFoundIn": [
+      "Raider"
+    ],
+    "weight": "0.5",
+    "stackSize": "5",
+    "localImage": "Raider_Logbook.png"
   },
   {
     "name": "Recorder",
@@ -7457,12 +8160,12 @@
   },
   {
     "name": "Rope",
-    "rarity": "Rare",
+    "rarity": "Uncommon",
     "value": 500,
     "description": "Used in crafting.",
     "parts": [
       {
-        "quantity": 5,
+        "quantity": 3,
         "name": "Fabric"
       }
     ],
@@ -7657,6 +8360,24 @@
     "weight": "0.8",
     "stackSize": "3",
     "localImage": "Ruined_Baton.png"
+  },
+  {
+    "name": "Ruined Emperor Beacon",
+    "rarity": "Common",
+    "value": 1000,
+    "description": "This Beacon has no longer any power to send a signial",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/6c/Ruined_Emperor_Beacon.png",
+    "weight": "0.5",
+    "stackSize": "8",
+    "localImage": "Ruined_Emperor_Beacon.png"
   },
   {
     "name": "Ruined Handcuffs",
@@ -8075,6 +8796,24 @@
     "localImage": "Shaker.png"
   },
   {
+    "name": "Sheet Metal",
+    "rarity": "Common",
+    "value": 100,
+    "description": "Used in crafting.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Basic Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/85/Sheet_Metal.png",
+    "weight": "0.1",
+    "stackSize": "50",
+    "localImage": "Sheet_Metal.png"
+  },
+  {
     "name": "Shield Recharger",
     "rarity": "Uncommon",
     "value": 520,
@@ -8409,6 +9148,31 @@
     "weight": "0.5",
     "stackSize": "3",
     "localImage": "Sirena_Dorata_Ship_Model.png"
+  },
+  {
+    "name": "Skulker Targeter",
+    "rarity": "Uncommon",
+    "value": 1000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "ARC Alloy"
+      },
+      {
+        "quantity": 1,
+        "name": "Simple Gun Parts"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/7/7f/Skulker_Targeter.png",
+    "canBeFoundIn": [
+      "ARC"
+    ],
+    "weight": "1.0",
+    "stackSize": "3",
+    "localImage": "Skulker_Targeter.png"
   },
   {
     "name": "Smoke Grenade Trap",
@@ -8819,19 +9583,20 @@
   {
     "name": "Steel Cable",
     "rarity": "Rare",
-    "value": 0,
+    "value": 270,
     "description": "Can be recycled into crafting materials.",
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Wires"
       }
     ],
     "category": "Recyclable",
     "keepForQuestsWorkshop": [],
-    "image": "",
+    "image": "https://arcraiders.wiki/w/images/0/06/Steel_Cable.png",
     "weight": "0.5",
-    "stackSize": "5"
+    "stackSize": "5",
+    "localImage": "Steel_Cable.png"
   },
   {
     "name": "Steel Spring",
@@ -8924,6 +9689,29 @@
     "weight": "0.25",
     "stackSize": "1",
     "localImage": "Stella_Montis_Key.png"
+  },
+  {
+    "name": "Stencil Parts",
+    "rarity": "Epic",
+    "value": 1,
+    "description": "Used to apply stencils to weapons.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cannot be recycled"
+      }
+    ],
+    "category": "Basic Material",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/6/67/Stencil_Parts.png",
+    "canBeFoundIn": [
+      "Commercial",
+      "Residential",
+      "Industrial"
+    ],
+    "weight": "0.1",
+    "stackSize": "500",
+    "localImage": "Stencil_Parts.png"
   },
   {
     "name": "Sterilized Bandage",
@@ -9294,6 +10082,54 @@
     "weight": "0.5",
     "stackSize": "1",
     "localImage": "Tellurion.png"
+  },
+  {
+    "name": "Tether Launcher",
+    "rarity": "Rare",
+    "value": 0,
+    "description": "A two-shot tether launcher that anchors a line to whatever it hits, linking both points together.",
+    "parts": [
+      {
+        "quantity": 1,
+        "name": "Cable Stripper"
+      },
+      {
+        "quantity": 1,
+        "name": "Rope"
+      }
+    ],
+    "category": "Quick Use",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/3/31/Tether_Launcher.png",
+    "weight": "5.0",
+    "stackSize": "1",
+    "localImage": "Tether_Launcher.png"
+  },
+  {
+    "name": "Thermal Shaker",
+    "rarity": "Epic",
+    "value": 3000,
+    "description": "Can be recycled into crafting materials.",
+    "parts": [
+      {
+        "quantity": 2,
+        "name": "Calculator"
+      },
+      {
+        "quantity": 2,
+        "name": "Electrical Components"
+      }
+    ],
+    "category": "Recyclable",
+    "keepForQuestsWorkshop": [],
+    "image": "https://arcraiders.wiki/w/images/8/80/Thermal_Shaker.png",
+    "canBeFoundIn": [
+      "Technological",
+      "Electrical"
+    ],
+    "weight": "0.5",
+    "stackSize": "3",
+    "localImage": "Thermal_Shaker.png"
   },
   {
     "name": "Thermostat",
@@ -10001,12 +10837,12 @@
   {
     "name": "Yank Grenade",
     "rarity": "Uncommon",
-    "value": 0,
+    "value": 550,
     "description": "A grenade that anchors a line to whatever it hits, pulling the target toward the point of impact.",
     "parts": [
       {
         "quantity": 1,
-        "name": "Cannot be recycled"
+        "name": "Rope"
       }
     ],
     "category": "Quick Use",
@@ -10042,11 +10878,7 @@
     "parts": [
       {
         "quantity": 1,
-        "name": "Metal Parts"
-      },
-      {
-        "quantity": 1,
-        "name": "Rope"
+        "name": "Steel Cable"
       }
     ],
     "category": "Quick Use",
@@ -10311,16 +11143,6 @@
     "localImage": "Colorful_Shoes_Legendary.png"
   },
   {
-    "name": "Tether Launcher",
-    "description": "A two-shot tether launcher that anchors a line to whatever it hits, linking both points together.",
-    "rarity": "Rare",
-    "category": "Quick Use",
-    "image": "https://arcraiders.wiki/w/images/thumb/3/31/Tether_Launcher.png/1200px-Tether_Launcher.png.webp",
-    "weight": "5",
-    "stackSize": "1",
-    "localImage": "1200px-Tether_Launcher.png.webp"
-  },
-  {
     "name": "Piano",
     "image": "https://arcraiders.wiki/w/images/e/ea/Piano.png",
     "canBeFoundIn": [
@@ -10330,123 +11152,31 @@
     "localImage": "Piano.png"
   },
   {
-    "name": "ARC Conductive Coupler",
-    "description": "One of three distinct coupler's found in ARC Machines, said to combine into a singular conduit.",
+    "name": "Broken Compass",
+    "rarity": "Common",
+    "category": "Quest Item",
+    "image": "https://arcraiders.wiki/w/images/a/a1/Broken_Compass.png",
+    "localImage": "Broken_Compass.png"
+  },
+  {
+    "name": "Pendola Pass Old Town Key",
+    "description": "Unlocks a door to an apartment in the Old Town on Pendola Pass.",
+    "rarity": "Common",
+    "category": "Key",
+    "weight": "0.5"
+  },
+  {
+    "name": "Pressure Regulator",
+    "description": "Used to craft amplified weapons.",
     "rarity": "Epic",
     "category": "Topside Material",
-    "canBeFoundIn": [
-      "ARC"
-    ],
-    "weight": "0.5",
-    "stackSize": "1"
-  },
-  {
-    "name": "Cable Stripper",
-    "description": "Used in crafting.",
-    "rarity": "Common",
-    "category": "Topside Material",
     "parts": [
       {
         "quantity": 1,
-        "name": "?"
-      }
-    ],
-    "canBeFoundIn": [
-      "Mechanical",
-      "Industrial"
-    ],
-    "weight": "0.5",
-    "stackSize": "15"
-  },
-  {
-    "name": "Mini Pump",
-    "description": "Can be recycled into crafting materials.",
-    "rarity": "Common",
-    "category": "Recyclable",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "?"
-      }
-    ],
-    "canBeFoundIn": [
-      "Technological",
-      "Electrical"
-    ],
-    "weight": "0.5",
-    "stackSize": "5"
-  },
-  {
-    "name": "Planks",
-    "description": "Used in crafting.",
-    "rarity": "Common",
-    "category": "Basic Material",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "?"
-      }
-    ],
-    "weight": "0.1",
-    "stackSize": "50"
-  },
-  {
-    "name": "Insulation Roll",
-    "description": "Can be recycled into crafting materials.",
-    "rarity": "Epic",
-    "category": "Recyclable",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "?"
+        "name": "Cannot be recycled"
       }
     ],
     "weight": "0.5",
     "stackSize": "3"
-  },
-  {
-    "name": "ARC Insulated Coupler",
-    "description": "One of three distinct couplers found in ARC machines, said to combine into a singular conduit.",
-    "rarity": "Epic",
-    "category": "Topside Material",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "?"
-      }
-    ],
-    "canBeFoundIn": [
-      "ARC"
-    ],
-    "weight": "0.25",
-    "stackSize": "1"
-  },
-  {
-    "name": "Skulker Targeter",
-    "description": "Can be recycled into crafting materials.",
-    "rarity": "Common",
-    "category": "Recyclable",
-    "parts": [
-      {
-        "quantity": 1,
-        "name": "?"
-      }
-    ],
-    "canBeFoundIn": [
-      "ARC"
-    ],
-    "weight": "1",
-    "stackSize": "3"
-  },
-  {
-    "name": "ARC Plated Coupler",
-    "description": "One of three distinct coupler's found in ARC Machines, said to combine into a singular conduit.",
-    "rarity": "Epic",
-    "category": "Topside Material",
-    "canBeFoundIn": [
-      "ARC"
-    ],
-    "weight": "0.25",
-    "stackSize": "1"
   }
 ]
